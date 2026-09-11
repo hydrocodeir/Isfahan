@@ -1,27 +1,31 @@
 <!doctype html>
 <html lang="fa" dir="rtl" data-theme="light">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="رصدخانه پژوهشی و پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای به حوضه آبریز زاینده‌رود">
-  <title>رصدخانه مطالعات و اسناد انتقال آب بین‌حوضه‌ای | حوضه زاینده‌رود</title>
-  
+  <meta name="description" content="پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای به حوضه آبریز زاینده‌رود">
+  <title>پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای</title>
+
   <!-- Preconnect & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  
+
   <!-- Google Material Symbols Rounded & Plus Jakarta Sans -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-  
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+
   <!-- Vazirmatn Font for Persian Typography -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
-  
+
   <!-- Material Design 3 Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="app-shell">
     <!-- M3 Navigation Drawer -->
@@ -98,12 +102,14 @@
           <!-- M3 Pill Search Bar -->
           <div class="m3-search-bar" role="search">
             <span class="material-symbols-rounded search-icon">search</span>
-            <input id="globalSearch" type="search" autocomplete="off" placeholder="جستجو در عنوان، خلاصه، پروژه، شخص، نهاد…">
+            <input id="globalSearch" type="search" autocomplete="off"
+              placeholder="جستجو در عنوان، خلاصه، پروژه، شخص، نهاد…">
             <kbd class="search-kbd">Ctrl K</kbd>
           </div>
 
           <!-- M3 Theme Switcher Button -->
-          <button id="themeToggleBtn" class="theme-toggle-btn m3-btn-icon-tonal" aria-label="تغییر تم" title="تغییر حالت شب و روز">
+          <button id="themeToggleBtn" class="theme-toggle-btn m3-btn-icon-tonal" aria-label="تغییر تم"
+            title="تغییر حالت شب و روز">
             <span class="material-symbols-rounded theme-icon">dark_mode</span>
             <span class="theme-text">حالت شب</span>
           </button>
@@ -126,7 +132,8 @@
               <span>رصدخانه فراتحلیل آب و توسعه پایدار</span>
             </div>
             <h2>پایگاه جامع شواهد پژوهشی، مطالعات فنی و اسناد فرابخشی انتقال آب بین‌حوضه‌ای به حوضه زاینده‌رود</h2>
-            <p>سامانه فراتحلیل و پایش اسناد، مقالات علمی-پژوهشی، رساله‌های دانشگاهی، مواضع تصمیم‌گیران، ارزیابی‌های محیط‌زیستی و آرای قضایی.</p>
+            <p>سامانه فراتحلیل و پایش اسناد، مقالات علمی-پژوهشی، رساله‌های دانشگاهی، مواضع تصمیم‌گیران، ارزیابی‌های
+              محیط‌زیستی و آرای قضایی.</p>
           </div>
           <div class="hero-actions">
             <button class="btn btn-primary m3-btn m3-btn-filled" data-jump="sources">
@@ -303,23 +310,33 @@
             </label>
             <label class="field m3-select-field">
               <span>گروه منبع</span>
-              <select id="filterGroup"><option value="">همه گروه‌ها</option></select>
+              <select id="filterGroup">
+                <option value="">همه گروه‌ها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>نوع دقیق منبع</span>
-              <select id="filterType"><option value="">همه انواع</option></select>
+              <select id="filterType">
+                <option value="">همه انواع</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>پروژه</span>
-              <select id="filterProject"><option value="">همه پروژه‌ها</option></select>
+              <select id="filterProject">
+                <option value="">همه پروژه‌ها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>استان</span>
-              <select id="filterProvince"><option value="">همه استان‌ها</option></select>
+              <select id="filterProvince">
+                <option value="">همه استان‌ها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>زبان</span>
-              <select id="filterLanguage"><option value="">همه زبان‌ها</option></select>
+              <select id="filterLanguage">
+                <option value="">همه زبان‌ها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>کیفیت (Reliability)</span>
@@ -333,15 +350,21 @@
             </label>
             <label class="field m3-select-field">
               <span>موضع</span>
-              <select id="filterStance"><option value="">همه مواضع</option></select>
+              <select id="filterStance">
+                <option value="">همه مواضع</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>نهاد</span>
-              <select id="filterOrganization"><option value="">همه نهادها</option></select>
+              <select id="filterOrganization">
+                <option value="">همه نهادها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>شخص / مصاحبه‌شونده</span>
-              <select id="filterPerson"><option value="">همه اشخاص</option></select>
+              <select id="filterPerson">
+                <option value="">همه اشخاص</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>متن کامل</span>
@@ -442,7 +465,9 @@
         <div class="timeline-toolbar panel m3-card">
           <label class="field m3-select-field">
             <span>پروژه</span>
-            <select id="timelineProject"><option value="">همه پروژه‌ها</option></select>
+            <select id="timelineProject">
+              <option value="">همه پروژه‌ها</option>
+            </select>
           </label>
           <label class="field m3-text-field">
             <span>از سال</span>
@@ -508,11 +533,15 @@
             </label>
             <label class="field m3-select-field">
               <span>نوع سند</span>
-              <select id="legalTypeFilter"><option value="">همه انواع</option></select>
+              <select id="legalTypeFilter">
+                <option value="">همه انواع</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>پروژه</span>
-              <select id="legalProjectFilter"><option value="">همه پروژه‌ها</option></select>
+              <select id="legalProjectFilter">
+                <option value="">همه پروژه‌ها</option>
+              </select>
             </label>
           </div>
         </div>
@@ -582,11 +611,15 @@
             </label>
             <label class="field m3-select-field">
               <span>پایگاه</span>
-              <select id="researchDatabase"><option value="">همه پایگاه‌ها</option></select>
+              <select id="researchDatabase">
+                <option value="">همه پایگاه‌ها</option>
+              </select>
             </label>
             <label class="field m3-select-field">
               <span>زبان</span>
-              <select id="researchLanguage"><option value="">همه زبان‌ها</option></select>
+              <select id="researchLanguage">
+                <option value="">همه زبان‌ها</option>
+              </select>
             </label>
           </div>
         </div>
@@ -633,4 +666,5 @@
   <!-- Application Logic -->
   <script src="app.js"></script>
 </body>
+
 </html>
