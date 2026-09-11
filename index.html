@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="رصدخانه پژوهشی و پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای به حوضه آبریز زاینده‌رود">
+  <title>رصدخانه مطالعات و اسناد انتقال آب بین‌حوضه‌ای | حوضه زاینده‌رود</title>
+  
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  
+  <!-- Google Material Symbols Rounded & Plus Jakarta Sans -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  
+  <!-- Vazirmatn Font for Persian Typography -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+  
+  <!-- Material Design 3 Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <!-- M3 Navigation Drawer -->
+    <aside class="sidebar m3-navigation-drawer" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="material-symbols-rounded brand-mark-icon">water_drop</span>
+        </div>
+        <div class="brand-text">
+          <strong class="brand-title">رصدخانه انتقال آب</strong>
+          <small class="brand-subtitle">پایگاه مطالعات و اسناد حوضه زاینده‌رود</small>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="ناوبری اصلی سیستم">
+        <button class="nav-item active" data-view="overview">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">dashboard</span>
+          <span class="nav-label">نمای کلی</span>
+        </button>
+        <button class="nav-item" data-view="sources">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">dataset</span>
+          <span class="nav-label">بانک منابع</span>
+          <span class="nav-count" id="navSourcesCount">—</span>
+        </button>
+        <button class="nav-item" data-view="timeline">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">timeline</span>
+          <span class="nav-label">خط زمانی</span>
+        </button>
+        <button class="nav-item" data-view="legal">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">gavel</span>
+          <span class="nav-label">حقوقی و نهادی</span>
+          <span class="nav-count" id="navLegalCount">—</span>
+        </button>
+        <button class="nav-item" data-view="projects">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">hub</span>
+          <span class="nav-label">پروژه‌ها</span>
+        </button>
+        <button class="nav-item" data-view="research">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">manage_search</span>
+          <span class="nav-label">لاگ پژوهش</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="status-chip">
+          <span class="status-dot"></span>
+          <span>آفلاین و محلی</span>
+        </div>
+        <div class="source-meta" id="sourceMeta">در حال بارگذاری…</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main">
+      <!-- M3 Top App Bar -->
+      <header class="topbar m3-top-app-bar">
+        <div class="topbar-title">
+          <button id="menuBtn" class="m3-icon-btn mobile-only" aria-label="باز کردن منو">
+            <span class="material-symbols-rounded">menu</span>
+          </button>
+          <div>
+            <h1 id="pageTitle">رصدخانه مطالعات و داده‌ها</h1>
+            <p id="pageSubtitle">فراتحلیل و مرور ساختاریافته بانک شواهد و اسناد</p>
+          </div>
+        </div>
+
+        <div class="top-actions">
+          <!-- M3 Pill Search Bar -->
+          <div class="m3-search-bar" role="search">
+            <span class="material-symbols-rounded search-icon">search</span>
+            <input id="globalSearch" type="search" autocomplete="off" placeholder="جستجو در عنوان، خلاصه، پروژه، شخص، نهاد…">
+            <kbd class="search-kbd">Ctrl K</kbd>
+          </div>
+
+          <!-- M3 Theme Switcher Button -->
+          <button id="themeToggleBtn" class="theme-toggle-btn m3-btn-icon-tonal" aria-label="تغییر تم" title="تغییر حالت شب و روز">
+            <span class="material-symbols-rounded theme-icon">dark_mode</span>
+            <span class="theme-text">حالت شب</span>
+          </button>
+
+          <!-- Quick CSV Export Button -->
+          <button id="quickExportBtn" class="btn btn-ghost m3-btn m3-btn-tonal">
+            <span class="material-symbols-rounded">download</span>
+            <span>خروجی CSV</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- VIEW: OVERVIEW -->
+      <section id="view-overview" class="view active">
+        <!-- M3 Expressive Hero Card -->
+        <div class="hero m3-card-expressive">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="material-symbols-rounded">water</span>
+              <span>رصدخانه فراتحلیل آب و توسعه پایدار</span>
+            </div>
+            <h2>پایگاه جامع شواهد پژوهشی، مطالعات فنی و اسناد فرابخشی انتقال آب بین‌حوضه‌ای به حوضه زاینده‌رود</h2>
+            <p>سامانه فراتحلیل و پایش اسناد، مقالات علمی-پژوهشی، رساله‌های دانشگاهی، مواضع تصمیم‌گیران، ارزیابی‌های محیط‌زیستی و آرای قضایی.</p>
+          </div>
+          <div class="hero-actions">
+            <button class="btn btn-primary m3-btn m3-btn-filled" data-jump="sources">
+              <span class="material-symbols-rounded">explore</span>
+              <span>کاوش منابع</span>
+            </button>
+            <button class="btn btn-secondary m3-btn m3-btn-tonal" data-jump="legal">
+              <span class="material-symbols-rounded">policy</span>
+              <span>اسناد حقوقی</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- KPI Metrics Grid (M3 Elevated Cards) -->
+        <div class="kpi-grid" id="kpiGrid"></div>
+
+        <!-- Primary Charts Grid -->
+        <div class="chart-grid">
+          <article class="panel chart-panel span-2 m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>روند زمانی منابع</h3>
+                <p>تعداد منابع دارای سال مشخص</p>
+              </div>
+              <span class="panel-badge">
+                <span class="material-symbols-rounded badge-icon">calendar_month</span>
+                <span>سال میلادی / شمسی</span>
+              </span>
+            </div>
+            <div id="trendChart" class="chart-box"></div>
+          </article>
+
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>کیفیت منابع</h3>
+                <p>Reliability سطوح A تا D</p>
+              </div>
+            </div>
+            <div id="reliabilityChart" class="chart-box donut-box"></div>
+          </article>
+
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>گروه‌های منبع</h3>
+                <p>طبقه‌بندی ساختاری و محتوایی</p>
+              </div>
+            </div>
+            <div id="sourceGroupChart" class="chart-box"></div>
+          </article>
+
+          <article class="panel span-2 m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>پروژه‌های پرتکرار</h3>
+                <p>بر اساس برچسب پروژه در بانک</p>
+              </div>
+              <button class="text-btn m3-btn-text" data-jump="projects">
+                <span>مشاهده همه پروژه‌ها</span>
+                <span class="material-symbols-rounded">arrow_back</span>
+              </button>
+            </div>
+            <div id="projectChart" class="chart-box"></div>
+          </article>
+        </div>
+
+        <!-- Secondary Charts & Recent List -->
+        <div class="overview-lower">
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>توزیع مواضع</h3>
+                <p>موافق، مخالف، تحلیلی و سایر</p>
+              </div>
+            </div>
+            <div id="stanceChart" class="chart-box"></div>
+          </article>
+
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>دسترسی به متن</h3>
+                <p>Full Text و PDF مستقیم</p>
+              </div>
+            </div>
+            <div id="accessChart" class="chart-box"></div>
+          </article>
+
+          <article class="panel recent-panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>جدیدترین رکوردهای ثبت‌شده</h3>
+                <p>بالاترین Source IDها در سامانه</p>
+              </div>
+            </div>
+            <div id="recentSources" class="compact-list"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- VIEW: SOURCES -->
+      <section id="view-sources" class="view">
+        <div class="section-head">
+          <div class="section-actions">
+            <button id="toggleFiltersBtn" class="btn btn-secondary m3-btn m3-btn-tonal">
+              <span class="material-symbols-rounded">tune</span>
+              <span>فیلترهای پیشرفته</span>
+            </button>
+            <button id="exportCsvBtn" class="btn btn-ghost m3-btn m3-btn-outlined">
+              <span class="material-symbols-rounded">table_chart</span>
+              <span>خروجی CSV</span>
+            </button>
+            <button id="exportExcelBtn" class="btn btn-ghost m3-btn m3-btn-outlined">
+              <span class="material-symbols-rounded">description</span>
+              <span>خروجی Excel</span>
+            </button>
+            <button id="printBtn" class="btn btn-ghost m3-btn m3-btn-text">
+              <span class="material-symbols-rounded">print</span>
+              <span>چاپ</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- M3 Quick Filter Chips -->
+        <div class="quick-filter-chips m3-chips-scroll" id="quickFilterChips">
+          <button class="chip m3-filter-chip active" data-chip="all">
+            <span class="material-symbols-rounded chip-icon">layers</span>
+            <span>همه منابع</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="pdf">
+            <span class="material-symbols-rounded chip-icon">picture_as_pdf</span>
+            <span>دارای PDF مستقیم</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="rel-a">
+            <span class="material-symbols-rounded chip-icon">verified</span>
+            <span>کیفیت سطح A</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="legal">
+            <span class="material-symbols-rounded chip-icon">gavel</span>
+            <span>اسناد رسمی و حقوقی</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="academic">
+            <span class="material-symbols-rounded chip-icon">school</span>
+            <span>مقالات پژوهشی</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="thesis">
+            <span class="material-symbols-rounded chip-icon">menu_book</span>
+            <span>پایان‌نامه‌ها</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="koohrang3">
+            <span class="material-symbols-rounded chip-icon">water</span>
+            <span>کوهرنگ ۳</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="behesht">
+            <span class="material-symbols-rounded chip-icon">waves</span>
+            <span>بهشت‌آباد</span>
+          </button>
+          <button class="chip m3-filter-chip" data-chip="oppose">
+            <span class="material-symbols-rounded chip-icon">warning</span>
+            <span>مواضع انتقادی / اعتراضی</span>
+          </button>
+        </div>
+
+        <!-- Advanced Filter Panel (M3 Outlined Fields) -->
+        <div class="panel filter-panel m3-card" id="filterPanel">
+          <div class="filter-grid">
+            <label class="field field-wide m3-text-field">
+              <span>جستجوی سراسری در بانک</span>
+              <div class="input-wrap">
+                <span class="material-symbols-rounded input-icon">search</span>
+                <input id="sourceSearch" type="search" placeholder="عنوان، خلاصه، ادعا، شخص، ناشر، نهاد، DOI…">
+              </div>
+            </label>
+            <label class="field m3-select-field">
+              <span>گروه منبع</span>
+              <select id="filterGroup"><option value="">همه گروه‌ها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>نوع دقیق منبع</span>
+              <select id="filterType"><option value="">همه انواع</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>پروژه</span>
+              <select id="filterProject"><option value="">همه پروژه‌ها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>استان</span>
+              <select id="filterProvince"><option value="">همه استان‌ها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>زبان</span>
+              <select id="filterLanguage"><option value="">همه زبان‌ها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>کیفیت (Reliability)</span>
+              <select id="filterReliability">
+                <option value="">همه سطوح</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+              </select>
+            </label>
+            <label class="field m3-select-field">
+              <span>موضع</span>
+              <select id="filterStance"><option value="">همه مواضع</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>نهاد</span>
+              <select id="filterOrganization"><option value="">همه نهادها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>شخص / مصاحبه‌شونده</span>
+              <select id="filterPerson"><option value="">همه اشخاص</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>متن کامل</span>
+              <select id="filterFullText">
+                <option value="">همه</option>
+                <option value="Yes">دارد (Yes)</option>
+                <option value="Partial">ناقص (Partial)</option>
+                <option value="No">ندارد (No)</option>
+                <option value="—">نامشخص</option>
+              </select>
+            </label>
+            <label class="field m3-select-field">
+              <span>وضعیت PDF</span>
+              <select id="filterPdf">
+                <option value="">همه</option>
+                <option value="Direct Link Available">لینک مستقیم</option>
+                <option value="Landing Page Only">فقط صفحه فرود</option>
+                <option value="Not Found">یافت نشد</option>
+              </select>
+            </label>
+            <label class="field m3-text-field">
+              <span>از سال</span>
+              <input id="filterYearFrom" inputmode="numeric" placeholder="مثلاً 1380">
+            </label>
+            <label class="field m3-text-field">
+              <span>تا سال</span>
+              <input id="filterYearTo" inputmode="numeric" placeholder="مثلاً 1404">
+            </label>
+          </div>
+          <div class="filter-footer">
+            <div id="activeFilters" class="active-filters"></div>
+            <button id="clearFiltersBtn" class="text-btn danger m3-btn-text">
+              <span class="material-symbols-rounded">filter_alt_off</span>
+              <span>پاک‌کردن همه فیلترها</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Table Summary & Sorting Controls -->
+        <div class="table-summary m3-table-header-bar">
+          <div class="summary-left">
+            <span class="material-symbols-rounded summary-icon">table_view</span>
+            <div>
+              <strong id="filteredCount">—</strong>
+              <span class="summary-text"> منبع مطابق فیلترها</span>
+            </div>
+          </div>
+          <div class="table-controls">
+            <label class="control-label">مرتب‌سازی
+              <select id="sortBy" class="m3-select-compact">
+                <option value="id-desc">Source ID نزولی</option>
+                <option value="id-asc">Source ID صعودی</option>
+                <option value="year-desc">جدیدترین سال</option>
+                <option value="year-asc">قدیمی‌ترین سال</option>
+                <option value="rel">Reliability</option>
+              </select>
+            </label>
+            <label class="control-label">نمایش در صفحه
+              <select id="pageSize" class="m3-select-compact">
+                <option selected>10</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- Data Table (M3 Card Container) -->
+        <div class="panel table-panel m3-card">
+          <div class="table-scroll">
+            <table class="data-table m3-data-table">
+              <thead>
+                <tr>
+                  <th>شناسه</th>
+                  <th>عنوان / منبع</th>
+                  <th>نوع</th>
+                  <th>پروژه</th>
+                  <th>سال</th>
+                  <th>ناشر</th>
+                  <th>کیفیت</th>
+                  <th>موضع</th>
+                  <th>دسترسی</th>
+                </tr>
+              </thead>
+              <tbody id="sourceTableBody"></tbody>
+            </table>
+          </div>
+          <div class="pagination m3-pagination" id="pagination"></div>
+        </div>
+      </section>
+
+      <!-- VIEW: TIMELINE -->
+      <section id="view-timeline" class="view">
+        <div class="section-head">
+          <h2>خط زمانی رخدادها و اسناد انتقال آب</h2>
+        </div>
+        <div class="timeline-toolbar panel m3-card">
+          <label class="field m3-select-field">
+            <span>پروژه</span>
+            <select id="timelineProject"><option value="">همه پروژه‌ها</option></select>
+          </label>
+          <label class="field m3-text-field">
+            <span>از سال</span>
+            <input id="timelineFrom" inputmode="numeric" placeholder="1301">
+          </label>
+          <label class="field m3-text-field">
+            <span>تا سال</span>
+            <input id="timelineTo" inputmode="numeric" placeholder="1405">
+          </label>
+          <label class="field field-wide m3-text-field">
+            <span>جستجو در خط زمانی</span>
+            <input id="timelineSearch" type="search" placeholder="جستجو در رخدادهای خط زمانی">
+          </label>
+        </div>
+        <div class="panel m3-card">
+          <div class="panel-head">
+            <div>
+              <h3>تراکم زمانی منابع</h3>
+              <p>تعداد اسناد و منابع ثبت‌شده در هر سال</p>
+            </div>
+            <span id="timelineCountBadge" class="panel-badge">—</span>
+          </div>
+          <div id="timelineHistogram" class="chart-box"></div>
+        </div>
+        <div id="timelineList" class="timeline-list m3-timeline-stream"></div>
+      </section>
+
+      <!-- VIEW: LEGAL & INSTITUTIONAL -->
+      <section id="view-legal" class="view">
+        <div class="section-head">
+          <h2>اسناد رسمی، حقوقی، تقنینی و قضایی</h2>
+          <button id="legalExportBtn" class="btn btn-ghost m3-btn m3-btn-tonal">
+            <span class="material-symbols-rounded">download</span>
+            <span>خروجی CSV این بخش</span>
+          </button>
+        </div>
+        <div class="kpi-grid legal-kpis" id="legalKpis"></div>
+        <div class="legal-layout">
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>نوع سند حقوقی</h3>
+                <p>طبقه‌بندی خودکار اسناد</p>
+              </div>
+            </div>
+            <div id="legalTypeChart" class="chart-box"></div>
+          </article>
+          <article class="panel span-2 m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>نهادهای پرتکرار</h3>
+                <p>ناشر یا سازمان مسئول</p>
+              </div>
+            </div>
+            <div id="legalOrgChart" class="chart-box"></div>
+          </article>
+        </div>
+        <div class="panel legal-search-panel m3-card">
+          <div class="filter-grid compact">
+            <label class="field field-wide m3-text-field">
+              <span>جستجو در اسناد حقوقی</span>
+              <input id="legalSearch" type="search" placeholder="مثلاً شورای عالی آب، دیوان عدالت، ارزیابی محیط‌زیستی…">
+            </label>
+            <label class="field m3-select-field">
+              <span>نوع سند</span>
+              <select id="legalTypeFilter"><option value="">همه انواع</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>پروژه</span>
+              <select id="legalProjectFilter"><option value="">همه پروژه‌ها</option></select>
+            </label>
+          </div>
+        </div>
+        <div class="panel table-panel m3-card">
+          <div class="table-scroll">
+            <table class="data-table m3-data-table">
+              <thead>
+                <tr>
+                  <th>شناسه</th>
+                  <th>عنوان سند</th>
+                  <th>دسته حقوقی</th>
+                  <th>پروژه</th>
+                  <th>سال</th>
+                  <th>نهاد / ناشر</th>
+                  <th>کیفیت</th>
+                  <th>لینک منبع</th>
+                </tr>
+              </thead>
+              <tbody id="legalTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW: PROJECTS -->
+      <section id="view-projects" class="view">
+        <div class="section-head">
+          <h2>پروژه‌های انتقال آب بین‌حوضه‌ای</h2>
+          <label class="mini-search m3-search-bar-compact">
+            <span class="material-symbols-rounded">search</span>
+            <input id="projectSearch" type="search" placeholder="جستجوی نام پروژه…">
+          </label>
+        </div>
+        <div id="projectCards" class="project-grid"></div>
+      </section>
+
+      <!-- VIEW: RESEARCH LOG -->
+      <section id="view-research" class="view">
+        <div class="section-head">
+          <h2>لاگ و گزارش پرس‌وجوهای پژوهشی (Search Queries)</h2>
+        </div>
+        <div class="research-grid">
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>پایگاه‌های جستجو</h3>
+                <p>تعداد Query ثبت‌شده در هر موتور</p>
+              </div>
+            </div>
+            <div id="databaseChart" class="chart-box"></div>
+          </article>
+          <article class="panel m3-card">
+            <div class="panel-head">
+              <div>
+                <h3>زبان جستجو</h3>
+                <p>تفکیک زبان‌های پرس‌وجو</p>
+              </div>
+            </div>
+            <div id="searchLanguageChart" class="chart-box donut-box"></div>
+          </article>
+        </div>
+        <div class="panel research-filter m3-card">
+          <div class="filter-grid compact">
+            <label class="field field-wide m3-text-field">
+              <span>جستجو در Queryها</span>
+              <input id="researchSearch" type="search" placeholder="عبارت جستجو، پایگاه، پروژه، یادداشت…">
+            </label>
+            <label class="field m3-select-field">
+              <span>پایگاه</span>
+              <select id="researchDatabase"><option value="">همه پایگاه‌ها</option></select>
+            </label>
+            <label class="field m3-select-field">
+              <span>زبان</span>
+              <select id="researchLanguage"><option value="">همه زبان‌ها</option></select>
+            </label>
+          </div>
+        </div>
+        <div class="panel table-panel m3-card">
+          <div class="table-scroll">
+            <table class="data-table m3-data-table">
+              <thead>
+                <tr>
+                  <th>Query</th>
+                  <th>زبان</th>
+                  <th>پایگاه / موتور</th>
+                  <th>پروژه</th>
+                  <th>نوع منبع</th>
+                  <th>تاریخ جستجو</th>
+                  <th>نتیجه مفید</th>
+                  <th>یادداشت</th>
+                </tr>
+              </thead>
+              <tbody id="researchTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- M3 Snackbar / Toast -->
+  <div id="toast" class="toast m3-snackbar" role="status"></div>
+
+  <!-- M3 Dialog / Modal -->
+  <div id="sourceModal" class="modal m3-dialog-container" aria-hidden="true">
+    <div class="modal-backdrop m3-scrim" data-close-modal></div>
+    <article class="modal-card m3-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close m3-icon-btn" data-close-modal aria-label="بستن">
+        <span class="material-symbols-rounded">close</span>
+      </button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+
+  <!-- Chart Floating Tooltip -->
+  <div id="chartTooltip" class="chart-tooltip m3-tooltip" style="display: none;"></div>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
