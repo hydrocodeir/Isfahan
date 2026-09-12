@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 
   <!-- Material Design 3 Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
@@ -38,6 +38,9 @@
           <strong class="brand-title">رصدخانه انتقال آب</strong>
           <small class="brand-subtitle">پایگاه مطالعات و اسناد حوضه زاینده‌رود</small>
         </div>
+        <button id="sidebarCloseBtn" class="m3-icon-btn mobile-only sidebar-close-btn" aria-label="بستن منو" title="بستن منو">
+          <span class="material-symbols-rounded">close</span>
+        </button>
       </div>
 
       <nav class="nav" aria-label="ناوبری اصلی سیستم">
@@ -83,6 +86,9 @@
         <div class="source-meta" id="sourceMeta">در حال بارگذاری…</div>
       </div>
     </aside>
+
+    <!-- Scrim / Backdrop Overlay for Mobile Drawer -->
+    <div id="sidebarScrim" class="sidebar-scrim" aria-hidden="true"></div>
 
     <!-- Main Content Area -->
     <main class="main">
@@ -664,7 +670,7 @@
   <div id="chartTooltip" class="chart-tooltip m3-tooltip" style="display: none;"></div>
 
   <!-- Application Logic -->
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 
 </html>

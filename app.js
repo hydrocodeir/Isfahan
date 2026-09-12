@@ -240,12 +240,47 @@ function handleQuickChip(target) {
 }
 
 function setupNavigation() {
+  const closeSidebar = () => {
+    $("#sidebar")?.classList.remove("open");
+    $("#sidebarScrim")?.classList.remove("open");
+    document.body.classList.remove("drawer-open");
+  };
+  const openSidebar = () => {
+    $("#sidebar")?.classList.add("open");
+    $("#sidebarScrim")?.classList.add("open");
+    document.body.classList.add("drawer-open");
+  };
+  const toggleSidebar = () => {
+    if ($("#sidebar")?.classList.contains("open")) {
+      closeSidebar();
+    } else {
+      openSidebar();
+    }
+  };
+
   $$(".nav-item").forEach(btn => btn.addEventListener("click", () => {
     switchView(btn.dataset.view);
-    $("#sidebar")?.classList.remove("open");
+    closeSidebar();
   }));
-  $$("[data-jump]").forEach(btn => btn.addEventListener("click", () => switchView(btn.dataset.jump)));
-  $("#menuBtn")?.addEventListener("click", () => $("#sidebar").classList.toggle("open"));
+  $$("[data-jump]").forEach(btn => btn.addEventListener("click", () => {
+    switchView(btn.dataset.jump);
+    closeSidebar();
+  }));
+  $("#menuBtn")?.addEventListener("click", toggleSidebar);
+  $("#sidebarCloseBtn")?.addEventListener("click", closeSidebar);
+  $("#sidebarScrim")?.addEventListener("click", closeSidebar);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && $("#sidebar")?.classList.contains("open")) {
+      closeSidebar();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 768 && $("#sidebar")?.classList.contains("open")) {
+      closeSidebar();
+    }
+  });
 }
 
 const titles = {
