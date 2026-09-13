@@ -1,0 +1,213 @@
+{
+  "date": "2026-09-13",
+  "passed": true,
+  "source_count": 958,
+  "timeline_count": 958,
+  "pdf_index_count": 312,
+  "excel_all_sources_rows": 958,
+  "target_ids": [
+    "S096",
+    "S942",
+    "S950",
+    "S951",
+    "S952",
+    "S953",
+    "S954",
+    "S955",
+    "S956",
+    "S957",
+    "S958"
+  ],
+  "required_sheet_membership": {
+    "ACADEMIC": [
+      "S096",
+      "S942",
+      "S950",
+      "S951",
+      "S952",
+      "S956"
+    ],
+    "NEWS_MEDIA": [
+      "S953",
+      "S954",
+      "S955",
+      "S958"
+    ],
+    "OFFICIAL_LEGAL": [
+      "S936",
+      "S937",
+      "S945",
+      "S957"
+    ],
+    "PARLIAMENT": [
+      "S936",
+      "S945"
+    ],
+    "PDF_INDEX": [
+      "S096",
+      "S950",
+      "S951",
+      "S952"
+    ]
+  },
+  "link_checks": [
+    {
+      "Source_ID": "S096",
+      "field": "URL",
+      "url": "https://doi.org/10.22067/jwsd.v11i3.2410-1375",
+      "status": 200,
+      "final_url": "https://jwsd.um.ac.ir/article_46223.html",
+      "bytes": 97404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S096",
+      "field": "Archive_URL",
+      "url": "https://oulurepo.oulu.fi/handle/10024/59474",
+      "status": 403,
+      "final_url": "https://oulurepo.oulu.fi/handle/10024/59474",
+      "bytes": 5460,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S096",
+      "field": "PDF_URL",
+      "url": "https://jwsd.um.ac.ir/article_46223_254aeaad72ea9fae24715d6f62dc71a5.pdf",
+      "status": 200,
+      "final_url": "https://jwsd.um.ac.ir/article_46223_254aeaad72ea9fae24715d6f62dc71a5.pdf",
+      "bytes": 362058,
+      "content_type": "application/pdf"
+    },
+    {
+      "Source_ID": "S942",
+      "field": "URL",
+      "url": "https://waterresources.blogfa.com/post/62",
+      "status": 200,
+      "final_url": "https://waterresources.blogfa.com/post/62",
+      "bytes": 67661,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "Source_ID": "S950",
+      "field": "URL",
+      "url": "https://darichejournal.ir/wp-content/uploads/2020/split/%D9%84%D8%B7%D9%81%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B6%DB%8C%D8%A7%DB%8C%DB%8C/31.pdf",
+      "status": 200,
+      "final_url": "https://darichejournal.ir/wp-content/uploads/2020/split/%D9%84%D8%B7%D9%81%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B6%DB%8C%D8%A7%DB%8C%DB%8C/31.pdf",
+      "bytes": 2260563,
+      "content_type": "application/pdf"
+    },
+    {
+      "Source_ID": "S950",
+      "field": "Archive_URL",
+      "url": "https://darichejournal.ir/all-articles",
+      "status": 200,
+      "final_url": "https://darichejournal.ir/all-articles",
+      "bytes": 523339,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S951",
+      "field": "URL",
+      "url": "https://sajadenteshari.ir/wp-content/uploads/2021/11/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AD%DB%8C%D8%A7%DB%8C-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-17-1.pdf",
+      "status": 200,
+      "final_url": "https://sajadenteshari.ir/wp-content/uploads/2021/11/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AD%DB%8C%D8%A7%DB%8C-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-17-1.pdf",
+      "bytes": 753824,
+      "content_type": "application/pdf"
+    },
+    {
+      "Source_ID": "S952",
+      "field": "URL",
+      "url": "https://doi.org/10.61838/kman.jspsich.2.4.10",
+      "status": 200,
+      "final_url": "https://www.journalspsich.com/index.php/journalspsich/article/view/92",
+      "bytes": 88524,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "Source_ID": "S952",
+      "field": "Archive_URL",
+      "url": "https://www.journalspsich.com/index.php/journalspsich/article/view/92",
+      "status": 200,
+      "final_url": "https://www.journalspsich.com/index.php/journalspsich/article/view/92",
+      "bytes": 88524,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "Source_ID": "S952",
+      "field": "PDF_URL",
+      "url": "https://www.journalspsich.com/index.php/journalspsich/article/download/92/77/437",
+      "status": 200,
+      "final_url": "https://www.journalspsich.com/index.php/journalspsich/article/download/92/77/437",
+      "bytes": 955213,
+      "content_type": "application/pdf"
+    },
+    {
+      "Source_ID": "S953",
+      "field": "URL",
+      "url": "https://melliun.org/iran/117736",
+      "status": 200,
+      "final_url": "https://melliun.org/iran/117736",
+      "bytes": 102441,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S954",
+      "field": "URL",
+      "url": "https://iranwire.com/fa/features/24927/",
+      "status": 200,
+      "final_url": "https://iranwire.com/fa/features/24927/",
+      "bytes": 242967,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "Source_ID": "S955",
+      "field": "URL",
+      "url": "https://melliun.org/iran/47407/amp",
+      "status": 200,
+      "final_url": "https://melliun.org/iran/47407/amp",
+      "bytes": 55613,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "Source_ID": "S956",
+      "field": "URL",
+      "url": "https://doi.org/10.22054/qjsd.2021.57194.2077",
+      "status": 200,
+      "final_url": "https://qjsd.atu.ac.ir/article_13765.html",
+      "bytes": 80626,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S956",
+      "field": "Archive_URL",
+      "url": "https://qjsd.atu.ac.ir/article_13765.html",
+      "status": 200,
+      "final_url": "https://qjsd.atu.ac.ir/article_13765.html",
+      "bytes": 80626,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "Source_ID": "S957",
+      "field": "URL",
+      "url": "https://nezamat.ir/%D8%B3%D9%86%D8%AF-%D8%AA%D8%AD%D9%88%D9%84-%D8%AF%D9%88%D9%84%D8%AA-%D9%85%D8%B1%D8%AF%D9%85%DB%8C/",
+      "status": 403,
+      "final_url": "https://nezamat.ir/%D8%B3%D9%86%D8%AF-%D8%AA%D8%AD%D9%88%D9%84-%D8%AF%D9%88%D9%84%D8%AA-%D9%85%D8%B1%D8%AF%D9%85%DB%8C/",
+      "bytes": 787,
+      "content_type": "text/html"
+    },
+    {
+      "Source_ID": "S958",
+      "field": "URL",
+      "url": "https://waterresources.blogfa.com/post/49",
+      "status": 200,
+      "final_url": "https://waterresources.blogfa.com/post/49",
+      "bytes": 40519,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "warnings": [
+    "S096 OuluREPO archive mirror blocks scripted requests with 403; DOI and publisher PDF both return 200",
+    "S957 Nezamat blocks scripted requests with 403; indexed web page is publicly discoverable"
+  ],
+  "failures": []
+}

@@ -1,0 +1,794 @@
+[
+  {
+    "source_id": "S534",
+    "doi": "10.22034/ewe.2023.389483.1857",
+    "ra": "mEDRA",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Assessing Zayandeh-Rud Coasts Pollution with Plastic Wastes Based on Clean-Coast Index"
+  },
+  {
+    "source_id": "S561",
+    "doi": "10.30492/ijcce.2024.2022035.6430",
+    "ra": "mEDRA",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Spatiotemporal Variations of Water Quality in the Zayandehrud River, Iran"
+  },
+  {
+    "source_id": "S563",
+    "doi": "10.2478/limre-2018-0017",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Seasonal variations of plankton structure as bioindicators in Zayandehrud Dam Lake, Iran"
+  },
+  {
+    "source_id": "S582",
+    "doi": "10.22034/jewe.2018.112538.1220",
+    "ra": "mEDRA",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Regional Frequency Analysis of Low Flow in Parts of the Northern Karun River Basin in Chaharmahal and Bakhtiari Province"
+  },
+  {
+    "source_id": "S600",
+    "doi": "10.3390/fishes8110538",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Distribution and Expansion of Alien Fish Species in the Karun River Basin, Iran"
+  },
+  {
+    "source_id": "S603",
+    "doi": "10.22098/mmws.2021.9453.1045",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Monitoring and comparing NDSI changes using MODIS and ETM+ sensor data to estimate snow cover in North Karun Basin"
+  },
+  {
+    "source_id": "S612",
+    "doi": "10.22034/jewe.2018.105969.1200",
+    "ra": "mEDRA",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Water Quality Assessment of Beheshtabad River at the intersection of Shalamzar Spring with Koohrang River"
+  },
+  {
+    "source_id": "S621",
+    "doi": "10.22034/jewe.2020.243225.1403",
+    "ra": "mEDRA",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Influence of Suspended Sediment Load on Roughness Coefficient and Intensity of Flow Turbulence (Case study: Haraz, Rostamabad and Beheshtabad Rivers)"
+  },
+  {
+    "source_id": "S631",
+    "doi": "10.22059/jwim.2015.55220",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "اولویت بندی سناریوهای تخصیص آب سد زاینده رود به مصرف کنندگان مختلف؛ با رویکرد مدل های خبرۀ تصمیم گیری چند شاخصه"
+  },
+  {
+    "source_id": "S644",
+    "doi": "10.22034/jccj.2024.450807.1532",
+    "ra": null,
+    "registry_status": "DOI does not exist",
+    "resolver_http": 404,
+    "title": "سیاست جنایی تقنینی و مشارکتی در قبال جرایم مربوط به آب رودخانه زاینده‌رود"
+  },
+  {
+    "source_id": "S662",
+    "doi": "10.22059/jwim.2013.30336",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "ارزیابی الگوریتم های جستجوی مستقیم و ژنتیک در بهینه سازی پارامترهای مدل غیرخطی ماسکینگام - یک سیلاب از کارون"
+  },
+  {
+    "source_id": "S668",
+    "doi": "10.22059/jwim.2014.50038",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "بررسی شدت سیل‌خیزی زیرحوضه های کارون و عوامل مؤثر بر آن در شبیه سازی مدیریت یکپارچه و نیمه‌توزیعی سیلاب"
+  },
+  {
+    "source_id": "S676",
+    "doi": "10.22059/jwim.2023.358580.1071",
+    "ra": null,
+    "registry_status": "DOI does not exist",
+    "resolver_http": 404,
+    "title": "تحلیل عدم قطعیت تراز سطح آب مخازن سد کارون و دز ناشی از عدم قطعیت هیدروگراف جریان‌های ورودی"
+  },
+  {
+    "source_id": "S685",
+    "doi": "10.1126/science.adm8965",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Iran’s Zayandeh Rud River basin in crisis"
+  },
+  {
+    "source_id": "S686",
+    "doi": "10.1515/tw-2015-0208",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 405,
+    "title": "Tourismus und Integriertes Wasserressourcenmanagement am Zayandeh Rud"
+  },
+  {
+    "source_id": "S692",
+    "doi": "10.1079/9780851998350.0115",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Maintaining sustainable agriculture under climate change: Zayandeh Rud Basin (Iran)."
+  },
+  {
+    "source_id": "S693",
+    "doi": "10.1080/02508060.2012.688189",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Optimization and simulation modelling for operation of the Zayandeh Rud Reservoir"
+  },
+  {
+    "source_id": "S694",
+    "doi": "10.1080/02626667.2020.1833014",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Geostatistical and deterministic methods for rainfall interpolation in the Zayandeh Rud basin, Iran"
+  },
+  {
+    "source_id": "S695",
+    "doi": "10.1061/9780784413548.158",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "System-Dynamics Approach to Evaluate Climate Change Adaptation Strategies for Iran's Zayandeh-Rud Water System"
+  },
+  {
+    "source_id": "S696",
+    "doi": "10.1002/ird.459",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Exploration of potential adaptation strategies to climate change in the Zayandeh Rud irrigation system, Iran"
+  },
+  {
+    "source_id": "S697",
+    "doi": "10.1080/15715124.2024.2325156",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Exploring the influence of regime shifts on ecosystem services in Iran’s Zayandeh-Rud river basin"
+  },
+  {
+    "source_id": "S703",
+    "doi": "10.1002/ird.357",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Macro‐ and micro‐level impacts of droughts: the case of the Zayandeh Rud river basin, Iran"
+  },
+  {
+    "source_id": "S704",
+    "doi": "10.1080/19479832.2019.1601642",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Optimum indices for vegetation cover change detection in the Zayandeh-rud river basin: a fusion approach"
+  },
+  {
+    "source_id": "S711",
+    "doi": "10.1002/ird.25",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Exploring basin‐scale salinity problems using a simplified water accounting model: the example of Zayandeh Rud basin, Iran"
+  },
+  {
+    "source_id": "S717",
+    "doi": "10.3390/w14020172",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "The Gavkhouni Wetland Dryness and Its Impact on Air Temperature Variability in the Eastern Part of the Zayandeh-Rud River Basin, Iran"
+  },
+  {
+    "source_id": "S719",
+    "doi": "10.1175/wcas-d-25-0101.1",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 405,
+    "title": "Evaluating the Effects of Vegetation, Zayandeh Rud River, and Urban Development on the Formation of Heat Islands in Isfahan Using Spatial Statistical Analyses"
+  },
+  {
+    "source_id": "S720",
+    "doi": "10.52151/jae2024616.1895",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Identifying Land Use/Land Cover Changes Using Remote Sensing and GIS Techniques in Upper, Middle and Lower Reaches of Zayandeh-Rud Basin in Central Iran"
+  },
+  {
+    "source_id": "S722",
+    "doi": "10.1002/ird.499",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Assessment of irrigation water allocation based on optimization and equitable water reduction approaches to reduce agricultural drought losses: The 1999 drought in the Zayandeh RUD irrigation system (IRAN)"
+  },
+  {
+    "source_id": "S726",
+    "doi": "10.2175/106143005x41861",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Uncertainty Analysis in QUAL2E Model of Zayandeh‐Rood River"
+  },
+  {
+    "source_id": "S740",
+    "doi": "10.3390/w12051302",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evaluating Impacts of Irrigation and Drought on River, Groundwater and a Terminal Wetland in the Zayanderud Basin, Iran"
+  },
+  {
+    "source_id": "S742",
+    "doi": "10.13031/aim.201901012",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Evaluating the effect of Zayanderud river drying up on the underground water quality (Case study: Najafabad and Isfahan plain)"
+  },
+  {
+    "source_id": "S743",
+    "doi": "10.1080/02508060708692207",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Fuzzy Multiple Attribute Decision Making on Water Resources Projects Case Study: Ranking Water Transfers to Zayanderud Basin in Iran"
+  },
+  {
+    "source_id": "S749",
+    "doi": "10.1002/clen.70074",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evaluation of Optimized Zayandehrud River Channel Dimensions to Mitigate Flood Damage"
+  },
+  {
+    "source_id": "S751",
+    "doi": "10.21694/2577-5944.17005",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "Classification of Zayandehrud River Basin Water Quality Regarding Agriculture, Drinking, and Industrial Usage"
+  },
+  {
+    "source_id": "S757",
+    "doi": "10.1037/vio0000650",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "How do climate change, socioeconomic context, and water policies impact water conflicts? Insights from the ZayandehRud Basin, Iran."
+  },
+  {
+    "source_id": "S759",
+    "doi": "10.1504/ijhst.2026.10078889",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Optimising water release patterns for sustainable agriculture and ecosystem health: a case study of the Zayandehrud River Basin, Iran"
+  },
+  {
+    "source_id": "S767",
+    "doi": "10.2139/ssrn.4078769",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Effect of Applied Nitrogen Fertilizer and Irrigation Strategies on Yield, Nitrogen and Water Productivity of Winter Wheat and Barley in Upstream of Zayandehrud River Basin, Central Iran"
+  },
+  {
+    "source_id": "S769",
+    "doi": "10.2166/wrd.2024.070",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Risk analysis of inflow to the Zayandehrud Dam under historical and future scenarios using reliability, resiliency, and vulnerability indicators: a comparative study of the runoff risk index and runoff risk ranking methods"
+  },
+  {
+    "source_id": "S771",
+    "doi": "10.29252/jpr.3.2.386",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Identification of Algae as Pollution Bioindicators in Shakh-Kenar, Gavkhouni Wetland, Isfahan"
+  },
+  {
+    "source_id": "S773",
+    "doi": "10.29252/ijcm.27.3.683",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "Crystal size and shape distribution of plagioclase in the basaltic andesites, North of Gavkhouni"
+  },
+  {
+    "source_id": "S775",
+    "doi": "10.1128/jb.00023-12",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Complete Genome Sequence of Oceanimonas sp. GK1, a Halotolerant Bacterium from Gavkhouni Wetland in Iran"
+  },
+  {
+    "source_id": "S781",
+    "doi": "10.5897/ajar11.1746",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Effect of industrial and agricultural pollutants on the sustainability of Gavkhuni lagoon wetland ecosystem"
+  },
+  {
+    "source_id": "S786",
+    "doi": "10.5812/jjhs.37193",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 410,
+    "title": "Assessment of Coagulants Efficiency in Water Treatment of Karoun River"
+  },
+  {
+    "source_id": "S794",
+    "doi": "10.1061/9780784413548.105",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Many-Objective Direct Policy Search in the Dez and Karoun Multireservoir System, Iran"
+  },
+  {
+    "source_id": "S796",
+    "doi": "10.1177/1077546310370985",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Prediction of blast induced vibrations in the structures of Karoun III power plant and dam"
+  },
+  {
+    "source_id": "S798",
+    "doi": "10.1080/09853111.1990.11105201",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Organisation hydrochimique, biologique et sédimentologique d’un lac intracontinental à peuplements lagunaires : la Birket Karoun (Fayoum, Egypte)"
+  },
+  {
+    "source_id": "S799",
+    "doi": "10.1080/09397140.2009.10638347",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "First record of the freshwater loach,<i>Turcinoemacheilus kosswigi</i>(Bănărescu and Nalbant, 1964), from Iran (Karoun drainage)"
+  },
+  {
+    "source_id": "S800",
+    "doi": "10.1177/1077546312444769",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Prediction of blast-induced vibration by adaptive neuro-fuzzy inference system in Karoun 3 power plant and dam"
+  },
+  {
+    "source_id": "S803",
+    "doi": "10.1080/03650340.2012.697994",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Effect of continuous and intermittent irrigation methods on rice (cv. Koohrang) yield"
+  },
+  {
+    "source_id": "S804",
+    "doi": "10.5897/ijfa12.007",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evaluation of physicochemical parameters of waste water from rainbow trout fish farms and their impacts on water quality of Koohrang stream – Iran"
+  },
+  {
+    "source_id": "S805",
+    "doi": "10.1080/10106049.2014.966161",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Assessment of a data-driven evidential belief function model and GIS for groundwater potential mapping in the Koohrang Watershed, Iran"
+  },
+  {
+    "source_id": "S806",
+    "doi": "10.4236/ojg.2012.23015",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Numerical Analyses of Seepage from Behesht Abad Dam Foundation"
+  },
+  {
+    "source_id": "S807",
+    "doi": "10.4236/ojg.2015.56034",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evaluation of Hydraulic Aperture of the Joints of Behesht Abad Dam Foundation, Iran"
+  },
+  {
+    "source_id": "S813",
+    "doi": "10.4038/sljas.v22i1.7513",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Reproductive characteristics of Siahmahi, Capoeta damascina (family: Cyprinidae) in Beheshtabad river, Tigris basin"
+  },
+  {
+    "source_id": "S814",
+    "doi": "10.1504/ijhst.2013.055233",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Application of standardised precipitation index for predicting meteorological drought intensity in Beheshtabad watershed, central Iran"
+  },
+  {
+    "source_id": "S815",
+    "doi": "10.1080/02772241003689876",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Determination of mercury and arsenic levels in fish caught in the Beheshtabad River, Chaharmahal and Bakhtiari Province, Iran"
+  },
+  {
+    "source_id": "S816",
+    "doi": "10.1051/limn/2020025",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Age and growth of a newly described barb,<i>Capoeta coadi</i>(Cyprinidae), in Beheshtabad River, Tigris basin"
+  },
+  {
+    "source_id": "S821",
+    "doi": "10.1111/jai.13607",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Length-weight and length-length relationships of <i>Oxynoemacheilus frenatus</i> (Heckel, 1843) and <i>Petroleuciscus esfahani</i> Coad &amp; Bogutskaya, 2010 from the Cheshmeh-Langan river, Iran"
+  },
+  {
+    "source_id": "S822",
+    "doi": "10.1080/17486025.2024.2310008",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Investigation of geotechnical characteristics of Khersan 2 dam site in exploratory boreholes"
+  },
+  {
+    "source_id": "S823",
+    "doi": "10.1061/(asce)0733-9496(2008)134:1(24)",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Reliability-Based Simulation-Optimization Model for Multireservoir Hydropower Systems Operations: Khersan Experience"
+  },
+  {
+    "source_id": "S828",
+    "doi": "10.1623/hysj.52.1.206",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evidence of karst from behaviour of the Asmari limestone aquifer at the Khersan 3 Dam site, southern Iran"
+  },
+  {
+    "source_id": "S833",
+    "doi": "10.22541/au.164261761.14976036/v1",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Rating curve estimation using remote sensing hydraulic data and isovel contours at Karun River"
+  },
+  {
+    "source_id": "S835",
+    "doi": "10.1080/00369228908732342",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Note on the Karun river, Persia"
+  },
+  {
+    "source_id": "S836",
+    "doi": "10.2139/ssrn.4335592",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "A Novel Integrative Approach to Evaluate Net Pay Layers: A Case Study in West Karun River, South Iran"
+  },
+  {
+    "source_id": "S838",
+    "doi": "10.1061/41073(361)64",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Economical Comparison of Inverse Siphon in the Karun River Based on Artificial Intelligence Design"
+  },
+  {
+    "source_id": "S839",
+    "doi": "10.1061/41036(342)246",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "A Comparative Study of Water Quality Indices for Karun River"
+  },
+  {
+    "source_id": "S840",
+    "doi": "10.1002/rra.3920",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "A fish‐based multi‐metric assessment index in the Karun River basin, Iran"
+  },
+  {
+    "source_id": "S843",
+    "doi": "10.1504/ijw.2018.093669",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Spatio-temporal analysis of the Karun River water quality"
+  },
+  {
+    "source_id": "S846",
+    "doi": "10.1061/41036(342)482",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Detection of Streamflow Trends and Variability in Karun River, Iran as Parts of Climate Change and Climate Variability"
+  },
+  {
+    "source_id": "S851",
+    "doi": "10.17795/ijep16831",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Antimicrobial Susceptibility Profiles of Environmental Enterobacteriaceae Isolates From Karun River, Iran"
+  },
+  {
+    "source_id": "S852",
+    "doi": "10.1680/ijoti_1950_12864",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Some Notes on the Karun River and the Shatt e1 Arab<sup>†</sup>"
+  },
+  {
+    "source_id": "S853",
+    "doi": "10.1061/40994(321)6",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Submerge Pipeline under the Karun River by Artificial Intelligence Design of Spinal Cords Behavior and Physical Model"
+  },
+  {
+    "source_id": "S856",
+    "doi": "10.2139/ssrn.4749564",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "A Study of Corrosion and Deposition Status in Karun River Based on the Hydrometric Stations of Ahvaz and Molasani, Khuzestan Province, Iran"
+  },
+  {
+    "source_id": "S857",
+    "doi": "10.2174/1871526520666191224114248",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "The first Report of Faustula keksooni from Tenualosa ilisha in Karun River, Southwest of Iran"
+  },
+  {
+    "source_id": "S858",
+    "doi": "10.17485/ijst/2010/v3i5.19",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Extraction of structural curves, regression relations and structural regression relations in the tidal limit of the Karun River"
+  },
+  {
+    "source_id": "S859",
+    "doi": "10.4236/ojms.2017.72021",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Investigation Flow Depth and Flow Speed Changes in the Karun River"
+  },
+  {
+    "source_id": "S860",
+    "doi": "10.5897/ajar12.650",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Trend and change-point detection for the annual stream-flow series of the Karun River at the Ahvaz hydrometric station"
+  },
+  {
+    "source_id": "S866",
+    "doi": "10.17795/ijep21829",
+    "ra": null,
+    "registry_status": "KeyError",
+    "resolver_http": null,
+    "title": "Isolation of Listeria monocytogenes of Karun River (Enviromental Sources Rural and Urban) by Culture and PCR Assay"
+  },
+  {
+    "source_id": "S868",
+    "doi": "10.12692/ijb/3.12.258-264",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "Qualitative and quantitative investigation of Dez River water from the reach of Dez Dam to meeting point of Karun using NSFWQI index"
+  },
+  {
+    "source_id": "S871",
+    "doi": "10.1680/ijoti.1950.12927",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "SOME NOTES ON THE KARUN RIVER AND THE SHATT EL ARAB. (INCLUDES PLATES AND APPENDIX)."
+  },
+  {
+    "source_id": "S873",
+    "doi": "10.1080/15569543.2021.1876091",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Monitoring and health risk assessment of organochlorine pesticides in Karun River and drinking water Ahvaz city, South West of Iran"
+  },
+  {
+    "source_id": "S875",
+    "doi": "10.1111/j.1747-6593.2007.00070.x",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Regional water quality management for the Karun–Dez River basin, Iran"
+  },
+  {
+    "source_id": "S876",
+    "doi": "10.1680/ijoti.1950.12864",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "CORRESPONDENCE. SOME NOTES ON THE KARUN RIVER AND THE SHATT EL ARAB"
+  },
+  {
+    "source_id": "S878",
+    "doi": "10.1080/15569543.2021.1929322",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Monitoring of 2,4-dichlorophenoxyacetic acid concentration in Karun River and effluents of water treatment plants"
+  },
+  {
+    "source_id": "S880",
+    "doi": "10.1080/03650340.2017.1340641",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "The environmental impact assessment of drainage systems: a case study of the Karun river sugarcane development project"
+  },
+  {
+    "source_id": "S881",
+    "doi": "10.9756/iajse/v5i1/1810018",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "Optimal Reservoir Operation of Karun 4 Reservoir by Linear Programming"
+  },
+  {
+    "source_id": "S884",
+    "doi": "10.1080/01431160802345693",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Geo‐information technology (GiT) and tectonic signatures: the River Karun &amp; Dez, Zagros Orogen in south‐west Iran"
+  },
+  {
+    "source_id": "S885",
+    "doi": "10.1002/tqem.21526",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Evaluation of spatial and temporal variation in Karun River water quality during five decades (1968–2014)"
+  },
+  {
+    "source_id": "S888",
+    "doi": "10.2166/wqrj.2025.057",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Long-term spatiotemporal assessment of water quality in the Karun River, Southern Iran: a novel Python-based approach for rapid processing"
+  },
+  {
+    "source_id": "S904",
+    "doi": "10.1080/09603123.2021.2000591",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Distribution of total petroleum hydrocarbons in superficial sediments of Karun River Basin, southwest of Iran: spatial and seasonal variations, source identification, and ecological risk"
+  },
+  {
+    "source_id": "S905",
+    "doi": "10.1080/09603123.2023.2168630",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Perfluorooctanoic acid (PFOA) and perfluorooctane sulfonate (PFOS) in water and edible fish species of Karun River, Ahvaz, Iran: spatial distribution, human health, and ecological risk assessment"
+  },
+  {
+    "source_id": "S907",
+    "doi": "10.1680/ijoti.1950.12928",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "DISCUSSION. SOME NOTES ON THE KARUN RIVER AND THE SHATT EL ARAB. (INCLUDES PHOTOGRAPHS)."
+  },
+  {
+    "source_id": "S908",
+    "doi": "10.2139/ssrn.7356652",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Hydroclimatic Non-Stationarity and Regime Shifts in the Greater Karun Basin: An Integrated Statistical and Wavelet Framework for Water Resources Planning"
+  },
+  {
+    "source_id": "S909",
+    "doi": "10.2139/ssrn.4932839",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Machine Learning Approaches for Predicting Structural Behavior in Concrete Arch Dams: Insights from Karun-I Dam"
+  },
+  {
+    "source_id": "S912",
+    "doi": "10.3390/w11051025",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Susceptibility of Hydropower Generation to Climate Change: Karun III Dam Case Study"
+  },
+  {
+    "source_id": "S914",
+    "doi": "10.1680/jdare.20.00016",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "Study of rehabilitation plan of bottom outlet service and emergency gates of Karun 1 dam"
+  },
+  {
+    "source_id": "S916",
+    "doi": "10.21825/akkadica.99542",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "The Persian Gulf Shorelines and the Karkheh, Karun, and Jarrahi Rivers: A Geo-Archaeological Approach. A Joint Belgo-Iranian Project. First Progress Report"
+  },
+  {
+    "source_id": "S918",
+    "doi": "10.2166/hydro.2024.264",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 403,
+    "title": "A combination approach for optimization operation of multi-objective cascade reservoir systems (Case study: Karun reservoirs)"
+  },
+  {
+    "source_id": "S932",
+    "doi": "10.21825/akkadica.99576",
+    "ra": "Crossref",
+    "registry_status": null,
+    "resolver_http": 404,
+    "title": "The Persian Gulf Shorelines and the Karkheh, Karun, and Jarrahi Rivers: A Geo-Archaeological Approach. A Joint Belgo-Iranian Project. First Progress Report Part 3"
+  }
+]
