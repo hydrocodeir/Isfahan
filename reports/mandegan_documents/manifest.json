@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "path": "reports/mandegan_documents/complaint_14031103.jpg",
+      "source_id": "S969",
+      "url": "https://newsmedia.tasnimnews.ir/Tasnim/Uploaded/Image/1403/11/03/14031103164215742319642210.jpg",
+      "retrieved": "2026-09-22",
+      "bytes": 159512,
+      "sha256": "66a108440f859176ea21ba6bd9a858c845b77efb9fd734cfcb46b6ecb5d0d92c",
+      "inspection": "Downloaded and visually inspected; media-hosted scans are not certified copies."
+    },
+    {
+      "path": "reports/mandegan_documents/doe_letter_14040224.jpg",
+      "source_id": "S984",
+      "url": "https://newsmedia.tasnimnews.ir/Tasnim/Uploaded/Image/1404/03/03/140403031432132532951854.jpg",
+      "retrieved": "2026-09-22",
+      "bytes": 65440,
+      "sha256": "66ae92dada9ff710f24e0a0c4467f6e44cd891c011013c6493c38de617f98be9",
+      "inspection": "Downloaded and visually inspected; media-hosted scans are not certified copies."
+    },
+    {
+      "path": "reports/mandegan_documents/tender_1.jpg",
+      "source_id": "S971",
+      "url": "https://newsmedia.tasnimnews.ir/Tasnim/Uploaded/Image/1404/07/30/140407301109541234431694.jpg",
+      "retrieved": "2026-09-22",
+      "bytes": 77653,
+      "sha256": "5ffed6b3b6a05124b52819b992a0a85d17796f6d386e37090a68495c0daa4e72",
+      "inspection": "Downloaded and visually inspected; media-hosted scans are not certified copies."
+    },
+    {
+      "path": "reports/mandegan_documents/wif4_w.1.1.19.pdf",
+      "source_id": "S962",
+      "url": "https://icid-ciid.org/icid_data_web/WIF4-Full-Papers2025/wif4_w.1.1.19.pdf",
+      "retrieved": "2026-09-22",
+      "bytes": 172980,
+      "sha256": "9171ec36d5d6834c08a3b872920cb5621ae346da03d3978cb7e17942a7fcff88",
+      "inspection": "Downloaded and visually inspected; media-hosted scans are not certified copies."
+    },
+    {
+      "path": "reports/mandegan_documents/esfahanemrooz_14040723_p6.pdf",
+      "source_id": "S963",
+      "url": "https://static3.esfahanemrooz.ir/servev2/BMCUbZwgzGgB/eYFLnMzXdX4%2C/06.pdf",
+      "retrieved": "2026-09-22",
+      "bytes": 190398,
+      "sha256": "679a5b814dbeaad4e622ec570112a898a85c28a24770a0b1b7a6e7a309757a8e",
+      "inspection": "Downloaded and visually inspected; media-hosted scans are not certified copies."
+    }
+  ]
+}

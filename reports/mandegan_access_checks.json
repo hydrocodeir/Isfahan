@@ -1,0 +1,461 @@
+{
+  "date": "2026-09-22",
+  "notes": "HTTP status is an access check, not proof of relevance or factual accuracy. Search snippets and browser-readable web results were also used; partial-access records are explicitly labelled in the curated manifest.",
+  "checks": [
+    {
+      "url": "https://alefbakhabar.com/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%85%D8%B1%D8%A7%D8%B3%D9%85-%D8%B1%D8%A7%D9%87%D9%BE%DB%8C%D9%85%D8%A7%DB%8C%DB%8C-%D8%AC%D8%A7%D9%85%D8%A7/",
+      "status": 403,
+      "final_url": "https://alefbakhabar.com/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%85%D8%B1%D8%A7%D8%B3%D9%85-%D8%B1%D8%A7%D9%87%D9%BE%DB%8C%D9%85%D8%A7%DB%8C%DB%8C-%D8%AC%D8%A7%D9%85%D8%A7/",
+      "sha256": "d7fc8b6a9e5e14fb749383045c3a0d0f9a51286df0c19731781664d3ab4d4fec",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://vista.ir/2606/233/2rign/%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%AC%D9%88%D8%B2",
+      "status": 200,
+      "final_url": "https://vista.ir/2606/233/2rign/%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%AC%D9%88%D8%B2",
+      "sha256": "9c97845c71b6a925ac741122d5b97038b52982cdcd89675a30167db27cf5b684",
+      "page_title": "جا ماندگان مجوز"
+    },
+    {
+      "url": "https://eghtesadjournal.com/economic-news-of-the-provinces/170407/",
+      "status": 200,
+      "final_url": "https://eghtesadjournal.com/economic-news-of-the-provinces/170407/",
+      "sha256": "a64009377c2827a3a11e0a5f9bc9bdb89c995c0f926d874b9c8f2f07b1802ad6",
+      "page_title": "چرا عملیات سد بدون مجوز ماندگان متوقف نمی‌شود؟ - اقتصاد ژورنال"
+    },
+    {
+      "url": "https://khabarfarsi.com/u/250581281",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/u/250581281",
+      "sha256": "50b2bdc99848e4073124d445d0e35760d6d7ced41ebbcd2d002c314a6ccfa70c",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://www.cm8.ir/2608/312/xhlbd/%D9%BE%D9%86%D9%87%D8%A7%D9%86-%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7",
+      "error": "HTTPSConnectionPool(host='www.cm8.ir', port=443): Max retries exceeded with url: /2608/312/xhlbd/%D9%BE%D9%86%D9%87%D8%A7%D9%86-%DA%A9%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)')))"
+    },
+    {
+      "url": "https://1ghazi.pro/item/607116",
+      "status": 200,
+      "final_url": "https://1ghazi.pro/item/607116",
+      "sha256": "c36690128b678dfa2a30816b26f9b6400f07fd4d42578f0300fbe5e559456f66",
+      "page_title": "نمونه رای با موضوع: الزام به برقراری مستمری بازماندگان از سوی سازمان تأمین اجتماعی | یک قاضی"
+    },
+    {
+      "url": "https://vajehyab.com/dehkhoda/%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://vajehyab.com/dehkhoda/%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "sha256": "3eafabe3468ddb023ea4f866c271a6498b223e41d191b6eaf81389e263a09dd7",
+      "page_title": "معنی ماندگان | لغت‌نامه دهخدا | واژه یاب"
+    },
+    {
+      "url": "https://www.tourismonline.co/news/132671/%D8%AC%D9%88%D8%A7%D9%87%D8%B1%DB%8C-%D9%86%D8%A7%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%D9%87-%D8%A8%D9%87-%D9%86%D8%A7%D9%85-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://www.tourismonline.co/news/132671/%D8%AC%D9%88%D8%A7%D9%87%D8%B1%DB%8C-%D9%86%D8%A7%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%D9%87-%D8%A8%D9%87-%D9%86%D8%A7%D9%85-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "sha256": "c8b3260d12fa7f0f33f22528c05eba0c725d84aec60fbc0458151f9e242b96a3",
+      "page_title": "جواهری ناشناخته به نام «ماندگان » - توریسم آنلاین"
+    },
+    {
+      "url": "https://vajehyab.com/?q=%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://vajehyab.com/?q=%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "sha256": "d5c2a103383544ac24cfefae7cecaad32ad492b2b2931032546cbfba1f10aa05",
+      "page_title": "معنی ماندگان | واژه یاب"
+    },
+    {
+      "url": "https://payju.ir/content/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%86%D8%A7%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%D9%87%E2%80%8C-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%88-%D8%B4%DA%A9%D8%A7%DA%A9%D8%A7%D9%86-%DB%8C%D9%88%D9%86%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://payju.ir/content/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%86%D8%A7%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%D9%87%E2%80%8C-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%88-%D8%B4%DA%A9%D8%A7%DA%A9%D8%A7%D9%86-%DB%8C%D9%88%D9%86%D8%A7%D9%86",
+      "sha256": "34141cd7104bf093d28e86fa0a6a12df7b068bf9518b532e465092324582beaa",
+      "page_title": "معرفی کتاب : ناشناخته‌ ماندگان و شکاکان یونان | مجله پی جو"
+    },
+    {
+      "url": "https://khabarfarsi.com/u/233264380",
+      "error": "HTTPSConnectionPool(host='khabarfarsi.com', port=443): Max retries exceeded with url: /u/233264380 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1403/10/26/3238523/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%B3%DB%8C%D8%B1-%D8%B6%D8%AF%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%A8%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1403/10/26/3238523/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%B3%DB%8C%D8%B1-%D8%B6%D8%AF%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%A8%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+      "sha256": "c3841175fc8324a6e45deb7a210a3a0ea1af1804b2550773d5bb6aba7e535aef",
+      "page_title": "\"سد ماندگان\"؛ مسیر ضدمحیط زیستی برای انتقال آب به اصفهان - تسنیم"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/zahraa-alizadeh_%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%81%D8%B1%DB%8C%D8%A7%D8%AF-%D8%AF%D9%86%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%A7%D8%B1%D8%A8%D8%B1-activity-7403694277471420416-Fn3y",
+      "status": 200,
+      "final_url": "https://www.linkedin.com/posts/zahraa-alizadeh_%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%81%D8%B1%DB%8C%D8%A7%D8%AF-%D8%AF%D9%86%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%A7%D8%B1%D8%A8%D8%B1-activity-7403694277471420416-Fn3y",
+      "sha256": "bb8854c49dca2ba09a05474bc8a017fb8f3571b5f99ab8d0974d6f5bb5ce1460",
+      "page_title": "سد ماندگان؛ فریاد دنا و کارون\n \nرودخانه ماربر، یکی از سرچشمه‌های حیاتی کارون، \nدر دل منطقه حفاظت‌شده دنا جریان دارد؛ \nجایی که هزاران گونه گیاهی و جانوری خانه دارند \nو مردم زاگرس زندگی‌شان به آن… | Zahra Alizadeh | 24 comments"
+    },
+    {
+      "url": "https://www.radiozamaneh.com/838486/",
+      "status": 200,
+      "final_url": "https://www.radiozamaneh.com/838486/",
+      "sha256": "45c820a5e069a87fc4e12a93c917106e54aef96a95a394eb20a91c9ae0a8d56c",
+      "page_title": "سد ماندگان: پروژه‌ای توسعه‌محور یا تهدیدی برای زیست‌بوم دنا؟"
+    },
+    {
+      "url": "https://vista.ir/n/tasnimnews-v0v7r",
+      "status": 200,
+      "final_url": "https://vista.ir/2506/215/v0v7r/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86%D8%9B-%D9%86%D8%A8%D8%B1%D8%AF-%D9%86%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88-%D9%84%D9%88%D8%AF%D8%B1-%D8%AF%D8%B1-%D9%82%D9%84%D8%A8-%D8%B2%D8%A7%DA%AF%D8%B1%D8%B3-%D8%AA%D8%B3%D9%86%DB%8C%D9%85",
+      "sha256": "9ee1807bc7b981fda910fdbe48e7f7ba4ffc90649e95de8d7d775f8823d40bbb",
+      "page_title": "سد ماندگان؛ نبرد ناتمام قانون و لودر در قلب زاگرس - تسنیم"
+    },
+    {
+      "url": "https://vista.ir/n/eslahatnews/8r12x",
+      "status": 200,
+      "final_url": "https://vista.ir/2511/254/8r12x/%D9%86%D8%B8%D8%B1-%D9%82%D8%B7%D8%B9%DB%8C-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%B3%D8%AF-%C2%AB%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%AF%D8%A7%D8%AF%D9%87-%D9%86%D8%B4%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA",
+      "sha256": "be2f2124910aacde44edde9b6d36da94ac66d6601908098152e3b2efbc036d2d",
+      "page_title": "نظر قطعی درباره سد «ماندگان» از سوی سازمان حفاظت محیط زیست داده نشده است"
+    },
+    {
+      "url": "https://ettelaat.net/1404/06/10/90452/",
+      "status": 403,
+      "final_url": "https://ettelaat.net/1404/06/10/90452/",
+      "sha256": "7c0be293041014fa6ed405d6cdf5092e0c6732f6252d6e3b0434f5c1588bda2d",
+      "page_title": "The website is currently not available"
+    },
+    {
+      "url": "https://www.researchgate.net/figure/Location-map-of-the-Naghan-and-Mandegan-sections-B-from-google-maps_fig1_326551733",
+      "status": 403,
+      "final_url": "https://www.researchgate.net/figure/Location-map-of-the-Naghan-and-Mandegan-sections-B-from-google-maps_fig1_326551733",
+      "sha256": "9e2a8f3790b86c0d7d72d8b99c6403bc70295c187c7933779785907d6a195e67",
+      "page_title": "ResearchGate - Temporarily Unavailable"
+    },
+    {
+      "url": "https://vista.ir/n/rokna/c7o4n",
+      "status": 200,
+      "final_url": "https://vista.ir/2508/245/c7o4n/%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2%DB%8C-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%D9%85%D8%A7-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%B5%D8%A7%D8%AF%D8%B1-%D9%86%D8%B4%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA-%D9%81%DB%8C%D9%84%D9%85",
+      "sha256": "5c88fe520e85e4028d738868ee0c864175c9f9860cfb21f4dfe7d9cfaf2e7b4d",
+      "page_title": "سازمان محیط زیست: مجوزی از سوی ما برای سد ماندگان صادر نشده است + فیلم"
+    },
+    {
+      "url": "https://vista.ir/n/tasnimnews/veu0u",
+      "status": 200,
+      "final_url": "https://vista.ir/2510/215/veu0u/%D9%BE%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%B4%D8%AF%D8%9B-%D9%88%D9%82%D8%AA%DB%8C-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B5%D9%87-%D9%85%DB%8C-%DA%AF%D8%B0%D8%A7%D8%B1%D9%86%D8%AF-%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA-%D8%AA%D8%B3%D9%86%DB%8C%D9%85",
+      "sha256": "a96e95c25a7c8f6f1cc1f9550da67f17de6472944a0d03ea9d884f19db44595f",
+      "page_title": "پای وزارت کشور به سد ماندگان باز شد؛  وقتی بدون مجوز، مناقصه می‌گذارند مستندات - تسنیم"
+    },
+    {
+      "url": "https://vista.ir/n/mehrnews/zmvac",
+      "status": 200,
+      "final_url": "https://vista.ir/2509/213/zmvac/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AD%DB%8C%D8%B7%DB%8C-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF%D8%9B-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D8%AF-%D8%BA%DB%8C%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA",
+      "sha256": "17e12c827deecdb83e6bd2b04146c113daf6ebc7a10413d01dfa81fa1f4b5423",
+      "page_title": "سد ماندگان مجوز زیست محیطی ندارد؛ عملیات اجرایی برای سد غیر قانونی است"
+    },
+    {
+      "url": "https://vista.ir/n/tasnimnews-xja4x",
+      "status": 200,
+      "final_url": "https://vista.ir/2501/215/xja4x/%D8%AF%D8%B9%D9%88%D8%A7%DB%8C-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D8%B5%D9%84-90-%D8%B1%D9%81%D8%AA-%D8%B3%D9%86%D8%AF-%D8%AA%D8%B3%D9%86%DB%8C%D9%85",
+      "sha256": "613a69ae5af49ddd2ce4555875109c0333069fea70a45a52d823c6d6aa89e9e4",
+      "page_title": "دعوای سد ماندگان به کمیسیون اصل 90 رفت+سند - تسنیم"
+    },
+    {
+      "url": "https://vista.ir/n/yjc-kbz86",
+      "status": 200,
+      "final_url": "https://vista.ir/2410/383/kbz86/%D8%B3%D8%AF-%C2%AB%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86%D9%90-%D9%BE%D8%A7%D8%AF%D9%86%D8%A7%C2%BB-%D9%85%D8%AC%D9%88%D8%B2-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AD%DB%8C%D8%B7%DB%8C-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+      "sha256": "9fa0ce1a6921c16fb855aa26777865c2503173c13a03613bb325171027beb5c4",
+      "page_title": "سد «ماندگانِ پادنا» مجوز زیست محیطی ندارد"
+    },
+    {
+      "url": "https://vista.ir/n/isna/u17vm",
+      "status": 200,
+      "final_url": "https://vista.ir/2512/211/u17vm/%D8%AA%D9%88%D9%82%D9%81-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AF%D9%86%D8%A7",
+      "sha256": "4c82717c04dffcedbdc44ecd92ef006d634d4dcbf077e1d9fe3584c535624044",
+      "page_title": "توقف عملیات ساخت سد ماندگان در دنا"
+    },
+    {
+      "url": "https://www.mehrnews.com/news/5314703/%D9%BE%DB%8C%D8%A7%D8%AF%D9%87-%D8%B1%D9%88%DB%8C-%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A7%D8%B1%D8%A8%D8%B9%DB%8C%D9%86-%D8%AF%D8%B1-%D9%82%D8%B2%D9%88%DB%8C%D9%86",
+      "status": 200,
+      "final_url": "https://www.mehrnews.com/news/5314703/%D9%BE%DB%8C%D8%A7%D8%AF%D9%87-%D8%B1%D9%88%DB%8C-%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A7%D8%B1%D8%A8%D8%B9%DB%8C%D9%86-%D8%AF%D8%B1-%D9%82%D8%B2%D9%88%DB%8C%D9%86",
+      "sha256": "3d9d1da1474710ced6b3c9d8c30adebba0a693fb081d758996c32d0ea84d9950",
+      "page_title": "پیاده‌روی جا ماندگان اربعین در قزوین - خبرگزاری مهر | اخبار ایران و جهان | Mehr News Agency"
+    },
+    {
+      "url": "https://khabarfarsi.com/u/235235607",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/u/235235607",
+      "sha256": "ea0c47424a72d0876ee53c299f4d4626163492467d0349ea41743923ee408144",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://khabarfarsi.com/u/235249981",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/u/235249981",
+      "sha256": "3c024eb9a5a1a1fa77521278d1d3900cae975388daeed931cd11c1b526fdda32",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://vista.ir/n/akharinkhabar/1ynqe",
+      "status": 200,
+      "final_url": "https://vista.ir/2510/473/1ynqe/%D9%BE%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%B4%D8%AF-%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA",
+      "sha256": "7a1746d47ceb67c2e42b2b0ca260c9a8f8b0b1915581816de5b2110d16967eb8",
+      "page_title": "پای وزارت کشور به سد ماندگان باز شد + مستندات"
+    },
+    {
+      "url": "https://vista.ir/n/tasnimnews/un86u",
+      "status": 200,
+      "final_url": "https://vista.ir/2511/215/un86u/%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%AA-%D8%B5%D8%B1%DB%8C%D8%AD-%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D9%87%D8%A7-%D8%A8%D8%A7-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%AA%D8%B3%D9%86%DB%8C%D9%85",
+      "sha256": "4b5c21e53522386994d2d8c9bc4ae8b31f6391a86c40dd7959589f11fa7a80cf",
+      "page_title": "مخالفت صریح دولتی‌ها با احداث سد ماندگان ‌  جزئیات - تسنیم"
+    },
+    {
+      "url": "https://www.nasimekhouzestan.ir/fa/?tag=%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "status": 200,
+      "final_url": "https://www.nasimekhouzestan.ir/fa/?tag=%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "sha256": "6e0ba17be3dc358b7e16cb38ef3bb6ea84cb949f7186d0805d1cb41e0e99358e",
+      "page_title": "سد ماندگان"
+    },
+    {
+      "url": "https://vista.ir/n/ilna/yhj91",
+      "status": 200,
+      "final_url": "https://vista.ir/2511/219/yhj91/%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%B3%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%88-%D8%AE%D9%90%D8%B1%D8%B3%D8%A7%D9%86-%D8%A8%D8%B7%D9%88%D8%B1-%D9%88%DB%8C%DA%98%D9%87-%D8%AF%D8%B1-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D8%B5%D9%84-%DB%B9%DB%B0-%D9%85%D8%AC%D9%84%D8%B3-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%85%DB%8C-%D8%B4%D9%88%D9%86%D8%AF",
+      "sha256": "88aa3ada9976a0ee8702689a72885e044b1f22e034eba89ddeb8319af1e2c16f",
+      "page_title": "موضوع سدهای ماندگان و خِرسان بطور ویژه در کمیسیون اصل ۹۰ مجلس بررسی می شوند"
+    },
+    {
+      "url": "https://eghtesadjournal.com/economic-news-of-the-provinces/235706/",
+      "status": 200,
+      "final_url": "https://eghtesadjournal.com/economic-news-of-the-provinces/235706/",
+      "sha256": "4b7ce13790053d0a8194df02bf3ce11b0f310a3d30f54a4ec3ef3eadb1fbb2dd",
+      "page_title": "بهرامی رازش را فاش کرد؛ نامه توقف سد ماندگان، خبر خوش بود - اقتصاد ژورنال"
+    },
+    {
+      "url": "https://khabarfarsi.com/u/232318757",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/u/232318757",
+      "sha256": "b9808f3c0cbe72ba22fe3c0b89e88a50aac2c9e61d6fe9582501f4c6951fe465",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://irannewsupdate.com/news/general/irans-mandegan-dam-sparks-fierce-environmental-social-and-cultural-opposition/",
+      "error": "HTTPSConnectionPool(host='irannewsupdate.com', port=443): Max retries exceeded with url: /news/general/irans-mandegan-dam-sparks-fierce-environmental-social-and-cultural-opposition/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+    },
+    {
+      "url": "https://icid-ciid.org/icid_data_web/WIF4-Full-Papers2025/wif4_w.1.1.19.pdf",
+      "status": 200,
+      "final_url": "https://icid-ciid.org/icid_data_web/WIF4-Full-Papers2025/wif4_w.1.1.19.pdf",
+      "sha256": "9171ec36d5d6834c08a3b872920cb5621ae346da03d3978cb7e17942a7fcff88",
+      "page_title": ""
+    },
+    {
+      "url": "https://amlaklink.com/%D8%AA%D8%B1%DB%8C%D8%A8%D9%88%D9%86-%D8%A2%D8%B2%D8%A7%D8%AF-%D8%AF%D8%B1-%DB%8C%D8%A7%D8%B3%D9%88%D8%AC%D8%9B-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D9%88-%D9%86%D9%85%D8%A7%D8%B2/",
+      "status": 200,
+      "final_url": "https://amlaklink.com/%D8%AA%D8%B1%DB%8C%D8%A8%D9%88%D9%86-%D8%A2%D8%B2%D8%A7%D8%AF-%D8%AF%D8%B1-%DB%8C%D8%A7%D8%B3%D9%88%D8%AC%D8%9B-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D9%88-%D9%86%D9%85%D8%A7%D8%B2/",
+      "sha256": "42287ce1661664c8f31e33e04468a83cb7cb6f529f3edcbb6b6136c677f0249a",
+      "page_title": "خبر \" تریبون آزاد در یاسوج؛ دانشجویان و نمازگزاران خواستار توقف فوری سدهای ماندگان و خرسان 3 شدند \" | املاک لینک"
+    },
+    {
+      "url": "https://khabarfarsi.com/u/258264574",
+      "error": "HTTPSConnectionPool(host='khabarfarsi.com', port=443): Max retries exceeded with url: /u/258264574 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+    },
+    {
+      "url": "https://alefbakhabar.com/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D9%87%D8%A7%D8%B1-%DB%B1%DB%B4%DB%B0%DB%B4-%D8%A8%D9%87-%D8%B2/",
+      "status": 403,
+      "final_url": "https://alefbakhabar.com/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D9%87%D8%A7%D8%B1-%DB%B1%DB%B4%DB%B0%DB%B4-%D8%A8%D9%87-%D8%B2/",
+      "sha256": "a4529506dfe3c41930a243b8307e23f8a4d9a2c898ffec0d649da91f35b2b15f",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://etelaat.news/news/%D8%A2%D8%AE%D8%B1%DB%8C%D9%86-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%A8%D9%87-%D8%A7%D8%B5/",
+      "status": 522,
+      "final_url": "https://etelaat.news/news/%D8%A2%D8%AE%D8%B1%DB%8C%D9%86-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D9%BE%D8%B1%D9%88%DA%98%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%A8%D9%87-%D8%A7%D8%B5/",
+      "sha256": "d12d3a87c4c98f8f9baac47ac89ac530c5b4a97d1ff8de1e7f960d8bbe9542cc",
+      "page_title": "etelaat.news | 522: Connection timed out"
+    },
+    {
+      "url": "https://www.independentpersian.com/node/416419/%D8%B3%DB%8C%D8%A7%D8%B3%DB%8C-%D9%88-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C/%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D9%88-%D8%AE%D8%B1%D8%B3%D8%A7%D9%86-%D8%AF%D8%B1-%D8%A2%D8%B3%D8%AA%D8%A7%D9%86%D9%87-%D8%AE%D8%B4%DA%A9-%D8%B4%D8%AF%D9%86%D8%9B-%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%A7%D8%AF%D8%A7%D9%85%D9%87-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B3%D8%AF",
+      "status": 200,
+      "final_url": "https://www.independentpersian.com/node/416419/%D8%B3%DB%8C%D8%A7%D8%B3%DB%8C-%D9%88-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C/%D8%B1%D9%88%D8%AF%D8%AE%D8%A7%D9%86%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D9%88%D9%86-%D9%88-%D8%AE%D8%B1%D8%B3%D8%A7%D9%86-%D8%AF%D8%B1-%D8%A2%D8%B3%D8%AA%D8%A7%D9%86%D9%87-%D8%AE%D8%B4%DA%A9-%D8%B4%D8%AF%D9%86%D8%9B-%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%A7%D8%AF%D8%A7%D9%85%D9%87-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B3%D8%AF",
+      "sha256": "af8d7f639e537fc6810582dd5e2ed49332edd51579e119da3439a3e237323eeb",
+      "page_title": "رودخانه‌های کارون و خرسان در آستانه خشک شدن؛ هشدار درباره ادامه ساخت سد ماندگان | ایندیپندنت فارسی"
+    },
+    {
+      "url": "https://apiservices.etma.ir/fa/news/734546/%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%DA%A9%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%DA%AF-%D8%A8%D8%AE%D9%88%D8%A7%D9%86%D9%86%D8%AF",
+      "status": 200,
+      "final_url": "https://apiservices.etma.ir/fa/news/734546/%D8%AC%D8%A7-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%DA%A9%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%DA%AF-%D8%A8%D8%AE%D9%88%D8%A7%D9%86%D9%86%D8%AF",
+      "sha256": "f02c36e793a9de57a1fbdae279caf3865204fd73dd007a81b67ccd2bea804693",
+      "page_title": "جا ماندگان کالابرگ بخوانند! | روزنو"
+    },
+    {
+      "url": "https://wona.ir/news/29f7rgjpbi/%D8%AA%D9%88%D8%B2%DB%8C%D8%B9420%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D9%85%D8%AA%D8%B1%D9%85%DA%A9%D8%B9%D8%A8-%D8%A2%D8%A8-%D8%A7%D8%B2-%D8%B3%D8%AF-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D9%85%D8%B7%D9%84%D9%88%D8%A8%DB%8C-%D8%AF%D8%A7%D8%B1%D8%AF",
+      "status": 200,
+      "final_url": "https://wona.ir/news/29f7rgjpbi/%D8%AA%D9%88%D8%B2%DB%8C%D8%B9420%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D9%85%D8%AA%D8%B1%D9%85%DA%A9%D8%B9%D8%A8-%D8%A2%D8%A8-%D8%A7%D8%B2-%D8%B3%D8%AF-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D9%85%D8%B7%D9%84%D9%88%D8%A8%DB%8C-%D8%AF%D8%A7%D8%B1%D8%AF",
+      "sha256": "4948910bdebecbd5a2f59b3ce4fb0c377b0633fb81b2c4397536c8eb8c1cdcd1",
+      "page_title": "🌟📢 ونا | توزیع420میلیون مترمکعب آب از سد زاینده رود؛ ماندگان پیشرفت مطلوبی دارد - خبرگزاری مهر | اخبار ایران و جهان | Mehr News Agency"
+    },
+    {
+      "url": "https://sehatkhabar.ir/472651/",
+      "status": 200,
+      "final_url": "https://sehatkhabar.ir/472651/",
+      "sha256": "47aa733fb1bf6c8295a5e35b89dc0093489408039a4dc1227d7c132e8bc5e7d8",
+      "page_title": "انتقال سالانه ۲۵۰ میلیون مترمکعب آب برای مصارف شرب از جنوب اصفهان/دلیل توقف کوهرنگ ۳ : پایگاه خبری صحت خبر"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1403/10/09/3227429/",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1403/10/09/3227429/",
+      "sha256": "c1190b5257be17ad21772bf2490e249af3fcb6356a60c16b1186e2bcdd7f610e",
+      "page_title": "چه کسانی پشت بی‌قانونی‌های ساخت سد ماندگان مانده‌اند! - تسنیم"
+    },
+    {
+      "url": "https://khabarfarsi.com/ua/258264574",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/ua/258264574",
+      "sha256": "ba21f004ed15581a48b6fb29314b115311222526712436062b3df401811a0811",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://khabarfarsi.com/ua/236403062",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/ua/236403062",
+      "sha256": "d740c4ff93777b2942ef9caa48ec3c9ae07c08ce61230587e1b287ca6856f7b9",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://khabarfarsi.com/ua/250581281",
+      "status": 403,
+      "final_url": "https://khabarfarsi.com/ua/250581281",
+      "sha256": "cd76f56b98e4924acfd3e19c2ec62aec26a0582a7043a4905d6794ed3bb940f3",
+      "page_title": "Just a moment..."
+    },
+    {
+      "url": "https://www.chn.ir/political-cultural-social/173396/",
+      "status": 200,
+      "final_url": "https://www.chn.ir/political-cultural-social/173396/",
+      "sha256": "993a79d0ffe459b578e51db569c4e291031a2626dac360a3e403975049db308a",
+      "page_title": "خبر \" واکنش معاون رئیس‌جمهور به انتقادات محیط زیستی در سدسازی \" | سی‌ اچ ان"
+    },
+    {
+      "url": "https://www.rokna.net/fa/tiny/news-1137426",
+      "status": 200,
+      "final_url": "https://www.rokna.net/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-95/1137426-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%A2%D8%A8%D8%A7%D8%AF%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B4%DB%8C%D9%86%D8%A7-%D8%A7%D9%86%D8%B5%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B4%D9%81%D8%A7%D9%81-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%AE%DB%8C-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8",
+      "sha256": "11f3763b30c97f46ab330a8e1dfa9c62609a06de6a24ffa4c54831acdeb94a14",
+      "page_title": "درخواست نماینده آبادان از شینا انصاری برای شفاف سازی عملکرد سازمان محیط زیست در  برخی از پروژه‌های انتقال آب"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1404/03/11/3325332/سد-ماندگان-نبرد-ناتمام-قانون-و-لودر-در-قلب-زاگرس",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1404/03/11/3325332/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%86%D8%A8%D8%B1%D8%AF-%D9%86%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88-%D9%84%D9%88%D8%AF%D8%B1-%D8%AF%D8%B1-%D9%82%D9%84%D8%A8-%D8%B2%D8%A7%DA%AF%D8%B1%D8%B3",
+      "sha256": "31a9c63490f4ab51f19d769b18441c4e4c0c973f73c429e6561d4c9decc15572",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/03/11/3325332/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%86%D8%A8%D8%B1%D8%AF-%D9%86%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88-%D9%84%D9%88%D8%AF%D8%B1-%D8%AF%D8%B1-%D9%82%D9%84%D8%A8-%D8%B2%D8%A7%DA%AF%D8%B1%D8%B3 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD30F1590>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "page_title": "سد ماندگان؛ نبرد ناتمام قانون و لودر در قلب زاگرس - تسنیم"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1404/07/30/3429493/%d9%be%d8%a7%db%8c-%d9%88%d8%b2%d8%a7%d8%b1%d8%aa-%da%a9%d8%b4%d9%88%d8%b1-%d8%a8%d9%87-%d8%b3%d8%af-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d8%a8%d8%a7%d8%b2-%d8%b4%d8%af-%d9%88%d9%82%d8%aa%db%8c-%d8%a8%d8%af%d9%88%d9%86-%d9%85%d8%ac%d9%88%d8%b2-%d9%85%d9%86%d8%a7%d9%82%d8%b5%d9%87-%d9%85%db%8c-%da%af%d8%b0%d8%a7%d8%b1%d9%86%d8%af-%d9%85%d8%b3%d8%aa%d9%86%d8%af%d8%a7%d8%aa",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1404/07/30/3429493/%D9%BE%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%B4%D8%AF-%D9%88%D9%82%D8%AA%DB%8C-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B5%D9%87-%D9%85%DB%8C-%DA%AF%D8%B0%D8%A7%D8%B1%D9%86%D8%AF-%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA",
+      "sha256": "1d43ebb60672771d1e520e82ea53af118620c8230a51984de46448665ac7a5e9",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/07/30/3429493/%D9%BE%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%B4%D8%AF-%D9%88%D9%82%D8%AA%DB%8C-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B5%D9%87-%D9%85%DB%8C-%DA%AF%D8%B0%D8%A7%D8%B1%D9%86%D8%AF-%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD26E1BE0>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "page_title": "پای وزارت کشور به سد ماندگان باز شد؛  وقتی بدون مجوز، مناقصه می‌گذارند   مستندات - تسنیم"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1404/08/15/3441167/%d9%85%d8%ae%d8%a7%d9%84%d9%81%d8%aa-%d8%b5%d8%b1%db%8c%d8%ad-%d8%af%d9%88%d9%84%d8%aa%db%8c-%d9%87%d8%a7-%d8%a8%d8%a7-%d8%a7%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%af-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d8%ac%d8%b2%d8%a6%db%8c%d8%a7%d8%aa",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1404/08/15/3441167/%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%AA-%D8%B5%D8%B1%DB%8C%D8%AD-%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D9%87%D8%A7-%D8%A8%D8%A7-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA",
+      "sha256": "e36d66145b4fc52e6c8a9266e9e9bbe9773954b48503cba8912d0e56e451f6fd",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/08/15/3441167/%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%AA-%D8%B5%D8%B1%DB%8C%D8%AD-%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D9%87%D8%A7-%D8%A8%D8%A7-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD30F2490>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "page_title": "مخالفت صریح دولتی‌ها با احداث سد ماندگان ‌  جزئیات - تسنیم"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1403/11/03/3243309/",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1403/11/03/3243309/",
+      "sha256": "2fb565f788dcd8b0ce0c568052b84ea70a24297ce51997541f13588f7ef7abcf",
+      "page_title": "دعوای سد ماندگان به کمیسیون اصل 90 رفت سند - تسنیم"
+    },
+    {
+      "url": "https://vista.ir/t/21/سد+ماندگان",
+      "status": 403,
+      "final_url": "https://vista.ir/t/21/%D8%B3%D8%AF+%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86",
+      "sha256": "169b7a8672b4bf93562b2605d8f144202ef5e323e2516ac08009e4fdabeebea3",
+      "page_title": ""
+    },
+    {
+      "url": "https://www.nasimekhouzestan.ir/fa/?p=33485",
+      "status": 200,
+      "final_url": "https://www.nasimekhouzestan.ir/fa/?p=33485",
+      "sha256": "99856e4df792c6ec0e30de08c6cf06c8bcdbdb87966bda657ff32c2e7459becf",
+      "page_title": "سیاست‌گذاری در بخش آب نیازمند بازنگری جدی است ؛  *اثرات ویرانگر انتقال آب كارون بر کشاورزی خوزستان*"
+    },
+    {
+      "url": "https://en.radiozamaneh.com/37430/",
+      "status": 200,
+      "final_url": "https://en.radiozamaneh.com/37430/",
+      "sha256": "0553a4e6b62ac4119d419ec53b9a7446f7991c80954540d8e4ea7dc8618c33a2",
+      "page_title": "Residents of Yasuj Protest Against Water Shortages and Dam Construction – Zamaneh Media"
+    },
+    {
+      "url": "https://www.radiozamaneh.com/869565/",
+      "status": 200,
+      "final_url": "https://www.radiozamaneh.com/869565/",
+      "sha256": "ba585747335fc73da2b17961e636dd1a0bfe02d648b237658e7cc098aeaf6be8",
+      "page_title": "انتقاد تشکل‌های مدنی از مداخله دولتی در انتقال آب کارون: هشدار یک بحران زیست‌محیطی و اجتماعی دیگر"
+    },
+    {
+      "url": "https://www.iranintl.com/202412015273",
+      "status": 200,
+      "final_url": "https://www.iranintl.com/202412015273",
+      "sha256": "942098eb7f323370b9601ae627ce04ab04d38af793624df9248958d836d84ba7",
+      "page_title": "تجمع مردم یاسوج در اعتراض به ساخت سد و تخریب محیط‌ زیست | Iran International"
+    },
+    {
+      "url": "https://www.tasnimnews.com/fa/news/1404/03/11/3325332/سد-ماندگان-نبرد-ناتمام-قانون-و-لودر-در-قلب-زاگرس",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/03/11/3325332/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%86%D8%A8%D8%B1%D8%AF-%D9%86%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%88-%D9%84%D9%88%D8%AF%D8%B1-%D8%AF%D8%B1-%D9%82%D9%84%D8%A8-%D8%B2%D8%A7%DA%AF%D8%B1%D8%B3 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD30F1590>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "url": "https://www.rokna.net/fa/tiny/news-1147295",
+      "status": 200,
+      "final_url": "https://www.rokna.net/video/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-95/1147295-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D9%85%D8%AD%DB%8C%D8%B7-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2%DB%8C-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%D9%85%D8%A7-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%B5%D8%A7%D8%AF%D8%B1-%D9%86%D8%B4%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA-%D9%81%DB%8C%D9%84%D9%85",
+      "sha256": "837b428df1c0ca7cdaa441422e08c6bda5458207af4b6684bfce2dbec12d245c",
+      "page_title": "سازمان محیط زیست: مجوزی از سوی ما برای سد ماندگان صادر نشده است + فیلم"
+    },
+    {
+      "url": "https://www.tasnimnews.com/fa/news/1404/07/30/3429493/%d9%be%d8%a7%db%8c-%d9%88%d8%b2%d8%a7%d8%b1%d8%aa-%da%a9%d8%b4%d9%88%d8%b1-%d8%a8%d9%87-%d8%b3%d8%af-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d8%a8%d8%a7%d8%b2-%d8%b4%d8%af-%d9%88%d9%82%d8%aa%db%8c-%d8%a8%d8%af%d9%88%d9%86-%d9%85%d8%ac%d9%88%d8%b2-%d9%85%d9%86%d8%a7%d9%82%d8%b5%d9%87-%d9%85%db%8c-%da%af%d8%b0%d8%a7%d8%b1%d9%86%d8%af-%d9%85%d8%b3%d8%aa%d9%86%d8%af%d8%a7%d8%aa",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/07/30/3429493/%D9%BE%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D9%87-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%B4%D8%AF-%D9%88%D9%82%D8%AA%DB%8C-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D9%85%D9%86%D8%A7%D9%82%D8%B5%D9%87-%D9%85%DB%8C-%DA%AF%D8%B0%D8%A7%D8%B1%D9%86%D8%AF-%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD26E1BE0>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "url": "https://www.mehrnews.com/news/6581532/%d8%b3%d8%af-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d9%85%d8%ac%d9%88%d8%b2-%d8%b2%db%8c%d8%b3%d8%aa-%d9%85%d8%ad%db%8c%d8%b7%db%8c-%d9%86%d8%af%d8%a7%d8%b1%d8%af-%d8%b9%d9%85%d9%84%db%8c%d8%a7%d8%aa-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c%db%8c-%d8%a8%d8%b1%d8%a7%db%8c-%d8%b3%d8%af-%d8%ba%db%8c%d8%b1-%d9%82%d8%a7%d9%86%d9%88%d9%86%db%8c",
+      "status": 200,
+      "final_url": "https://www.mehrnews.com/news/6581532/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D8%AC%D9%88%D8%B2-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AD%DB%8C%D8%B7%DB%8C-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D8%AF-%D8%BA%DB%8C%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86%DB%8C",
+      "sha256": "ad8894ed9eab5e444651da53e77efd462eb56596282710877704c5c4df37c34f",
+      "page_title": "سد ماندگان مجوز زیست محیطی ندارد؛ عملیات اجرایی برای سد غیر قانونی است - خبرگزاری مهر | اخبار ایران و جهان | Mehr News Agency"
+    },
+    {
+      "url": "https://tn.ai/3243309",
+      "error": "HTTPSConnectionPool(host='tn.ai', port=443): Max retries exceeded with url: /3243309 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD30F1E50>: Failed to resolve 'tn.ai' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "url": "https://www.yjc.ir/fa/news/8842551/سد-ماندگانِ-پادنا-مجوز-زیست-محیطی-ندارد",
+      "status": 200,
+      "final_url": "https://www.yjc.ir/fa/news/8842551/%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86%D9%90-%D9%BE%D8%A7%D8%AF%D9%86%D8%A7-%D9%85%D8%AC%D9%88%D8%B2-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%85%D8%AD%DB%8C%D8%B7%DB%8C-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
+      "sha256": "61662e8156671dc699c22fbac83616d26f900d6ebae0ba95226f8ee7999b59cd",
+      "page_title": "سد «ماندگانِ پادنا» مجوز زیست محیطی ندارد"
+    },
+    {
+      "url": "https://www.isna.ir/news/1404092415663/توقف-عملیات-ساخت-سد-ماندگان-در-دنا",
+      "status": 200,
+      "final_url": "https://www.isna.ir/news/1404092415663/%D8%AA%D9%88%D9%82%D9%81-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AF%D9%86%D8%A7",
+      "sha256": "6a0bb751f592f0a66f9cbd096080371379a2ed49d79c9b3f2e87462e7a8837c0",
+      "page_title": ""
+    },
+    {
+      "url": "https://www.tasnimnews.com/fa/news/1404/08/15/3441167/%d9%85%d8%ae%d8%a7%d9%84%d9%81%d8%aa-%d8%b5%d8%b1%db%8c%d8%ad-%d8%af%d9%88%d9%84%d8%aa%db%8c-%d9%87%d8%a7-%d8%a8%d8%a7-%d8%a7%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%af-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d8%ac%d8%b2%d8%a6%db%8c%d8%a7%d8%aa",
+      "error": "HTTPSConnectionPool(host='www.tasnimnews.com', port=443): Max retries exceeded with url: /fa/news/1404/08/15/3441167/%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%AA-%D8%B5%D8%B1%DB%8C%D8%AD-%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D9%87%D8%A7-%D8%A8%D8%A7-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%B3%D8%AF-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001DFD30F2490>: Failed to resolve 'www.tasnimnews.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "url": "https://www.ilna.ir/%d8%a8%d8%ae%d8%b4-%d8%a7%d8%b3%d8%aa%d8%a7%d9%86-%d9%87%d8%a7-15/1719648-%d9%85%d9%88%d8%b6%d9%88%d8%b9-%d8%b3%d8%af%d9%87%d8%a7%db%8c-%d9%85%d8%a7%d9%86%d8%af%da%af%d8%a7%d9%86-%d8%b1%d8%b3%d8%a7%d9%86-%d8%a8%d8%b7%d9%88%d8%b1-%d9%88%db%8c%da%98%d9%87-%d8%af%d8%b1-%da%a9%d9%85%db%8c%d8%b3%db%8c%d9%88%d9%86-%d8%a7%d8%b5%d9%84-%d9%85%d8%ac%d9%84%d8%b3-%d8%a8%d8%b1%d8%b1%d8%b3%db%8c-%d9%85%db%8c-%d8%b4%d9%88%d9%86%d8%af",
+      "status": 200,
+      "final_url": "https://www.ilna.ir/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%87%D8%A7-15/1719648-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%B3%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%A7%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D8%B1%D8%B3%D8%A7%D9%86-%D8%A8%D8%B7%D9%88%D8%B1-%D9%88%DB%8C%DA%98%D9%87-%D8%AF%D8%B1-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D8%B5%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%85%DB%8C-%D8%B4%D9%88%D9%86%D8%AF",
+      "sha256": "b694959fea77d6235484c7e9735db956531d49ff91bc8bcb4ebcaa2a98d30f52",
+      "page_title": "موضوع سدهای ماندگان و خِرسان بطور ویژه در کمیسیون اصل ۹۰ مجلس بررسی می شوند"
+    },
+    {
+      "url": "https://www.tasnimnews.ir/fa/news/1405/06/16/3691073/",
+      "status": 200,
+      "final_url": "https://www.tasnimnews.ir/fa/news/1405/06/16/3691073/",
+      "sha256": "12bbaa331d3a2358a57d1cf67dd9c28151ad9cf6dadddc06b7fef601f6f7be09",
+      "page_title": "نگران تأمین آب شرب نیستیم؛ تکمیل طرح آبرسانی اصفهان با 20 همت اعتبار - تسنیم"
+    }
+  ]
+}

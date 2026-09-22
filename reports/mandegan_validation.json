@@ -1,0 +1,2652 @@
+{
+  "status": "PASS",
+  "sources": 985,
+  "added": 27,
+  "enriched": [
+    "S216",
+    "S249"
+  ],
+  "unchanged_prior_records": 956,
+  "imported_excel_json_rows_equal": true,
+  "complete_json_offline_equal": true,
+  "preexisting_excel_json_differences_preserved": [
+    {
+      "Source_ID": "S001",
+      "field": "Year",
+      "json": 1332,
+      "xlsx": "1953"
+    },
+    {
+      "Source_ID": "S005",
+      "field": "Year",
+      "json": 1384,
+      "xlsx": "2005"
+    },
+    {
+      "Source_ID": "S006",
+      "field": "Year",
+      "json": 1384,
+      "xlsx": "2005"
+    },
+    {
+      "Source_ID": "S008",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": "2009"
+    },
+    {
+      "Source_ID": "S009",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": "2009"
+    },
+    {
+      "Source_ID": "S010",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S011",
+      "field": "Year",
+      "json": 1387,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S012",
+      "field": "Year",
+      "json": 1387,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S013",
+      "field": "Year",
+      "json": 1389,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S014",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S015",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S016",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S017",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S018",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S019",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S020",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S021",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S022",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S023",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S024",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S025",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S026",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S027",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S028",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S029",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S030",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S031",
+      "field": "Year",
+      "json": 1390,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S032",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S033",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S034",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S035",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S036",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S037",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S038",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S039",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S040",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S041",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S042",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S043",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S044",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S045",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S046",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S047",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S048",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S049",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S050",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S051",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S052",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S053",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S054",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S055",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S056",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S057",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S058",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S059",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S060",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S061",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S062",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S063",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S064",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S065",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S066",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S067",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S068",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S069",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S070",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S072",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S074",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S075",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S076",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S077",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S078",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S079",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "2015"
+    },
+    {
+      "Source_ID": "S080",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S081",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S082",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S083",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S084",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S085",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S086",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S087",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S088",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S089",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S090",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S091",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S092",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S093",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S094",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "2015"
+    },
+    {
+      "Source_ID": "S095",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S097",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S098",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S099",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S100",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S101",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S102",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S103",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S104",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S105",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S108",
+      "field": "Year",
+      "json": 1386,
+      "xlsx": "2007"
+    },
+    {
+      "Source_ID": "S110",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S111",
+      "field": "Year",
+      "json": 1385,
+      "xlsx": "2006"
+    },
+    {
+      "Source_ID": "S112",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S114",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S119",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S122",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S124",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S125",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S126",
+      "field": "Year",
+      "json": 1390,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S127",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S128",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S129",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S130",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S131",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S132",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S133",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S134",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S135",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S136",
+      "field": "Year",
+      "json": 1384,
+      "xlsx": "2005"
+    },
+    {
+      "Source_ID": "S137",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S138",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S139",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S140",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S141",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S142",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S143",
+      "field": "Year",
+      "json": 1390,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S144",
+      "field": "Year",
+      "json": 1390,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S145",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S146",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S147",
+      "field": "Year",
+      "json": 1387,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S148",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S149",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S150",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S151",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S154",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": "2009"
+    },
+    {
+      "Source_ID": "S157",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S158",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": "2009"
+    },
+    {
+      "Source_ID": "S161",
+      "field": "Year",
+      "json": 1385,
+      "xlsx": "2006"
+    },
+    {
+      "Source_ID": "S162",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S163",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S164",
+      "field": "Year",
+      "json": 1383,
+      "xlsx": "2004"
+    },
+    {
+      "Source_ID": "S165",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S166",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S168",
+      "field": "Year",
+      "json": 1327,
+      "xlsx": "1948"
+    },
+    {
+      "Source_ID": "S169",
+      "field": "Year",
+      "json": 1364,
+      "xlsx": "1985"
+    },
+    {
+      "Source_ID": "S170",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S172",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": "2009"
+    },
+    {
+      "Source_ID": "S173",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S174",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S175",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2012"
+    },
+    {
+      "Source_ID": "S176",
+      "field": "Year",
+      "json": 1387,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S177",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S178",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S179",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S180",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S181",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S182",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S183",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S184",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S185",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S186",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S187",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2017"
+    },
+    {
+      "Source_ID": "S188",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S189",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S190",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S191",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S192",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S193",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S194",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S196",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S197",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S198",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S199",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S200",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S201",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S202",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S203",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S204",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S205",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S206",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S207",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S208",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S209",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S210",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S211",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S212",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S213",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S214",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S215",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S217",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S218",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S219",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S220",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S221",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S222",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S225",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S226",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S227",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S228",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S230",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S232",
+      "field": "Year",
+      "json": 1384,
+      "xlsx": "2005"
+    },
+    {
+      "Source_ID": "S233",
+      "field": "Year",
+      "json": 1389,
+      "xlsx": "2010"
+    },
+    {
+      "Source_ID": "S234",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S235",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S236",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S237",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S238",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S241",
+      "field": "Year",
+      "json": 1382,
+      "xlsx": "1382"
+    },
+    {
+      "Source_ID": "S242",
+      "field": "Year",
+      "json": 1383,
+      "xlsx": "1383"
+    },
+    {
+      "Source_ID": "S243",
+      "field": "Year",
+      "json": 1385,
+      "xlsx": "1385"
+    },
+    {
+      "Source_ID": "S244",
+      "field": "Year",
+      "json": 1385,
+      "xlsx": "1385"
+    },
+    {
+      "Source_ID": "S245",
+      "field": "Year",
+      "json": 1386,
+      "xlsx": "1386"
+    },
+    {
+      "Source_ID": "S246",
+      "field": "Year",
+      "json": 1386,
+      "xlsx": "1386"
+    },
+    {
+      "Source_ID": "S247",
+      "field": "Year",
+      "json": 1386,
+      "xlsx": "1386"
+    },
+    {
+      "Source_ID": "S248",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S250",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S251",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S252",
+      "field": "Year",
+      "json": 1387,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S253",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S254",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S255",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S256",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S257",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S258",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S259",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "2016"
+    },
+    {
+      "Source_ID": "S260",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S261",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": 2026
+    },
+    {
+      "Source_ID": "S262",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S263",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S264",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S266",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S267",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S268",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S273",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": 2026
+    },
+    {
+      "Source_ID": "S274",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S275",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S276",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S277",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S278",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S279",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S280",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": 2023
+    },
+    {
+      "Source_ID": "S281",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": 2023
+    },
+    {
+      "Source_ID": "S282",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S283",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S284",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": 2026
+    },
+    {
+      "Source_ID": "S285",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S286",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": 2018
+    },
+    {
+      "Source_ID": "S287",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": 2016
+    },
+    {
+      "Source_ID": "S288",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S298",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S305",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2018
+    },
+    {
+      "Source_ID": "S310",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S311",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S312",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S313",
+      "field": "Year",
+      "json": 1398,
+      "xlsx": 2019
+    },
+    {
+      "Source_ID": "S314",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S315",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": 2010
+    },
+    {
+      "Source_ID": "S316",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2025
+    },
+    {
+      "Source_ID": "S317",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": 2024
+    },
+    {
+      "Source_ID": "S318",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": 2015
+    },
+    {
+      "Source_ID": "S319",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S320",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": 2022
+    },
+    {
+      "Source_ID": "S321",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S322",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": 2023
+    },
+    {
+      "Source_ID": "S323",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S324",
+      "field": "Year",
+      "json": 1389,
+      "xlsx": 2010
+    },
+    {
+      "Source_ID": "S325",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": 2022
+    },
+    {
+      "Source_ID": "S326",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": 2016
+    },
+    {
+      "Source_ID": "S327",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": 2013
+    },
+    {
+      "Source_ID": "S328",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2022
+    },
+    {
+      "Source_ID": "S329",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": 2013
+    },
+    {
+      "Source_ID": "S330",
+      "field": "Year",
+      "json": 1383,
+      "xlsx": 2004
+    },
+    {
+      "Source_ID": "S331",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": 2009
+    },
+    {
+      "Source_ID": "S332",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": 2016
+    },
+    {
+      "Source_ID": "S333",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S334",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S335",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S336",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S337",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S338",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S339",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S340",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S341",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S342",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S343",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S344",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S345",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S346",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S347",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S348",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S349",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S350",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S351",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S352",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S353",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S354",
+      "field": "Year",
+      "json": 1388,
+      "xlsx": 2009
+    },
+    {
+      "Source_ID": "S356",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S375",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S376",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S377",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": 2013
+    },
+    {
+      "Source_ID": "S378",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S379",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S380",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S381",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S382",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": 2015
+    },
+    {
+      "Source_ID": "S383",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S384",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2015
+    },
+    {
+      "Source_ID": "S385",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2018
+    },
+    {
+      "Source_ID": "S386",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S387",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S388",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": 2020
+    },
+    {
+      "Source_ID": "S389",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": 2014
+    },
+    {
+      "Source_ID": "S390",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": 2026
+    },
+    {
+      "Source_ID": "S391",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": 2018
+    },
+    {
+      "Source_ID": "S392",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": 2016
+    },
+    {
+      "Source_ID": "S393",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": 2018
+    },
+    {
+      "Source_ID": "S394",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S410",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S411",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S412",
+      "field": "Year",
+      "json": 1389,
+      "xlsx": "2010"
+    },
+    {
+      "Source_ID": "S413",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S414",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S415",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S416",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S417",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S418",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S421",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S422",
+      "field": "Year",
+      "json": 1385,
+      "xlsx": "2006"
+    },
+    {
+      "Source_ID": "S423",
+      "field": "Year",
+      "json": 1386,
+      "xlsx": "2008"
+    },
+    {
+      "Source_ID": "S424",
+      "field": "Year",
+      "json": 1390,
+      "xlsx": "2011"
+    },
+    {
+      "Source_ID": "S425",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "2015"
+    },
+    {
+      "Source_ID": "S426",
+      "field": "Year",
+      "json": 1393,
+      "xlsx": "2014"
+    },
+    {
+      "Source_ID": "S427",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S428",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S429",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "1391"
+    },
+    {
+      "Source_ID": "S430",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "1394"
+    },
+    {
+      "Source_ID": "S431",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "1394"
+    },
+    {
+      "Source_ID": "S432",
+      "field": "Year",
+      "json": 1389,
+      "xlsx": "1389"
+    },
+    {
+      "Source_ID": "S433",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "1391"
+    },
+    {
+      "Source_ID": "S434",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "1397"
+    },
+    {
+      "Source_ID": "S435",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "1392"
+    },
+    {
+      "Source_ID": "S436",
+      "field": "Year",
+      "json": 1395,
+      "xlsx": "1395"
+    },
+    {
+      "Source_ID": "S437",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "1392"
+    },
+    {
+      "Source_ID": "S438",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "1391"
+    },
+    {
+      "Source_ID": "S439",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "1400"
+    },
+    {
+      "Source_ID": "S440",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "1403"
+    },
+    {
+      "Source_ID": "S441",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S442",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "1400"
+    },
+    {
+      "Source_ID": "S443",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "1399"
+    },
+    {
+      "Source_ID": "S444",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": 2021
+    },
+    {
+      "Source_ID": "S445",
+      "field": "Year",
+      "json": 1396,
+      "xlsx": 2017
+    },
+    {
+      "Source_ID": "S447",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S448",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S449",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S450",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S451",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S452",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S453",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S454",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S455",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S456",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S457",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S458",
+      "field": "Year",
+      "json": 1401,
+      "xlsx": "2022"
+    },
+    {
+      "Source_ID": "S459",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2019"
+    },
+    {
+      "Source_ID": "S460",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S461",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S462",
+      "field": "Year",
+      "json": 1392,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S463",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S464",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S465",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S466",
+      "field": "Year",
+      "json": 1391,
+      "xlsx": "2013"
+    },
+    {
+      "Source_ID": "S467",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S468",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S469",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S470",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S471",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S472",
+      "field": "Year",
+      "json": 1400,
+      "xlsx": "2021"
+    },
+    {
+      "Source_ID": "S473",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S474",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S475",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S476",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S477",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S478",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S479",
+      "field": "Year",
+      "json": 1394,
+      "xlsx": "2015"
+    },
+    {
+      "Source_ID": "S480",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S481",
+      "field": "Year",
+      "json": 1402,
+      "xlsx": "2023"
+    },
+    {
+      "Source_ID": "S482",
+      "field": "Year",
+      "json": 1403,
+      "xlsx": "2024"
+    },
+    {
+      "Source_ID": "S483",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S484",
+      "field": "Year",
+      "json": 1404,
+      "xlsx": "2025"
+    },
+    {
+      "Source_ID": "S485",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S486",
+      "field": "Year",
+      "json": 1405,
+      "xlsx": "2026"
+    },
+    {
+      "Source_ID": "S487",
+      "field": "Year",
+      "json": 1399,
+      "xlsx": "2020"
+    },
+    {
+      "Source_ID": "S489",
+      "field": "Year",
+      "json": 1397,
+      "xlsx": "2018"
+    },
+    {
+      "Source_ID": "S685",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://geoplanning.tabrizu.ac.ir/article_573_c8f28362a242d16326be73be04af87ea.pdf"
+    },
+    {
+      "Source_ID": "S686",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://hfe.irost.ir/article_1405_08f5a997d2acd56858fcf4c52e535683.pdf"
+    },
+    {
+      "Source_ID": "S687",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://gdij.usb.ac.ir/article_6205_f351863a28cc4af9756305b125e4d2a9.pdf"
+    },
+    {
+      "Source_ID": "S688",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://jstnar.iut.ac.ir/article-1-4456-en.pdf"
+    },
+    {
+      "Source_ID": "S689",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://www.envjournal.ir/article_149131_31f9e5f53dd17047019fb00fff7d67b2.pdf"
+    },
+    {
+      "Source_ID": "S692",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://jstnar.iut.ac.ir/article-1-4191-en.html"
+    },
+    {
+      "Source_ID": "S693",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.jewe.ir/article_117611_6ef90c7e906ebee97ea52d846aa230e1.pdf"
+    },
+    {
+      "Source_ID": "S694",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://ijmge.ut.ac.ir/article_53093_03b99fde9fffe286b0d4d2d9b8bb4414.pdf"
+    },
+    {
+      "Source_ID": "S695",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://isfj.areo.ir/article_110302_en.html"
+    },
+    {
+      "Source_ID": "S696",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jrur.ut.ac.ir/article_67934_39f37379be26835a511371939fcc7841.pdf"
+    },
+    {
+      "Source_ID": "S697",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://jsw.um.ac.ir/index.php/jsw/article/view/29201"
+    },
+    {
+      "Source_ID": "S698",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://jsw.um.ac.ir/index.php/jsw/article/view/29201"
+    },
+    {
+      "Source_ID": "S702",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://rostaniha.areo.ir/article_101798_46782f144012f199ee2b99ae87c84c5a.pdf"
+    },
+    {
+      "Source_ID": "S703",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.sepehr.org/article_26066_e7a136390800c4b3e8e1ae1ad524c544.pdf"
+    },
+    {
+      "Source_ID": "S704",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwim.ut.ac.ir/article_55220_3e4ad1ad78b43b5188ce7f5181178b28.pdf"
+    },
+    {
+      "Source_ID": "S705",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jab.alzahra.ac.ir/article_4814_8d7bf16a41f62b48cfbf512c74cf5bf8.pdf"
+    },
+    {
+      "Source_ID": "S706",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwim.ut.ac.ir/article_81431_d4130fed7af187c73abb6118ea2299b9.pdf"
+    },
+    {
+      "Source_ID": "S707",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jreh.mums.ac.ir/article_22541_f8780f93ac90c7d84f8c9e61df07a116.pdf"
+    },
+    {
+      "Source_ID": "S709",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jise.scu.ac.ir/article_14571_024b62c565e5b039a8192259aa68496d.pdf"
+    },
+    {
+      "Source_ID": "S711",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jead.um.ac.ir/article_39100_b71777e38d6a7b3f5124b23aea7f1593.pdf"
+    },
+    {
+      "Source_ID": "S714",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.isau.ir/article_167169_1ba714d3fa7c19cd1ea811574465e8a3.pdf"
+    },
+    {
+      "Source_ID": "S715",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jreh.mums.ac.ir/article_24896_683f64391c64b66ead6171ddeb3cdb3f.pdf"
+    },
+    {
+      "Source_ID": "S717",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://ecoj.tabrizu.ac.ir/article_9425_703798874f5b3b48d6a3f58bc396bd3a.pdf"
+    },
+    {
+      "Source_ID": "S718",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jhyd.iha.ir/article_48746_31797a3fe07640909d1dd9820c776bf9.pdf"
+    },
+    {
+      "Source_ID": "S719",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwem.areeo.ac.ir/article_126907_0de6c997a288ec32145e576f35fdc251.pdf"
+    },
+    {
+      "Source_ID": "S721",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.manzar-sj.com/article_47212_07ee0a6f74716cf69f60a4c735db06be.pdf"
+    },
+    {
+      "Source_ID": "S722",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.sepehr.org/article_26284_8b93610142367ec494aea4d9d645fd6b.pdf"
+    },
+    {
+      "Source_ID": "S727",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwim.ut.ac.ir/article_63785_ac69baef5f1d805386ec65d162595020.pdf"
+    },
+    {
+      "Source_ID": "S728",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwsd.um.ac.ir/article_41484_a7cc9b1115b49c942e61b944d22a53bb.pdf"
+    },
+    {
+      "Source_ID": "S734",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwim.ut.ac.ir/article_75097_8096d8e1410731e6f401c54c8f88f602.pdf"
+    },
+    {
+      "Source_ID": "S736",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwem.areeo.ac.ir/article_135061_895e5b1cef350bf2fe70ebc895897b94.pdf"
+    },
+    {
+      "Source_ID": "S737",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jise.scu.ac.ir/article_15955_e00913d4e1ba1d3420e178d0eac307e0.pdf"
+    },
+    {
+      "Source_ID": "S738",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwsc.gau.ac.ir/article_6815_bbbb7b3ce02a0a8b69a783118f1d4b22.pdf"
+    },
+    {
+      "Source_ID": "S740",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "http://www.isau.ir/article_110055_775054b2f28b95bdcda5ba707b907960.pdf"
+    },
+    {
+      "Source_ID": "S742",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://wej.marvdasht.iau.ir/article_1614_d7de7a62d39679c6878e1fff0668d999.pdf"
+    },
+    {
+      "Source_ID": "S743",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jsw.um.ac.ir/article_39910_6289816886d87453b977b1667f5ca9fc.pdf"
+    },
+    {
+      "Source_ID": "S744",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jhyd.iha.ir/article_218264_a541c3a8a36439935482435d407a7f21.pdf"
+    },
+    {
+      "Source_ID": "S745",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://ejsms.gau.ac.ir/article_1270_e77afd1d81cd6621dc3aa3f9c859ac8e.pdf"
+    },
+    {
+      "Source_ID": "S746",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwim.ut.ac.ir/article_93384_20fd7b20e7dd28233ee9359d290e2217.pdf"
+    },
+    {
+      "Source_ID": "S747",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwsc.gau.ac.ir/article_3748_5bddd844c84890fc59b921c033d42554.pdf"
+    },
+    {
+      "Source_ID": "S750",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jwsc.gau.ac.ir/article_487_6ce92c812500b084470f4430d1492aac.pdf"
+    },
+    {
+      "Source_ID": "S751",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://ijme.iranjournals.ir/article_4603_560ee4eb090ca996528297fb2eef680a.pdf"
+    },
+    {
+      "Source_ID": "S752",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://www.envjournal.ir/article_60424_df09761427d139445a79c81875643b69.pdf"
+    },
+    {
+      "Source_ID": "S753",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jargs.hsu.ac.ir/article_161563_cde530e94770144897ea9d47b69ea7e9.pdf"
+    },
+    {
+      "Source_ID": "S755",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://ijme.iranjournals.ir/article_4603_560ee4eb090ca996528297fb2eef680a.pdf"
+    },
+    {
+      "Source_ID": "S757",
+      "field": "PDF_URL",
+      "json": null,
+      "xlsx": "https://jargs.hsu.ac.ir/article_161563_cde530e94770144897ea9d47b69ea7e9.pdf"
+    }
+  ],
+  "new_url_title_duplicates": 0,
+  "document_hashes_verified": 5,
+  "partial_access_ids": [
+    "S960",
+    "S961",
+    "S974",
+    "S983"
+  ],
+  "query_count": 70,
+  "raw_unique_result_urls": 587
+}
