@@ -1,0 +1,97 @@
+{
+  "Checked_Date": "2026-10-03",
+  "Master_Modified": false,
+  "Baseline": 985,
+  "Candidates": [
+    {
+      "Title": "توزیع۴۲۰میلیون مترمکعب آب از سد زاینده‌رود؛ ماندگان پیشرفت مطلوبی دارد",
+      "URL": "https://www.mehrnews.com/news/6939772/",
+      "Publisher": "مهر",
+      "Source_Type": "خبر/نشست خبری",
+      "Verification": "verified_primary",
+      "Notes": "گزارش حسن ساسانی درباره رهاسازی آب و پیشرفت ماندگان؛ همپوشانی رویداد با خبر ایمنا باید حفظ شود.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "گذار از تنش‌های آبی اصفهان با تکمیل ابرپروژه‌های آبرسانی و جایگزینی پساب صنعتی",
+      "URL": "https://www.imna.ir/news/1002326/",
+      "Publisher": "ایمنا",
+      "Source_Type": "خبر/نشست خبری",
+      "Verification": "verified_primary",
+      "Notes": "۱۶ شهریور ۱۴۰۵؛ اظهارات حسن ساسانی درباره ماندگان، سامانه دوم و پساب. پوشش همان نشست خبر مهر؛ رویداد مستقل محسوب نشود.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "خوزستان نبایدبه بیابان تبدیل شود؛ مخالفت با هرگونه انتقال آب ازبالادست",
+      "URL": "https://www.mehrnews.com/news/6595600/",
+      "Publisher": "مهر",
+      "Source_Type": "خبر/موضع مقام رسمی",
+      "Verification": "verified_primary",
+      "Notes": "استاندار خوزستان درباره فقدان مجوز انتقال آب ماندگان و مخالفت با انتقال بالادست؛ ۲۹ شهریور ۱۴۰۴ در نمایه.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "نقشه نجات زاینده‌ رود روی میز محیط زیست | شفاف ‌سازی مسیرهای گمشده آب تا گاوخونی",
+      "URL": "https://www.hamshahrionline.ir/news/1047749/",
+      "Publisher": "همشهری آنلاین",
+      "Source_Type": "خبر/گزارش محیط زیستی",
+      "Verification": "verified_primary",
+      "Notes": "مطالعه کریدورهای آبی بوم‌شناختی از سرشاخه تا گاوخونی؛ بررسی منابع و مصارف.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "واگذاری تملک اراضی و تعهدات تونل سوم کوهرنگ به استان چهارمحال و بختیاری تکذیب شد",
+      "URL": "https://www.sarpoosh.com/economy/oil-energy/oil-energy1402101031.html",
+      "Publisher": "سرپوش؛ بازنشر ایراسین",
+      "Source_Type": "خبر/تکذیبیه",
+      "Verification": "verified_republication",
+      "Notes": "تفکیک تسهیل خرید اراضی از انتقال مدیریت و تعهدات تونل؛ لینک ناشر اصلی باید بازیابی شود.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "انتقال آب کارون باوجود سدهای فراوان توجیهی ندارد",
+      "URL": "https://www.tasnimnews.ir/fa/news/1393/06/01/470584/",
+      "Publisher": "تسنیم",
+      "Source_Type": "مصاحبه",
+      "Verification": "indexed_primary",
+      "Notes": "مصاحبه احمدرضا لاهیجان‌زاده؛ موضع سازمان بازرسی و مرکز پژوهش‌ها. متن در نمایه دیده شد؛ صفحه مستقیم هنوز بررسی نشده.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "پروژه مردمی نجات ماهی‌های زاینده‌رود - اصفهان",
+      "URL": "https://www.tasnimnews.ir/fa/media/1394/05/19/825122/",
+      "Publisher": "تسنیم",
+      "Source_Type": "گزارش تصویری",
+      "Verification": "indexed_primary",
+      "Notes": "۱۹ مرداد ۱۳۹۴؛ مستند مشارکت مردمی در پیامد خشکی رودخانه؛ تصاویر مستقیم نیازمند بررسی.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "مخزن آب پاک تصفیه‌خانه بن-بروجن به بهره‌برداری رسید",
+      "URL": "https://www.cm8.ir/2608/227/mwm35/",
+      "Publisher": "ایرنا؛ نمایه در سی‌ام۸",
+      "Source_Type": "خبر",
+      "Verification": "needs_original",
+      "Notes": "ظرفیت ۱۵ هزار مترمکعب و اعتبار ۱۵۰ میلیارد تومان؛ لینک ایرنا و تاریخ انتشار اصلی نیازمند بازیابی.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "امسال 2.1 میلیون مترمکعب آب وارد تالاب گاوخونی شد",
+      "URL": "https://khabarfarsi.com/u/252736002",
+      "Publisher": "مهر؛ نمایه در خبر فارسی",
+      "Source_Type": "خبر",
+      "Verification": "needs_original",
+      "Notes": "تاریخ خبر نمایه: ۱۴۰۵/۰۵/۰۱؛ ورود آب در سال آبی ۱۴۰۴–۱۴۰۵؛ لینک و متن اصلی بازیابی شود.",
+      "Existing_Matches": []
+    },
+    {
+      "Title": "تشکیل زنجیره انسانی برای حمایت از رود کارون در اهواز",
+      "URL": "https://www.radiofarda.com/a/f6_iran_ahwaz_chain_karoon/26568562.html",
+      "Publisher": "رادیو فردا",
+      "Source_Type": "خبر/کنش اجتماعی",
+      "Verification": "indexed_primary",
+      "Notes": "کنش اجتماعی علیه انتقال آب؛ منبع قدیمی تازه‌یافته، نه خبر تازه‌منتشرشده.",
+      "Existing_Matches": []
+    }
+  ]
+}

@@ -1,0 +1,1037 @@
+{
+  "search_date": "2026-10-03",
+  "baseline_sources": 985,
+  "master_modified": false,
+  "candidates": [
+    {
+      "DOI": "10.1038/s41598-025-14332-1",
+      "Title_EN": "Application of the metaheuristic algorithms to quantify the GSI based on the RMR classification",
+      "URL": "https://www.nature.com/articles/s41598-025-14332-1",
+      "Relevance": "مطالعه موردی مستقیم تونل بهشت‌آباد؛ زمین‌شناسی مهندسی",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Application of the metaheuristic algorithms to quantify the GSI based on the RMR classification"
+        ],
+        "authors": [
+          {
+            "given": "Pouya Koureh",
+            "family": "Davoodi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Farnusch",
+            "family": "Hajizadeh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad",
+            "family": "Rezaei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              7
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-14332-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-14332-1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-14332-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-025-14332-1",
+        "bytes": 447925
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1038/s41598-026-55296-0",
+      "Title_EN": "A hybrid NSGA II-CNN-LSTM model for optimal operation of hydropower reservoirs based on the day-ahead electricity price forecast",
+      "URL": "https://www.nature.com/articles/s41598-026-55296-0",
+      "Relevance": "بهره‌برداری مخزن کارون ۴؛ منبع زمینه‌ای حوضه مبدأ",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "A hybrid NSGA II-CNN-LSTM model for optimal operation of hydropower reservoirs based on the day-ahead electricity price forecast"
+        ],
+        "authors": [
+          {
+            "given": "Mohammadreza",
+            "family": "Heidarpanah",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Farhad",
+            "family": "Hooshyaripor",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Meisam",
+            "family": "Fazeli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mehrdad",
+            "family": "Goodarzi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              6
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-55296-0",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-55296-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-55296-0.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-026-55296-0",
+        "bytes": 348680
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1038/s41598-025-90728-3",
+      "Title_EN": "Water agriculture nexus a system dynamics approach for the next three decades",
+      "URL": "https://www.nature.com/articles/s41598-025-90728-3",
+      "Relevance": "مدیریت آب و کشاورزی در زاینده‌رود",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 429
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-025-90728-3",
+        "bytes": 367589
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1038/s41598-025-32376-1",
+      "Title_EN": "Application of machine learning algorithms for groundwater level prediction in the Najafabad plain",
+      "URL": "https://www.nature.com/articles/s41598-025-32376-1",
+      "Relevance": "آبخوان نجف‌آباد و اثر جریان زاینده‌رود",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 429
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-025-32376-1",
+        "bytes": 388419
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1038/s41598-026-70501-w",
+      "Title_EN": "Integrating QUAL2KW nitrate modeling with ambient grey-water dilution pressure and wheat-pathway exposure screening in a semi-arid basin",
+      "URL": "https://www.nature.com/articles/s41598-026-70501-w",
+      "Relevance": "کیفیت آب زاینده‌رود؛ نیترات و استفاده مجدد در کشاورزی",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Integrating QUAL2KW nitrate modeling with ambient grey-water dilution pressure and wheat-pathway exposure screening in a semi-arid basin"
+        ],
+        "authors": [
+          {
+            "given": "Navideh",
+            "family": "Najafpour",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mehrtash",
+            "family": "Eskandaripour",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0657-7874",
+            "authenticated-orcid": false,
+            "given": "Shahrokh",
+            "family": "Soltaninia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              7
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-70501-w",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-026-70501-w",
+        "bytes": 222464
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1038/s41598-025-18838-6",
+      "Title_EN": "A disaggregated system dynamics and agent-based modeling of the water-energy-food nexus for optimizing water allocation",
+      "URL": "https://www.nature.com/articles/s41598-025-18838-6",
+      "Relevance": "تخصیص آب و پیوند آب، انرژی و غذا در حوضه زاینده‌رود",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "A disaggregated system dynamics and agent-based modeling of the water-energy-food nexus for optimizing water allocation"
+        ],
+        "authors": [
+          {
+            "given": "Soheila",
+            "family": "Zarei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omid",
+            "family": "Bozorg-Haddad",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad Reza",
+            "family": "Nikoo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hugo A.",
+            "family": "Loáiciga",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              7
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-18838-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-18838-6",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-025-18838-6.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-025-18838-6",
+        "bytes": 456006
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked",
+      "Publication_Date": "2025-10-07"
+    },
+    {
+      "DOI": "10.5281/zenodo.15221274",
+      "Title_EN": "Temporal changes in diversity and abundance of wintering birds in the Gavkhuni international wetland, Isfahan Province, Iran",
+      "URL": "https://www.wildlife-biodiversity.org/index.php/jwb/article/view/847",
+      "Relevance": "تنوع زیستی و جریان محیط‌زیستی گاوخونی",
+      "Checked_Date": "2026-10-03",
+      "registry": {},
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.wildlife-biodiversity.org/index.php/jwb/article/view/847",
+        "bytes": 57161
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked",
+      "Publication_Date": "2025-02-15",
+      "Date_Note": "PDF gives 2025-02-17; publisher landing page gives 2025-02-15."
+    },
+    {
+      "DOI": "10.1007/s11069-025-07943-4",
+      "Title_EN": "Implementing groundwater management strategies to mitigate human-induced subsidence through numerical simulation",
+      "URL": "https://link.springer.com/article/10.1007/s11069-025-07943-4",
+      "Relevance": "آب زیرزمینی و فرونشست دشت اصفهان",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 429
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://link.springer.com/article/10.1007/s11069-025-07943-4",
+        "bytes": 3038
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Abstract only"
+    },
+    {
+      "DOI": "10.1007/s41742-026-01228-9",
+      "Title_EN": "Assessing the Biophysical and Economic Impacts of Water Scarcity on Agriculture and Industry: A Case Study of the Zayandehroud Basin, Iran",
+      "URL": "https://link.springer.com/article/10.1007/s41742-026-01228-9",
+      "Relevance": "پیامد اقتصادی کم‌آبی بر کشاورزی و صنعت",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Assessing the Biophysical and Economic Impacts of Water Scarcity on Agriculture and Industry: A Case Study of the Zayandehroud Basin, Iran"
+        ],
+        "authors": [
+          {
+            "given": "Hamid",
+            "family": "Doctorsafaei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8982-8941",
+            "authenticated-orcid": false,
+            "given": "Massoud",
+            "family": "Tabesh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yaghob",
+            "family": "Gholipour",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              5
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "International Journal of Environmental Research"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41742-026-01228-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41742-026-01228-9",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41742-026-01228-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://link.springer.com/article/10.1007/s41742-026-01228-9",
+        "bytes": 3038
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Abstract only"
+    },
+    {
+      "DOI": "10.1175/WCAS-D-25-0101.1",
+      "Title_EN": "Evaluating the Effects of Vegetation, Zayandeh Rud River, and Urban Development on the Formation of Heat Islands in Isfahan Using Spatial Statistical Analyses",
+      "URL": "https://journals.ametsoc.org/abstract/journals/wcas/18/3/WCAS-D-25-0101.1.xml",
+      "Relevance": "اثر رودخانه و پوشش گیاهی بر جزیره حرارتی اصفهان",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Evaluating the Effects of Vegetation, Zayandeh Rud River, and Urban Development on the Formation of Heat Islands in Isfahan Using Spatial Statistical Analyses"
+        ],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6209-3412",
+            "authenticated-orcid": true,
+            "given": "Seyyed Mahmood",
+            "family": "Hashemi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Environmental Sciences, Faculty of Natural Resources, University of Guilan, Sowmeh Sara, Guilan, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ehsan",
+            "family": "Soureh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Planning and Environmental Sciences, University of Tabriz, Tabriz, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dordaneh",
+            "family": "Aghajani",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Environment, Research Institute for Environment and Sustainable Development, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aziz",
+            "family": "Azizpour",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Environmental Engineering, University of Tehran, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mahsa",
+            "family": "Jabbari",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Environment Department, Hydraulics and Water Structure Research Institute, Water Research Institute, Ministry of Energy, Tehran, Iran"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "publisher": "American Meteorological Society",
+        "container": [
+          "Weather, Climate, and Society"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://journals.ametsoc.org/view/journals/wcas/18/3/WCAS-D-25-0101.1.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.ametsoc.org/downloadpdf/journals/wcas/18/3/WCAS-D-25-0101.1.xml",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://journals.ametsoc.org/downloadpdf/journals/wcas/18/3/WCAS-D-25-0101.1.xml",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 403,
+        "resolved_url": "https://journals.ametsoc.org/abstract/journals/wcas/18/3/WCAS-D-25-0101.1.xml",
+        "bytes": 919
+      },
+      "existing_exact_matches": [
+        "S719"
+      ],
+      "existing_similar_titles": [
+        {
+          "Source_ID": "S719",
+          "similarity": 1.0,
+          "title": "Evaluating the Effects of Vegetation, Zayandeh Rud River, and Urban Development on the Formation of Heat Islands in Isfahan Using Spatial Statistical Analyses"
+        }
+      ],
+      "status": "duplicate_or_review",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": "10.1126/science.aed9259",
+      "Title_EN": "Iran’s largest river in crisis",
+      "URL": "https://www.science.org/doi/10.1126/science.aed9259",
+      "Relevance": "بحران جریان آب کارون؛ نامه/دیدگاه علمی، نوع مقاله باید کنترل شود",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Iran’s largest river in crisis"
+        ],
+        "authors": [
+          {
+            "given": "Hamid M.",
+            "family": "Behzad",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Tourism Ecology and Environment, Guilin Tourism University, Guilin, China."
+              },
+              {
+                "name": "Puding Karst Ecosystem National Observation and Research Station, National Ecosystem Research Network of China, Anshun, China."
+              },
+              {
+                "name": "State Key Laboratory of Environmental Geochemistry, Institute of Geochemistry, Chinese Academy of Sciences, Guiyang, China."
+              },
+              {
+                "name": "Institute of Subtropical Agriculture, Chinese Academy of Sciences, Changsha, China."
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad",
+            "family": "Arif",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Tourism Ecology and Environment, Guilin Tourism University, Guilin, China."
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arash",
+            "family": "Malekian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Natural Resources, University of Tehran, Karaj, Iran."
+              },
+              {
+                "name": "State Key Laboratory of Ecological Safety and Sustainable Development in Arid Lands, China and Iran Joint Laboratory on Agriculture and Ecology in Arid Regions, Linze Inland River Basin Research Station, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Sciences, Lanzhou, China."
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              8
+            ]
+          ]
+        },
+        "publisher": "American Association for the Advancement of Science (AAAS)",
+        "container": [
+          "Science"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.science.org/doi/pdf/10.1126/science.aed9259",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 403,
+        "resolved_url": "https://www.science.org/doi/10.1126/science.aed9259",
+        "bytes": 5551
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "needs_primary_access",
+      "Full_Text": "Unverified"
+    },
+    {
+      "DOI": "10.1038/s41598-026-41014-3",
+      "Title_EN": "Integrating geospatial intelligence and machine learning for flood susceptibility mapping",
+      "URL": "https://www.nature.com/articles/s41598-026-41014-3",
+      "Relevance": "سیلاب در حوضه کارون بزرگ",
+      "Checked_Date": "2026-10-03",
+      "registry": {
+        "status": 200,
+        "title": [
+          "Integrating geospatial intelligence and machine learning for flood susceptibility mapping"
+        ],
+        "authors": [
+          {
+            "given": "Mehdi",
+            "family": "Rahimi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bahram",
+            "family": "Malekmohammadi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad Karimi",
+            "family": "Firozjaei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Reza",
+            "family": "Kerachian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jamal Jokar",
+            "family": "Arsanjani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mou Leong",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Joseph",
+            "family": "Awange",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dragan",
+            "family": "Savic",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qingyun",
+            "family": "Duan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amir",
+            "family": "AghaKouchak",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              23
+            ]
+          ]
+        },
+        "publisher": "Springer Science and Business Media LLC",
+        "container": [
+          "Scientific Reports"
+        ],
+        "type": "journal-article",
+        "links": [
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-41014-3",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-41014-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.nature.com/articles/s41598-026-41014-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.nature.com/articles/s41598-026-41014-3",
+        "bytes": 515071
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    },
+    {
+      "DOI": null,
+      "Title_EN": "Water Crisis: From Management to Social Conflicts",
+      "URL": "https://www.iwii.ir/news/17?lang=en",
+      "Relevance": "گزارش نشست با مطالعه موردی زاینده‌رود؛ انتشار ۲۰۲۶/۰۹/۰۲، رویداد ۲۰۲۶/۰۷/۲۹",
+      "Checked_Date": "2026-10-03",
+      "registry": {},
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.iwii.ir/news/17?lang=en",
+        "bytes": 21065
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked",
+      "Publication_Date": "2026-09-02",
+      "Event_Date": "2026-07-29"
+    },
+    {
+      "DOI": null,
+      "Title_EN": "Winners of Environmental Photographer Of The Year 2025 announced",
+      "URL": "https://www.ciwem.org/news/winners-of-environmental-photographer-of-the-year-2025-announced",
+      "Relevance": "مستند تصویری کنش جمعی برای احیای گاوخونی؛ فقط بخش مرتبط با تالاب",
+      "Checked_Date": "2026-10-03",
+      "registry": {},
+      "access": {
+        "status": 200,
+        "resolved_url": "https://www.ciwem.org/news/winners-of-environmental-photographer-of-the-year-2025-announced",
+        "bytes": 39688
+      },
+      "existing_exact_matches": [],
+      "existing_similar_titles": [],
+      "status": "verified_new",
+      "Full_Text": "Publisher page checked"
+    }
+  ]
+}
