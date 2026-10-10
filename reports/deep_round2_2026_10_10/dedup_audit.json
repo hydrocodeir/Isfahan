@@ -1,0 +1,341 @@
+[
+  {
+    "ID": "A001",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.632,
+        "origin": "master",
+        "id": "S188",
+        "title": "مخالف ساخت تونل انتقال آب بهشت‌آباد هستم"
+      },
+      {
+        "score": 0.596,
+        "origin": "master",
+        "id": "S197",
+        "title": "پشت پرده‌ها و پیامدهای اجرای مگاپروژه تونل انتقال آب بهشت‌آباد"
+      },
+      {
+        "score": 0.587,
+        "origin": "master",
+        "id": "S118",
+        "title": "صفحه اعتراضی به طرح انتقال آب بهشت‌آباد"
+      }
+    ]
+  },
+  {
+    "ID": "A008",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.53,
+        "origin": "master",
+        "id": "S817",
+        "title": "Evaluation of groundwater quality for drinking purposes: a case study from the Beheshtabad Basin, Chaharmahal and Bakhtiari Province, Iran"
+      },
+      {
+        "score": 0.528,
+        "origin": "master",
+        "id": "S147",
+        "title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel"
+      },
+      {
+        "score": 0.525,
+        "origin": "master",
+        "id": "S050",
+        "title": "نماینده بروجن: تونل بهشت‌آباد منتفی شده است"
+      }
+    ]
+  },
+  {
+    "ID": "A012",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.571,
+        "origin": "master",
+        "id": "S046",
+        "title": "بازگشت به تونل بهشت‌آباد"
+      },
+      {
+        "score": 0.559,
+        "origin": "master",
+        "id": "S158",
+        "title": "انتخاب سیستم نگهداری مناسب تونل انتقال آب بهشت‌آباد با استفاده از روش‌های تصمیم‌گیری چندمعیاره (MADM)"
+      },
+      {
+        "score": 0.559,
+        "origin": "master",
+        "id": "S159",
+        "title": "تحلیل پایداری و طراحی سیستم نگهداری اولیه در تونل انتقال آب بهشت‌آباد"
+      }
+    ]
+  },
+  {
+    "ID": "A045",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.597,
+        "origin": "refresh_2026_10_10/candidates.json",
+        "id": "N03",
+        "title": "ارزیابی سناریوهای انتقال آب بین‌حوضه‌ای به فلات مرکزی ایران با روش تصمیم‌گیری چندمعیاره COPRAS"
+      },
+      {
+        "score": 0.545,
+        "origin": "master",
+        "id": "S094",
+        "title": "طراحی ابعاد سیستم انتقال آب بین‌حوضه‌ای با لحاظ شاخص‌های تصمیم‌گیری"
+      },
+      {
+        "score": 0.522,
+        "origin": "master",
+        "id": "S158",
+        "title": "انتخاب سیستم نگهداری مناسب تونل انتقال آب بهشت‌آباد با استفاده از روش‌های تصمیم‌گیری چندمعیاره (MADM)"
+      }
+    ]
+  },
+  {
+    "ID": "A052",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.533,
+        "origin": "master",
+        "id": "S022",
+        "title": "معاون استاندار: تونل کوهرنگ ۳ آماده است"
+      }
+    ]
+  },
+  {
+    "ID": "A057",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.614,
+        "origin": "master",
+        "id": "S342",
+        "title": "Climate Change Impacts on Some Hydrological Variables in the Zayandeh-Rud River Basin, Iran"
+      },
+      {
+        "score": 0.567,
+        "origin": "master",
+        "id": "S284",
+        "title": "River basin organisations and the dynamics of inter-provincial cooperation and conflict in the Zayandehrud River Basin"
+      },
+      {
+        "score": 0.564,
+        "origin": "master",
+        "id": "S539",
+        "title": "Uncertainty Analysis of Climate Change Impacts on Streamflow Extremes in Zayandeh-Rud River by Bayesian Model Averaging"
+      }
+    ]
+  },
+  {
+    "ID": "A076",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A086",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A087",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.519,
+        "origin": "master",
+        "id": "S941",
+        "title": "The Dangerous Condition of Ground during High Overburden Tunneling (A Case Study in Iran)"
+      }
+    ]
+  },
+  {
+    "ID": "A089",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A092",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A095",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.506,
+        "origin": "master",
+        "id": "S819",
+        "title": "Prediction of the Penetration Rate and Number of Consumed Disc Cutters of Tunnel Boring Machines (TBMs) Using Artificial Neural Network (ANN) and Support Vector Machine (SVM)—Case Study: Beheshtabad Water Conveyance Tunnel in Iran"
+      }
+    ]
+  },
+  {
+    "ID": "A108",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A110",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A111",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A112",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A113",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "A122",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.595,
+        "origin": "master",
+        "id": "S095",
+        "title": "Stability Analysis of Stakeholders’ Cooperation in Inter-Basin Water Transfer Projects: a Case Study"
+      },
+      {
+        "score": 0.577,
+        "origin": "master",
+        "id": "S147",
+        "title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel"
+      },
+      {
+        "score": 0.562,
+        "origin": "master",
+        "id": "S397",
+        "title": "دستورالعمل زیست‌محیطی–اقتصادی طرح‌های انتقال آب بین‌حوضه‌ای"
+      }
+    ]
+  },
+  {
+    "ID": "A063",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "N01",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.534,
+        "origin": "master",
+        "id": "S114",
+        "title": "امکان‌سنجی اجرای پروژه‌های انتقال آب بین‌حوضه‌ای در ایران: بهشت‌آباد-فلات مرکزی"
+      },
+      {
+        "score": 0.532,
+        "origin": "master",
+        "id": "S219",
+        "title": "استاندار اصفهان: پروژه‌های انتقال آب مهم‌اند اما راه‌حل باید جامع باشد"
+      }
+    ]
+  },
+  {
+    "ID": "N02",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "I01",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "I02",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "R01",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.561,
+        "origin": "master",
+        "id": "S313",
+        "title": "Limiting and timing water supply for agricultural production – The case of the Zayandeh-Rud River Basin, Iran"
+      },
+      {
+        "score": 0.557,
+        "origin": "master",
+        "id": "S342",
+        "title": "Climate Change Impacts on Some Hydrological Variables in the Zayandeh-Rud River Basin, Iran"
+      },
+      {
+        "score": 0.538,
+        "origin": "master",
+        "id": "S352",
+        "title": "Environmental Capacity Building Program for the Residents of the Zayandeh Rud Basin"
+      }
+    ]
+  },
+  {
+    "ID": "R02",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "D01",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "D02",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "P073",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "P121",
+    "exact": [],
+    "similar": [
+      {
+        "score": 0.512,
+        "origin": "master",
+        "id": "S147",
+        "title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel"
+      }
+    ]
+  },
+  {
+    "ID": "P124",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "P135",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "Pdoc",
+    "exact": [],
+    "similar": []
+  },
+  {
+    "ID": "Pint",
+    "exact": [],
+    "similar": []
+  }
+]

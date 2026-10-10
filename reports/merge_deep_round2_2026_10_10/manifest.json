@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-10",
+  "before_count": 985,
+  "after_count": 1012,
+  "mapping": [
+    {
+      "candidate_id": "A001",
+      "source_id": "S986",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A008",
+      "source_id": "S987",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A012",
+      "source_id": "S988",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A045",
+      "source_id": "S989",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A052",
+      "source_id": "S990",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A057",
+      "source_id": "S991",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A076",
+      "source_id": "S992",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A086",
+      "source_id": "S993",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A087",
+      "source_id": "S994",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A089",
+      "source_id": "S995",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A092",
+      "source_id": "S996",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A095",
+      "source_id": "S997",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A108",
+      "source_id": "S998",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A110",
+      "source_id": "S999",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A111",
+      "source_id": "S1000",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A112",
+      "source_id": "S1001",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A113",
+      "source_id": "S1002",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A122",
+      "source_id": "S1003",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "A063",
+      "source_id": "S1004",
+      "category": "articles",
+      "collections": [
+        "academicIds"
+      ]
+    },
+    {
+      "candidate_id": "N01",
+      "source_id": "S1005",
+      "category": "news",
+      "collections": [
+        "newsIds"
+      ]
+    },
+    {
+      "candidate_id": "N02",
+      "source_id": "S1006",
+      "category": "news",
+      "collections": [
+        "newsIds",
+        "parliamentIds"
+      ]
+    },
+    {
+      "candidate_id": "I01",
+      "source_id": "S1007",
+      "category": "interviews",
+      "collections": [
+        "newsIds"
+      ]
+    },
+    {
+      "candidate_id": "I02",
+      "source_id": "S1008",
+      "category": "interviews",
+      "collections": [
+        "newsIds"
+      ]
+    },
+    {
+      "candidate_id": "R01",
+      "source_id": "S1009",
+      "category": "official_reports",
+      "collections": [
+        "legalIds"
+      ]
+    },
+    {
+      "candidate_id": "R02",
+      "source_id": "S1010",
+      "category": "official_reports",
+      "collections": [
+        "legalIds"
+      ]
+    },
+    {
+      "candidate_id": "D01",
+      "source_id": "S1011",
+      "category": "documents",
+      "collections": [
+        "legalIds"
+      ]
+    },
+    {
+      "candidate_id": "D02",
+      "source_id": "S1012",
+      "category": "documents",
+      "collections": [
+        "legalIds",
+        "parliamentIds",
+        "newsIds"
+      ]
+    }
+  ],
+  "excluded_pending": [
+    "P073",
+    "P121",
+    "P124",
+    "P135",
+    "Pdoc",
+    "Pint"
+  ],
+  "baseline_sha256": {
+    "data.json": "646f7849205fbeffe668c3e2764de8dfde01cd6f04b5b8f8c7a66714a6d0c913",
+    "app.js": "45103e609fbc81e3fa1bcb5cba01e12d1f72cd3f30ced682d24232788be2f36b",
+    "Data.xlsx": "aea9e3cede0343af6ce253e6749585aa8eb751264de5c907ed49cb805731b5fa"
+  }
+}

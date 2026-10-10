@@ -1,0 +1,120 @@
+[
+  {
+    "key": "1",
+    "url": "https://www.jiraeg.ir/article_68312_e3f2567e5585a5aba50827c9f3f26c2e.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_1.pdf",
+    "bytes": 372100,
+    "sha256": "165b223f73994c646e0176cb586ce3737f2b5ec66ba9cb63c972515ffb051435"
+  },
+  {
+    "key": "8",
+    "url": "https://jme.shahroodut.ac.ir/article_549_e7520862819a7a1d62b0eab693483028.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_8.pdf",
+    "bytes": 731940,
+    "sha256": "04f351097e19581bb0aa646b752e460c8856df468ebf11016bcf94b636f61df0"
+  },
+  {
+    "key": "12",
+    "url": "https://ijfs.usb.ac.ir/article_1314_08e475bb8a1da8644bdc89224cab55ae.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_12.pdf",
+    "bytes": 700139,
+    "sha256": "dcbfb98a3cd256e879d4b9748147e016962c5d9bcb3fd67c0d028afc86f5ffd1"
+  },
+  {
+    "key": "76",
+    "url": "https://poj.peeters-leuven.be/content.php?url=article&id=3038718&journal_code=ANES&download=yes",
+    "status": 200,
+    "is_pdf": false,
+    "file": "files/download_76.html",
+    "bytes": 22761,
+    "sha256": "efe5c8b58da8af83792ee52ace289195ef45eaf5ae9db3bc26b98eab1f072331"
+  },
+  {
+    "key": "87",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11771-017-3659-6.pdf",
+    "status": 200,
+    "is_pdf": false,
+    "file": "files/download_87.html",
+    "bytes": 303013,
+    "sha256": "829abc2adb1329a07a72906e5820d1046088c581405e1d7120364643b9ae4ddb"
+  },
+  {
+    "key": "92",
+    "url": "https://ojs.cvut.cz/ojs/index.php/cej/article/download/8730/6586",
+    "error": "('Connection broken: IncompleteRead(417115 bytes read, 1253882 more expected)', IncompleteRead(417115 bytes read, 1253882 more expected))"
+  },
+  {
+    "key": "108",
+    "url": "https://link.springer.com/content/pdf/10.1007/s10064-016-0862-x.pdf",
+    "status": 200,
+    "is_pdf": false,
+    "file": "files/download_108.html",
+    "bytes": 306513,
+    "sha256": "01caf2fef9133d998001ca0b6b03ce8a01b9e9c8ddb05577328930dc04fd4d39"
+  },
+  {
+    "key": "110",
+    "url": "https://jeg.khu.ac.ir/article_10734_451ee190d0efc1f77c8bcc7238979ac1.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_110.pdf",
+    "bytes": 934086,
+    "sha256": "38b5f1ba9ee26eabf9fdee9a5f3d956d83ca5c496c82d163cf682d8121d0d804"
+  },
+  {
+    "key": "111",
+    "url": "https://ijmge.ut.ac.ir/article_68704_07bc4d051b137c325c9492d109fa8e0a.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_111.pdf",
+    "bytes": 1960917,
+    "sha256": "809f4cf8a97de2977da96bd4a1bc3b34546929c88b508915844cde0d8329a96f"
+  },
+  {
+    "key": "112",
+    "url": "https://cer.qom.ac.ir/article_949_b38ecb3223defaa74ad51c724649afd7.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_112.pdf",
+    "bytes": 3331970,
+    "sha256": "3807c31c375732efec32ced540c6272b1d68a51d7a8f149cb2a16fea7d284447"
+  },
+  {
+    "key": "113",
+    "url": "https://ojs.cvut.cz/ojs/index.php/ap/article/download/5017/5247",
+    "error": "('Connection broken: IncompleteRead(40301 bytes read, 2936985 more expected)', IncompleteRead(40301 bytes read, 2936985 more expected))"
+  },
+  {
+    "key": "tender4977",
+    "url": "https://static2.esfahanemrooz.ir/servev2/LKA3SQ9XN7gT/Kl4CadDoeE4bRz50Hlni6LGql1ADMwHQ4Wu5Wxs5ff4%2C/esfahanemrooz4977.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_tender4977.pdf",
+    "bytes": 1645069,
+    "sha256": "5ad4e7ce601c136da80a464e0dd356031d18b616fe06d28ff73f6b07ad519a94"
+  },
+  {
+    "key": "gandoman",
+    "url": "https://rsis.ramsar.org/RISapp/files/47382230/documents/IR2558_mgt240312.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_gandoman.pdf",
+    "bytes": 2729575,
+    "sha256": "4bbaa7adeff54df9395de40d458f80ff415fcc72c488c0b4e7c4a354b0a7c196"
+  },
+  {
+    "key": "choghakhor",
+    "url": "https://rsis.ramsar.org/RISapp/files/RISrep/IR1939RIS.pdf",
+    "status": 200,
+    "is_pdf": true,
+    "file": "files/download_choghakhor.pdf",
+    "bytes": 573184,
+    "sha256": "006459ecbb35494425c9a3fc44a943dd2243e33a2db3714a4900a29fc86d632f"
+  }
+]

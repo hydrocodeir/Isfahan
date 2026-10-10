@@ -1,0 +1,266 @@
+[
+  {
+    "n": 1,
+    "category": "reports",
+    "query": "\"Karun\" \"transfer\" site:documents.worldbank.org"
+  },
+  {
+    "n": 2,
+    "category": "articles",
+    "query": "\"Khersan\" \"Nasiri\""
+  },
+  {
+    "n": 3,
+    "category": "reports",
+    "query": "\"Zayandeh\" site:edocs.tib.eu"
+  },
+  {
+    "n": 4,
+    "category": "documents",
+    "query": "\"بهشت آباد\" \"۸۹۳۵\""
+  },
+  {
+    "n": 5,
+    "category": "targeted",
+    "query": "\"IWRM Zayandeh Rud\" \"Phase 2\" final report"
+  },
+  {
+    "n": 6,
+    "category": "targeted",
+    "query": "\"From Contract to Constitution\" \"Khersan\""
+  },
+  {
+    "n": 7,
+    "category": "targeted",
+    "query": "\"Assessing Governance, Policy, and Operational Gaps\""
+  },
+  {
+    "n": 8,
+    "category": "targeted",
+    "query": "\"سبزکوه\" \"گفت\" \"مصاحبه\""
+  },
+  {
+    "n": 9,
+    "category": "articles_verify",
+    "queries": [
+      "\"Risk assessment of inter-basin water transfer plans\"",
+      "\"Assessing the impact of Koohrang III tunnel\"",
+      "\"Interbasin Water Transfer Capacity Design\"",
+      "\"مدلسازی اثرات انتقال آب\" \"شلمزار\""
+    ]
+  },
+  {
+    "n": 10,
+    "category": "news_interviews",
+    "query": "\"سبزکوه\" site:mehrnews.com/news \"گفتگو\""
+  },
+  {
+    "n": 11,
+    "category": "news_interviews",
+    "query": "\"خدنگستان\" \"گفت\" انتقال"
+  },
+  {
+    "n": 12,
+    "category": "news_interviews",
+    "query": "\"ماندگان\" \"مصاحبه\" \"۱۴۰۵\""
+  },
+  {
+    "n": 13,
+    "category": "news_interviews",
+    "query": "\"خرسان\" \"قاضی\" \"فصل\""
+  },
+  {
+    "n": 14,
+    "category": "documents_news",
+    "query": "\"چوب لای چرخ سد ماندگان گذاشتیم\""
+  },
+  {
+    "n": 15,
+    "category": "documents_news",
+    "query": "\"تونل سبزکوه\" \"کلانتری\""
+  },
+  {
+    "n": 16,
+    "category": "documents_news",
+    "query": "\"خرسان\" site:faslino.ir/49417"
+  },
+  {
+    "n": 17,
+    "category": "documents_news",
+    "query": "\"کوهرنگ\" \"پیوست\" \"بودجه\" filetype:pdf"
+  },
+  {
+    "n": 18,
+    "category": "primary_articles",
+    "query": "\"10.22111/gdij.2021.6027\""
+  },
+  {
+    "n": 19,
+    "category": "primary_articles",
+    "query": "\"Interbasin Water Transfer Capacity Design\""
+  },
+  {
+    "n": 20,
+    "category": "primary_articles",
+    "query": "\"The Khersan 3 Archaeological Survey\""
+  },
+  {
+    "n": 21,
+    "category": "primary_articles",
+    "query": "\"ESTIMATION OF GROUNDWATER INFLOW SITUATION\""
+  },
+  {
+    "n": 22,
+    "category": "primary_articles",
+    "query": "\"An investigation of the relationship between muck geometry\""
+  },
+  {
+    "n": 23,
+    "category": "primary_articles",
+    "query": "\"Tunnel design and construction process\" \"ADECO\""
+  },
+  {
+    "n": 24,
+    "category": "primary_articles",
+    "query": "\"Ranking water transfer projects using fuzzy methods\""
+  },
+  {
+    "n": 25,
+    "category": "primary_articles",
+    "query": "\"Assessing Governance\" \"Karun\" site:sciencedirect.com"
+  },
+  {
+    "n": 26,
+    "category": "primary_open",
+    "url": "https://doi.org/10.22111/gdij.2021.6027"
+  },
+  {
+    "n": 27,
+    "category": "primary_open",
+    "url": "https://doi.org/10.22044/jme.2016.549"
+  },
+  {
+    "n": 28,
+    "category": "primary_open",
+    "url": "https://doi.org/10.22059/ijmge.2018.235548.594679"
+  },
+  {
+    "n": 29,
+    "category": "primary_open",
+    "url": "https://doi.org/10.2143/ANES.51.0.3038718"
+  },
+  {
+    "n": 30,
+    "category": "primary_open",
+    "url": "https://doi.org/10.1680/wama.2010.163.4.189"
+  },
+  {
+    "n": 31,
+    "category": "primary_open",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2667010026002647"
+  },
+  {
+    "n": 32,
+    "category": "news_interviews",
+    "query": "\"نگاه مثبت کلانتری به پروژه سبزکوه\""
+  },
+  {
+    "n": 33,
+    "category": "news_interviews",
+    "query": "\"احتمال حذف تالاب چغاخور از فهرست\""
+  },
+  {
+    "n": 34,
+    "category": "news_interviews",
+    "query": "\"ماندگان\" \"چوب لای چرخ\" site:kebnanews.ir"
+  },
+  {
+    "n": 35,
+    "category": "news_interviews",
+    "query": "\"انتقال آب\" \"گوکان\" گزارش"
+  },
+  {
+    "n": 36,
+    "category": "targeted_deep",
+    "query": "\"انتقال آب\" \"چشمه لنگان\" \"یبلویی\""
+  },
+  {
+    "n": 37,
+    "category": "targeted_deep",
+    "query": "\"انتقال آب\" \"پشندگان\" \"زمستانه\""
+  },
+  {
+    "n": 38,
+    "category": "targeted_deep",
+    "query": "\"خرسان\" \"بهمنی\" \"گفت\""
+  },
+  {
+    "n": 39,
+    "category": "targeted_deep",
+    "query": "\"چغاخور\" site:rsis.ramsar.org"
+  },
+  {
+    "n": 40,
+    "category": "official_documents",
+    "query": "Choghakhor Ramsar information sheet Sabzkuh"
+  },
+  {
+    "n": 41,
+    "category": "official_documents",
+    "query": "\"Sabzkuh\" \"Ramsar\""
+  },
+  {
+    "n": 42,
+    "category": "official_documents",
+    "query": "\"بهشت آباد\" site:rc.majlis.ir \"گزارش\""
+  },
+  {
+    "n": 43,
+    "category": "official_documents",
+    "query": "\"خرسان\" \"رای\" site:dadresi.net"
+  },
+  {
+    "n": 44,
+    "category": "documents_open"
+  },
+  {
+    "n": 45,
+    "category": "news_documents",
+    "query": "\"پشندگان\" \"تونل\" site:tasnimnews.ir"
+  },
+  {
+    "n": 46,
+    "category": "news_documents",
+    "query": "\"سبزکوه\" \"انتقال\" site:tasnimnews.ir"
+  },
+  {
+    "n": 47,
+    "category": "news_documents",
+    "query": "\"خرسان\" \"حکم\" site:mizanonline.ir"
+  },
+  {
+    "n": 48,
+    "category": "news_documents",
+    "query": "\"کوهرنگ\" \"مناقصه\" filetype:pdf"
+  },
+  {
+    "n": 49,
+    "category": "primary_verify",
+    "query": "\"Analysis of longitudinal profile\" \"Koohrang\""
+  },
+  {
+    "n": 50,
+    "category": "primary_verify",
+    "query": "\"Economic Sustainability Evaluation\" \"GWP\""
+  },
+  {
+    "n": 51,
+    "category": "primary_verify",
+    "query": "\"10.2166/wcc.2022.188\""
+  },
+  {
+    "n": 52,
+    "category": "primary_verify",
+    "query": "\"Ranking water transfer projects\" site:emerald.com"
+  }
+]

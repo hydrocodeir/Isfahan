@@ -1,0 +1,157 @@
+[
+  {
+    "Key": "atb2021",
+    "URL": "https://www.atb-potsdam.de/fileadmin/generell/BABs/BAB_104_Transformation_Strategies_in_Agriculture.pdf",
+    "Final_URL": "https://www.atb-potsdam.de/fileadmin/generell/BABs/BAB_104_Transformation_Strategies_in_Agriculture.pdf",
+    "Status": 200,
+    "PDF": true,
+    "Bytes": 6669210,
+    "File": "reports\\refresh_2026_10_10\\atb2021.pdf",
+    "SHA256": "14cd91c9b958a6980c1e20d2d0d0b087732d8c98f641e8f2aa864ac147ba0bfa"
+  },
+  {
+    "Key": "ieem2015",
+    "URL": "https://edocs.tib.eu/files/e01fb15/842152709.pdf",
+    "Final_URL": "https://edocs.tib.eu/files/e01fb15/842152709.pdf",
+    "Status": 200,
+    "PDF": true,
+    "Bytes": 754161,
+    "File": "reports\\refresh_2026_10_10\\ieem2015.pdf",
+    "SHA256": "118ec70bfab2318a59a0dda2f05baa6a82c00af32f7b5f790a9cc77071c5a2b1"
+  },
+  {
+    "Key": "zeynalian",
+    "URL": "https://static2.esfahanemrooz.ir/servev2/dSp9dQgzq5a4/eYFLnMzXdX4%2C/06.pdf",
+    "Final_URL": "https://static2.esfahanemrooz.ir/servev2/dSp9dQgzq5a4/eYFLnMzXdX4%2C/06.pdf",
+    "Status": 200,
+    "PDF": true,
+    "Bytes": 181702,
+    "File": "reports\\refresh_2026_10_10\\zeynalian.pdf",
+    "SHA256": "109e36216232bf5e00848f8e733a0a7de7c5459a97dd4d5be0d308b7fff5003a"
+  },
+  {
+    "Key": "copras_fa",
+    "URL": "https://jsw.um.ac.ir/article_38803_d79d9307e8bb326d877b5b8facdf979e.pdf",
+    "Final_URL": "https://jsw.um.ac.ir/article_38803_d79d9307e8bb326d877b5b8facdf979e.pdf",
+    "Status": 200,
+    "PDF": true,
+    "Bytes": 1145011,
+    "File": "reports\\refresh_2026_10_10\\copras_fa.pdf",
+    "SHA256": "0f5f06ed5c413a642b666f25fab618f54451dc7f4a6e6a11b1aaec4fad13063e"
+  },
+  {
+    "Key": "copras_crossref",
+    "URL": "https://api.crossref.org/works/10.1016/j.scitotenv.2020.138499",
+    "Final_URL": "https://api.crossref.org/works/10.1016/j.scitotenv.2020.138499",
+    "Status": 200,
+    "PDF": false,
+    "Bytes": 15525,
+    "File": "reports\\refresh_2026_10_10\\copras_crossref.json",
+    "SHA256": "e0bbba0654c0fe3f90dd12d4b7dc2a6b99424738e83b7adf9edb0eac337b8f99",
+    "Metadata": {
+      "title": [
+        "Inter-basin water transfer planning with grey COPRAS and fuzzy COPRAS techniques: A case study in Iranian Central Plateau"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8458-4538",
+          "authenticated-orcid": false,
+          "given": "Abbas",
+          "family": "Roozbahani",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hamed",
+          "family": "Ghased",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9962-1437",
+          "authenticated-orcid": false,
+          "given": "Mehdi",
+          "family": "Hashemy Shahedany",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            7
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.scitotenv.2020.138499",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S004896972032012X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S004896972032012X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "tib2019",
+    "URL": "https://doi.org/10.2314/KXP:1671692810",
+    "Error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "Key": "kebna",
+    "URL": "https://khabarfarsi.com/u/234343667",
+    "Final_URL": "https://khabarfarsi.com/u/234343667",
+    "Status": 200,
+    "PDF": false,
+    "Bytes": 141793,
+    "File": "reports\\refresh_2026_10_10\\kebna.html",
+    "SHA256": "7fd61595e3a76440e4e6fb16ad3a9803dc13002117e7444406970bc78de08d35",
+    "Primary_Links": []
+  },
+  {
+    "Key": "magiran_legal",
+    "URL": "https://www.magiran.com/paper/3032415",
+    "Final_URL": "https://www.magiran.com/error/blockedip",
+    "Status": 200,
+    "PDF": false,
+    "Bytes": 115001,
+    "File": "reports\\refresh_2026_10_10\\magiran_legal.html",
+    "SHA256": "14422e40acb0b19bc6166fe07abcdb7e10332bee3a9d9d5308f42dde0cf78c3e"
+  }
+]

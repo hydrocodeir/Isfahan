@@ -1,0 +1,759 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>PEETERS ONLINE JOURNALS</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="STYLESHEET" type="text/css" href="style_new.css">
+<meta charset='UTF-8' name='citation_title' content='The Khersan 3 Archaeological Survey:  New Insights into Settlement Patterns in the Zagros Folding Zone from Hydro-Dam Project Archaeology'>
+<meta charset='UTF-8' name='citation_author' content='GHASEMI, Parsa'>
+<meta charset='UTF-8' name='citation_author' content='WATSON, Greg'>
+<meta name='citation_publication_date' content='2014-09-30'>
+<meta charset='UTF-8' name='citation_journal_title' content='Ancient Near Eastern Studies'>
+<meta name='citation_volume' content='51'>
+<meta name='citation_issue' content='0'>
+<meta name='citation_firstpage' content='167'>
+<meta name='citation_lastpage' content='211'>
+<meta name='citation_pdf_url' content='https://poj.peeters-leuven.be/content.php?url=article&id=3038718&journal_code=ANES&download=yes'>
+
+	<META NAME="description" CONTENT="">
+	<META NAME="keywords" CONTENT="">
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript" language="javascript"></script>
+	<script src="js/jquery.cycle.all.latest.js" type="text/javascript" language="javascript"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700' rel='stylesheet'></link>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans&display=swap:400,600,700' rel='stylesheet'></link>
+	<script type="text/javascript">
+		<!--
+
+		function overlay_close()
+		{
+			$('#overlay').fadeOut();
+		}
+
+		function resize_cc()
+		{
+			var h = $(window).height()-500;
+			if (h<400)
+				h = 400;
+
+			$('#containercontent').css('height', h);
+			$('#contentlinks').css('height', h);
+			$('#contentmidden').css('height', h);
+			$('#contentrechts').css('height', h);
+		}
+
+		function category_click(item)
+		{
+			$('.lijst').css("background","url('images/pijl_leeg.gif') no-repeat 0px 6px white");
+			$(item).css("background","url('images/pijl_zwart.gif') no-repeat 0px 6px white");
+
+			var c = $(item).text();
+			var all = (c == 'All categories');
+			if (!all)
+				$('.legende').hide();
+			else
+				$('.legende').show();
+			var journals = $('.listjournals');
+			for (var i=0;i<journals.length; i++)
+			{
+				var j = $(journals[i]);
+				var jcat = j.attr('categories');
+				if ( (jcat.indexOf(c) >= 0) || all)
+					j.show();
+				else
+					j.hide();
+			}
+		}
+
+		function go_journal(img)
+		{
+			document.location='content.php?url=journal&journal_code='+$(img).attr('journal_code');
+		}
+
+		$(function(){
+			$(window).resize(function(){
+				resize_cc();
+			});
+		});
+
+		function calculateTimeout(currElement, nextElement, opts, isForward)
+		{
+			var x = 4000+Math.random()*15000; // at least 5 secs, at most 20
+			return x;
+		}
+
+		$(function()
+		{
+			resize_cc();
+
+
+				});
+
+		function toggle_searchbox()
+		{
+			$('#search_value').toggle();
+			if ($('#search_value').is(':visible'))
+				$('#search_value').focus().select();
+
+		}
+		//-->
+	</script>
+
+	<style type="text/css" title="text/css">
+		.head_font {
+			font-family: 'Crimson Text', serif;
+		}
+		body {
+		font-family: 'Open Sans', sans-serif;
+		}
+
+		#poj_logo {
+			cursor:pointer;
+			float:left;
+			text-align:left;
+			height:90px;
+		}
+
+
+		#overlay_image {
+			/* width: 100%; */
+			/* margin: 20px; */
+			background-color: white;
+		}
+
+		#close_img {
+			height:32px;
+			cursor:pointer;
+			position: absolute;
+			top: 30px;
+			left: 50%;
+			z-index:3;
+		}
+		#logo_bar {
+			position:relative;
+			text-align:left;
+			padding: 25px 5px 5px 30px;
+		}
+		#searchbox {
+			margin-top: 20px;
+			float:right;
+			margin-right: 60px;
+		}
+		#searchbox img {
+			vertical-align: middle;
+		}
+		#searchbox input {
+			vertical-align:middle;
+			border: 0px solid white;
+			font-size: 48px;
+			color:lightgrey;
+			text-align:right;
+			display:none;
+		}
+		#searchbox input {
+		    outline-width: 0;
+		    outline: none;
+		    padding:5px 10px;
+		}
+
+		#searchbox a[selected='1'] {
+			border-bottom:1px solid black
+		}
+		.footer a[selected='1'] {
+			border-bottom:1px solid white
+		}
+
+		#searchbox input::selection {
+		  color: darkgrey;
+		  background: lightgrey;
+		}
+
+		#searchbox .box {
+			font-size:32px;
+			vertical-align: middle;
+		    padding:5px 30px;
+		}
+
+		#containercovers {
+			height:290px;
+			background-color: #B3C0BC;
+		}
+
+		
+
+
+		#overlay {
+			display:none;
+			background-color:red;
+			width:100%;
+			height:100%;
+			position:fixed;
+			top:0px;
+			left:0px;
+			z-index:2;
+		}
+		#overlay_bg {
+			background-color:black;
+			opacity:0.7;
+			width:100%;
+			height:100%;
+			position:absolute;
+			z-index:1;
+			top:0px;
+			left:0px;
+		}
+
+		#overlay_content {
+			/* background-color: white; */
+			border: 2px solid black;
+			z-index: 2;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+			left: 00px;
+			padding: 10px;
+			box-shadow: 5px 5px 5px grey;
+			text-align: center;
+			overflow: scroll;
+			/* margin: 20px; */
+		}
+
+		#overlay_image {
+			/* width: 100%; */
+			/* margin: 20px; */
+			background-color: white;
+		}
+
+
+#dialog_wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	z-index: 10;
+}
+#dialog_overlay {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:black;
+	opacity:0.6;
+}
+#dialog {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+#dialog_content {
+	background-color:white;
+	opacity:1;
+	margin:20px;
+	box-shadow: 5px 10px 10px #888888;
+	position:relative;
+}
+#dialog_close {
+	opacity:1;
+	background:url('../images/sluit.png') no-repeat top left;
+	background-size: 34px 34px;
+	width:34px;
+	height:34px;
+	position:absolute;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+#dialog_close:hover {
+	background:url('../images/sluit_over.png') no-repeat top left;
+	background-size: 34px 34px;
+	width:34px;
+	height:34px;
+}
+#dialog_title {
+	color:#E6454B;
+	font-family: 'Spectral', serif;
+	font-size: 22px;
+	font-weight: 500;
+	padding:25px 25px 5px 25px;
+	border-bottom:1px solid #DFDFDF;
+}
+#dialog_hoofding {
+	color:#E6454B;
+	font-family: 'Spectral', serif;
+	font-size: 22px;
+	font-weight: 500;
+	padding:25px 25px 5px 25px;
+	border-bottom:1px solid #DFDFDF;
+	height:40px;
+}
+#dialog_body, #dialog_bodye {
+	color:#404350;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding:5px 25px 25px 25px;
+/*	max-height: 550px;*/
+	overflow-y: scroll;
+}
+#dialog_body a {
+/*	color:#E6454B;
+	border-bottom:1px dotted #E6454B;*/
+}
+#dialog_body a:hover {
+/*	border-bottom:1px solid #E6454B;*/
+}
+
+
+	</style>
+
+<!-- Matomo -->
+<script>
+/*
+  var _paq = window._paq = window._paq || [];
+  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+  _paq.push(['setCustomDimension', customDimensionId = 3, customDimensionValue = "ANES"]);
+_paq.push(['setCustomDimension', customDimensionId = 4, customDimensionValue = "article"]);
+  _paq.push(['setDocumentTitle', 'article']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.peeters-leuven.be/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();*/
+</script>
+<!-- End Matomo Code -->
+
+</head>
+<body>
+
+<center>
+
+<div id=logo_bar>
+	<img id=poj_logo src=images/PeetersLogoGaramond.jpg onClick="document.location='content.php'">
+	<div id=searchbox class=head_font>
+		<span class=box><a href=content.php?url=CMS.php&section=registration  >Register</a></span>
+		<span class=box><a href=content.php?url=CMS.php&section=prices  >Prices & Ordering</a></span>
+		<span class=box><a href=content.php?url=CMS.php&section=open_access  >Open Access</a></span>
+		<span class=box><a href=https://www.peeters-leuven.be target=_blank>Books</a></span>
+		<span class=box><a href=https://ecsco.peeters-leuven.be target=_blank>eCSCO</a></span>
+<!--
+
+		<input id=search_value name=search_value value='enter text and hit return'>
+		<img src=/images/search_icon.png onClick=toggle_searchbox()>
+-->
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div id='contentboven2'></div>
+<div id='containercontent2'> 
+
+	<script type="text/javascript">
+		function preview_first_page(btn)
+		{
+			var page_img = $(btn).attr('page_img');
+
+			$('#overlay_content').html("<img src='"+page_img+"'>");
+			$('#overlay').show();
+		}
+
+		function resize_cc()
+		{
+		return;
+			var h = $(window).height()-500;
+			if (h<365)
+				h = 365;
+
+			$('#containercontent').css('height', h);
+			$('#contentlinks').css('height', h);
+			$('#contentmidden').css('height', h);
+			$('#contentrechts').css('height', h);
+		}
+
+		$(function(){
+			$(window).resize(function(){
+				resize_cc();
+			});
+		});
+
+		$(function()
+		{
+			resize_cc();
+		});
+
+		function show_login()
+		{
+			document.getElementById('login_div').style.display='';
+			document.getElementById('register_div').style.display='none';
+			document.getElementById('lost_login_div').style.display='none';
+		}
+		function show_registration()
+		{
+			document.getElementById('login_div').style.display='none';
+			document.getElementById('register_div').style.display='';
+			document.getElementById('lost_login_div').style.display='none';
+		}
+		function lost_registration()
+		{
+			document.getElementById('login_div').style.display='none';
+			document.getElementById('register_div').style.display='none';
+			document.getElementById('lost_login_div').style.display='';
+		}
+
+		function forgot_password()
+		{
+			var mail = prompt('enter your email adres');
+			if (mail)
+			{
+				$.get('lost_password.php?mail='+encodeURIComponent(mail)+'&journal=ANES', function(res)
+				{
+					alert(res);
+				});
+			}
+		}
+
+		function access_request_received()
+		{
+			if ( (xmlhttp.readyState==4) && (xmlhttp.status==200) )
+			{
+				// possible return values :
+				// 		no such credentials
+				// 		journal not authorized
+				// 		already registered
+				// 		blocked
+				// 		invalid invoice
+				// 		ok
+				//
+				if (xmlhttp.responseText == 'no such credentials')
+				{
+					alert('no such credentials. Please verify the form.');
+				}
+				else if (xmlhttp.responseText == 'journal not authorized')
+				{
+					alert('these credentials do not authorize access to this journal.');
+				}
+				else if (xmlhttp.responseText == 'blocked')
+				{
+					alert('this account has been blocked due to abuse.');
+				}
+				else if (xmlhttp.responseText == 'already registered')
+				{
+					alert('this account has already been registered.');
+				}
+				else if (xmlhttp.responseText == 'invalid invoice')
+				{
+					alert('invalid invoice number specified. Please verify the form.');
+				}
+				else if (xmlhttp.responseText == 'ok')
+				{
+					alert('registration succesfully received. You can now login and request your download');
+					show_login();
+					document.getElementById('registered_yes').checked = true;
+					document.getElementById('registered_no').checked = false;
+				}
+				else
+					alert('unknown error\n\n'+xmlhttp.responseText);
+
+
+				document.getElementById('registering_spinner').style.display='none';
+			}
+		}
+
+		function fetch_by_email_login_received()
+		{
+			if ( (xmlhttp.readyState==4) && (xmlhttp.status==200))
+			{
+				// five possible return values :
+				//		bad login
+				//		blocked
+				//  	journal not authorized
+				// 		ok
+				//
+				if (xmlhttp.responseText == 'bad login')
+				{
+					alert('bad login. Please verify.');
+				}
+				else if (xmlhttp.responseText == 'journal not authorized')
+				{
+					alert('your credentials do not authorize access to this journal.\n\nMake sure you requested access for this journal : you have to do this once for each journal.');
+				}
+				else if (xmlhttp.responseText == 'blocked')
+				{
+					alert('these credentials have been blocked due to abuse.');
+				}
+				else if (xmlhttp.responseText == 'ok')
+				{
+					document.getElementById('personal_fetch_pdf_form').submit();
+				}
+				else
+				{
+					alert('unknown error\n\n'+xmlhttp.responseText);
+				}
+				document.getElementById('fetching_pdf_spinner').style.display='none';
+			}
+		}
+
+		function request_personal_access()
+		{
+			if (document.getElementById('signup_email').value == '')
+			{
+				alert('you must provide an email address');
+				return false;
+			}
+			if (document.getElementById('signup_password').value == '')
+			{
+				alert('you must provide a password');
+				return false;
+			}
+			if (document.getElementById('signup_password').value != document.getElementById('signup_password2').value)
+			{
+				alert('password verification failed');
+				return false;
+			}
+			if (document.getElementById('signup_email').value.indexOf('@') <= 0)
+			{
+				alert('that is not a valid email address');
+				return false;
+			}
+			if (document.getElementById('signup_first_name').value == '')
+			{
+				alert('you must provide a first name');
+				return false;
+			}
+			if (document.getElementById('signup_last_name').value == '')
+			{
+				alert('you must provide a last name');
+				return false;
+			}
+			if (document.getElementById('signup_invoice') != null && document.getElementById('signup_invoice').value == '')
+			{
+				alert('you must provide a invoice number');
+				return false;
+			}
+
+			// if we got here, the form was properly filled. Send async
+			var url = 'request_personal_access.php?journal='+ document.getElementById('journal_code').value;
+			url = url + '&signup_email='+document.getElementById('signup_email').value;
+			url = url + '&signup_password='+document.getElementById('signup_password').value;
+			url = url + '&signup_first_name='+document.getElementById('signup_first_name').value;
+			url = url + '&signup_last_name='+document.getElementById('signup_last_name').value;
+			if (document.getElementById('signup_invoice') != null)
+				url = url + '&signup_invoice='+document.getElementById('signup_invoice').value;
+
+			document.getElementById('registering_spinner').style.display='';
+			if (window.ActiveXObject) // code for IE
+			{
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP")
+				if (xmlhttp)
+				{
+					xmlhttp.onreadystatechange=access_request_received;
+					xmlhttp.open("GET",url,true)
+					xmlhttp.setRequestHeader('Pragma','no-cache');
+					xmlhttp.setRequestHeader('Cache-Control', 'no-cache');
+					xmlhttp.setRequestHeader('If-Modified-Since', 'Wed, 15 Nov 1995 00:00:00 GMT');
+					xmlhttp.send()
+				}
+			}
+			else if (window.XMLHttpRequest)  // code for Mozilla, etc.
+			{
+				xmlhttp=new XMLHttpRequest()
+				xmlhttp.onreadystatechange=access_request_received;
+				xmlhttp.open("GET",url)
+				xmlhttp.setRequestHeader('If-Modified-Since', 'Wed, 15 Nov 1995 00:00:00 GMT');
+				xmlhttp.send(null)
+			}
+
+			return false;
+		}
+
+		function fetch_pdf_by_email()
+		{
+			if (document.getElementById('fetch_email').value == '')
+			{
+				alert('you must provide an email address');
+				return false;
+			}
+			if (document.getElementById('fetch_password').value == '')
+			{
+				alert('you must provide a password');
+				return false;
+			}
+
+			var url = 'personal_login_check.php?journal='+ document.getElementById('journal_code').value;
+			url = url + '&fetch_email='+document.getElementById('fetch_email').value;
+			url = url + '&fetch_password='+document.getElementById('fetch_password').value;
+
+
+			document.getElementById('fetching_pdf_spinner').style.display='';
+			if (window.ActiveXObject) // code for IE
+			{
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP")
+				if (xmlhttp)
+				{
+					xmlhttp.onreadystatechange=fetch_by_email_login_received
+					xmlhttp.open("GET",url,true)
+					xmlhttp.setRequestHeader('Pragma','no-cache');
+					xmlhttp.setRequestHeader('Cache-Control', 'no-cache');
+					xmlhttp.setRequestHeader('If-Modified-Since', 'Wed, 15 Nov 1995 00:00:00 GMT');
+					xmlhttp.send()
+				}
+			}
+			else if (window.XMLHttpRequest)  // code for Mozilla, etc.
+			{
+				xmlhttp=new XMLHttpRequest()
+				xmlhttp.onreadystatechange=fetch_by_email_login_received
+				xmlhttp.open("GET",url)
+				xmlhttp.setRequestHeader('If-Modified-Since', 'Wed, 15 Nov 1995 00:00:00 GMT');
+				xmlhttp.send(null)
+			}
+
+			return false;
+		}
+
+
+		$(function()
+		{
+					});
+	</script>
+
+
+
+
+<center style='display:inline-block;width:750px;'>
+<a href="content.php?url=issue&journal_code=ANES&issue=0&vol=51">this issue</a></center>
+
+<table width=750px border=0><tr><td class=whitecell><font size='2'><img class=nextprevbtn src="images/prev.png"> <a href="content.php?url=article.php&id=3038717&journal_code=ANES">previous article in this issue</a></td><td align=right class=whitecell width=50%><font size='2'><a href="content.php?url=article.php&id=3038719&journal_code=ANES">next article in this issue</a> <img class=nextprevbtn src="images/next.png"></td></tr></table><br>
+
+
+				<table width='100%' border=0 style='padding-left:15px'>
+				<tr>
+				<td class=whitecell style='vertical-align:top'>
+					<img class=journal_cover src='/journal_images/ANES.jpg'  style='padding-right:25px'>
+<div id=preview_btn onClick=preview_first_page(this) class=bluebutton page_img='first_pages/ANES/ANES51003-000001.png' style='color:white;text-align:center;cursor:pointer;'>Preview first page</div>				<td class=whitecell>
+							<b><font size="5">Document Details :</font></b><br><br>
+						<b>Title: </b>
+						The Khersan 3 Archaeological Survey<br>
+						<b>Subtitle: </b>New Insights into Settlement Patterns in the Zagros Folding Zone from Hydro-Dam Project Archaeology<br>						<b>Author(s): </b>GHASEMI, Parsa , WATSON, Greg<br>
+						<b>Journal: </b><a href='content.php?url=journal.php&journal_code=ANES'>Ancient Near Eastern Studies</a><br>
+						<b>Volume: </b>
+						<a href='content.php?url=issue.php&journal_code=ANES&issue=0&vol=51'>51</a>						&nbsp;&nbsp;
+						<b>Date: </b>2014 &nbsp;&nbsp;<br><b>Pages: </b>
+167-211<br>
+<b>DOI: </b>
+10.2143/ANES.51.0.3038718<br>
+							<br>
+							<br>
+							<br>
+										</font>
+
+				<center>
+<div id=box>
+			<center>
+				personal login  :<br>
+				If you are subscribed and registered, have you already activated your personal account?<br><br>
+				<input type='radio' id='registered_yes' name='registered' checked onClick="show_login();">Yes
+				<input type='radio' id='registered_no' name='registered' onClick="show_registration();">No
+				<input type='radio' id='registered_lost' name='registered' onClick="lost_registration();">I lost my password
+				<br>
+				<br>
+				<div id='login_div'>
+					<form id="personal_fetch_pdf_form" Action="secure/POJ/newpurchaseform.php" METHOD=GET onSubmit="javascript:return false;">
+						<table id="personal_login_table" border=0 cellspacing=0 cellpadding=0>
+							<tr><td>
+							<input type=hidden name=id value=3038718 >
+							<input type=hidden name=journal_code id=journal_code value=ANES >
+							<input type=hidden name=article_issue value=0 >
+							<input type=hidden name=article_volume value=51 >
+							<input type=hidden name=sid value= >
+							<tr><td align=right>email address:<td><input name=fetch_email id=fetch_email size=40><br>
+							<tr><td align=right>password:<td><input type=password name=fetch_password id=fetch_password size=40><br>
+						</table>
+						<Input Type="submit" Value="Submit" id="Submit1" onClick="javascript:fetch_pdf_by_email();return false;">
+						<br><br>
+						<img src='images/spinner.gif' id='fetching_pdf_spinner' style='display:none'>
+					</form>
+				</div>
+				<div id='register_div' style='display:none'>
+					<Form id="personal_registration_form" Action="" METHOD=GET onSubmit="javascript:return false;">
+						<table id="personal_login_table" border=0 cellspacing=0 cellpadding=0>
+							<tr><td>
+							<input type=hidden name=id value=3038718 >
+							<input type=hidden name=journal_code id=journal_code value=ANES >
+							<input type=hidden name=article_issue value=0 >
+							<input type=hidden name=article_volume value=51 >
+							<input type=hidden name=sid value= >
+							<tr><td align=right>email address:<td><input name=signup_email id=signup_email size=40><br>
+							<tr><td align=right>password (your choice):<td><input type=password name=signup_password id=signup_password size=40><br>
+							<tr><td align=right>password verify:<td><input type=password name=signup_password2 id=signup_password2 size=40><br>
+							<tr><td align=right>First Name:<td><input id=signup_first_name name=signup_first_name size=40>
+							<tr><td align=right>Last Name:<td><input id=signup_last_name name=signup_last_name size=40>
+							<tr><td align=right>Invoice Number:<td><input id=signup_invoice name=signup_invoice size=40>
+							</table><br>
+						<center>
+						<Input Type="submit" Value="Submit" id="Submit1" onClick="javascript:request_personal_access();return false;">
+						<br><br>
+						<img src='images/spinner.gif' id='registering_spinner' style='display:none'>
+					</form>
+
+				</div>
+				<div id='lost_login_div' style='display:none'><br>
+					<center>If you lost your login, click <a href='#' onClick=forgot_password()>here</a>.
+				</div>
+				For more information about the personal logins, click <a href='content.php?url=individuals'>here</a>
+				<br><br><hr><br>
+
+
+If you are not subscribed, you can purchase this article by clicking 
+<a href="secure/POJ/purchaseform.php?id=3038718&sid=&newlayout=1">here</a> (price : 20 EURO)<br><br>				If you want to subscribe to this journal, click <a href='mailto:mailto:poj@peeters-leuven.be'>here</a><br>
+				</div>
+
+</td>	
+</table></div>
+<div class="clearempty">&#160;</div>
+
+<div id="contentonder"><img src="images/space.gif" width="988" height="20" border="0" alt=""></div>
+<div class="clear"></div>
+<div class="footer head_font" style='padding:5px;position: fixed;bottom: 0px;width: 100%;'>
+	<a href="content.php?url=CMS.php&section=disclaimer"  class="footer">Disclaimers</a> -
+	<a href="secure/COUNTER/login.php"  class="footer">Statistics</a> -
+	<a href="content.php?url=CMS.php&section=contact" class="footer">Contact</a> -
+	<a href="content.php?url=CMS.php&section=doi_resolver" class="footer">Doi Resolver</a> -
+	<a href="content.php?url=CMS.php&section=google_scholar" class="footer">Google Scholar</a>
+</div>
+</center>
+
+	<div id=overlay>
+		<div id=overlay_bg>
+		</div>
+		<div id=overlay_content>
+			<img id=overlay_image src='images/loading.gif' style='width:25%;padding-top: 25%;'>
+		</div>
+		<img id=close_img src='images/close_img.png' onClick=overlay_close()>
+	</div>
+
+
+	<div id=dialog_wrapper class=dialog_wrapper>
+		<div id=dialog_overlay>
+		</div>
+		<div id=dialog>
+			<div id=dialog_content>
+				<div id=dialog_close onClick=close_dialog('edit_record')></div>
+				<div id=dialog_title>
+				</div>
+				<div id=dialog_body>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

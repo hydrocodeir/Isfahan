@@ -1,0 +1,253 @@
+[
+  {
+    "ID": "N01",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.541,
+        "Origin": "master",
+        "ID": "S315",
+        "Title": "Interbasin Water Transfer: Economic Water Quality-Based Model"
+      },
+      {
+        "score": 0.513,
+        "Origin": "master",
+        "ID": "S096",
+        "Title": "بررسی چالش‌های طرح‌های انتقال آب بین‌حوضه‌ای (مورد مطالعاتی: طرح انتقال آب بهشت‌آباد)"
+      },
+      {
+        "score": 0.503,
+        "Origin": "master",
+        "ID": "S147",
+        "Title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel"
+      }
+    ]
+  },
+  {
+    "ID": "N02",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.495,
+        "Origin": "master",
+        "ID": "S147",
+        "Title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel"
+      }
+    ]
+  },
+  {
+    "ID": "N03",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.582,
+        "Origin": "master",
+        "ID": "S506",
+        "Title": "ارزیابی گزینه های مختلف سیستم انتقال آب بین حوضه ای با استفاده از روش تصمیم گیری چند معیاره (مطالعه موردی: طرح انتقال آب بهشت آباد)"
+      },
+      {
+        "score": 0.545,
+        "Origin": "master",
+        "ID": "S094",
+        "Title": "طراحی ابعاد سیستم انتقال آب بین‌حوضه‌ای با لحاظ شاخص‌های تصمیم‌گیری"
+      },
+      {
+        "score": 0.531,
+        "Origin": "master",
+        "ID": "S252",
+        "Title": "انتقال آب بین‌حوزه‌ای بهشت‌آباد به فلات مرکزی (گزارش شماره ۸۹۳۵)"
+      }
+    ]
+  },
+  {
+    "ID": "N04",
+    "exact": [],
+    "closest": []
+  },
+  {
+    "ID": "N05",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.534,
+        "Origin": "master",
+        "ID": "S179",
+        "Title": "نمایندگان خوزستان و چهارمحال و بختیاری در برابر اجرای بهشت‌آباد سکوت نمی‌کنند"
+      },
+      {
+        "score": 0.525,
+        "Origin": "master",
+        "ID": "S263",
+        "Title": "خوزستان و چهارمحال و بختیاری با انتقال آب مشکل دارند یا اصفهان؟!"
+      },
+      {
+        "score": 0.523,
+        "Origin": "reports/four_categories_2026_10_03/candidates.json",
+        "ID": null,
+        "Title": "بیانیه کمیته صیانت از آب استان چارمحال و بختیاری"
+      }
+    ]
+  },
+  {
+    "ID": "N06",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.535,
+        "Origin": "master",
+        "ID": "S225",
+        "Title": "دو تونلی که چهارمحال و بختیاری را خشکستان می‌کند"
+      },
+      {
+        "score": 0.535,
+        "Origin": "master",
+        "ID": "S478",
+        "Title": "تجمع در چهارمحال بختیاری در اعتراض به طرح‌های انتقال آب زاینده‌رود"
+      },
+      {
+        "score": 0.529,
+        "Origin": "master",
+        "ID": "S204",
+        "Title": "اعتراضات چهارمحال و بختیاری به طرح‌های انتقال آب"
+      }
+    ]
+  },
+  {
+    "ID": "N07",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.481,
+        "Origin": "master",
+        "ID": "S944",
+        "Title": "طرحی که نه ارزیابی محیط زیستی دارد و نه تعریف تأمین آب شرب"
+      }
+    ]
+  },
+  {
+    "ID": "N08",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.543,
+        "Origin": "master",
+        "ID": "S061",
+        "Title": "وعده‌های احیای زاینده‌رود به مناقشات منطقه‌ای ختم شد"
+      },
+      {
+        "score": 0.536,
+        "Origin": "master",
+        "ID": "S489",
+        "Title": "انتقال زاینده رود به یزد؛ آز یا نیاز؟"
+      },
+      {
+        "score": 0.533,
+        "Origin": "master",
+        "ID": "S486",
+        "Title": "زاینده‌رود گرفتار دستکاری‌های بی‌پایان"
+      }
+    ]
+  },
+  {
+    "ID": "N09",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.67,
+        "Origin": "master",
+        "ID": "S322",
+        "Title": "Investigation of water allocation using integrated water resource management approaches in the Zayandehroud River basin, Iran"
+      },
+      {
+        "score": 0.616,
+        "Origin": "master",
+        "ID": "S318",
+        "Title": "Expert knowledge based modeling for integrated water resources planning and management in the Zayandehrud River Basin"
+      },
+      {
+        "score": 0.614,
+        "Origin": "master",
+        "ID": "S326",
+        "Title": "Scenario analysis for integrated water resources planning and management under uncertainty in the Zayandehrud river basin"
+      }
+    ]
+  },
+  {
+    "ID": "N10",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.611,
+        "Origin": "master",
+        "ID": "S332",
+        "Title": "Integrated Water Resource Management in Isfahan: The Zayandeh Rud Catchment"
+      }
+    ]
+  },
+  {
+    "ID": "N11",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.484,
+        "Origin": "master",
+        "ID": "S139",
+        "Title": "Inter-basin water transfer: A sustainable solution or an environmental challenge? Behesht-Abad case"
+      }
+    ]
+  },
+  {
+    "ID": "P01",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.493,
+        "Origin": "master",
+        "ID": "S510",
+        "Title": "تحلیلی بر انتقال آب میان حوضه ای در استانهای اصفهان و چهارمحال و بختیاری"
+      }
+    ]
+  },
+  {
+    "ID": "P02",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.643,
+        "Origin": "master",
+        "ID": "S686",
+        "Title": "Tourismus und Integriertes Wasserressourcenmanagement am Zayandeh Rud"
+      },
+      {
+        "score": 0.532,
+        "Origin": "master",
+        "ID": "S332",
+        "Title": "Integrated Water Resource Management in Isfahan: The Zayandeh Rud Catchment"
+      },
+      {
+        "score": 0.516,
+        "Origin": "master",
+        "ID": "S322",
+        "Title": "Investigation of water allocation using integrated water resource management approaches in the Zayandehroud River basin, Iran"
+      }
+    ]
+  },
+  {
+    "ID": "P03",
+    "exact": [],
+    "closest": [
+      {
+        "score": 0.559,
+        "Origin": "master",
+        "ID": "S088",
+        "Title": "دستور برای تسریع کوهرنگ ۳، خرسان ۳ و ماندگان"
+      },
+      {
+        "score": 0.535,
+        "Origin": "master",
+        "ID": "S074",
+        "Title": "نامه تشکل‌های محیط زیستی برای توقف خرسان ۳ و بهشت‌آباد"
+      }
+    ]
+  }
+]

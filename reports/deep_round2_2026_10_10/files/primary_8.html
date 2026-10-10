@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)</title>
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/ico" href="./data/ijmei/coversheet/favicon.ico" />
+
+		<!-- user defined metatags -->
+					<meta name="keywords" content="Groundwater Conditions,Water Inflow,Fuzzy Inference System,Beheshtabad Tunnel" />
+					<meta name="description" content="Water inflow is one of the most important challenges in the underground excavations. In addition to inducing working conditions and environmental problems, it decreases the stability and quality of the surrounding rocks. The direct method of measuring rock mass hydraulic conductivity consists of drilling the boreholes and observing the rate of fluid lost in the boreholes. Applying this method is still problematic due to the depth of underground spaces, and also the groundwater level covering them. Therefore, many researchers have tried to predict the water inflow indirectly. This paper attempts to predict the groundwater conditions in the Beheshtabad tunnel (in Iran) using the fuzzy inference system based on the datasets acquired from the preliminary exploration studies. 250 datasets for the Beheshtabad tunnel were used out of which, 200 datasets were used to develop the model and 50 were used to validate the results obtained. 90% accuracy was obtained through comparing the fuzzy estimation and actual groundwater conditions. The proposed model can be used with much less degree of complexity for prediction of the groundwater conditions as well as decreasing the overall costs of the exploration measurements, and due to these characteristics, it is applicable for most users." />
+					<meta name="title" content="Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" />
+					<meta name="googlebot" content="NOODP" />
+					<meta name="citation_title" content="Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" />
+					<meta name="citation_author" content="Doustmohammadi, M." />
+					<meta name="citation_author_institution" content="School of Mining Engineering, College of Engineering, University of Tehran, Tehran, Iran" />
+					<meta name="citation_author" content="Jafari, A." />
+					<meta name="citation_author_institution" content="School of Mining Engineering, College of Engineering, University of Tehran, Tehran, Iran" />
+					<meta name="citation_author" content="Asghari, O." />
+					<meta name="citation_author_institution" content="Simulation and Data Processing Laboratory, School of Mining Engineering, University of Tehran, Tehran, Iran" />
+					<meta name="citation_abstract" content="Water inflow is one of the most important challenges in the underground excavations. In addition to inducing working conditions and environmental problems, it decreases the stability and quality of the surrounding rocks. The direct method of measuring rock mass hydraulic conductivity consists of drilling the boreholes and observing the rate of fluid lost in the boreholes. Applying this method is still problematic due to the depth of underground spaces, and also the groundwater level covering them. Therefore, many researchers have tried to predict the water inflow indirectly. This paper attempts to predict the groundwater conditions in the Beheshtabad tunnel (in Iran) using the fuzzy inference system based on the datasets acquired from the preliminary exploration studies. 250 datasets for the Beheshtabad tunnel were used out of which, 200 datasets were used to develop the model and 50 were used to validate the results obtained. 90% accuracy was obtained through comparing the fuzzy estimation and actual groundwater conditions. The proposed model can be used with much less degree of complexity for prediction of the groundwater conditions as well as decreasing the overall costs of the exploration measurements, and due to these characteristics, it is applicable for most users." />
+					<meta name="citation_id" content="549" />
+					<meta name="citation_publication_date" content="2016/07/01" />
+					<meta name="citation_date" content="2016-07-01" />
+					<meta name="citation_journal_title" content="Journal of Mining and Environment" />
+					<meta name="citation_issn" content="2251-8592" />
+					<meta name="citation_volume" content="7" />
+					<meta name="citation_issue" content="2" />
+					<meta name="citation_firstpage" content="229" />
+					<meta name="citation_lastpage" content="238" />
+					<meta name="citation_publisher" content="Shahrood University of Technology" />
+					<meta name="citation_doi" content="10.22044/jme.2016.549" />
+					<meta name="DC.Identifier" content="10.22044/jme.2016.549" />
+					<meta name="citation_abstract_html_url" content="https://jme.shahroodut.ac.ir/article_549.html" />
+					<meta name="citation_pdf_url" content="https://jme.shahroodut.ac.ir/article_549_e7520862819a7a1d62b0eab693483028.pdf" />
+					<meta name="DC.Title" content="Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" />
+					<meta name="DC.Source" content="Journal of Mining and Environment" />
+					<meta name="DC.Date" content="01/07/2016" />
+					<meta name="DC.Date.issued" content="2016-07-01" />
+					<meta name="DC.Format" content="application/pdf" />
+					<meta name="DC.Contributor" content="Doustmohammadi, M." />
+					<meta name="DC.Contributor" content="Jafari, A." />
+					<meta name="DC.Contributor" content="Asghari, O." />
+					<meta name="og:title" content="Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" />
+					<meta name="og:description" content="Water inflow is one of the most important challenges in the underground excavations. In addition to inducing working conditions and environmental problems, it decreases the stability and quality of the surrounding rocks. The direct method of measuring rock mass hydraulic conductivity consists of drilling the boreholes and observing the rate of fluid lost in the boreholes. Applying this method is still problematic due to the depth of underground spaces, and also the groundwater level covering them. Therefore, many researchers have tried to predict the water inflow indirectly. This paper attempts to predict the groundwater conditions in the Beheshtabad tunnel (in Iran) using the fuzzy inference system based on the datasets acquired from the preliminary exploration studies. 250 datasets for the Beheshtabad tunnel were used out of which, 200 datasets were used to develop the model and 50 were used to validate the results obtained. 90% accuracy was obtained through comparing the fuzzy estimation and actual groundwater conditions. The proposed model can be used with much less degree of complexity for prediction of the groundwater conditions as well as decreasing the overall costs of the exploration measurements, and due to these characteristics, it is applicable for most users." />
+					<meta name="og:url" content="https://jme.shahroodut.ac.ir/article_549.html" />
+		
+		<!-- user defined metatags-->
+		
+		<!-- Feed-->
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="./ju.rss" />
+
+
+		<!-- CSS -->
+		<link rel="stylesheet" media="screen" href="./themes/base/front/assets/plugins/bootstrap/css/bootstrap.min.css?v=0.02">
+		<link rel="stylesheet" media="screen" href="./themes/theme1/front/assets/css/jquery-ui.min.css" >
+		<link href="./inc/css/ju_css.css" rel="stylesheet" type="text/css" />
+
+					<link href=" ./themes/base/front/assets/css/gfonts-OpenSans.css" rel="stylesheet" type="text/css" />
+			
+		<link rel="stylesheet" href="./themes/theme1/front/assets/css/main.css?v=1.5" type="text/css" />
+		<link rel="stylesheet" href="./themes/theme4/front/assets/css/boxlist.css" type="text/css" />
+		<link rel="stylesheet" href="./themes/theme1/front/assets/css/color.css" type="text/css" />
+
+		<link href="./data/ijmei/coversheet/stl_front.css?v=0.12" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="./inc/js/app.js?v=0.1"></script>
+
+
+		<!-- Extra Style Scripts -->
+		
+		<!-- Extra Script Scripts -->
+				<link rel="stylesheet" href="./themes/theme1/front/assets/css/custome.css?v=0.1" type="text/css" />
+	</head>
+
+	<body dir="ltr"  >
+
+	<header class="bar-affix-indicator">
+		<div class="affix-above">
+			<!-- Top Menu -->
+			<div class="topMenu">
+				<div class="container-fluid">
+					<div class="row">
+					<div id="topLogo" class="pull-left">
+													<!-- publisher link and name -->
+	                    </div>
+
+	                    <div id="topMenu" class="pull-right">
+
+						<ul id="navigationUser" class="menu pull-right">
+
+						
+							<li class=""><a href="./contacts?_action=signup"><i class="fa fa-key"></i> Register</a></li>
+							<li class=""><a href="./contacts"><i class="fa fa-user"></i> Login</a></li>
+							
+						
+						</ul>
+
+						<ul class="menu pull-right">
+							
+						</ul>
+
+                        <div class="clearfix"></div>
+
+		                </div>
+
+					</div><!-- .row -->
+				</div><!-- .container-fluid -->
+			</div>
+
+
+			<!-- Brand Bar -->
+			<div class="brandBar">
+				<div class="container-fluid">
+					<a href="./" class="pull-left" style="display: block;width: 100%;">
+
+						<img class="logo" src="./data/ijmei/coversheet/logo_en.png" onerror="this.style.display='none'" style="padding-right: 15px" >
+						
+						<h1 style="display: inline-block;vertical-align: middle;" id="ju_header_title_m">
+							Journal of Mining and Environment						</h1>
+	                    <div class="clearfix" ></div>
+
+					</a>
+				</div>
+				
+				<div class="pull-right" id="ReleasePeriod">
+			 </div>
+			</div>
+			
+			</div>
+
+		</div>
+		<!-- End affix-above -->
+
+		<!-- Primary menu -->
+		<div class="mainMenu" style="min-height:5px">
+		
+	    </div>
+
+	</header>
+	<div id="MainContent">
+<div id="generalPage" class="container-fluid">
+    <div class="row equal">
+        <div class="col-xs-12">
+            <div class="pageContent">
+
+                <!-- bread breadcrumb -->
+<nav class="cmp_breadcrumbs" role="navigation">
+<ol class="breadcrumb">
+	<li>
+	<a href="./" class="">Home</a>
+	</li>
+		<li class="active">
+	Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)	</li>
+</ol>
+</nav>
+                
+                <section id="info_content">
+
+                <div class="row equal">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 br-right">
+                
+<div class="accordion">
+
+    <div id="about" class="accordion__group bordered" >
+        <input type="checkbox" class="accordion__control" id="accordion-section">
+        <div class="accordion__toggle" style="padding: 0;">
+            <form  action="./" method="get">
+                <div class="searchBox" >
+                    <input type="hidden" name="_action" value="article"/>
+                    <input type="text" name="keywords" placeholder="Search"/>
+                    <button type="submit" class="btn btn-default"> 
+                        <span class="fa fa-search " aria-hidden="true"></span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section1">
+            <label class="accordion__toggle" for="accordion-section1">
+                <a href="././">Home</a>
+            </label>
+        </div>
+
+    
+            <div id="services" class="accordion__group">
+                <input type="checkbox" class="accordion__control" id="accordion-section2">
+                <label class="accordion__toggle has" for="accordion-section2">
+                    <a>Browse</a>
+                </label>
+
+                <div class="accordion__body">
+                                            <p><a href="./?_action=current">Current Issue</a></p>
+                                            <p><a href="./browse?_action=issue">By Issue</a></p>
+                                            <p><a href="./browse?_action=author">By Author</a></p>
+                                            <p><a href="./browse?_action=subject">By Subject</a></p>
+                                            <p><a href="./author.index">Author Index</a></p>
+                                            <p><a href="./keyword.index">Keyword Index</a></p>
+                                    </div>
+            </div>
+
+    
+            <div id="services" class="accordion__group">
+                <input type="checkbox" class="accordion__control" id="accordion-section3">
+                <label class="accordion__toggle has" for="accordion-section3">
+                    <a>Journal Info</a>
+                </label>
+
+                <div class="accordion__body">
+                                            <p><a href="./journal/about">About Journal</a></p>
+                                            <p><a href="./journal/aim_scope">Aims and Scope</a></p>
+                                            <p><a href="./journal/editorial.board">Editorial Board</a></p>
+                                            <p><a href="./journal/process?ethics">Publication Ethics</a></p>
+                                            <p><a href="./journal/indexing">Indexing and Abstracting</a></p>
+                                            <p><a href="./journal/links">Related Links</a></p>
+                                            <p><a href="./journal/faq">FAQ</a></p>
+                                            <p><a href="./journal/process">Peer Review Process</a></p>
+                                            <p><a href="./news">News</a></p>
+                                            <p><a href="./page_1.html">Journal Forms</a></p>
+                                            <p><a href="./journal/metrics">Journal Metrics</a></p>
+                                    </div>
+            </div>
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section4">
+            <label class="accordion__toggle" for="accordion-section4">
+                <a href="./journal/authors.note">Guide for Authors</a>
+            </label>
+        </div>
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section5">
+            <label class="accordion__toggle" for="accordion-section5">
+                <a href="./author">Submit Manuscript</a>
+            </label>
+        </div>
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section6">
+            <label class="accordion__toggle" for="accordion-section6">
+                <a href="./reviewer?_action=info">Reviewers</a>
+            </label>
+        </div>
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section7">
+            <label class="accordion__toggle" for="accordion-section7">
+                <a href="./journal/contact.us">Contact Us</a>
+            </label>
+        </div>
+
+    
+        <div class="accordion__group">
+            <input type="checkbox" class="accordion__control" id="accordion-section8">
+            <label class="accordion__toggle" for="accordion-section8">
+                <a href="./p_usingandcitation">Using and Citation</a>
+            </label>
+        </div>
+
+    
+</div>                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+
+                    <div class="row">
+
+                        <div id="article-info" class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                            <div class="page-header">
+                                <h1 class="ltr">Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)</h1>
+                            </div>
+							                            <div class="page-content" >
+                                <div>
+                                     
+
+                                    
+                                        <div class="margin-bottom-3">
+                                                                                    </div>
+
+                                                                                    <p class="margin-bottom-3">Document Type : Case Study</p>
+                                        
+                                    
+                                                                            <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>Authors</strong></p>
+
+                                        <ul class="list-inline list-inline-seprator margin-bottom-6 ltr">
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;au=6210&amp;_au=M.++Doustmohammadi">M.  Doustmohammadi</a>
+
+                                                                                                            <sup><a class="inline-block" href="mailto:doustmohammadi@ut.ac.ir" data-toggle="tooltip" data-placement="bottom" title="Email to Corresponding Author"><i class="fa fa-envelope-o" ></i></a></sup>
+                                                    
+                                                    
+                                                                                                            <sup><a class="inline-block" href="#aff1" >1</a></sup>                                                                                                    </li>
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;au=5303&amp;_au=A.++Jafari">A.  Jafari</a>
+
+                                                    
+                                                    
+                                                                                                            <sup><a class="inline-block" href="#aff1" >1</a></sup>                                                                                                    </li>
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;au=383&amp;_au=O.++Asghari">O.  Asghari</a>
+
+                                                    
+                                                                                                            <sup><a class="inline-block text-green" href="https://orcid.org/0000-0002-3587-0220" data-toggle="tooltip" data-placement="bottom" title="OrcID: 0000-0002-3587-0220" target="_blank"><i class="ai ai-orcid size-16" ></i></a></sup>
+                                                    
+                                                                                                            <sup><a class="inline-block" href="#aff2" >2</a></sup>                                                                                                    </li>
+                                                                                    </ul>
+
+                                                                                    <p class="margin-bottom-3 ltr" id="aff1">
+                                                                                                    <sup>1</sup>
+                                                                                                School of Mining Engineering, College of Engineering, University of Tehran, Tehran, Iran                                            </p>
+                                                                                    <p class="margin-bottom-3 ltr" id="aff2">
+                                                                                                    <sup>2</sup>
+                                                                                                Simulation and Data Processing Laboratory, School of Mining Engineering, University of Tehran, Tehran, Iran                                            </p>
+                                        
+                                    
+                                                                            <div class="margin-bottom-3 ltr" id="ar_doii"><i class="ai ai-doi size-25 text-orange"></i> <span dir="ltr"><a href="https://doi.org/10.22044/jme.2016.549">https://doi.org/10.22044/jme.2016.549</a></span></div>
+                                                                                                                <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>Abstract</strong></p>
+                                        <p class="justify_txt ltr">Water inflow is one of the most important challenges in the underground excavations. In addition to inducing working conditions and environmental problems, it decreases the stability and quality of the surrounding rocks. The direct method of measuring rock mass hydraulic conductivity consists of drilling the boreholes and observing the rate of fluid lost in the boreholes. Applying this method is still problematic due to the depth of underground spaces, and also the groundwater level covering them. Therefore, many researchers have tried to predict the water inflow indirectly. This paper attempts to predict the groundwater conditions in the Beheshtabad tunnel (in Iran) using the fuzzy inference system based on the datasets acquired from the preliminary exploration studies. 250 datasets for the Beheshtabad tunnel were used out of which, 200 datasets were used to develop the model and 50 were used to validate the results obtained. 90% accuracy was obtained through comparing the fuzzy estimation and actual groundwater conditions. The proposed model can be used with much less degree of complexity for prediction of the groundwater conditions as well as decreasing the overall costs of the exploration measurements, and due to these characteristics, it is applicable for most users.</p>
+                                    
+                                    
+                                    
+                                                                            <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>Keywords</strong></p>
+                                        
+                                        <ul class="block list-inline list-inline-seprator margin-bottom-6 ltr">
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;kw=3208&amp;_kw=Groundwater+Conditions" >Groundwater Conditions</a>
+                                                </li>
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;kw=3125&amp;_kw=Water+Inflow" >Water Inflow</a>
+                                                </li>
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;kw=3126&amp;_kw=Fuzzy+Inference+System" >Fuzzy Inference System</a>
+                                                </li>
+                                                                                            <li class="padding-3">
+                                                    <a href="./?_action=article&amp;kw=3209&amp;_kw=Beheshtabad+Tunnel" >Beheshtabad Tunnel</a>
+                                                </li>
+                                                                                    </ul>
+                                    
+                                                                    </div>
+
+                                
+                                
+                                
+
+                                
+
+                                
+
+
+                               
+
+                                                                                                    
+
+                                
+
+                                
+
+                                
+                            </div>  
+                        </div>
+                        <div class="sidebar col-lg-3 col-md-4 col-sm-12 col-xs-12">
+
+                                                        <div class="sidebar_block wc">    
+                                    <div class="content">
+                                       
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <a href="javascript:loadModal('Journal of Mining and Environment', './data/ijmei/coversheet/cover_en.jpg')">
+                                                    <img src="data/ijmei/coversheet/cover_en.jpg" alt="Journal of Mining and Environment" width="140%">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-8 text-left">
+                                                <div class="row col-md-12">
+                                                	<h6 style="margin-top:0px;"><a href="./issue_81_87.html">Volume 7, Issue 2 - Serial Number 2</a><br/>July  and August 2016<div id="sp_ar_pages">Pages <span dir="ltr">229-238</span></div></h6>
+                                                </div>	
+                                            </div>
+                                            <div class="row col-md-12">   
+                                            
+				<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js" async></script>
+				<div class="col-md-12"><div id="plum_widget"><a href="https://plu.mx/plum/a/?doi=10.22044/jme.2016.549" class="plumx-plum-print-popup" data-popup="right" data-hide-when-empty="true" data-site="plum" data-badge="false">Profile on PlumX</a></div></div>	                                    	</div>
+                                        </div>
+                                                
+                                    </div>
+                                </div>
+                                
+                            <!-- Download Files -->
+                                                        <div class="sidebar_block wc">         
+                                <span class="title">Files</span>
+                                <div class="content">
+                                    <div class="side-nav" >
+                                        <ul class="list-group list-group-bordered list-group-noicon" style="display:block !important;max-height:9999px"> 
+                                                                                            <li class="list-group-item" ><a href="./?_action=xml&amp;article=549" target="_blank" class="pdf_link" target="_blank"><i class="fa fa-file-code-o text-orange" ></i> XML</a></li>
+                                                                                            <li class="list-group-item" ><a href="./article_549_e7520862819a7a1d62b0eab693483028.pdf" target="_blank" class="pdf_link" target="_blank"><i class="fa fa-file-pdf-o text-red" ></i> PDF <span dir="ltr" class="badge badge-light">714.79 K</span></a></li>
+                                            
+                                     
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                                                                  
+                              
+
+                            <div class="sidebar_block wc">   
+                                <span class="title closed">Share</span> 
+                                <div class="content text-center" style="display:none">
+                                                                        <div class="text-center">
+                                    <a id="share_facebook" href="https://www.facebook.com/sharer.php?u=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a id="share_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                                        <i class="icon-linkedin"></i>
+                                        <i class="icon-linkedin"></i>
+                                    </a>
+                                    <a id="share_mendeley" href="https://www.mendeley.com/import/?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-youtube" data-toggle="tooltip" data-placement="top" title="Mendeley">
+                                        <i class="icon-mendeley"></i>
+                                        <i class="icon-mendeley"></i>
+                                    </a>
+                                    <a id="share_refworks" href="https://www.refworks.com/express/ExpressImport.asp?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-disqus" data-toggle="tooltip" data-placement="top" title="Refworks">
+                                        <i class="icon-refworks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i>
+                                        <i class="icon-refworks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i>
+                                    </a>
+        							<a id="share_instagram" href="https://www.instagram.com/?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-instagram" data-toggle="tooltip" data-placement="top" title="Instagram">
+        								<i class="icon-instagram"></i>
+        								<i class="icon-instagram"></i>
+        							</a>
+                                    <a id="share_twitter" href="https://twitter.com/share?url=https://jme.shahroodut.ac.ir/article_549.html&amp;text=Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" target="_blank" class="social-icon social-icon-sm  social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a id="share_email" href="javascript:act('email')" class="social-icon social-icon-sm  social-email3 " data-toggle="tooltip" data-placement="top" title="Email">
+                                        <i class="icon-email3"></i>
+                                        <i class="icon-email3"></i>
+                                    </a>
+                                    <a id="share_print" href="javascript:printDiv('article-info')" class="social-icon social-icon-sm  social-print" data-toggle="tooltip" data-placement="top" title="Print">
+                                        <i class="icon-print"></i>
+                                        <i class="icon-print"></i>
+                                    </a>
+                                    <a id="share_stumble" href="https://mix.com/mixit?su=submit&url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-stumbleupon" data-toggle="tooltip" data-placement="top" title="StumbleUpon">
+                                        <i class="icon-stumbleupon"></i>
+                                        <i class="icon-stumbleupon"></i>
+                                    </a>
+                                    <a id="share_acedemia" href="https://www.academia.edu/" target="_blank" class="social-icon social-icon-sm  social-linkedin" data-toggle="tooltip" data-placement="top" title="Academia">
+                                        <i class="ai ai-academia"></i>
+                                        <i class="ai ai-academia"></i>
+                                    </a>
+                                    <a id="share_sems" href="https://www.semanticscholar.org/" target="_blank" class="social-icon social-icon-sm  social-forrst" data-toggle="tooltip" data-placement="top" title="Semantic scholar">
+                                        <i class="ai ai-semantic-scholar"></i>
+                                        <i class="ai ai-semantic-scholar"></i>
+                                    </a>
+                                    <a id="share_reddit" href="https://www.reddit.com/submit?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-dwolla" data-toggle="tooltip" data-placement="top" title="Reddit">
+                                        <i class="icon-reddit"></i>
+                                        <i class="icon-reddit"></i>
+                                    </a>
+                                    <a id="share_rg" href="https://www.researchgate.net/" target="_blank" class="social-icon social-icon-sm  social-dropbox" data-toggle="tooltip" data-placement="top" title="Research Gate">
+                                        <i class="ai ai-researchgate"></i>
+                                        <i class="ai ai-researchgate"></i>
+                                    </a>
+                                    <a id="share_blogger" href="https://www.blogger.com/blog-this.g?u=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-blogger" data-toggle="tooltip" data-placement="top" title="Blogger">
+                                        <i class="icon-blogger"></i>
+                                        <i class="icon-blogger"></i>
+                                    </a>
+                                    <a id="share_pinterest" href="https://pinterest.com/pin/create/bookmarklet/?media=&url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest">
+                                        <i class="icon-pinterest"></i>
+                                        <i class="icon-pinterest"></i>
+                                    </a>
+                                    <a id="share_digg" href="https://www.digg.com/submit?https://jme.shahroodut.ac.ir/article_549.html&title=Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)" target="_blank" class="social-icon social-icon-sm  social-digg" data-toggle="tooltip" data-placement="top" title="Digg">
+                                        <i class="icon-digg"></i>
+                                        <i class="icon-digg"></i>
+                                    </a>
+                                    <a id="share_delicious" href="https://del.icio.us/post?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-delicious" data-toggle="tooltip" data-placement="top" title="Delicious">
+                                        <i class="icon-delicious"></i>
+                                        <i class="icon-delicious"></i>
+                                    </a>
+                                    <a id="share_skype" href="https://web.skype.com/share?url=https://jme.shahroodut.ac.ir/article_549.html" target="_blank" class="social-icon social-icon-sm  social-skype" data-toggle="tooltip" data-placement="top" title="Skype">
+                                        <i class="icon-skype"></i>
+                                        <i class="icon-skype"></i>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar_block wc">   
+                                <span class="title closed">How to cite</span> 
+                                <div class="content" style="display:none">
+                                    <div class="side-nav" >
+                                        <ul class="list-group list-group-bordered list-group-noicon" style="display:block !important;max-height:9999px">
+
+                                            <li class="list-group-item nopadding" style="text-align:left"><a href="./?_action=export&rf=ris&rc=549">RIS</a></li>
+                                            <li class="list-group-item nopadding" style="text-align:left"><a href="./?_action=export&rf=enw&rc=549">EndNote</a></li>
+                                            <li class="list-group-item nopadding" style="text-align:left"><a href="./?_action=export&rf=ris&rc=549">Mendeley</a></li>
+                                            <li class="list-group-item nopadding" style="text-align:left"><a href="./?_action=export&rf=bibtex&rc=549">BibTeX</a></li>
+                                                                                            <li class="list-group-item nopadding" style="text-align:left"><a href="javascript:void(0)" data-toggle="modal" data-target="#cite-apa">APA</a></li>
+                                                                                            <li class="list-group-item nopadding" style="text-align:left"><a href="javascript:void(0)" data-toggle="modal" data-target="#cite-mla">MLA</a></li>
+                                                                                            <li class="list-group-item nopadding" style="text-align:left"><a href="javascript:void(0)" data-toggle="modal" data-target="#cite-harvard">HARVARD</a></li>
+                                                                                            <li class="list-group-item nopadding" style="text-align:left"><a href="javascript:void(0)" data-toggle="modal" data-target="#cite-chicago">CHICAGO</a></li>
+                                                                                            <li class="list-group-item nopadding" style="text-align:left"><a href="javascript:void(0)" data-toggle="modal" data-target="#cite-vancouver">VANCOUVER</a></li>
+                                                
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                        <div class="sidebar_block wc">   
+                                <span class="title">Statistics</span> 
+                                <div class="content">
+                                    <div class="side-nav" >
+                                        <ul class="list-group list-group-bordered list-group-noicon" style="display:block !important;max-height:9999px">
+                                                                                            <li class="list-group-item nopadding"><a>Article View: <i>3,331</i></a></li>
+                                                                                            <li class="list-group-item nopadding"><a>PDF Download: <i>2,788</i></a></li>
+                                             
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                                 
+                                
+
+                        </div>
+                    </div>
+
+                    
+
+                    
+
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+                    <div id="cite-apa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">APA</h4>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <p> Doustmohammadi, M.  , Jafari, A.    and Asghari, O.  (2016). Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran). <em>Journal of Mining and Environment</em>, <em>7</em>(2), 229-238. doi: 10.22044/jme.2016.549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div id="cite-mla" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">MLA</h4>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <p> Doustmohammadi, M. , , Jafari, A. ,   and Asghari, O. . "Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)", <em>Journal of Mining and Environment</em>, 7, 2, 2016, 229-238. doi: 10.22044/jme.2016.549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div id="cite-harvard" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">HARVARD</h4>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <p>Doustmohammadi, M., Jafari, A., Asghari, O. (2016). 'Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)', <em>Journal of Mining and Environment</em>, 7(2), pp. 229-238. doi: 10.22044/jme.2016.549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div id="cite-chicago" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">CHICAGO</h4>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <p> M. Doustmohammadi , A. Jafari   and O. Asghari, "Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran)," Journal of Mining and Environment, 7 2 (2016): 229-238,  doi: 10.22044/jme.2016.549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div id="cite-vancouver" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">VANCOUVER</h4>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <p>Doustmohammadi, M., Jafari, A., Asghari, O. Estimation of groundwater inflow situation using fuzzy logic: a case study (Beheshtabad water conveying tunnel, Iran). <em>Journal of Mining and Environment</em>, 2016; 7(2): 229-238. doi: 10.22044/jme.2016.549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+<!-- End content register -->
+
+
+
+    </div>
+     <!-- دایو بالا مربوط به
+     main cotente
+      -->
+    <div id="infobox" style="height:0;overflow:hidden"></div>
+    <footer>
+        <div id="footer" class="container-fluid">
+            <div class="overlay"></div>
+                <div class="row equal widgetList">
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="widgetBox">
+                            <ul>
+                                <li id="fli_home"><a href="./">Home</a></li>
+                                <li id="fli_about"><a href="./journal/about">About Journal</a></li>
+                                <li id="fli_Edb"><a href="./journal/editorial.board">Editorial Board</a></li>
+                                <li id="fli_submit"><a href="./author">Submit Manuscript</a></li>
+                                                                <li id="fli_contactus"><a href="./journal/contact.us">Contact Us</a></li>
+                                <li id="fli_sitemap"><a href="./sitemap.xml?usr">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="widgetBox news">
+                            <!-- Latest News -->
+                            <h4 class="letter-spacing-1">News</h4>
+                            <ul class="footer-posts list-unstyled">
+                                                                    <li>
+                                    <a href="./news?newsCode=42">Journal&#039;s Performance</a>
+                                    <small>2025-07-08</small>
+                                </li>
+                                                                    <li>
+                                    <a href="./news?newsCode=37">JME in the JCR List 2022</a>
+                                    <small>2023-09-05</small>
+                                </li>
+                                                                    <li>
+                                    <a href="./news?newsCode=36">Journal Citation Report™ (JCR)</a>
+                                    <small>2023-02-22</small>
+                                </li>
+                                                                    <li>
+                                    <a href="./news?newsCode=33">Scopus</a>
+                                    <small>2021-12-04</small>
+                                </li>
+                                                            </ul>
+                            <!-- /Latest News -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 margin-bottom-20">
+                        <!-- Footer Note -->
+                                                    <div class="widgetBox"><!-- GoStats Simple HTML Based Code -->
+<p><a title="web site traffic statistics" href="http://www.gostats.org" target="_blank" rel="noopener"><img style="border-width: 0;" src="http://www.gostats.org/0.png?a=100485804&amp;ct=4&amp;ci=23" alt="web site traffic statistics" /></a></p>
+<!-- End GoStats Simple HTML Based Code -->
+<p><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" /></p>
+<p>JME is&nbsp;licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.</p></div>
+                                            </div>
+                    <div class="col-sm-3 col-xs-12">
+                        <div class="widgetBox">
+                            <h4 class="letter-spacing-1">Newsletter Subscription</h4>
+                            <p>Subscribe to the journal newsletter and receive the latest news and updates</p>
+
+                            <form class="validate" action="" method="post" data-success="Subscription saved successfully." data-toastr-position="bottom-right">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                                    </span>
+                                </div>
+                            </form>
+
+                            <div class="socialBread">
+								<div class="margin-top-20">
+                            <!-- Social Icons -->
+																<a class="noborder" href="" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Facebook">
+									<i class="fa fa-facebook-square" aria-hidden="true"></i>									
+									</a>
+																	<a class="noborder" href="" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="fa fa-twitter-square" aria-hidden="true"></i>									
+									</a>
+																	<a class="noborder" href="" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>									
+									</a>
+																<a class="noborder" href="./ju.rss" class="social-icon social-icon-border social-rss pull-left block" data-toggle="tooltip" data-placement="top" title="Rss">
+									<i class="fa fa-rss-square" aria-hidden="true"></i>
+								</a>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright" style="position: relative">
+                &copy; Journal Management System. <span id='sp_crt'>Powered by <a target='_blank' href='https://www.sinaweb.net/'>Sinaweb</a></span> 
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="./themes/theme1/front/assets/js/theme.js" type="text/javascript"></script>
+
+        <!-- user defined scripts-->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71397743-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <!-- Extra Script Scripts -->
+        
+    </body>
+</html>
+
+
+
+
+
+
+<div id="actn_modal" class="modal fade" tabindex="-1">
+	<div id="" class="modal-dialog modal-dialog madal-aw">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" href="#lost">&times;</button>
+				<h5 class="modal-title"></h5>
+			</div>
+			<div class="modal-body"></div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+</div>
+

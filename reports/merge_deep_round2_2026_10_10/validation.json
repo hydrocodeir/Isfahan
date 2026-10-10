@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "before": 985,
+  "after": 1012,
+  "added": 27,
+  "first_id": "S986",
+  "last_id": "S1012",
+  "unchanged_existing_records": 985,
+  "existing_excel_cells_checked": 117929,
+  "existing_style_changes": 0,
+  "local_pdfs_added": 10,
+  "pending_excluded": [
+    "P073",
+    "P121",
+    "P124",
+    "P135",
+    "Pdoc",
+    "Pint"
+  ],
+  "json_offline_equal": true,
+  "new_excel_json_rows_equal": true,
+  "canonical_sha256": {
+    "data.json": "89535934e525b823234a8d3b325d7e2a8fed8ac65147a6a7fcb59438fd0f40b3",
+    "app.js": "16ca6a29070e2a160d58a7668acf9bbbd3a25934de3e94ca1167246d32301c82",
+    "Data.xlsx": "dcb282741081b2e0f361ab820fe0a11aa726bbcf490586dd1c774c4c8bc370a6"
+  }
+}
