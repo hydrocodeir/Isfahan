@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-11",
+  "before_count": 1012,
+  "after_count": 1042,
+  "added": 30,
+  "mapping": [
+    {
+      "research_source_id": "S01",
+      "source_id": "S232",
+      "action": "reuse",
+      "match": "URL"
+    },
+    {
+      "research_source_id": "S02",
+      "source_id": "S003",
+      "action": "reuse",
+      "match": "URL"
+    },
+    {
+      "research_source_id": "S03",
+      "source_id": "S1013",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S04",
+      "source_id": "S096",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S05",
+      "source_id": "S1014",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S06",
+      "source_id": "S1015",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S07",
+      "source_id": "S1016",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S08",
+      "source_id": "S1017",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S09",
+      "source_id": "S1018",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S10",
+      "source_id": "S1019",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S11",
+      "source_id": "S1020",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S12",
+      "source_id": "S1021",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S13",
+      "source_id": "S1022",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S14",
+      "source_id": "S1023",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S15",
+      "source_id": "S1024",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S16",
+      "source_id": "S1025",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S17",
+      "source_id": "S1026",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S18",
+      "source_id": "S1027",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S19",
+      "source_id": "S1028",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S20",
+      "source_id": "S1029",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S21",
+      "source_id": "S1030",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S22",
+      "source_id": "S1031",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S23",
+      "source_id": "S1032",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S24",
+      "source_id": "S093",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S25",
+      "source_id": "S354",
+      "action": "reuse",
+      "match": "URL"
+    },
+    {
+      "research_source_id": "S26",
+      "source_id": "S989",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S27",
+      "source_id": "S1033",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S28",
+      "source_id": "S099",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S29",
+      "source_id": "S139",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S30",
+      "source_id": "S103",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S31",
+      "source_id": "S103",
+      "action": "reuse",
+      "match": "DOI / alternate URL"
+    },
+    {
+      "research_source_id": "S32",
+      "source_id": "S1034",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S33",
+      "source_id": "S1035",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S34",
+      "source_id": "S1036",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S35",
+      "source_id": "S289",
+      "action": "reuse",
+      "match": "URL"
+    },
+    {
+      "research_source_id": "S36",
+      "source_id": "S1037",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S37",
+      "source_id": "S1038",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S38",
+      "source_id": "S1039",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S42",
+      "source_id": "S1040",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S43",
+      "source_id": "S1041",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S44",
+      "source_id": "S1042",
+      "action": "add"
+    },
+    {
+      "research_source_id": "S45",
+      "source_id": "S397",
+      "action": "reuse",
+      "match": "URL"
+    }
+  ],
+  "pending_leads": [
+    {
+      "id": "L01",
+      "title": "گزارش مجلس درباره بهشت‌آباد، به‌ویژه گزارش مرداد ۱۳۹۱",
+      "reason": "در منابع ثانویه نقل شده؛ متن اصلی و شناسه گزارش مجلس بازیابی نشده است.",
+      "source_ids": [
+        "S39"
+      ],
+      "needed": "اصل PDF، شماره گزارش، تاریخ و واحد تهیه‌کننده"
+    },
+    {
+      "id": "L02",
+      "title": "گزارش گزینه‌های انتقال خرسان با انتساب به طوس‌آب",
+      "reason": "انتساب و شماره گزارش در شبکه اجتماعی مطرح شده؛ گزارش و قرارداد مستقل مشاهده نشده‌اند.",
+      "source_ids": [
+        "S40"
+      ],
+      "needed": "گزارش اصلی، صفحه عنوان و تأیید رسمی کارفرما"
+    },
+    {
+      "id": "L03",
+      "title": "پژوهش‌های پیش‌بینی حفاری TBM برای گلاب، بهشت‌آباد و سبزکوه",
+      "reason": "فهرست موضوعی در معرفی خدمات یک شرکت آمده؛ هر مقاله باید مستقل با DOI و وابستگی تاریخی بررسی شود.",
+      "source_ids": [
+        "S41"
+      ],
+      "needed": "متن مقاله‌های اصلی و مشخصات انتشار"
+    },
+    {
+      "id": "L04",
+      "title": "گوکان / Gukan و گزینه‌های تاریخی انتقال به زاینده‌رود",
+      "reason": "در مقاله رتبه‌بندی وجود دارد، اما هویت اجرایی مستقل و نام رسمی امروزی روشن نشده است.",
+      "source_ids": [
+        "S36"
+      ],
+      "needed": "مطالعات امکان‌سنجی، کد رسمی طرح و نقشه مسیر"
+    },
+    {
+      "id": "L05",
+      "title": "قراردادهای مستقل مشاوران خارجی بهشت‌آباد",
+      "reason": "نام شرکت‌های خارجی در رزومه متخصص آمده؛ این شاهد برای تعیین مبلغ، کشور طرف قرارداد و محدوده خدمات کافی نیست.",
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "needed": "قرارداد یا معرفی رسمی شرکت خارجی / کارفرما"
+    }
+  ],
+  "excluded_evidence": [
+    "S39",
+    "S40",
+    "S41"
+  ],
+  "baseline_sha256": {
+    "data.json": "89535934e525b823234a8d3b325d7e2a8fed8ac65147a6a7fcb59438fd0f40b3",
+    "app.js": "d67d1611fde9796de2dfaad490459516c7a0dc5e3f6a0fcc151014f82a6cc8cf",
+    "Data.xlsx": "dcb282741081b2e0f361ab820fe0a11aa726bbcf490586dd1c774c4c8bc370a6"
+  }
+}

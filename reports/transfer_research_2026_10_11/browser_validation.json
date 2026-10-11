@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "mode": "canonical",
+  "source_count": 1042,
+  "study_count": 30,
+  "project_count": 17,
+  "filters": true,
+  "source_links": true,
+  "export": true,
+  "mobile": true,
+  "dark_theme": true,
+  "offline_fallback": true,
+  "page_errors": []
+}

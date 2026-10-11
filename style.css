@@ -1755,6 +1755,21 @@ input, select, .kpi-value, .source-id, .nav-count, .panel-badge, .timeline-year,
   font-size: 0.85rem;
 }
 
+.registry-note { color: var(--md-sys-color-on-surface-variant); line-height: 1.9; margin: 0 0 20px; }
+.study-filter-footer, .registry-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 16px; }
+.study-filter-footer { justify-content: space-between; }
+.study-table { min-width: 1200px; }
+.study-table td { white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+.study-table .title-cell { min-width: 250px; }
+.study-title { display: block; border: 0; background: transparent; color: inherit; font: inherit; line-height: 1.8; text-align: right; cursor: pointer; padding: 6px 0; }
+.study-title:hover { text-decoration: underline; }
+.study-title:focus-visible, .registry-source:focus-visible, .transfer-project summary:focus-visible { outline: 2px solid var(--md-sys-color-primary); outline-offset: 3px; }
+.transfer-project summary, .study-leads summary { cursor: pointer; line-height: 1.9; }
+.transfer-project summary .title-sub { display: block; margin-top: 8px; }
+.registry-facts { display: grid; grid-template-columns: 110px minmax(0,1fr); gap: 10px; font-size: 13px; line-height: 1.8; }
+.registry-facts dt { font-weight: 600; }
+.registry-facts dd { margin: 0; overflow-wrap: anywhere; }
+.study-leads { margin-top: 24px; line-height: 1.9; }
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));

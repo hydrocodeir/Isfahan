@@ -5,11 +5,11 @@ authorized authored cells/rows onto the original OOXML package, remapping new
 styles and shared strings, and create new hyperlink relationships explicitly.
 No workbook content is regenerated with a second spreadsheet authoring library.
 """
-import copy,json,pathlib,posixpath,re,zipfile
+import copy,json,pathlib,posixpath,re,sys,zipfile
 import xml.etree.ElementTree as E
 
 R=pathlib.Path(__file__).resolve().parents[1]
-P=R/'reports/merge_deep_round2_2026_10_10'
+P=R/(sys.argv[1] if len(sys.argv)>1 else 'reports/merge_deep_round2_2026_10_10')
 M='http://schemas.openxmlformats.org/spreadsheetml/2006/main'
 REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 PKG='http://schemas.openxmlformats.org/package/2006/relationships'
@@ -123,6 +123,42 @@ for name in changed_sheets:
             if af is not None:af.set('ref',table.get('ref'))
             out[tp]=dump(table)
     out[path]=dump(original)
+# Copy explicitly requested new registry sheets, remapping styles and package
+# relationships while preserving every unrelated part of the original file.
+if changes.get('new_sheets'):
+    owb=xml(old['xl/workbook.xml']); nwb=xml(new['xl/workbook.xml'])
+    wr=xml(old['xl/_rels/workbook.xml.rels']); ct=xml(old['[Content_Types].xml'])
+    nwr={e.get('Id'):e for e in xml(new['xl/_rels/workbook.xml.rels'])}
+    sheets=owb.find(tag('sheets'))
+    sheet_id=max(int(e.get('sheetId')) for e in sheets)
+    rel_id=max([0]+[int(re.search(r'\d+$',e.get('Id'))[0]) for e in wr if re.search(r'\d+$',e.get('Id',''))])
+    sheet_file=max(int(re.search(r'sheet(\d+)\.xml$',p)[1]) for p in old if re.search(r'worksheets/sheet\d+\.xml$',p))
+    table_id=max([0]+[int(xml(b).get('id')) for p,b in old.items() if re.search(r'^xl/tables/table\d+\.xml$',p)])
+    content_ns='http://schemas.openxmlformats.org/package/2006/content-types'
+    for name in changes['new_sheets']:
+        source=next(e for e in nwb.find(tag('sheets')) if e.get('name')==name)
+        sheet_id+=1; sheet_file+=1; rel_id+=1
+        path=f'xl/worksheets/sheet{sheet_file}.xml'
+        sr=copy.deepcopy(source);sr.set('sheetId',str(sheet_id));sr.set('{'+REL+'}id',f'rId{rel_id}');sheets.append(sr)
+        E.SubElement(wr,'{'+PKG+'}Relationship',{'Id':f'rId{rel_id}','Type':REL+'/worksheet','Target':f'worksheets/sheet{sheet_file}.xml'})
+        E.SubElement(ct,'{'+content_ns+'}Override',{'PartName':'/'+path,'ContentType':'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'})
+        document=xml(new[nsheets[name]])
+        for row in document.find(tag('sheetData')):
+            for i,c in enumerate(list(row)):row.remove(c);row.insert(i,cell(c))
+        source_rel=relpath(nsheets[name])
+        if source_rel in new:
+            relationships=xml(new[source_rel])
+            for rel in relationships:
+                if rel.get('Type')!=REL+'/table':
+                    assert rel.get('TargetMode')=='External', ('unsupported new sheet relationship',rel.attrib)
+                    continue
+                tp=target(posixpath.dirname(nsheets[name]),rel.get('Target'))
+                table_id+=1;dest=f'xl/tables/table{table_id}.xml';document_table=xml(new[tp]);document_table.set('id',str(table_id))
+                out[dest]=dump(document_table);rel.set('Target',f'../tables/table{table_id}.xml')
+                E.SubElement(ct,'{'+content_ns+'}Override',{'PartName':'/'+dest,'ContentType':'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml'})
+            out[relpath(path)]=dump(relationships)
+        out[path]=dump(document)
+    out['xl/workbook.xml']=dump(owb);out['xl/_rels/workbook.xml.rels']=dump(wr);out['[Content_Types].xml']=dump(ct)
 out['xl/styles.xml']=dump(oldstyles)
 temporary=P/'staged/preserved.xlsx'
 with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED) as z:

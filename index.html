@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای به حوضه آبریز زاینده‌رود">
+  <meta name="description" content="پایگاه اسناد، پروژه‌ها و مطالعات انتقال آب مرتبط با اصفهان، خوزستان، چهارمحال و بختیاری و کهگیلویه و بویراحمد">
   <title>پایگاه فراتحلیل اسناد و شواهد انتقال آب بین‌حوضه‌ای</title>
 
   <!-- Preconnect & Fonts -->
@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 
   <!-- Material Design 3 Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 
 <body>
@@ -70,6 +70,12 @@
           <span class="nav-active-pill"></span>
           <span class="material-symbols-rounded nav-icon">hub</span>
           <span class="nav-label">پروژه‌ها</span>
+        </button>
+        <button class="nav-item" data-view="studies">
+          <span class="nav-active-pill"></span>
+          <span class="material-symbols-rounded nav-icon">science</span>
+          <span class="nav-label">مطالعات انتقال آب</span>
+          <span class="nav-count" id="navStudiesCount">—</span>
         </button>
         <button class="nav-item" data-view="research">
           <span class="nav-active-pill"></span>
@@ -137,9 +143,9 @@
               <span class="material-symbols-rounded">water</span>
               <span>رصدخانه فراتحلیل آب و توسعه پایدار</span>
             </div>
-            <h2>پایگاه جامع شواهد پژوهشی، مطالعات فنی و اسناد فرابخشی انتقال آب بین‌حوضه‌ای به حوضه زاینده‌رود</h2>
+            <h2>پایگاه شواهد، طرح‌ها و مطالعات انتقال آب</h2>
             <p>سامانه فراتحلیل و پایش اسناد، مقالات علمی-پژوهشی، رساله‌های دانشگاهی، مواضع تصمیم‌گیران، ارزیابی‌های
-              محیط‌زیستی و آرای قضایی.</p>
+              محیط‌زیستی و آرای قضایی مرتبط با اصفهان، خوزستان، چهارمحال و بختیاری و کهگیلویه و بویراحمد.</p>
           </div>
           <div class="hero-actions">
             <button class="btn btn-primary m3-btn m3-btn-filled" data-jump="sources">
@@ -575,13 +581,46 @@
       <!-- VIEW: PROJECTS -->
       <section id="view-projects" class="view">
         <div class="section-head">
-          <h2>پروژه‌های انتقال آب بین‌حوضه‌ای</h2>
+          <h2>فهرست مستند طرح‌های انتقال آب</h2>
           <label class="mini-search m3-search-bar-compact">
             <span class="material-symbols-rounded">search</span>
             <input id="projectSearch" type="search" placeholder="جستجوی نام پروژه…">
           </label>
         </div>
+        <p class="registry-note">مبدأ، مقصد و نقش استان‌های پایین‌دست جدا ثبت شده‌اند. وضعیت هر طرح به تاریخ شاهد وابسته است.</p>
+        <div id="transferProjectCatalog" class="project-grid"></div>
+        <div class="section-head"><h2>پوشش بانک منابع بر اساس برچسب پروژه</h2></div>
         <div id="projectCards" class="project-grid"></div>
+      </section>
+
+      <!-- VIEW: TRANSFER STUDIES -->
+      <section id="view-studies" class="view">
+        <div class="section-head">
+          <h2>مطالعات و تحقیقات انتقال آب</h2>
+          <button id="studyExportBtn" class="btn btn-ghost m3-btn m3-btn-tonal">
+            <span class="material-symbols-rounded">download</span><span>خروجی CSV مطالعات</span>
+          </button>
+        </div>
+        <p class="registry-note" id="studyCountingNote"></p>
+        <div class="panel filter-panel m3-card">
+          <div class="filter-grid">
+            <label class="field field-wide m3-text-field"><span>جستجو در مطالعات، مجریان و نهادها</span><input id="studySearch" type="search" placeholder="عنوان، وزارتخانه، شرکت، دانشگاه، موضوع…"></label>
+            <label class="field m3-select-field"><span>زیرگروه</span><select id="studyCategory"><option value="">همه زیرگروه‌ها</option></select></label>
+            <label class="field m3-select-field"><span>طرح مرتبط</span><select id="studyProject"><option value="">همه طرح‌ها</option></select></label>
+            <label class="field m3-select-field"><span>استان طرح / پایین‌دست</span><select id="studyProvince"><option value="">همه استان‌ها</option></select></label>
+            <label class="field m3-select-field"><span>همکاری</span><select id="studyCooperation"><option value="">همه همکاری‌ها</option><option value="domestic">داخلی</option><option value="international">بین‌المللی</option><option value="unconfirmed">انتساب خارجی / اطلاعات نامشخص</option></select></label>
+          </div>
+          <div class="study-filter-footer"><span id="studyResultCount" aria-live="polite"></span><button id="studyClearBtn" class="text-btn" type="button">پاک کردن فیلترها</button></div>
+        </div>
+        <div class="panel table-panel m3-card">
+          <div class="table-scroll">
+            <table class="data-table m3-data-table study-table">
+              <thead><tr><th>شناسه / عنوان مطالعه</th><th>زیرگروه</th><th>طرح مرتبط</th><th>مجری / مشاور</th><th>کارفرما / حامی</th><th>دوره مستند</th><th>همکاری</th><th>منابع</th></tr></thead>
+              <tbody id="studyTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <details class="panel study-leads"><summary>سرنخ‌های نیازمند تأیید بیشتر</summary><div id="studyLeads"></div></details>
       </section>
 
       <!-- VIEW: RESEARCH LOG -->
@@ -670,7 +709,8 @@
   <div id="chartTooltip" class="chart-tooltip m3-tooltip" style="display: none;"></div>
 
   <!-- Application Logic -->
-  <script src="app.js?v=2"></script>
+  <script src="studies.js?v=1"></script>
+  <script src="app.js?v=3"></script>
 </body>
 
 </html>
