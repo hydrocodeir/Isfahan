@@ -1,0 +1,3946 @@
+{
+  "total": 1042,
+  "meta": {
+    "title": "بانک جامع منابع انتقال آب بین‌حوضه‌ای به اصفهان و حوضه زاینده‌رود",
+    "subtitle": "داشبورد پژوهشی آفلاین منابع، اسناد، مقالات، پایان‌نامه‌ها، مواضع و آرای حقوقی",
+    "sourceFile": "Data.xlsx",
+    "generatedAt": "2026-10-11",
+    "totalSources": 1042,
+    "lastSourceId": "S1042",
+    "dashboard": {
+      "Total sources": 1042,
+      "Persian-language sources": 595,
+      "English-language sources": 451,
+      "Reliability A": 697,
+      "Reliability B": 268,
+      "Reliability C": 63,
+      "Reliability D": 14,
+      "Sources with direct PDF links": 331,
+      "Locally retrieved PDFs": 12,
+      "Last Source ID": "S1042",
+      "Deep Research sources added": 234,
+      "Academic articles added": 54,
+      "Theses / dissertations added": 37,
+      "Duplicates skipped": 37,
+      "News/media/interview sources added in R4": 45,
+      "Audiovisual/audio-first sources added in R4": 20,
+      "Official/parliament/judiciary sources added in R4": 16,
+      "Validated Antigravity sources": 21,
+      "Rejected Antigravity candidates": 467,
+      "Deep literature articles added": 423,
+      "Deep literature Persian articles": 128,
+      "Deep literature English articles": 294,
+      "Out-of-scope sources removed": 368,
+      "Persian challenge sources added in R6": 9,
+      "Corrected / enriched records in R6": 2,
+      "Mandegan sources added 2026-09-22": 27,
+      "Mandegan partial-access additions": 4,
+      "Transfer projects catalogued": 17,
+      "Transfer study/research records": 30,
+      "Transfer review evidence sources": 41,
+      "Transfer review sources added": 30
+    },
+    "geographicScope": [
+      "خوزستان",
+      "اصفهان",
+      "چهارمحال و بختیاری",
+      "کهگیلویه و بویراحمد"
+    ]
+  },
+  "collections": {
+    "academicIds": 622,
+    "thesisIds": 61,
+    "legalIds": 74,
+    "parliamentIds": 57,
+    "newsIds": 320,
+    "socialIds": 20,
+    "transferStudyIds": 34
+  },
+  "groups": [
+    [
+      "علمی / دانشگاهی",
+      603
+    ],
+    [
+      "خبر / رسانه",
+      135
+    ],
+    [
+      "مصاحبه / موضع",
+      133
+    ],
+    [
+      "حقوقی / رسمی",
+      75
+    ],
+    [
+      "پایان‌نامه / رساله",
+      61
+    ],
+    [
+      "سایر",
+      18
+    ],
+    [
+      "شبکه اجتماعی",
+      17
+    ]
+  ],
+  "language": [
+    [
+      "فارسی",
+      590
+    ],
+    [
+      "English",
+      444
+    ],
+    [
+      "فارسی/English abstract",
+      2
+    ],
+    [
+      "فارسی/انگلیسی",
+      1
+    ],
+    [
+      "فارسی / English",
+      1
+    ],
+    [
+      "English/Persian",
+      1
+    ],
+    [
+      "فارسی/English",
+      1
+    ],
+    [
+      "Japanese / English abstract",
+      1
+    ],
+    [
+      "پرتغالی",
+      1
+    ]
+  ],
+  "reliability": [
+    [
+      "A",
+      697
+    ],
+    [
+      "B",
+      268
+    ],
+    [
+      "C",
+      63
+    ],
+    [
+      "D",
+      14
+    ]
+  ],
+  "primary": [
+    [
+      "Primary",
+      730
+    ],
+    [
+      "Secondary",
+      85
+    ],
+    [
+      "Primary academic",
+      59
+    ],
+    [
+      "Secondary reporting",
+      25
+    ],
+    [
+      "Secondary metadata for primary thesis",
+      18
+    ],
+    [
+      "Primary quote via news report",
+      11
+    ],
+    [
+      "Secondary thesis metadata",
+      7
+    ],
+    [
+      "Primary interview",
+      7
+    ],
+    [
+      "Primary peer-reviewed article",
+      5
+    ],
+    [
+      "Reliable secondary",
+      5
+    ],
+    [
+      "Primary research report",
+      4
+    ],
+    [
+      "Primary legal text",
+      4
+    ],
+    [
+      "Primary official statement",
+      4
+    ],
+    [
+      "Primary thesis",
+      2
+    ],
+    [
+      "Secondary thesis trace",
+      2
+    ],
+    [
+      "Reliable secondary / direct event coverage",
+      2
+    ],
+    [
+      "Primary document reported by news",
+      2
+    ],
+    [
+      "Primary event/report",
+      2
+    ],
+    [
+      "Primary official interview",
+      2
+    ],
+    [
+      "Primary parliamentary statement",
+      2
+    ],
+    [
+      "Primary official social media",
+      2
+    ],
+    [
+      "Primary interview / specialist legal interpretation",
+      1
+    ],
+    [
+      "Reliable secondary quoting official statement",
+      1
+    ],
+    [
+      "Primary official report; metadata verified through secondary academic citations",
+      1
+    ],
+    [
+      "Reliable secondary / direct interviews",
+      1
+    ],
+    [
+      "Secondary contemporaneous coverage of primary parliamentary letter",
+      1
+    ],
+    [
+      "Direct interview/news report",
+      1
+    ],
+    [
+      "Primary direct parliamentary interview",
+      1
+    ],
+    [
+      "Direct news quote from project official",
+      1
+    ],
+    [
+      "Primary academic; landing indexed by ViraScience",
+      1
+    ],
+    [
+      "Secondary thesis metadata / detailed abstract",
+      1
+    ],
+    [
+      "Primary thesis metadata / author page",
+      1
+    ],
+    [
+      "Direct news coverage of minister press conference",
+      1
+    ],
+    [
+      "Direct parliamentary statement coverage",
+      1
+    ],
+    [
+      "Direct interview",
+      1
+    ],
+    [
+      "Secondary contemporaneous reproduction of parliamentary letter",
+      1
+    ],
+    [
+      "Reliable secondary / direct quotes",
+      1
+    ],
+    [
+      "Primary direct interview/audio",
+      1
+    ],
+    [
+      "Direct parliamentary interview",
+      1
+    ],
+    [
+      "Reliable secondary / event coverage",
+      1
+    ],
+    [
+      "Professional report landing",
+      1
+    ],
+    [
+      "Secondary report of official MOU",
+      1
+    ],
+    [
+      "Primary quotes via news report",
+      1
+    ],
+    [
+      "Reliable secondary / expert quotes",
+      1
+    ],
+    [
+      "Primary legal text (reproduced)",
+      1
+    ],
+    [
+      "Primary official document (mirrored PDF)",
+      1
+    ],
+    [
+      "Official text reproduced by news agency",
+      1
+    ],
+    [
+      "Primary/professional institutional report",
+      1
+    ],
+    [
+      "Primary judicial text reproduced",
+      1
+    ],
+    [
+      "Secondary reproduction/trace",
+      1
+    ],
+    [
+      "Primary quote via reliable news",
+      1
+    ],
+    [
+      "Primary judicial statement via IRNA",
+      1
+    ],
+    [
+      "Reliable secondary / institutional statements",
+      1
+    ],
+    [
+      "Secondary / Interview-based",
+      1
+    ],
+    [
+      "Primary / Academic thesis",
+      1
+    ],
+    [
+      "Reliable secondary / direct statement",
+      1
+    ],
+    [
+      "Secondary with expert interviews",
+      1
+    ],
+    [
+      "Primary statement",
+      1
+    ],
+    [
+      "Primary parliamentary record",
+      1
+    ],
+    [
+      "Primary judicial statement",
+      1
+    ],
+    [
+      "Primary official legal source",
+      1
+    ],
+    [
+      "Primary interview + report",
+      1
+    ],
+    [
+      "Primary official event coverage",
+      1
+    ],
+    [
+      "Secondary mirror of official statement",
+      1
+    ],
+    [
+      "Primary advocacy source",
+      1
+    ],
+    [
+      "Primary advocacy archive",
+      1
+    ],
+    [
+      "Primary legal text; publisher mirror",
+      1
+    ],
+    [
+      "Primary treaty record",
+      1
+    ],
+    [
+      "Primary conference paper; full-text secondary mirror",
+      1
+    ],
+    [
+      "Secondary investigative report quoting Inspection Organization material",
+      1
+    ],
+    [
+      "Secondary reproduction of a reported parliamentary letter",
+      1
+    ],
+    [
+      "Primary oral history",
+      1
+    ],
+    [
+      "Primary interview reproduced by secondary host",
+      1
+    ],
+    [
+      "Secondary reproduction of direct interview",
+      1
+    ],
+    [
+      "Primary analytical article; not identified as peer reviewed",
+      1
+    ],
+    [
+      "Primary policy proposal; stakeholder-informed, not an enacted government plan",
+      1
+    ],
+    [
+      "Secondary reproduction of a direct IRNA/Asriran interview",
+      1
+    ],
+    [
+      "Primary direct interview",
+      1
+    ],
+    [
+      "Primary expert analysis on a secondary host",
+      1
+    ],
+    [
+      "Primary government policy text; legal-system mirror",
+      1
+    ],
+    [
+      "Secondary analytical article citing a parliamentary report",
+      1
+    ],
+    [
+      "Primary conference paper; journal peer review not established",
+      1
+    ],
+    [
+      "Primary administrative letter; media-hosted scan, not independently authenticated",
+      1
+    ]
+  ],
+  "fulltext": [
+    [
+      "Yes",
+      668
+    ],
+    [
+      "Unknown",
+      153
+    ],
+    [
+      "ثبت نشده",
+      105
+    ],
+    [
+      "No",
+      62
+    ],
+    [
+      "Partial",
+      53
+    ],
+    [
+      "Landing/metadata verified",
+      1
+    ]
+  ],
+  "pdfstatus": [
+    [
+      "Landing Page Only",
+      703
+    ],
+    [
+      "Direct Link Available",
+      331
+    ],
+    [
+      "ثبت نشده",
+      4
+    ],
+    [
+      "Not Found",
+      2
+    ],
+    [
+      "Full text HTML mirror",
+      1
+    ],
+    [
+      "Full text image",
+      1
+    ]
+  ],
+  "stances": [
+    [
+      "تحلیلی / خنثی",
+      653
+    ],
+    [
+      "مخالف / انتقادی",
+      168
+    ],
+    [
+      "موافق / حمایتی",
+      80
+    ],
+    [
+      "—",
+      48
+    ],
+    [
+      "اعتراضی",
+      34
+    ],
+    [
+      "فنی",
+      25
+    ],
+    [
+      "حقوقی / حفاظتی",
+      18
+    ],
+    [
+      "چندموضعی",
+      3
+    ],
+    [
+      "Mixed",
+      2
+    ],
+    [
+      "مطالبه‌گر",
+      2
+    ],
+    [
+      "ارزیابی",
+      1
+    ],
+    [
+      "چارچوب ارزیابی",
+      1
+    ],
+    [
+      "مشروط",
+      1
+    ],
+    [
+      "قضایی/عدم ابطال",
+      1
+    ],
+    [
+      "محدودکننده",
+      1
+    ],
+    [
+      "رسمی / مدیریتی",
+      1
+    ],
+    [
+      "تنظیمی",
+      1
+    ],
+    [
+      "تاریخی/روایتی",
+      1
+    ],
+    [
+      "کاهشی/تنظیمی",
+      1
+    ]
+  ],
+  "years": [
+    [
+      "1404",
+      97
+    ],
+    [
+      "1399",
+      80
+    ],
+    [
+      "1400",
+      76
+    ],
+    [
+      "1403",
+      69
+    ],
+    [
+      "ثبت نشده",
+      68
+    ],
+    [
+      "1396",
+      60
+    ],
+    [
+      "1402",
+      56
+    ],
+    [
+      "1397",
+      55
+    ],
+    [
+      "1392",
+      53
+    ],
+    [
+      "1393",
+      51
+    ],
+    [
+      "1401",
+      50
+    ],
+    [
+      "1398",
+      49
+    ],
+    [
+      "1395",
+      46
+    ],
+    [
+      "1391",
+      42
+    ],
+    [
+      "1394",
+      31
+    ],
+    [
+      "1405",
+      31
+    ],
+    [
+      "1390",
+      19
+    ],
+    [
+      "1389",
+      17
+    ],
+    [
+      "1387",
+      14
+    ],
+    [
+      "1385",
+      13
+    ],
+    [
+      "1388",
+      12
+    ],
+    [
+      "1386",
+      10
+    ],
+    [
+      "1384",
+      9
+    ],
+    [
+      "1383",
+      8
+    ],
+    [
+      "1380",
+      3
+    ],
+    [
+      "1328",
+      2
+    ],
+    [
+      "1329",
+      2
+    ],
+    [
+      "1381",
+      2
+    ],
+    [
+      "1382",
+      2
+    ],
+    [
+      "1269",
+      1
+    ],
+    [
+      "1270",
+      1
+    ],
+    [
+      "1301",
+      1
+    ],
+    [
+      "1316",
+      1
+    ],
+    [
+      "1327",
+      1
+    ],
+    [
+      "1332",
+      1
+    ],
+    [
+      "1333",
+      1
+    ],
+    [
+      "1343",
+      1
+    ],
+    [
+      "1355",
+      1
+    ],
+    [
+      "1361",
+      1
+    ],
+    [
+      "1362",
+      1
+    ],
+    [
+      "1364",
+      1
+    ],
+    [
+      "1375",
+      1
+    ],
+    [
+      "1376",
+      1
+    ],
+    [
+      "1377",
+      1
+    ]
+  ],
+  "projects": [
+    [
+      "زاینده‌رود",
+      419
+    ],
+    [
+      "انتقال کارون",
+      238
+    ],
+    [
+      "بهشت‌آباد",
+      190
+    ],
+    [
+      "کوهرنگ ۳",
+      80
+    ],
+    [
+      "ماندگان",
+      59
+    ],
+    [
+      "خرسان ۳",
+      44
+    ],
+    [
+      "گلاب",
+      42
+    ],
+    [
+      "چشمه‌لنگان",
+      23
+    ],
+    [
+      "بن-بروجن",
+      20
+    ],
+    [
+      "کوهرنگ ۱",
+      15
+    ],
+    [
+      "سبزکوه",
+      13
+    ],
+    [
+      "خدنگستان",
+      12
+    ],
+    [
+      "کوهرنگ ۲",
+      9
+    ],
+    [
+      "گوکان",
+      5
+    ],
+    [
+      "پشندگان",
+      4
+    ],
+    [
+      "دز–قمرود",
+      4
+    ],
+    [
+      "غدیر خوزستان",
+      4
+    ],
+    [
+      "یلان",
+      3
+    ],
+    [
+      "انتقال دز",
+      3
+    ],
+    [
+      "آبریز / مارون ۲",
+      2
+    ],
+    [
+      "چغاخور",
+      2
+    ],
+    [
+      "کوثر",
+      2
+    ],
+    [
+      "آب دریا به اصفهان",
+      2
+    ],
+    [
+      "بیده-ماربر",
+      1
+    ],
+    [
+      "بیده",
+      1
+    ],
+    [
+      "ماربر",
+      1
+    ],
+    [
+      "کارون به جراحی",
+      1
+    ],
+    [
+      "تنگ‌سرخ بشار به شیراز",
+      1
+    ]
+  ],
+  "provinces": [
+    [
+      "اصفهان",
+      851
+    ],
+    [
+      "چهارمحال‌وبختیاری",
+      568
+    ],
+    [
+      "خوزستان",
+      497
+    ],
+    [
+      "کهگیلویه و بویراحمد",
+      45
+    ],
+    [
+      "ملی",
+      39
+    ]
+  ],
+  "publishers": [
+    [
+      "ایرنا",
+      30
+    ],
+    [
+      "ایسنا",
+      28
+    ],
+    [
+      "خبرگزاری تسنیم",
+      25
+    ],
+    [
+      "مهر",
+      24
+    ],
+    [
+      "تسنیم",
+      19
+    ],
+    [
+      "علوم آب و خاک",
+      15
+    ],
+    [
+      "صدای آمریکا",
+      12
+    ],
+    [
+      "Springer / Reviving the Dying Giant: IWRM in the Zayandeh Rud Catchment",
+      12
+    ],
+    [
+      "رادیو فردا",
+      11
+    ],
+    [
+      "خانه ملت",
+      10
+    ],
+    [
+      "Springer / Standing up to Climate Change",
+      10
+    ],
+    [
+      "Journal of Water and Soil Science",
+      10
+    ],
+    [
+      "خبرگزاری خانه ملت",
+      9
+    ],
+    [
+      "مدیریت آب و آبیاری",
+      9
+    ],
+    [
+      "دانشگاه صنعتی اصفهان",
+      8
+    ],
+    [
+      "علوم و مهندسی آبیاری",
+      8
+    ],
+    [
+      "پژوهش‌های حفاظت آب و خاک",
+      8
+    ],
+    [
+      "دانشگاه اصفهان - دانشکده علوم (فهرست ثانویه)",
+      7
+    ],
+    [
+      "سیویلیکا (CIVILICA)",
+      7
+    ],
+    [
+      "تابناک",
+      6
+    ],
+    [
+      "آب و فاضلاب",
+      6
+    ],
+    [
+      "Environmental Monitoring and Assessment",
+      6
+    ],
+    [
+      "Environmental Earth Sciences",
+      6
+    ],
+    [
+      "خبرآنلاین",
+      5
+    ],
+    [
+      "Water Resources Management",
+      5
+    ],
+    [
+      "Instagram",
+      5
+    ],
+    [
+      "باشگاه خبرنگاران جوان",
+      5
+    ],
+    [
+      "ایران‌وایر",
+      5
+    ],
+    [
+      "Water Resources Management / Springer",
+      5
+    ],
+    [
+      "ایلنا",
+      4
+    ],
+    [
+      "رادیو زمانه",
+      4
+    ],
+    [
+      "ایمنا",
+      4
+    ],
+    [
+      "ایران اینترنشنال",
+      4
+    ],
+    [
+      "Journal of Hydrology: Regional Studies (Elsevier)",
+      4
+    ],
+    [
+      "تحقیقات منابع آب ایران",
+      4
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه صنعتی اصفهان - دانشکده منابع طبیعی",
+      4
+    ],
+    [
+      "محیط زیست و توسعه فرابخشی",
+      4
+    ],
+    [
+      "مجله آب و خاک",
+      4
+    ],
+    [
+      "‬‭Majallah-i ̒Ilmī-i Shīlāt-i Īrān",
+      4
+    ],
+    [
+      "مهندسی منابع آب",
+      4
+    ],
+    [
+      "محیط زیست و مهندسی آب",
+      4
+    ],
+    [
+      "بوم‌شناسی آبزیان",
+      4
+    ],
+    [
+      "جغرافیا و مخاطرات محیطی",
+      4
+    ],
+    [
+      "Muhandisī va mudirīyyat-i ābkhīz",
+      4
+    ],
+    [
+      "Irrigation and Drainage",
+      4
+    ],
+    [
+      "American Journal of Engineering and Applied Sciences",
+      4
+    ],
+    [
+      "Acta Geophysica",
+      4
+    ],
+    [
+      "Copernicus GmbH",
+      4
+    ],
+    [
+      "International Journal of Environmental Science and Technology",
+      4
+    ],
+    [
+      "Elsevier BV",
+      4
+    ],
+    [
+      "Water Resources Blog",
+      3
+    ],
+    [
+      "Water (MDPI)",
+      3
+    ],
+    [
+      "Civilica",
+      3
+    ],
+    [
+      "Scientific Reports",
+      3
+    ],
+    [
+      "ایانا",
+      3
+    ],
+    [
+      "دانشگاه بیرجند",
+      3
+    ],
+    [
+      "Journal of Hydrology (Elsevier)",
+      3
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه صنعتی اصفهان - دانشکده عمران",
+      3
+    ],
+    [
+      "جغرافیا و توسعه",
+      3
+    ],
+    [
+      "تاکسونومی و بیوسیستماتیک",
+      3
+    ],
+    [
+      "آب و توسعه پایدار",
+      3
+    ],
+    [
+      "مدل‌سازی و مدیریت آب و خاک",
+      3
+    ],
+    [
+      "Applied Water Science",
+      3
+    ],
+    [
+      "نشریه جغرافیا و برنامه‌ریزی",
+      3
+    ],
+    [
+      "اطلاعات جغرافیایی",
+      3
+    ],
+    [
+      "هیدرولیک",
+      3
+    ],
+    [
+      "Theoretical and Applied Climatology",
+      3
+    ],
+    [
+      "Water",
+      3
+    ],
+    [
+      "Environmental Science and Pollution Research",
+      3
+    ],
+    [
+      "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+      3
+    ],
+    [
+      "Arabian Journal of Geosciences",
+      3
+    ],
+    [
+      "Bulletin of Engineering Geology and the Environment",
+      3
+    ],
+    [
+      "Journal of the Institution of Civil Engineers",
+      3
+    ],
+    [
+      "magiran.com",
+      3
+    ],
+    [
+      "iwrm-zayandehrud.com",
+      3
+    ],
+    [
+      "kuriteng.com",
+      3
+    ],
+    [
+      "جماران",
+      2
+    ],
+    [
+      "مرکز پژوهش‌های مجلس",
+      2
+    ],
+    [
+      "جوان آنلاین",
+      2
+    ],
+    [
+      "اعتماد",
+      2
+    ],
+    [
+      "دنیای اقتصاد",
+      2
+    ],
+    [
+      "Iran-Water Resources Research",
+      2
+    ],
+    [
+      "Symposia",
+      2
+    ],
+    [
+      "تلگرام - Hooshangan",
+      2
+    ],
+    [
+      "Geocarto International",
+      2
+    ],
+    [
+      "دانشگاه صنعتی شاهرود",
+      2
+    ],
+    [
+      "Magiran",
+      2
+    ],
+    [
+      "رادیوفردا",
+      2
+    ],
+    [
+      "Independent Persian",
+      2
+    ],
+    [
+      "Applied Water Science (Springer Nature)",
+      2
+    ],
+    [
+      "International Journal of Water Resources Development (Taylor & Francis)",
+      2
+    ],
+    [
+      "دانشگاه تربیت مدرس",
+      2
+    ],
+    [
+      "یورونیوز فارسی",
+      2
+    ],
+    [
+      "Agricultural Water Management (Elsevier)",
+      2
+    ],
+    [
+      "Journal of Irrigation and Drainage Engineering (ASCE)",
+      2
+    ],
+    [
+      "River Research and Applications (Wiley)",
+      2
+    ],
+    [
+      "هیئت وزیران / نظامات",
+      2
+    ],
+    [
+      "مجلس شورای اسلامی / نظامات",
+      2
+    ],
+    [
+      "دانشگاه صنعتی اصفهان - دانشکده عمران",
+      2
+    ],
+    [
+      "خبرگزاری مهر",
+      2
+    ],
+    [
+      "Springer Science and Business Media LLC",
+      2
+    ],
+    [
+      "Results in Engineering",
+      2
+    ],
+    [
+      "مجله اقتصاد و توسعه کشاورزی",
+      2
+    ],
+    [
+      "جغرافیا و آمایش شهری منطقه‌ای",
+      2
+    ],
+    [
+      "Journal of Hydraulic Structures",
+      2
+    ],
+    [
+      "سلامت و محیط",
+      2
+    ],
+    [
+      "Ecological Indicators",
+      2
+    ],
+    [
+      "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      2
+    ],
+    [
+      "International Journal of Mining and Geo-Engineering",
+      2
+    ],
+    [
+      "زیست‌شناسی کاربردی",
+      2
+    ],
+    [
+      "Pizhūhish dar Bihdāsht-i Muḥīṭ.",
+      2
+    ],
+    [
+      "معماری و شهرسازی ایران",
+      2
+    ],
+    [
+      "هیدروژئومورفولوژی",
+      2
+    ],
+    [
+      "Geomorphology",
+      2
+    ],
+    [
+      "Water International",
+      2
+    ],
+    [
+      "Hydrological Sciences Journal",
+      2
+    ],
+    [
+      "World Environmental and Water Resources Congress 2014",
+      2
+    ],
+    [
+      "Environmental Health Engineering and Management",
+      2
+    ],
+    [
+      "Journal of Applied Sciences",
+      2
+    ],
+    [
+      "International Journal of Hydrology Science and Technology",
+      2
+    ],
+    [
+      "Environment, Development and Sustainability",
+      2
+    ],
+    [
+      "AFRICAN JOURNAL OF AGRICULTURAL RESEEARCH",
+      2
+    ],
+    [
+      "Carbonates and Evaporites",
+      2
+    ],
+    [
+      "Journal of Hydrology",
+      2
+    ],
+    [
+      "Journal of Vibration and Control",
+      2
+    ],
+    [
+      "Research Square Platform LLC",
+      2
+    ],
+    [
+      "Archives of Agronomy and Soil Science",
+      2
+    ],
+    [
+      "Open Journal of Geology",
+      2
+    ],
+    [
+      "journal of watershed management research",
+      2
+    ],
+    [
+      "Journal of Water Resources Planning and Management",
+      2
+    ],
+    [
+      "International Journal of Environmental Science and Development",
+      2
+    ],
+    [
+      "World Environmental and Water Resources Congress 2009",
+      2
+    ],
+    [
+      "International Journal of Enteric Pathogens",
+      2
+    ],
+    [
+      "Toxin Reviews",
+      2
+    ],
+    [
+      "Desalination and Water Treatment",
+      2
+    ],
+    [
+      "Proceedings of the Royal Geographical Society and Monthly Record of Geography",
+      2
+    ],
+    [
+      "Sustainable Water Resources Management",
+      2
+    ],
+    [
+      "International Journal of Environmental Health Research",
+      2
+    ],
+    [
+      "Akkadica",
+      2
+    ],
+    [
+      "Trends in Applied Sciences Research",
+      2
+    ],
+    [
+      "IAERI–EARC–IWMI",
+      2
+    ],
+    [
+      "رکنا",
+      2
+    ],
+    [
+      "تسنیم؛ بازنشر اقتصاد ژورنال",
+      2
+    ],
+    [
+      "Tunnelling and Underground Space Technology",
+      2
+    ],
+    [
+      "tasnimnews.ir",
+      2
+    ],
+    [
+      "مشروطه",
+      1
+    ],
+    [
+      "Visit Iran",
+      1
+    ],
+    [
+      "Tablieh",
+      1
+    ],
+    [
+      "اعتماد/مگیران",
+      1
+    ],
+    [
+      "فرارو",
+      1
+    ],
+    [
+      "روزنامه همشهری",
+      1
+    ],
+    [
+      "انصاف نیوز",
+      1
+    ],
+    [
+      "عصر ایران",
+      1
+    ],
+    [
+      "گویانیوز",
+      1
+    ],
+    [
+      "زیتون",
+      1
+    ],
+    [
+      "دیدبان ایران",
+      1
+    ],
+    [
+      "ایل بزرگ موگویی",
+      1
+    ],
+    [
+      "شرکت توسعه منابع آب و نیروی ایران",
+      1
+    ],
+    [
+      "روزنامه ایران",
+      1
+    ],
+    [
+      "همشهری",
+      1
+    ],
+    [
+      "African Journal of Agricultural Research",
+      1
+    ],
+    [
+      "نشریه آب و توسعه پایدار، دوره ۱۱، شماره ۳، صص ۲۷–۴۰ / دانشگاه فردوسی مشهد",
+      1
+    ],
+    [
+      "Geography and Development / ResearchGate",
+      1
+    ],
+    [
+      "تحقیقات منابع آب ایران / ResearchGate",
+      1
+    ],
+    [
+      "ScienceDirect",
+      1
+    ],
+    [
+      "University of Tehran journal",
+      1
+    ],
+    [
+      "Author-hosted PDF",
+      1
+    ],
+    [
+      "Water Policy / IWA",
+      1
+    ],
+    [
+      "Research Square",
+      1
+    ],
+    [
+      "ResearchGate",
+      1
+    ],
+    [
+      "ElmNet",
+      1
+    ],
+    [
+      "SID",
+      1
+    ],
+    [
+      "مدیریت آب و آبیاری دانشگاه تهران",
+      1
+    ],
+    [
+      "ارجاع در ادبیات علمی",
+      1
+    ],
+    [
+      "Noormags/مجله دانشگاه تهران",
+      1
+    ],
+    [
+      "Facebook",
+      1
+    ],
+    [
+      "Aparat",
+      1
+    ],
+    [
+      "سلامت نیوز",
+      1
+    ],
+    [
+      "University of Birmingham",
+      1
+    ],
+    [
+      "Wageningen University / IWMI",
+      1
+    ],
+    [
+      "ISOE",
+      1
+    ],
+    [
+      "University of Tabriz / SID",
+      1
+    ],
+    [
+      "Environment, Development and Sustainability / Springer",
+      1
+    ],
+    [
+      "Bulletin of Engineering Geology and the Environment / Springer",
+      1
+    ],
+    [
+      "Environmental Processes / Springer",
+      1
+    ],
+    [
+      "ResearchGate / Conference",
+      1
+    ],
+    [
+      "Isfahan University of Technology",
+      1
+    ],
+    [
+      "G-Eau / academic repository",
+      1
+    ],
+    [
+      "University of Oulu",
+      1
+    ],
+    [
+      "Iran-Water Resources Research / Shahrekord University",
+      1
+    ],
+    [
+      "ASCE",
+      1
+    ],
+    [
+      "CRC Press / ResearchGate",
+      1
+    ],
+    [
+      "Water Policy / IWA Publishing",
+      1
+    ],
+    [
+      "Frontiers in Communication",
+      1
+    ],
+    [
+      "کتابخانه دانشگاه صنعتی اصفهان",
+      1
+    ],
+    [
+      "دانشگاه یزد",
+      1
+    ],
+    [
+      "دانشگاه صنعتی اصفهان / Elmnet",
+      1
+    ],
+    [
+      "دانشگاه اصفهان / Elmnet",
+      1
+    ],
+    [
+      "صفحه پژوهشگر/دانشگاهی",
+      1
+    ],
+    [
+      "کتابخانه مجلس شورای اسلامی",
+      1
+    ],
+    [
+      "اطلاعات / دیدبان ایران",
+      1
+    ],
+    [
+      "روزنامه ایران / آرشیو کیهان",
+      1
+    ],
+    [
+      "کیهان / Magiran",
+      1
+    ],
+    [
+      "کیهان",
+      1
+    ],
+    [
+      "شرق / Magiran",
+      1
+    ],
+    [
+      "مرکز پژوهش‌های مجلس / Civilica",
+      1
+    ],
+    [
+      "صداوسیما",
+      1
+    ],
+    [
+      "مرکز بررسی‌های راهبردی/IRTA",
+      1
+    ],
+    [
+      "سازمان نظام مهندسی کشاورزی و منابع طبیعی استان اصفهان",
+      1
+    ],
+    [
+      "کیهان لندن",
+      1
+    ],
+    [
+      "خبرگزاری دانشجو",
+      1
+    ],
+    [
+      "جامعه باستان‌شناسی ایران",
+      1
+    ],
+    [
+      "اطلاعات نیوز",
+      1
+    ],
+    [
+      "اصفهان امروز",
+      1
+    ],
+    [
+      "شهروند / پیشخوان",
+      1
+    ],
+    [
+      "هوشنگان",
+      1
+    ],
+    [
+      "زاینده‌رود پایدار/NGO",
+      1
+    ],
+    [
+      "بالاترین",
+      1
+    ],
+    [
+      "تسنیم/استانداری اصفهان",
+      1
+    ],
+    [
+      "دیوان عدالت اداری / بازنشر مجموعه قوانین",
+      1
+    ],
+    [
+      "وبلاگ فنی غارچاهی",
+      1
+    ],
+    [
+      "دیده‌بان ایران",
+      1
+    ],
+    [
+      "US National Academies",
+      1
+    ],
+    [
+      "ETH Zurich / SWAT mirror",
+      1
+    ],
+    [
+      "مهر (بازتاب در ونا)",
+      1
+    ],
+    [
+      "AidData",
+      1
+    ],
+    [
+      "کانال محمد درویش",
+      1
+    ],
+    [
+      "نوبت زاینده‌رود / تلگرام",
+      1
+    ],
+    [
+      "Open Journal of Soil Science",
+      1
+    ],
+    [
+      "Water Alternatives",
+      1
+    ],
+    [
+      "مرکز پژوهش‌های مجلس شورای اسلامی، دفتر مطالعات زیربنایی",
+      1
+    ],
+    [
+      "روزنامه اعتماد",
+      1
+    ],
+    [
+      "آفتاب‌نیوز",
+      1
+    ],
+    [
+      "پوشش همزمان رسانه‌ای؛ نامه مجمع نمایندگان اصفهان",
+      1
+    ],
+    [
+      "خبرگزاری دانشجو (SNN)",
+      1
+    ],
+    [
+      "خبرگزاری خانه ملت (ICANA)",
+      1
+    ],
+    [
+      "رکنا (Rokna)",
+      1
+    ],
+    [
+      "خبرگزاری مهر (Mehr)",
+      1
+    ],
+    [
+      "ایمنا (IMNA)",
+      1
+    ],
+    [
+      "ویکی‌پدیای فارسی",
+      1
+    ],
+    [
+      "Academia.edu (ed. Asit K. Biswas)",
+      1
+    ],
+    [
+      "Journal of Soil and Water Resources (jsw.um.ac.ir), University of Mashhad",
+      1
+    ],
+    [
+      "Interdisciplinary Studies in Society, Law, and Politics, 4(1), 13-23",
+      1
+    ],
+    [
+      "Safarmarket",
+      1
+    ],
+    [
+      "Beytoote",
+      1
+    ],
+    [
+      "Kalouttravel",
+      1
+    ],
+    [
+      "avayebehbahan.persianblog.ir",
+      1
+    ],
+    [
+      "Environmental Development (Elsevier)",
+      1
+    ],
+    [
+      "Journal of Environmental Management (Elsevier)",
+      1
+    ],
+    [
+      "Theoretical and Applied Climatology (Springer)",
+      1
+    ],
+    [
+      "Social Sciences (MDPI)",
+      1
+    ],
+    [
+      "Hydrological Sciences Journal (Taylor & Francis)",
+      1
+    ],
+    [
+      "International Journal of River Basin Management (Taylor & Francis)",
+      1
+    ],
+    [
+      "World Water Policy (Wiley)",
+      1
+    ],
+    [
+      "Delft University of Technology",
+      1
+    ],
+    [
+      "University of Oulu / OuluREPO",
+      1
+    ],
+    [
+      "دانشگاه شیراز",
+      1
+    ],
+    [
+      "دانشگاه کاشان",
+      1
+    ],
+    [
+      "Tarbiat Modares University",
+      1
+    ],
+    [
+      "هرانا (بازنشر از ایسنا)",
+      1
+    ],
+    [
+      "شنوتو / رادیو جهان‌بین - رادیو توسعه",
+      1
+    ],
+    [
+      "Science of The Total Environment (Elsevier)",
+      1
+    ],
+    [
+      "International Journal of Political Science",
+      1
+    ],
+    [
+      "ACS ES&T Water",
+      1
+    ],
+    [
+      "Environmental Management (Springer)",
+      1
+    ],
+    [
+      "Journal of Cleaner Production (Elsevier)",
+      1
+    ],
+    [
+      "Water Resources Management (Springer)",
+      1
+    ],
+    [
+      "Water International (Taylor & Francis)",
+      1
+    ],
+    [
+      "Journal of Arid Environments (Elsevier)",
+      1
+    ],
+    [
+      "International Water Management Institute (IWMI)",
+      1
+    ],
+    [
+      "CABI / River Basin Trajectories",
+      1
+    ],
+    [
+      "Springer / Integrated Water Resources Management: Concept, Research and Implementation",
+      1
+    ],
+    [
+      "نشریه مهندسی معدن / DOAJ",
+      1
+    ],
+    [
+      "پویندگان محیط زیست",
+      1
+    ],
+    [
+      "دانشگاه آزاد اسلامی - واحد تهران مرکزی - دانشکده مهندسی عمران",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه شیراز",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه صنعتی اصفهان - دانشکده کشاورزی",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه صنعت آب و برق (شهید عباسپور)",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه شیراز - دانشکده علوم",
+      1
+    ],
+    [
+      "موسسه عالی آموزش و پژوهش مدیریت و برنامه ریزی",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه اصفهان - دانشکده جغرافیا",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه تربیت مدرس - دانشکده کشاورزی",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه اصفهان - دانشکده ادبیات و علوم انسانی",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه شهرکرد - دانشکده کشاورزی",
+      1
+    ],
+    [
+      "وزارت علوم، تحقیقات و فناوری - دانشگاه صنعتی اصفهان - دانشکده عمران و محیط زیست",
+      1
+    ],
+    [
+      "مرکز حقوق بشر در ایران",
+      1
+    ],
+    [
+      "مجلس شورای ملی / بازنشر پایگاه حقوقی",
+      1
+    ],
+    [
+      "سازمان حفاظت محیط زیست کشور – اداره کل حفاظت محیط زیست چهارمحال و بختیاری",
+      1
+    ],
+    [
+      "هیئت وزیران / بازنشر ایانا از پایگاه دولت",
+      1
+    ],
+    [
+      "پایگاه اطلاع‌رسانی دولت",
+      1
+    ],
+    [
+      "پایگاه اطلاع‌رسانی دولت به نقل از وزارت نیرو",
+      1
+    ],
+    [
+      "inter 3 Institute / پروژه همکاری آب ایران و آلمان",
+      1
+    ],
+    [
+      "هیأت تخصصی دیوان عدالت اداری / بازنشر پایگاه حقوقی",
+      1
+    ],
+    [
+      "WINA – بازنشر متن و شرح رأی",
+      1
+    ],
+    [
+      "خبرگزاری جمهوری اسلامی (ایرنا)",
+      1
+    ],
+    [
+      "Journal of Hydro-environment Research / Elsevier",
+      1
+    ],
+    [
+      "Journal of Hydrology / Elsevier",
+      1
+    ],
+    [
+      "Advances in Water Resources / Elsevier",
+      1
+    ],
+    [
+      "1st National Conference on Hydrology and Water Resources, Iran / ResearchGate",
+      1
+    ],
+    [
+      "Environmental Science & Policy / Elsevier",
+      1
+    ],
+    [
+      "Science of The Total Environment / Elsevier",
+      1
+    ],
+    [
+      "Ecological Processes / Springer Nature",
+      1
+    ],
+    [
+      "Environmental Geochemistry and Health / Springer",
+      1
+    ],
+    [
+      "هفتمین کنفرانس بین‌المللی و هشتمین کنفرانس ملی عمران، معماری، هنر و طراحی شهری / ISNAC",
+      1
+    ],
+    [
+      "توسعه محلی (روستائی-شهری) / دانشکده علوم اجتماعی دانشگاه تهران",
+      1
+    ],
+    [
+      "Graduate School of Human Sciences, Osaka University",
+      1
+    ],
+    [
+      "فصلنامه علمی-پژوهشی آب و فاضلاب",
+      1
+    ],
+    [
+      "دانشگاه اصفهان - دانشکده جغرافیا",
+      1
+    ],
+    [
+      "دانشگاه اصفهان - دانشکده علوم اداری و اقتصاد - گروه اقتصاد",
+      1
+    ],
+    [
+      "دانشگاه صنعتی اصفهان - دانشکده کشاورزی",
+      1
+    ],
+    [
+      "ایانا (بازتاب گفت‌وگوی ایسنا)",
+      1
+    ],
+    [
+      "رادیو زمانه / نقل از ایسنا",
+      1
+    ],
+    [
+      "وبگاه هومان خاکپور",
+      1
+    ],
+    [
+      "وبگاه رسمی عباس مقتدایی",
+      1
+    ],
+    [
+      "Australian National University (ANU)",
+      1
+    ],
+    [
+      "دویچه‌وله فارسی",
+      1
+    ],
+    [
+      "پایگاه ملی اطلاع‌رسانی قوانین و مقررات کشور (داتیک)",
+      1
+    ],
+    [
+      "روزنامه پیام ما / آرشیو ویستا",
+      1
+    ],
+    [
+      "روزنامه شرق / آرشیو ویستا",
+      1
+    ],
+    [
+      "سازمان حفاظت محیط زیست",
+      1
+    ],
+    [
+      "پایگاه اطلاع‌رسانی دولت ـ پاد",
+      1
+    ],
+    [
+      "بی‌بی‌سی فارسی",
+      1
+    ],
+    [
+      "پویش نوبت زاینده‌رود",
+      1
+    ],
+    [
+      "فریاد زاینده‌رود",
+      1
+    ],
+    [
+      "جامعه اندیشکده‌ها",
+      1
+    ],
+    [
+      "اندیشکده رویش نوین",
+      1
+    ],
+    [
+      "Elsevier",
+      1
+    ],
+    [
+      "Iranian Journal of Chemical Engineering (IJCE)",
+      1
+    ],
+    [
+      "جامعه اندیشکده‌های ایران",
+      1
+    ],
+    [
+      "سلامت نیوز / سازمان حفاظت محیط زیست",
+      1
+    ],
+    [
+      "آسیب های اجتماعی کودک و نوجوان",
+      1
+    ],
+    [
+      "پایگاه خبری رکنا",
+      1
+    ],
+    [
+      "Interdisciplinary Studies in the Humanities",
+      1
+    ],
+    [
+      "محیط شناسی",
+      1
+    ],
+    [
+      "Muhandisī-i Bihdāsht-i Muḥīṭ",
+      1
+    ],
+    [
+      "Anthropogenic Pollution",
+      1
+    ],
+    [
+      "Iranian Journal of Public Health",
+      1
+    ],
+    [
+      "علوم محیطی",
+      1
+    ],
+    [
+      "Hydrology Research",
+      1
+    ],
+    [
+      "کاوش‌های جغرافیایی مناطق بیابانی",
+      1
+    ],
+    [
+      "علوم و مهندسی آب و فاضلاب",
+      1
+    ],
+    [
+      "BMC Ecology and Evolution",
+      1
+    ],
+    [
+      "Journal of Research in Medical Sciences",
+      1
+    ],
+    [
+      "AUT Journal of Modeling and Simulation",
+      1
+    ],
+    [
+      "Journal of Political Ecology",
+      1
+    ],
+    [
+      "توسعه پایدار شهری",
+      1
+    ],
+    [
+      "مطالعات مدیریت توسعه سبز",
+      1
+    ],
+    [
+      "Iranian Journal of Chemistry & Chemical Engineering",
+      1
+    ],
+    [
+      "برنامه ریزی فضایی",
+      1
+    ],
+    [
+      "Limnological Review",
+      1
+    ],
+    [
+      "Cell Journal",
+      1
+    ],
+    [
+      "Sustainable Earth Trends",
+      1
+    ],
+    [
+      "Journal of Environmental Health and Sustainable Development",
+      1
+    ],
+    [
+      "Iranian Journal of Health, Safety and Environment",
+      1
+    ],
+    [
+      "Acta Scientiarum: Technology",
+      1
+    ],
+    [
+      "Journal of Advances in Environmental Health Research",
+      1
+    ],
+    [
+      "Iranian Journal of Animal Biosystematics",
+      1
+    ],
+    [
+      "Caspian Journal of Environmental Sciences",
+      1
+    ],
+    [
+      "Water Harvesting Research",
+      1
+    ],
+    [
+      "Iranian Journal of Microbiology",
+      1
+    ],
+    [
+      "International Journal of Coastal and Offshore Engineering",
+      1
+    ],
+    [
+      "تحقیقات کاربردی علوم جغرافیایی",
+      1
+    ],
+    [
+      "Journal of Agriculture and Food Research",
+      1
+    ],
+    [
+      "Desert",
+      1
+    ],
+    [
+      "International Journal of Aquatic Biology",
+      1
+    ],
+    [
+      "Fishes",
+      1
+    ],
+    [
+      "پژوهش‌های آبخیزداری",
+      1
+    ],
+    [
+      "مخاطرات محیط طبیعی",
+      1
+    ],
+    [
+      "Hydrogen, Fuel Cell & Energy Storage",
+      1
+    ],
+    [
+      "Pizhūhish/hā-yi Rūstāyī",
+      1
+    ],
+    [
+      "رستنی‌ها",
+      1
+    ],
+    [
+      "فقه جزای تطبیقی",
+      1
+    ],
+    [
+      "Quarterly Journal of Applied Theories of Economics",
+      1
+    ],
+    [
+      "منظر",
+      1
+    ],
+    [
+      "مدیریت خاک و تولید پایدار",
+      1
+    ],
+    [
+      "نشریه مهندسی معدن",
+      1
+    ],
+    [
+      "مطالعات جغرافیایی مناطق خشک",
+      1
+    ],
+    [
+      "جغرافیا و آینده پژوهی منطقه‌ای",
+      1
+    ],
+    [
+      "Science",
+      1
+    ],
+    [
+      "Zeitschrift für Tourismuswissenschaft",
+      1
+    ],
+    [
+      "Reviving the Dying Giant",
+      1
+    ],
+    [
+      "Limnologica - Ecology and Management of Inland Waters",
+      1
+    ],
+    [
+      "WASSERWIRTSCHAFT",
+      1
+    ],
+    [
+      "Climate change in contrasting river basins: adaptation strategies for water, food and environment",
+      1
+    ],
+    [
+      "International Journal of River Basin Management",
+      1
+    ],
+    [
+      "Journal of Resource Management and Decision Engineering",
+      1
+    ],
+    [
+      "Researches in Earth Sciences",
+      1
+    ],
+    [
+      "International Journal of Image and Data Fusion",
+      1
+    ],
+    [
+      "Resources Environment and Information Engineering",
+      1
+    ],
+    [
+      "Dendrochronologia",
+      1
+    ],
+    [
+      "Standing up to Climate Change",
+      1
+    ],
+    [
+      "Global and Planetary Change",
+      1
+    ],
+    [
+      "A Nexus Approach for Sustainable Development",
+      1
+    ],
+    [
+      "Open Access Journal of Biogeneric Science and Research",
+      1
+    ],
+    [
+      "University of Virginia",
+      1
+    ],
+    [
+      "Weather, Climate, and Society",
+      1
+    ],
+    [
+      "Journal of Agricultural Engineering (India)",
+      1
+    ],
+    [
+      "Journal of Environmental Management",
+      1
+    ],
+    [
+      "Stochastic Environmental Research and Risk Assessment",
+      1
+    ],
+    [
+      "Journal of Geographical Research",
+      1
+    ],
+    [
+      "Journal of Earth System Science",
+      1
+    ],
+    [
+      "Water Environment Research",
+      1
+    ],
+    [
+      "Turkish Journal of Botany",
+      1
+    ],
+    [
+      "Research Journal of Environmental Sciences",
+      1
+    ],
+    [
+      "KSCE Journal of Civil Engineering",
+      1
+    ],
+    [
+      "Archives of Environmental Contamination and Toxicology",
+      1
+    ],
+    [
+      "Environmental Erosion Research",
+      1
+    ],
+    [
+      "Journal of Research in Economic Modeling",
+      1
+    ],
+    [
+      "Environmental Engineering Research",
+      1
+    ],
+    [
+      "2019 Boston, Massachusetts July 7- July 10, 2019",
+      1
+    ],
+    [
+      "Procedia Earth and Planetary Science",
+      1
+    ],
+    [
+      "Complexity of Transboundary Water Conflicts",
+      1
+    ],
+    [
+      "Environmental Biology of Fishes",
+      1
+    ],
+    [
+      "CLEAN – Soil, Air, Water",
+      1
+    ],
+    [
+      "American Research Journal of Civil and Structural Engineering",
+      1
+    ],
+    [
+      "2020 Mediterranean and Middle-East Geoscience and Remote Sensing Symposium (M2GARSS)",
+      1
+    ],
+    [
+      "Biodiversitas Journal of Biological Diversity",
+      1
+    ],
+    [
+      "Journal of Applied Remote Sensing",
+      1
+    ],
+    [
+      "Inland Water Biology",
+      1
+    ],
+    [
+      "Psychology of Violence",
+      1
+    ],
+    [
+      "Drought: Research and Science-Policy Interfacing",
+      1
+    ],
+    [
+      "Journal of Environmental Health Science and Engineering",
+      1
+    ],
+    [
+      "Chemosphere",
+      1
+    ],
+    [
+      "SSRN Electronic Journal",
+      1
+    ],
+    [
+      "Water Reuse",
+      1
+    ],
+    [
+      "IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium",
+      1
+    ],
+    [
+      "Journal of Phycological Research",
+      1
+    ],
+    [
+      "Iranian Journal of Crystallography and Mineralogy",
+      1
+    ],
+    [
+      "Journal of Bacteriology",
+      1
+    ],
+    [
+      "Iranian Journal of Science",
+      1
+    ],
+    [
+      "Journal of Hydro-environment Research",
+      1
+    ],
+    [
+      "Jundishapur Journal of Health Sciences",
+      1
+    ],
+    [
+      "WIT Transactions on The Built Environment",
+      1
+    ],
+    [
+      "Marine Pollution Bulletin",
+      1
+    ],
+    [
+      "Geodinamica Acta",
+      1
+    ],
+    [
+      "Zoology in the Middle East",
+      1
+    ],
+    [
+      "Bulletin of Environmental Contamination and Toxicology",
+      1
+    ],
+    [
+      "Journal of Applied researches in Geographical Sciences",
+      1
+    ],
+    [
+      "International Journal of Fisheries and Aquaculture",
+      1
+    ],
+    [
+      "TURKISH ONLINE JOURNAL OF DESIGN, ART AND COMMUNICATION",
+      1
+    ],
+    [
+      "The Journal \"Agriculture and Forestry\"",
+      1
+    ],
+    [
+      "Sri Lanka Journal of Aquatic Sciences",
+      1
+    ],
+    [
+      "Toxicological &amp; Environmental Chemistry",
+      1
+    ],
+    [
+      "Annales de Limnologie - International Journal of Limnology",
+      1
+    ],
+    [
+      "Asian Journal of Water, Environment and Pollution",
+      1
+    ],
+    [
+      "geographical researches quarterly journal",
+      1
+    ],
+    [
+      "Journal of Applied Ichthyology",
+      1
+    ],
+    [
+      "Geomechanics and Geoengineering",
+      1
+    ],
+    [
+      "Extreme Hydrology and Climate Variability",
+      1
+    ],
+    [
+      "Environmental Geology",
+      1
+    ],
+    [
+      "Journal of African Earth Sciences",
+      1
+    ],
+    [
+      "مطالعات میان رشته ای در علوم انسانی",
+      1
+    ],
+    [
+      "Wiley",
+      1
+    ],
+    [
+      "Global NEST Journal",
+      1
+    ],
+    [
+      "Scottish Geographical Magazine",
+      1
+    ],
+    [
+      "ICPTT 2009",
+      1
+    ],
+    [
+      "River Research and Applications",
+      1
+    ],
+    [
+      "Mesopotamian Journal of Marine Sciences",
+      1
+    ],
+    [
+      "International Journal of Environmental Sciences &amp; Natural Resources",
+      1
+    ],
+    [
+      "International Journal of Water",
+      1
+    ],
+    [
+      "Journal of Geospatial Information Technology",
+      1
+    ],
+    [
+      "Toxicology Letters",
+      1
+    ],
+    [
+      "Journal of Radioanalytical and Nuclear Chemistry",
+      1
+    ],
+    [
+      "Acta Aquatica Turcica",
+      1
+    ],
+    [
+      "Journal of the ICE",
+      1
+    ],
+    [
+      "Pipelines 2008",
+      1
+    ],
+    [
+      "Microbiology",
+      1
+    ],
+    [
+      "Infectious Disorders - Drug Targets",
+      1
+    ],
+    [
+      "Indian Journal of Science and Technology",
+      1
+    ],
+    [
+      "Open Journal of Marine Science",
+      1
+    ],
+    [
+      "International Journal of Rock Mechanics and Mining Sciences &amp; Geomechanics Abstracts",
+      1
+    ],
+    [
+      "Ain Shams Engineering Journal",
+      1
+    ],
+    [
+      "Groundwater for Sustainable Development",
+      1
+    ],
+    [
+      "Revue d'histoire du XIXe siècle",
+      1
+    ],
+    [
+      "Natural Hazards",
+      1
+    ],
+    [
+      "International Journal of Horticulture and Food Science",
+      1
+    ],
+    [
+      "International Journal of Biosciences (IJB)",
+      1
+    ],
+    [
+      "Applied Mechanics and Materials",
+      1
+    ],
+    [
+      "Jundishapur Journal of Natural Pharmaceutical Products",
+      1
+    ],
+    [
+      "ZooKeys",
+      1
+    ],
+    [
+      "Water and Environment Journal",
+      1
+    ],
+    [
+      "Water Resources",
+      1
+    ],
+    [
+      "International Academic Journal of Science and Engineering",
+      1
+    ],
+    [
+      "International Journal of Remote Sensing",
+      1
+    ],
+    [
+      "Environmental Quality Management",
+      1
+    ],
+    [
+      "Water Quality Research Journal",
+      1
+    ],
+    [
+      "Journal of Environmental Accounting and Management",
+      1
+    ],
+    [
+      "The Geographical Journal",
+      1
+    ],
+    [
+      "Russian Meteorology and Hydrology",
+      1
+    ],
+    [
+      "African Journal of Microbiology Research",
+      1
+    ],
+    [
+      "Earth-Science Reviews",
+      1
+    ],
+    [
+      "Journal of Seismology",
+      1
+    ],
+    [
+      "Dams and Reservoirs",
+      1
+    ],
+    [
+      "Journal of Hydroinformatics",
+      1
+    ],
+    [
+      "Data in Brief",
+      1
+    ],
+    [
+      "Advances in Space Research",
+      1
+    ],
+    [
+      "Sadhana",
+      1
+    ],
+    [
+      "Applied Geomatics",
+      1
+    ],
+    [
+      "Hydrotechnical Construction",
+      1
+    ],
+    [
+      "PLOS ONE",
+      1
+    ],
+    [
+      "Journal of Environmental Health Engineering",
+      1
+    ],
+    [
+      "International Journal of Advanced Structural Engineering",
+      1
+    ],
+    [
+      "سامانه قوانین و مقررات کشور / متن قانون",
+      1
+    ],
+    [
+      "Ramsar Sites Information Service",
+      1
+    ],
+    [
+      "IWMI / Comprehensive Assessment",
+      1
+    ],
+    [
+      "Periodica Polytechnica Civil Engineering",
+      1
+    ],
+    [
+      "همایش ملی انتقال آب بین‌حوضه‌ای (چالش‌ها و فرصت‌ها)، دانشگاه آزاد اسلامی شهرکرد / بازنشر متن کامل",
+      1
+    ],
+    [
+      "Journal of Geophysics and Engineering / Oxford Academic",
+      1
+    ],
+    [
+      "بازنشر نامه نمایندگان در WaterResources",
+      1
+    ],
+    [
+      "Iran Oral History / Harvard Iranian Oral History Project",
+      1
+    ],
+    [
+      "آرمان ملی / بازنشر Sarpoosh",
+      1
+    ],
+    [
+      "Kayhan London",
+      1
+    ],
+    [
+      "گزارش مصاحبه بازنشرشده در Dezhpol News",
+      1
+    ],
+    [
+      "فصلنامه دریچه، شماره ۳۱، صص ۲۷–۴۲",
+      1
+    ],
+    [
+      "انتشار مستقل نویسنده، ویرایش پنجم",
+      1
+    ],
+    [
+      "مطالعات سیاسی-اجتماعی تاریخ و فرهنگ ایران، ۲(۴)، ۲۰۲–۲۲۵",
+      1
+    ],
+    [
+      "ایرنا/عصر ایران؛ بازنشر ملیون ایران",
+      1
+    ],
+    [
+      "ایران امروز؛ بازنشر ملیون ایران",
+      1
+    ],
+    [
+      "برنامه‌ریزی رفاه و توسعه اجتماعی، ۱۲(۴۹)، ۲۱۷–۲۷۴",
+      1
+    ],
+    [
+      "ریاست جمهوری / سامانه قوانین و مقررات کشور",
+      1
+    ],
+    [
+      "بخش تعاملی الف؛ بازنشر WaterResources",
+      1
+    ],
+    [
+      "کبنا نیوز؛ چکیده در خبر فارسی",
+      1
+    ],
+    [
+      "عصر دنا؛ چکیده در خبر فارسی",
+      1
+    ],
+    [
+      "ICID / چهارمین مجمع جهانی آبیاری، کوالالامپور، مقاله W.1.1.19",
+      1
+    ],
+    [
+      "روزنامه اصفهان امروز، شماره ۵۲۷۶، صفحه ۶",
+      1
+    ],
+    [
+      "ایسنا؛ چکیده و بازنشر در ویستا",
+      1
+    ],
+    [
+      "روزنامه نسیم خوزستان",
+      1
+    ],
+    [
+      "ایندیپندنت فارسی",
+      1
+    ],
+    [
+      "Zamaneh Media",
+      1
+    ],
+    [
+      "مهر؛ بازنشر سی‌اچ‌ان",
+      1
+    ],
+    [
+      "عصر اصفهان؛ چکیده در خبر فارسی",
+      1
+    ],
+    [
+      "سازمان حفاظت محیط زیست؛ تصویر منتشرشده در تسنیم",
+      1
+    ],
+    [
+      "Scientific Quarterly Journal of Iranian Association of Engineering Geology",
+      1
+    ],
+    [
+      "Journal of Mining and Environment",
+      1
+    ],
+    [
+      "Iranian Journal of Fuzzy Systems",
+      1
+    ],
+    [
+      "Journal of Water and Climate Change",
+      1
+    ],
+    [
+      "Ancient Near Eastern Studies",
+      1
+    ],
+    [
+      "Computers and Concrete",
+      1
+    ],
+    [
+      "Journal of Central South University",
+      1
+    ],
+    [
+      "Stavební obzor - Civil Engineering Journal",
+      1
+    ],
+    [
+      "Mining of Mineral Deposits",
+      1
+    ],
+    [
+      "زمین شناسی مهندسی",
+      1
+    ],
+    [
+      "پژوهش های زیرساخت های عمرانی",
+      1
+    ],
+    [
+      "Acta Polytechnica",
+      1
+    ],
+    [
+      "World Environmental and Water Resources Congress (EWRI)",
+      1
+    ],
+    [
+      "DPCE Online",
+      1
+    ],
+    [
+      "مهر / بازنشر ایران‌بوم",
+      1
+    ],
+    [
+      "روزنامه قانون / آرشیو پیشخوان",
+      1
+    ],
+    [
+      "DHI-WASY برای وزارت نیرو / آب منطقه‌ای اصفهان؛ مخزن TIB",
+      1
+    ],
+    [
+      "اداره کل حفاظت محیط زیست چهارمحال و بختیاری؛ مخزن Ramsar",
+      1
+    ],
+    [
+      "شرکت سهامی آب منطقه‌ای اصفهان / اصفهان امروز ۴۹۷۷، صفحه ۸",
+      1
+    ],
+    [
+      "تسنیم؛ متن بازنشرشده نامه مدیران ادوار اصفهان",
+      1
+    ],
+    [
+      "bigfoot.ir",
+      1
+    ],
+    [
+      "acco.ir",
+      1
+    ],
+    [
+      "44784859.khabarban.com",
+      1
+    ],
+    [
+      "news.kwpa.ir",
+      1
+    ],
+    [
+      "didgahnews.ir",
+      1
+    ],
+    [
+      "sedayejonoob.ir",
+      1
+    ],
+    [
+      "taice.de",
+      1
+    ],
+    [
+      "armaneghtesadi.com",
+      1
+    ],
+    [
+      "linkedin.com",
+      1
+    ],
+    [
+      "cienciavitae.pt",
+      1
+    ],
+    [
+      "scribd.com",
+      1
+    ],
+    [
+      "doaj.org",
+      1
+    ],
+    [
+      "khazar.org",
+      1
+    ],
+    [
+      "iwra.org",
+      1
+    ],
+    [
+      "researchgate.net",
+      1
+    ],
+    [
+      "geokavco.ir",
+      1
+    ],
+    [
+      "irandataportal.syr.edu",
+      1
+    ],
+    [
+      "repositorio.lnec.pt",
+      1
+    ],
+    [
+      "elmnet.ir",
+      1
+    ]
+  ],
+  "fields": {
+    "Date_Gregorian": 879,
+    "Date_Persian": 179,
+    "Year": 961,
+    "DOI": 473,
+    "URL": 1040,
+    "Summary": 1042,
+    "Key_Claim": 253,
+    "Quote": 0,
+    "Province": 856,
+    "Organization": 578,
+    "Author": 616,
+    "PDF_URL": 331,
+    "Local_PDF": 12,
+    "SHA256": 12
+  },
+  "queries": 253,
+  "queryDB": [
+    [
+      "Web search; publisher pages; public archives",
+      62
+    ],
+    [
+      "Tasnim targeted search",
+      12
+    ],
+    [
+      "ViraScience",
+      11
+    ],
+    [
+      "ViraScience thesis index",
+      8
+    ],
+    [
+      "Web / Nezamat",
+      8
+    ],
+    [
+      "ScienceDirect",
+      7
+    ],
+    [
+      "Tasnim",
+      7
+    ],
+    [
+      "Web search / scholarly discovery",
+      4
+    ],
+    [
+      "ViraScience / university thesis discovery",
+      4
+    ],
+    [
+      "Taylor & Francis",
+      3
+    ],
+    [
+      "Springer Nature",
+      3
+    ],
+    [
+      "MDPI",
+      2
+    ],
+    [
+      "Web search / ScienceDirect",
+      2
+    ],
+    [
+      "Wiley",
+      2
+    ],
+    [
+      "PubMed / Springer metadata",
+      2
+    ],
+    [
+      "Judicial/legal database",
+      2
+    ],
+    [
+      "ViraScience / journal discovery",
+      2
+    ],
+    [
+      "Dataset-wide scope audit",
+      2
+    ],
+    [
+      "Web search / broad scholarly discovery",
+      1
+    ],
+    [
+      "Web search / ResearchGate-targeted",
+      1
+    ],
+    [
+      "ScienceDirect / WUR targeted search",
+      1
+    ],
+    [
+      "Web search / media + scholarly",
+      1
+    ],
+    [
+      "ScienceDirect / Wiley / ResearchGate",
+      1
+    ],
+    [
+      "ScienceDirect / Taylor & Francis / TU Delft",
+      1
+    ],
+    [
+      "Web search / thesis + Wiley",
+      1
+    ],
+    [
+      "ScienceDirect / Wageningen Research Portal",
+      1
+    ],
+    [
+      "TU Delft Research Portal",
+      1
+    ],
+    [
+      "OuluREPO / University of Oulu",
+      1
+    ],
+    [
+      "ScienceDirect / ResearchGate",
+      1
+    ],
+    [
+      "ScienceDirect / PubMed",
+      1
+    ],
+    [
+      "eScholarship / Springer metadata",
+      1
+    ],
+    [
+      "MDPI / scholarly search",
+      1
+    ],
+    [
+      "Taylor & Francis / TU Delft",
+      1
+    ],
+    [
+      "ResearchGate / DOI discovery",
+      1
+    ],
+    [
+      "Wiley / TU Delft repository",
+      1
+    ],
+    [
+      "ScienceDirect / PubMed / OuluREPO / OpenAlex",
+      1
+    ],
+    [
+      "Web search / ViraScience-indexed journal record",
+      1
+    ],
+    [
+      "AGRIS / journal metadata",
+      1
+    ],
+    [
+      "Iran Water Family / web-indexed thesis metadata",
+      1
+    ],
+    [
+      "ViraScience search index",
+      1
+    ],
+    [
+      "ResearchGate / Wiley reference cross-check",
+      1
+    ],
+    [
+      "HRA / ISNA attribution",
+      1
+    ],
+    [
+      "Euronews Persian",
+      1
+    ],
+    [
+      "IranWire",
+      1
+    ],
+    [
+      "Shenoto / Radio Jahanbin",
+      1
+    ],
+    [
+      "Radio Farda",
+      1
+    ],
+    [
+      "Mehr/Vista cross-check",
+      1
+    ],
+    [
+      "Mehr",
+      1
+    ],
+    [
+      "Iranian Archaeology Society",
+      1
+    ],
+    [
+      "IRNA/Vista indexed result",
+      1
+    ],
+    [
+      "Web search targeted: SID",
+      1
+    ],
+    [
+      "Web search targeted: Civilica",
+      1
+    ],
+    [
+      "Web search targeted: ISC",
+      1
+    ],
+    [
+      "Web search targeted: Noormags",
+      1
+    ],
+    [
+      "Web search targeted: Crossref",
+      1
+    ],
+    [
+      "OpenAlex",
+      1
+    ],
+    [
+      "Semantic Scholar targeted search",
+      1
+    ],
+    [
+      "CORE targeted search",
+      1
+    ],
+    [
+      "BASE targeted search",
+      1
+    ],
+    [
+      "DOAJ",
+      1
+    ],
+    [
+      "AGRIS",
+      1
+    ],
+    [
+      "OICC Press / web search",
+      1
+    ],
+    [
+      "ASCE / web search",
+      1
+    ],
+    [
+      "ACS Publications",
+      1
+    ],
+    [
+      "Springer",
+      1
+    ],
+    [
+      "ASCE",
+      1
+    ],
+    [
+      "ScienceDirect / AGRIS",
+      1
+    ],
+    [
+      "AGRIS / IWMI",
+      1
+    ],
+    [
+      "AGRIS / IRD / CABI",
+      1
+    ],
+    [
+      "DOAJ / web search",
+      1
+    ],
+    [
+      "Professional EIA site / web search",
+      1
+    ],
+    [
+      "IANA / web search",
+      1
+    ],
+    [
+      "Human Rights in Iran / web search",
+      1
+    ],
+    [
+      "Web / Lamtakam / legal databases",
+      1
+    ],
+    [
+      "Web / Nezamat / Wikisource",
+      1
+    ],
+    [
+      "Web / Nezamat / Lamtakam",
+      1
+    ],
+    [
+      "Web / legal text search",
+      1
+    ],
+    [
+      "Web / Nezamat / legal search",
+      1
+    ],
+    [
+      "Web / PDF search / Iran Water Foundation mirror",
+      1
+    ],
+    [
+      "Web search",
+      1
+    ],
+    [
+      "Web / Tasnim full legal text",
+      1
+    ],
+    [
+      "Web / IANA / Government text",
+      1
+    ],
+    [
+      "Web / legal search",
+      1
+    ],
+    [
+      "Web / Nezamat / legislative text search",
+      1
+    ],
+    [
+      "Government portal",
+      1
+    ],
+    [
+      "Institutional report / inter3 PDF",
+      1
+    ],
+    [
+      "Web / legal-media search",
+      1
+    ],
+    [
+      "IRNA / web search",
+      1
+    ],
+    [
+      "Web / institutional draft trace",
+      1
+    ],
+    [
+      "Web / Tasnim",
+      1
+    ],
+    [
+      "Web search / IranDoc domain discovery",
+      1
+    ],
+    [
+      "ViraScience / web search",
+      1
+    ],
+    [
+      "University repositories / web search",
+      1
+    ],
+    [
+      "Web scholarly search",
+      1
+    ],
+    [
+      "University repositories / scholarly web",
+      1
+    ],
+    [
+      "ScienceDirect / web scholarly search",
+      1
+    ],
+    [
+      "ScienceDirect / Crossref-style metadata search",
+      1
+    ],
+    [
+      "ScienceDirect / Springer / scholarly web",
+      1
+    ],
+    [
+      "Springer / scholarly web",
+      1
+    ],
+    [
+      "ScienceDirect / scholarly web",
+      1
+    ],
+    [
+      "ScienceDirect / PubMed-style metadata",
+      1
+    ],
+    [
+      "Springer Open / Ecological Processes",
+      1
+    ],
+    [
+      "Conference index / web scholarly search",
+      1
+    ],
+    [
+      "ViraScience / journal metadata",
+      1
+    ],
+    [
+      "News archives / web search",
+      1
+    ],
+    [
+      "Tasnim / Radio Zamaneh / news archives",
+      1
+    ],
+    [
+      "Tasnim / news archives",
+      1
+    ],
+    [
+      "Radio Zamaneh / IranWire",
+      1
+    ],
+    [
+      "Tasnim / official-statement discovery",
+      1
+    ],
+    [
+      "Tasnim / news archive",
+      1
+    ],
+    [
+      "Web deep search / domestic news archives",
+      1
+    ],
+    [
+      "ICANA / Parliament search",
+      1
+    ],
+    [
+      "ISNA / IRNA / judiciary search",
+      1
+    ],
+    [
+      "Dotic / national laws database",
+      1
+    ],
+    [
+      "Government information channels",
+      1
+    ],
+    [
+      "Department of Environment official channel",
+      1
+    ],
+    [
+      "Radio Farda archive",
+      1
+    ],
+    [
+      "VOA Persian archive",
+      1
+    ],
+    [
+      "DW Persian",
+      1
+    ],
+    [
+      "Iran International",
+      1
+    ],
+    [
+      "Newspaper archives / Vista mirrors",
+      1
+    ],
+    [
+      "Telegram public archives",
+      1
+    ],
+    [
+      "Direct HTTP, Crossref, Yahoo index, targeted web search",
+      1
+    ],
+    [
+      "Crossref, DOAJ, OpenAlex, publisher/Persian scholarly indexes",
+      1
+    ],
+    [
+      "Ramsar RSIS, IWMI archive, AgeconSearch, Crossref, Oxford, Springer, Mehr, Iranian Oral History/Harvard, media archives",
+      1
+    ],
+    [
+      "DOI resolver, مجلات دانشگاهی، اسناد دولت، آرشیو رسانه، گزارش‌های فنی و سیاستی",
+      1
+    ],
+    [
+      "OpenAlex; Crossref; publisher pages; media archives; official repositories",
+      1
+    ],
+    [
+      "Web search; official project websites; university repositories",
+      1
+    ]
+  ],
+  "queryLang": [
+    [
+      "فارسی",
+      114
+    ],
+    [
+      "English",
+      69
+    ],
+    [
+      "فارسی / English",
+      64
+    ],
+    [
+      "فارسی/English",
+      4
+    ],
+    [
+      "English/Persian",
+      1
+    ],
+    [
+      "فارسی/انگلیسی",
+      1
+    ]
+  ],
+  "queryDates": [
+    [
+      "2026-08-30",
+      144
+    ],
+    [
+      "2026-09-22",
+      62
+    ],
+    [
+      "2026-08-31",
+      39
+    ],
+    [
+      "2026-09-13",
+      6
+    ],
+    [
+      "2026-10-10",
+      1
+    ],
+    [
+      "2026-10-11",
+      1
+    ]
+  ],
+  "studies": [
+    [
+      "مهندسی و طراحی",
+      7
+    ],
+    [
+      "همکاری بین‌المللی",
+      5
+    ],
+    [
+      "امکان‌سنجی",
+      4
+    ],
+    [
+      "ریسک و محیط‌زیست",
+      4
+    ],
+    [
+      "مهندسی ارزش",
+      3
+    ],
+    [
+      "هیدرولوژی و آبخوان",
+      3
+    ],
+    [
+      "روش‌شناسی",
+      2
+    ],
+    [
+      "اجتماعی و حکمرانی",
+      2
+    ]
+  ],
+  "cooperation": [
+    [
+      "domestic",
+      22
+    ],
+    [
+      "international",
+      5
+    ],
+    [
+      "unconfirmed",
+      3
+    ]
+  ],
+  "studyProjects": [
+    [
+      "WT-T01",
+      "کوهرنگ ۱",
+      4
+    ],
+    [
+      "WT-T02",
+      "کوهرنگ ۲",
+      4
+    ],
+    [
+      "WT-T03",
+      "سد و تونل کوهرنگ ۳ / بیرگان",
+      8
+    ],
+    [
+      "WT-T04",
+      "چشمه لنگان",
+      4
+    ],
+    [
+      "WT-T05",
+      "خدنگستان",
+      0
+    ],
+    [
+      "WT-T06",
+      "بهشت‌آباد",
+      14
+    ],
+    [
+      "WT-T07",
+      "انتقال از خرسان / مرتبط با سد خرسان ۳",
+      2
+    ],
+    [
+      "WT-T08",
+      "گلاب ۱ و ۲ / سامانه آبرسانی اصفهان بزرگ",
+      2
+    ],
+    [
+      "WT-T09",
+      "بن–بروجن",
+      1
+    ],
+    [
+      "WT-T10",
+      "سبزکوه به چغاخور",
+      2
+    ],
+    [
+      "WT-T11",
+      "سامانه غدیر خوزستان",
+      2
+    ],
+    [
+      "WT-T12",
+      "کارون به جراحی / نخیلات شادگان",
+      1
+    ],
+    [
+      "WT-T13",
+      "آبریز / مارون ۲ و انتقال وابسته",
+      1
+    ],
+    [
+      "WT-T14",
+      "تنگ‌سرخ بشار به شیراز",
+      1
+    ],
+    [
+      "WT-T15",
+      "سامانه کوثر / آبرسانی به پنج استان جنوبی",
+      0
+    ],
+    [
+      "WT-T16",
+      "انتقال آب دریا به صنایع اصفهان",
+      1
+    ],
+    [
+      "WT-T17",
+      "دز به قمرود / قم",
+      2
+    ]
+  ],
+  "changes": [
+    {
+      "Change_ID": "C038",
+      "Date": "2026-10-10",
+      "Action": "DEEP RESEARCH ROUND 2 MERGE",
+      "Source_ID / Item": "S986–S1012",
+      "Reason": "User-authorized import of 27 reviewed research candidates",
+      "Details": "27 added; 985 existing records preserved; 6 pending leads excluded; 10 local PDFs indexed; research overlap and access limits retained."
+    },
+    {
+      "Change_ID": "C039",
+      "Date": "2026-10-11",
+      "Action": "TRANSFER STUDIES REGISTRY MERGE",
+      "Source_ID / Item": "S1013–S1042",
+      "Reason": "User requested main dataset and dashboard integration",
+      "Details": "30 sources added; 1012 old sources preserved; 17 project profiles; 30 research records; 5 pending leads separated."
+    }
+  ],
+  "idUnique": 1042
+}

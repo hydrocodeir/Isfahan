@@ -1,0 +1,56 @@
+{
+  "origin": "https://hydrocodeir.github.io/Isfahan/",
+  "live": {
+    "sources": 1042,
+    "meta": {
+      "title": "بانک جامع منابع انتقال آب بین‌حوضه‌ای به اصفهان و حوضه زاینده‌رود",
+      "subtitle": "داشبورد پژوهشی آفلاین منابع، اسناد، مقالات، پایان‌نامه‌ها، مواضع و آرای حقوقی",
+      "sourceFile": "Data.xlsx",
+      "generatedAt": "2026-10-11",
+      "totalSources": 1042,
+      "lastSourceId": "S1042",
+      "dashboard": {
+        "Total sources": 1042,
+        "Persian-language sources": 595,
+        "English-language sources": 451,
+        "Reliability A": 697,
+        "Reliability B": 268,
+        "Reliability C": 63,
+        "Reliability D": 14,
+        "Sources with direct PDF links": 331,
+        "Locally retrieved PDFs": 12,
+        "Last Source ID": "S1042",
+        "Deep Research sources added": 234,
+        "Academic articles added": 54,
+        "Theses / dissertations added": 37,
+        "Duplicates skipped": 37,
+        "News/media/interview sources added in R4": 45,
+        "Audiovisual/audio-first sources added in R4": 20,
+        "Official/parliament/judiciary sources added in R4": 16,
+        "Validated Antigravity sources": 21,
+        "Rejected Antigravity candidates": 467,
+        "Deep literature articles added": 423,
+        "Deep literature Persian articles": 128,
+        "Deep literature English articles": 294,
+        "Out-of-scope sources removed": 368,
+        "Persian challenge sources added in R6": 9,
+        "Corrected / enriched records in R6": 2,
+        "Mandegan sources added 2026-09-22": 27,
+        "Mandegan partial-access additions": 4,
+        "Transfer projects catalogued": 17,
+        "Transfer study/research records": 30,
+        "Transfer review evidence sources": 41,
+        "Transfer review sources added": 30
+      },
+      "geographicScope": [
+        "خوزستان",
+        "اصفهان",
+        "چهارمحال و بختیاری",
+        "کهگیلویه و بویراحمد"
+      ]
+    },
+    "studies": 30,
+    "projects": 17
+  },
+  "errors": []
+}
