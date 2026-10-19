@@ -91,6 +91,11 @@ for name in changed_sheets:
             i=list(row).index(existing);replacement=cell(nc[addr],existing.get('s',''));row.remove(existing);row.insert(i,replacement)
         else:row.append(cell(nc[addr]))
     dimension=original.find(tag('dimension'))
+    if dimension is None:
+        dimension=E.Element(tag('dimension'))
+        original.insert(1 if original.find(tag('sheetPr')) is not None else 0,dimension)
+        columns=[re.match(r'[A-Z]+',c.get('r'))[0] for row in data for c in row]
+        dimension.set('ref','A1:'+max(columns,key=lambda c:(len(c),c))+str(max(rows)))
     dimension.set('ref',re.sub(r'\d+$',str(max(rows)),dimension.get('ref')))
     if op:
         last=op['start_row']+len(op['rows'])-1
@@ -107,7 +112,7 @@ for name in changed_sheets:
         for offset,values in enumerate(op['rows']):
             rownum=op['start_row']+offset
             for col,value in enumerate(values,1):
-                if not isinstance(value,str) or not value.startswith(('https://','http://')):continue
+                if not isinstance(value,str) or not value.startswith(('https://','http://')) or '\n' in value or '\r' in value:continue
                 colname='';v=col
                 while v:v,r=divmod(v-1,26);colname=chr(65+r)+colname
                 max_id+=1;rid=f'rId{max_id}'
@@ -160,6 +165,9 @@ if changes.get('new_sheets'):
         out[path]=dump(document)
     out['xl/workbook.xml']=dump(owb);out['xl/_rels/workbook.xml.rels']=dump(wr);out['[Content_Types].xml']=dump(ct)
 out['xl/styles.xml']=dump(oldstyles)
+content_types=xml(out['[Content_Types].xml'])
+E.register_namespace('','http://schemas.openxmlformats.org/package/2006/content-types')
+out['[Content_Types].xml']=dump(content_types)
 temporary=P/'staged/preserved.xlsx'
 with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED) as z:
     for name,blob in out.items():z.writestr(name,blob)

@@ -1,0 +1,799 @@
+ Available online at www.CivileJournal.org 
+Civil Engineering Journal 
+Vol. 3, No. 6, June, 2017 
+ 
+ 
+ 
+ 
+  412 
+ 
+ 
+Classification of Precast Concrete Segments Damages during 
+Production and Transportation in Mechanized Shield Tunnels 
+of Iran 
+M. A. Shayanfar a, P. Mahyar b*, A. Jafari c, M. Mohtadinia d 
+a Centre of Excellence for Fundamental Studies in Structural Engineering, Iran University of Science and Technology, P.O. Box 
+16765-163, Narmak, Tehran, Iran 
+b PhD Candiadte, Department of Civil Engineering, Iran University of Science and Technology, Tehran, Iran 
+ c Associated Professor, School of Mining Engineering, University of Tehran, Tehran, Iran 
+d Graduated Student of MSc, School of Mining Engineering, University of Tehran, Tehran, Iran 
+Received 21 April 2017; Accepted 20 June 2017 
+Abstract 
+Precast concrete segments used in shield tunnel linings are prone to damage in many situations. These damages can 
+occur at different stages such as fabrication in segment factory, transportation to tunneling site, during tunneling process, 
+and at serviceability stage. The aim of the present article is to study the damages inflicted on concrete segments during 
+production and transportation, and to present a new classification of these damages throughout the two stages.  The 
+developed classification is based on field observations and examinations of major subway and water conveyance 
+mechanized shield tunnels of Iran, located in Tehran, Tabriz, Mashhad, Kermanshah (Nosood) and Isfahan (Golab). The 
+quality of tunnel lining suffers  from what , as a d irect consequence of any damage  to concrete segments , during 
+production and transportation, which will be also  discussed in this article. For further investigation, more than 250 
+concrete segments from Tehran subway line 3 and 350 segments of concrete segments from Tehran subway line 7 were 
+selected and studied for a statistical analysis of chipping and crack, consecutively.  Absence of preventive measures to 
+limit segment damages in precast segment factories is one of the main reasons for increased number of damaged concrete 
+segments, and as a result, increased costs of tunnel construction at later stages. In this paper, production phase damages 
+and factors contributing to these damages are studied. According to the findings of the study, the human (operator) error 
+was the most important cause for chipping, and, time-dependent behavior of concrete was the essential reason in crack 
+of precast segments. Eventually, final section of the article presents practical solutions for reduction of damages during 
+fabrication and transportation of concrete segments. 
+Keywords: Concrete Segments; Statistical Investigation; Concrete Segments Damages; Chipping; Cracking. 
+ 
+1. Introduction 
+Concrete segments are employed as lining system in tunnels , which are excavated by TBMs (Tunnel Boring 
+Machines). The segments are fabricated in segment factories and transported to the tunnel for being installed by the 
+boring machine [1]. Various standards are provided for different aspects of precast concrete segments, which are used 
+                                                           
+* Corresponding author:  payman.mahyar@civileng.iust.ac.ir 
+This is an open access article under the CC-BY license (https://creativecommons.org/licenses/by/4.0/). 
+© Authors retain all copyrights. 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+413 
+ 
+in shield tunnels. These standards could be applied for production and utilization of the elements as lining [2]. A 
+variety of damages threaten the parts from the very beginning of the production stage to the final stage of serviceability, 
+due to d ifferent reasons. The damages done incurred them would affect the durability of lining and in most cases 
+impose substantial costs to the project for repairing the damaged parts. A classification of damages during excavation 
+of shield tunnels was proposed b y Japanese Society of Civil Engineering which is based on the questionnaire survey 
+of 50 construction sites of 15 Construction Companies [3]. In this classification, longitudinal cracks and chippings in 
+segment corners were concluded as the most common damages of the segments. Another classification was proposed 
+by Blom [4]. In this classification, various damages that result in chipping and crack of concrete segments in the tunnel 
+are described and also analytic solutions are proposed for illustration of the crack mechanism of concrete segments in 
+the tunnel. Numerical modeling of the particular damaging mechanism of segmental lining especially during 
+excavation stage of the tunnel is another sub ject that is studied by some researchers. Crack caused by  contact 
+deficiencies, erection tolerances, boring machine’s thrust jacks, dislocation of the segment in a ring, etc. are 
+investigated by the developed method  [5-8]. According to the past researches, qualitatively unsuitable concrete 
+segment which is produced in the factories account for 10% of damages arise in the lining of shiel d tunnels [7]. The 
+nature of the damages, which take place on the parts while being produced and transferred are those, which could be 
+reduced considerably by presenting a careful quality control system along with an appropriate mix ing design and 
+curing method. To achieve the research goal and downgrade occurrence of the damage in concrete segments, suitable 
+quality control methods have been disc ussed in some papers [9, 10]. Figure 1 . shows production process of precast 
+segments proposed by international tunnel association ( ITA) [11]. As it can be seen in the figure , for fabrication of 
+standard precast concrete segments, seven inspections are needed during various steps [11].  
+ 
+Figure 1. Sequence of manufacturing of precast concrete segments [11] 
+Since concrete segments are cured under certain conditions, known as accelerated curing, they achieve the required 
+strength that in most cases is done by utilizing steam in the process. Hence, faultless curing of concrete segments using 
+steam plays an important role in dropping destructions in the products. A typical steam curing consists of 1) initial 
+delay prior to applying steam which is about 3 to 5 hours for getting some hardening of concrete, 2) heat ing period 
+with the rate of 10 to 20 °C per hour to increase the temperature to the maximum level between 60 to 70 °C. 
+Temperatures above 70 °C should be avoided because it results in delayed ettringite formation, leading to expansion 
+and crack in the hardened concrete, 3) steaming period with maximum temperature for about six hours 4) temperature 
+decrease period with the rate of 20 C° per hour  for about two hours [12, 13]. Numerical modeling is also proposed by 
+some research ers to design steam curing procedure [14]. Finally, practical  guidelines for providing a standard 
+Forms 
+Receipt of materials  
+ Weighing 
+ Mixing 
+ Assembling of  
+Reinforcement 
+Concrete placing 
+ Compaction 
+ Steam Curing 
+ Removal of Forms 
+Curing  
+ Shipment 
+Inspection of forms 
+Inspection of materials 
+ Concrete strength test  
+Inspection of assembled Re 
+- 
+Bars 
+High Pressure Curing 
+Inspection of appearance 
+Inspection of shape and  
+Dimension 
+Temporary assembling  
+Strength tests 
+Inspection of temporarily  
+Assembled segmental lining 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+414 
+ 
+accelerated curing can be found in concrete standards like AASHTO, ACI 517, MC90, NPCA and PCI [15-17]. 
+Investigation of production dimensional tolerances is another subject which is briefly studied. It is essential to maintain 
+optimum dimensional tolerances of concrete segment , which are associated with the conditions of execution of the 
+project, and, meanwhile these tolerances might be influenced by some factors such as shrinkage of concrete, 
+temperature difference between the concrete and surrounding environment, unfit mold and so many other factors, that 
+causes the segments to deviate from perfection. The case could be followed by getting damaged parts and their broken 
+gasket grooves [18, 19]. Regarding stacking of concrete segments in temporary or permanent warehouse, some famous 
+manufacturers of TBMs, including Herrenknecht and Selli which are constructor companies of line 3 and 7 of Tehran 
+subways respectively, have offered some effective advice [20, 21]. 
+Generally, the concrete segments are subjected to several damages in e ach and every sequence of the four steps, 
+beginning with manufacturing at the factory, transporting to the tunnel, installation at the tunnel and serviceability 
+stage. Since the concrete segment factory is considered as the very first step taken to construct a tunnel, so getting to 
+know the applied damages at this stage needs a well -deserved attention. It should be kept in mind that the damages 
+imposed to the concrete segments at the production site, makes the segments vulnerable to further damages later in 
+the other phases of tunnel excavation. That is, the share of low-quality concrete segments is, generally, more than 10% 
+as mentioned before, even though the effects are indirect. Previous researches have indicated that no classification has 
+been introduced, so far, in relation to damages imposed to the concrete segments especially in the production stage. 
+Presenting such classifications would be a great help for recognition of damages imposed to these segments in 
+fabrication plant, which helps to come up w ith proper solutions to reduce them. This article at first develops a new 
+and complete categorization of damages that might happen to concrete segments in the production, transportation and 
+tunneling stages. The proposed categorization is based upon some field and observation studies in the projects sites of 
+line 1 of Tabriz subway, line 2 of Mashhad subway, lines 3 and 7 of Tehran subway and water conveyance tunnel of 
+Nosood and Golab, as well as intensive inquiries among several reports of similar tunnel  projects. Consequences of 
+each damage occurred in concrete segments, while producing and transferring to the tunnels, on the quality of the 
+lining will be examined in this article. For a further appraisal, 282 concrete segments selected from line 3 of Teh ran 
+subway and 342 segments from line 7 of Tehran subway were examined for chipping and crack, respectively. And 
+finally, approaches to prevent the occurrence of the above-mentioned damages are discussed in the final section of the 
+article.  
+2. Classification of Damages Occurred in the Concrete Segments at the Production and 
+Transportation Stages Based on Field Studies 
+Figure 2. illustrates classification of damages occurred in the concrete segments at production plant and transportation 
+stage. This categorization is based on the field studies conducted in the field of  various projects: line 1 of Tabriz 
+subway, line 2 of Mashhad subway, lines 3 and 7 of Tehran subways and water conveyance tunnels in Nosood and 
+Golab. As it can be seen in the following chart, damages occurred in the concrete segments at production stage can 
+be, generally, explained by two major sources of improper concrete production and operational errors and damages in 
+the transportation stage. This is classified under a single title, chipping and crack of the segments, which is described 
+as the resu of the operator’s mistake (operational error). 
+ 
+Figure 2. Damages of concrete segments during production and transportation  
+
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+415 
+ 
+Figure 3. shows damages of concrete segments occurred at production stage. The photos have been taken from 
+mechanized shield tunnel projects in Iran. 
+ 
+Figure 3. Damages of concrete segments during production, a: crack due to operator fault (Nosood water conveyance tunnel), 
+b: crack due to shrinkage strain (line 7 of Tehran subway), c: chipping (line 3 of Tehran subway), d: improper dowel nut 
+insertion (line 7 of Tehran subway), e: improper finishing (line 3 of Tehran subway), f: imperfect geometry of steel cage (line 
+3 of Tehran subway), g: hanging socket (line 1 of Tabriz subway), h: honeycombing (line 1 of Tabriz subway) 
+Here are some clarification for each damage happened during the production: 
+a b
+e
+dc
+g h
+f
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+416 
+ 
+ Crack of concrete segments:  Crack in concrete segments is caused by unsuitable mix design and improper 
+conditions of segments curing including shrinkage strain, delayed ettringite formation, carbonation and mistakes 
+by operators , which could be caused by  insufficient cooling of concrete segment s, and also inappropriate 
+stacking of them. Cracks created due to weak concrete, display minute openings of less than one millimetre wide 
+but the cracks caused by operational errors might rise to one centimetre in width.  
+ Chipping of concrete segments: Chipping in concrete segments might be caused by faulty lubrication of the 
+moulds, inaccurate removing of segments from moulds, and their improper handling in temporary or permanent 
+storehouses. Generally chipping is due to operator’s mistake.  
+ Improper dowel nut insertion: Dowel nuts are used at the installation time of the concrete segments in tunnel 
+to reduce probability of damage occurrence. In fact, dowel nuts are placed at designed points to place the 
+concrete, and to accommodate dowels inside them. In case of unsuitable placements or lack of dowel nuts , 
+damaging chance the segments is increased during installation process in the tunnel.  
+ Improper finishing: Formation of air bulbs during segments vibration on the extrados sides is normal. 
+Incomplete smoothing gives an extremely irregula r shape to the segments in the side and results in waste of 
+grease from the TBM tail brushes which is very expensive and highly pollutant (Guglielmetti et al., 2008). 
+ Absence of hanging sockets: Hanging sockets are used for holding facilities such as injection hoses, alarming 
+and alerting devices, etc. In the event that these segments aren’t fixed to the segments in course of fabrication ; 
+the crew responsible for execution of in – tunnel affairs have to drill required holes in concrete segment to 
+accomplish the needed connections and attachments, which in turn, exposes the segments to further harms.  
+ Imperfect geometry of steel cage : When dimensions of the cage made of steel bars do not follow the exa ct 
+designed patterns, concrete would not dress the bars completely and it leaves the exposed portions for corrosion 
+and rusting after the segment is installed in the tunnel.  
+ Honeycombing: Honeycombs are hollow spaces and cavities where cement fails to fil l voids between coarse -
+aggregate particles. Unsuitable concrete proportions like lack of fine aggregate and cement, low workability, 
+coarse aggregates etc. and faulty placement of concrete like slow placement rate, unsuitable vibrating etc. lead 
+to such a  damage. Honeycombing  results in more permeability , corrosion of steel reinforcement  and lower 
+resistance of the concrete segments.  
+ Bleeding: Disability of the concrete in confining mixing water is called bleeding which comes about an account 
+of improper mix design.  As a result of such a damage , weak superficial extrados are created , permeability of 
+precast segments is increased , bond between cement and aggregates and also concrete and reinforcement is 
+reduced, etc. [12, 13]. 
+3. Effects of Damages at Production Stage on Quality of Tunnel Lining 
+Segments which aren’t seriously damaged at production site could obtain required conditions for being transferred 
+to the tunnel, if being repaired effectively. Advised conditions are on the basis of specifications acknowledged by a 
+quality control system which is defined for a special project. If the segments don't achieve the required conditions, 
+they wouldn’t be allowed to be used in the  tunnel. Segments that don’t meet the necessary requirements for being 
+installed in the tunnel are stored somewhere near the tunnel or in the permanent warehouse of the segment factory and 
+later on, they would be used in locations like stations where their linings shall be demolished after TBM have passed 
+through and destruction bases are formed.  
+Occasionally, the quality c ontrol system of the factory is , to some extent, unable to accurately distinguish major, 
+minor or none damaged segments from one another. In this case, and if the damaged segments are carried to the tunnel 
+and installed, the lining might suffer more intense damages due to the forces imposed by TBM’s jacks, grout, and 
+ground pressure. Figure 4. illustrates effects of in- factory damages on in-tunnel installed concrete segments. 
+As it is shown in the Figure 4, all damages which happen to the concrete segments during entire course of the tunnel 
+excavation result in reduced durability of lining system. The weakening also arises due to corrosion in steel bars and 
+reduced strength of concrete in segments. Considering damages occurred in concrete segments i n tunnel, one can 
+conclude that damages appeared in these pieces at the construction time of the tunnel could be outlined as crack, 
+chipping and troubled sealing system. Hence, damages which occur in segment factory aggravate the damages that 
+are related t o construction stage of tunnel and hence as described earlier, durability of the lining is decreased , 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+417 
+ 
+accordingly. Figure 5. displays damages at the time of tunnel excavation and Figure (6) shows chipping of concrete 
+segments in production plant and tunnel of Golab water conveyance tunnel. 
+ 
+Figure 4. Effects of damages to the concrete segments happened in the production site on tunnel lining 
+ 
+Figure 5. Damages of segments in tunnel, a: chipping (line 7 of Tehran subway), b: crack (line 2 of Mashad subway), c: crack 
+and flow of water into tunnel (line 7 of Tehran subway), d: damage at gasket grooves (line 1 of Tabriz subway), d: damage at 
+dowel insertion hole (line 1 of Tabriz subway), f: corrosion of reinforcement and concrete (Nosood water conveyance tunnel) 
+Chipping
+Imperfect 
+Geometry of Steel 
+Cage
+Cracking
+Improper Hanging 
+socket Insertion
+Improper Dowel 
+Nut Insertion  
+Improper 
+Finishing
+Honeycombing
+Cracking
+Bleeding
+Extra Chipping
+Corrosion of Reinforcement 
+Extra Cracking , Chipping
+Cracking and Chipping
+Chipping in Dowel Hole 
+Fault in Waterproofing System 
+Fault in Waterproofing System 
+,Decrease in Concrete Strength, 
+Corrosion of Reinforcement
+Extra Cracking , Chipping
+Surface with high porosity, weak 
+zone around coarse aggregates 
+and reinforcement bars
+Effect of damages In production 
+plants on damages in tunnel 
+Decrease in concrete 
+strength
+Corrosion of 
+reinforcement
+Less durable lining
+a b
+dc
+fe
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+418 
+ 
+ 
+Figure 6. Chippinging of concrete segments in Golab’s segment production plant and tunnel 
+4. Chipping and Crack in Concrete Segments  
+Chipping and crack of concrete segments at production site are among the most important damages applied to these 
+precast concrete segments. Chippings in concrete segments enjoy high importance since they have to be fixed and 
+repaired before delivery to the tunnel. High expenses should be dedicated to fix a considerable sized chipping in a 
+piece, although in most cases it might not be repairable if the chipping of the segment is located in the areas associated 
+with the gasket grooves. Unlike chippings, cracks of the segments at production site could not be repaired due to 
+distribution of them all over the surface of the segments. However, because of minute openings in such kinds of cracks, 
+they are mostly ignored but it should be noted that the cracks of the kind are widened when installed in tunnel due to 
+the effects of the forces imposed by TBM’s jacks. As a rule, it is indisputable that both damages on concrete segments 
+make them confront tremendous reduction in durability  as linings in tunnels. That is why more studies and inquiries 
+are called for. 
+4.1. Chippings in Concrete Segments 
+Chippings of concrete segments could, traditionally, emerge on account of the following circumstances: 
+ Deficient lubrication of moulds while casting 
+ Insufficient resistance of concrete segments when demoulding  
+ Inappropriate lifter 
+ Incorrect handling by lift trucks while being carried to temporary or permanent storage area. 
+ Non – accordant stacking of precast segments in temporary or permanent store house.  
+Obviously, several other reasons could cause chippings in concrete segments; however, they less probably cause 
+them to occur compared to those mentioned in the above section. Chippings for any of the underlying reasons have its 
+their own characteristics which differ from one to another. It is e ssential to lubricate the molds in a proper manner 
+before casting the concrete. Improper lubrication would cause sticking of the concrete to metallic mold, and as a result 
+chippings would be inevitable at the detachment of the dried segment from the mold. These kinds of chippings 
+generally occur at the corners or the edges of the concrete segments. Figure 7 -a shows chippings on the edges and 
+borders of the concrete segments because of inaccurate lubrication of the molds. The inadequate strength of concrete 
+segments leads to crack of the segments while removing from the molds, but when a wrong kind of lifter is used in 
+the segment factory, chippings may happen at lifter’s contact points with the segment. Such kind  of chipping is 
+displayed in Figure 7-b and finally chipping, due to improper handling and stacking of the segment, is seen in Figure 
+7-c.  
+
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+419 
+ 
+ 
+Figure 7. Concrete segment damages due to improper a: lubrication b: lifter and c: stacking 
+For understanding causes of chippings of concrete segments, a field study was conducted on the segment factory 
+of line 3 of Tehran subway project. This particular fabrication site was chosen because the number of chippings in this 
+location was higher in number in comparison  with other types of damages in the production fac tories. 282 segments 
+of damaged concrete segments in line 3 of Tehran subway were statistically examined. To detect exact locations of 
+chippings, the segments were divided into 15 zones. Figure 8-a shows stacking manner of segments in the warehouse, 
+and Figure 8-b display the zone method. 
+. 
+Figure 8. Concrete segments of line 3 subway segment factory a: stacking method b: zone method  
+Figure 9-a is drawn  to show concrete segment’s chippings in the zones whic h are mentioned in F igure 8-b and 
+distinction of amounts of chippings in upper and lower sections is displayed in Figure 9-b.  
+ 
+Figure 9. a: chipping magnitude in each zone b: comparison of chipping magnitude in upper and lower face of concrete 
+segment 
+ 
+Looking at the Figure 9-a, it can be concluded: 
+ Black columns show maximum magnitude of chippings. These zones are relevant to locations of holes to place 
+dowels and middle parts of the segments. The zones are associated with contacting lifter while demolding the 
+segments.  
+ Gray columns display noticeable chippings. These types of zones are related to the instance of placing products 
+in permanent storage when contacts shims.  
+ Hatched columns show intermediate  chippings. This class of zones is linked to transferring allotments from 
+provisional storages to long-lasting ones due to hit by lifter’s forks. 
+ Chippings in other zones are potentially overlooked.  
+a b c
+12
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+1415
+a
+b
+
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+420 
+ 
+Concrete segment’s chippings in zones 7, 8 and 10 are developed due to improper lifters and inadequate resistance 
+of the segments while demolding, as well. Lifters used in segment factory of line 3 of Tehran subway, bear some 
+protrusions that intrude into dowel holes at the time of demolding products. In case, the segments are not strong 
+enough around the holes, chippings within the area should be expected. To prevent such harms due to above-mentioned 
+shortcomings, frictional or vacuum lifters, like those utilized in line 1 of Tabriz subway must be used. Also, the initial 
+resistance of the concrete in segments must be promoted. Figures 10 -a and 10-b depict lifter used in segment factory 
+of line 3 of Tehran subway and frictional lifter employed for line 1 of Tabriz subway, respectively.  
+ 
+Figure 10. Lifters used in: a: line 3 of Tehran subway b: line 1 of Tabriz subway 
+Concrete segment’s chippings in zones  6 and 9 are due to improper placement of the segments in the permanent 
+warehouse, and those in zones 5 and 11 caused by hitting forks of lifting trucks. Lastly, chipping in unrelated zones 
+could be derived from false lubrication and some miscellaneous non -predictable sources. Considering the fact that 
+most chippings belong to the lower portion of the segments (Figure 9-b) which leads to damaged gasket grooves, thus 
+they need to be repaired  prior to moving to the tunnels; however, on many occasions, repairing is not possible and 
+even so, the procedure would dictate a high cost to the project.  
+4.2. Crack in concrete segment  
+Crack in concrete segments have some sources as outlined below:  
+ Human error (operators’ error) 
+o Insufficient cooling of segments while demolding in winter.  
+o Inappropriate storing in permanent warehouse.  
+ Crack due to poor mix design and curing of the segments 
+o Strain of delayed eteringite formation  
+o Shrinkage strain 
+o Carbonation  
+To investigate crack at production site, 342 precast segments from line 7 of Tehran subway were considered under 
+statistical evaluation. Figure 11-a depicts stacking method and 11-b is illustrating the sketch of the zone method.  
+As it can be inferred from Figure 11-a, concrete segments are classified into 6 statistical populations in accordance 
+with the order in which segments are seated on top of one another.  
+ 
+ 
+b a 
+Figure 11. Concrete segments of line 7 of Tehran subway segment factory a: stacking method b: zone method 
+ 
+ 
+1...4 6...8 9...14 18… 23 24...26 28...315 2715...17
+1
+2
+3 4
+5
+6 7
+8
+9
+ 
+ 1
+2
+3
+4
+5
+6
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+421 
+ 
+Concrete segment’s crack extent concerning total length, total number and the average length of crack in each of 
+the statistical populations have been demonstrated in diagrams 12 -a, 12-c and 12-e, respectively. Considering these 
+diagrams, it is concluded that the statistical population 1 and 2 are the same from judging the total length, number and 
+average crack length perspective. The same outcome is true in regard to statistical populations of 3, 4 and 5. The last 
+performance of the statistical group 6 is not similar to any of the first 5 cases. Statistical groups 1 and 2 have the 
+maximal quantities of crack and statistical groups of 3, 4 and 5 show less numbers of crack compared to groups 1 and 
+2. So, statistical group 6 has the least magnitude of crack.  
+Diagrams 12 -b, 12 -d and 12 -f show extents of cracks in each statistical population in accordance with zone 
+separations which was displayed in sketch 11 -b. To obtain better results, the average amounts of crack were figured 
+in these diagrams for statistical populations 1 and 2, and also for 3, 4 and 5. Statistical population 6 was noted, 
+separately. 
+Considering the diagrams, it can be concluded that the extent of crack of concrete parts in all zones except 1 and 9 
+in statistical population 1 and 2 are larger than populations 3, 4 and 5 while population 6 contains the least crack. This 
+also could be apprehended through observing the trend shown by the average length of crack. Furthermore, the average 
+extents of crack in zones 2, 5 and 6 which belong to the dowel holes are equal to 20 cm. In other words, if concrete 
+parts crack within these zone, they would grow until they reach the holes. This business is tru e with all and every 
+statistical population. It should be noted that the thickness of segments used for line 7 of Tehran Subway is 35cm.  
+Data collection exercise of cracks identified by con crete segments of line 7 of Tehran subway started in October 
+2012. At the time, some segments had been produced in April of the same year, therefore they were aged 180 days. 
+Examining these segments, which were amounted to 114 specimens, took one month. In November of the same year, 
+132 segments of the segments which were fabricated in September and had 60 days old were selected, and finally, 96 
+concrete segments, with only 28 days of age, were considered for data collection, in December 2012. 
+ 
+ 
+b 
+ 
+a 
+ 
+d 
+ 
+b 
+0
+5
+10
+15
+20
+25
+1 2 3 4 5 6 7 8 9
+AVERAGE CRACK LENGTH (cm)
+ZONE NUMBER 
+STATISTICAL POPULATION: 1,2
+STATISTICAL POPULATION: 3,4,5
+STATISTICAL POPULATION: 6
+21957 22162
+19742 19025 19000
+13558
+0
+5000
+10000
+15000
+20000
+25000
+1 2 3 4 5 6
+TOTAL LENGTH OF CRACKS (CM)
+STATISTICAL POPULATION
+0
+50
+100
+150
+200
+250
+1 2 3 4 5 6 7 8 9
+TOTAL NUMBER OF CRACKS
+ZONE NUMBER
+STATISTICAL POPULATION : 1,2
+STATISTICAL POPULATION: 3,4,5
+STATISTICAL POPULATION: 6
+1381 1402
+1291 1236 1209
+920
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1 2 3 4 5 6
+TOTAL NUMBER OF CRACKS
+STATISTICAL POPULATION
+ 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+422 
+ 
+ 
+f 
+ 
+e 
+Figure 12. Crack magnitude in the statistical populations 
+Figures 13-a, 13-c and 13-e show the statistical distribution of crack lengths related to 28, 60 and 180 days aged 
+concrete segments respectively and also Figures 13-b, 13-d and 13-f show the statistical distribution of total number 
+of cracks of the above mentioned age groups, respectively. Diagrams 13 -a and 13 -b reveal that concrete elements 
+holding total cracks length of 150 cm and total cracks number of 24 are highest in abundance. Focusing on curves 13-
+c and 13-d, it can be observed that th e concrete segments with crack length of 240 cm and number of 19 cracks are 
+more abundant, and finally, curves 13-e and 13-f indicate that, such kind of concrete segments when carry crack with 
+total length of 300 cm and total number of crack cases 32 stand the highest in abundance, compared to other concrete 
+segments used in the tunnels. It is worth mentioning that concerning the segments of 180 days old, cracked allotments 
+with total length of 600 cm show a substantial amount in counts. Taking the above mentioned issues into account, one 
+could conclude that the longer the time between production and gathering exercise of cracks, the more amounts of 
+cracks might appear. 
+56484032241680
+25
+20
+15
+10
+5
+0
+NUMBER OF CRACKS
+Frequency
+ 
+b 
+10509007506004503001500
+35
+30
+25
+20
+15
+10
+5
+0
+CRACK LENGTH (cm)
+Frequency
+ 
+a 
+5143352719113
+40
+30
+20
+10
+0
+NUMBER OF CRACKS 
+Frequency
+ 
+d 
+8407206004803602401200
+40
+30
+20
+10
+0
+CRACK LENGTH (cm)
+Frequency
+ 
+c 
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+1 2 3 4 5 6 7 8 9
+TOTAL LENGTH OF CRACKS(cm)
+ZONE  NUMBER 
+Statistical population : 1,2
+Statistical population: 3,4,5
+Statistical population: 6
+15.9
+15.8
+15.3
+15.4
+15.7
+14.7
+14
+14.2
+14.4
+14.6
+14.8
+15
+15.2
+15.4
+15.6
+15.8
+16
+1 2 3 4 5 6
+AVERAGE CRACK LENGTH(CM)
+STATISTICAL POPULATION
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+423 
+ 
+4832160
+40
+30
+20
+10
+0
+NUMBER OF CRACKS
+Frequency
+f 
+10509007506004503001500
+35
+30
+25
+20
+15
+10
+5
+0
+CRACK LENGTH (cm)
+Frequency
+ 
+e 
+Figure 13. Crack magnitude based on time 
+According to what was mentioned earlier, it is proved that the cracks in concrete segments are directly related to 
+time dependent behavior, shrinkage strain and the creep , of concrete. As a matter of fact, this is the reason for higher 
+amounts of damages in statistical populations of 1 and 2. The segments included in these populations acquire the most 
+influence from the environmental factors such as wind blow, and sun light, while other statistical populations get less 
+influenced by these factors. It should be, also, noted that the 6th statistical population is under the least environmental 
+effects. Humidity of segments of this group is contributed to the earth humidity, therefore we see less shrinkage strain 
+in this category of segments. So, according to these observations, it is advised that the statistical populations 1 and 2  
+bear the most, and the 6th bear the least measures of shrinkage strain. This could justify the relationship between cracks 
+in concrete segments of line 7 of Tehran subway, and the crack mechanism.  
+Zones 1 and 9 do not show similar course as other zones i n different statistical populations. These two zones are 
+not influenced by any force except for their own weights, while other zones are under the effect of weights of the 
+segments in which they are placed on top. This phenomenon causes creeping efficacy o n cracks happened in these 
+zones. Under conventional circumstances, creeping along with relaxation of the stresses in concrete segments would 
+delay the crack occurrence. This would happen where shrinkage strain develops tensile stress that causes crack in the 
+segment in some lower stresses, less than what is designed based on expected tensile strength at production stage [22]. 
+The segments included in statistica l population 6 bear the highest weight force of the segments on the top, hence 
+the major amounts of creeps arise in segments of the population. On the other hand, based on previously given details, 
+the least measure of shrinkage strain come about in the population. The phenomenon is true with the concrete segments 
+of populations 1 and 2 except for one case, that is, this group of segments concedes the highest amount of shrinkage 
+strain and the lowest magnitude of creeping. Above mentioned explanations justify the procedure of concrete segment 
+crack of the statistical populations of 1 - 6. Zones 1 and 9 which are not influenced by the weight of upper segments 
+in none of the statistical populations, show different types of conducts in crack compared to other z ones. The 
+phenomenon attests the importance of creeping in crack. At length, mechanism of crack of concrete segments in line 
+7 of Tehran subway is a combination of influencing force and shrinkage strain, resulting in  decreased crack of 
+segments in statistical populations of 1-6.  
+5. Reason of Damaging the Concrete Segments During Production and Transportation and 
+Pre-Emptive Method for Prevention 
+Table 1 . describes causes for damages in the concrete segments at production site, transportation stage, and 
+prevention policies. Focusing on the table it can be concluded that damages are related to unsuitable concrete which 
+can be cut down by correcting the mix design, curing conditi on and concreting and damages that initially were as a 
+result of human error, they all can be corrected through proper training of the operators.  
+In general, it could be claimed that the damages resulted from the operator’s errors and unsuitable concrete n eed 
+further studies to recognize and stop them. 
+As a rule, to prevent damages imposed to concrete segments, following four steps must take: 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+424 
+ 
+ Designing an efficient quality control system in accordance with the conditions under which the project is 
+being executed in a way that it enables separation of: 
+o Concrete segments eligible to be carried to the tunnel 
+o Repairable segments  
+o Non-repairable segments  
+ Well train ing along with close control of  the operators of each and every department or section without 
+replacing or shifting them unless for a justified reason.  
+ Presenting suitable mix design and curing besides enough and precise testing and trial every time concreting 
+is performed.  
+Employing standard and up to date equipment in all and every stage of production as well as transporting the segments. 
+ 
+Table 1. Types of potential damages to concrete segments, their reasons and the ways of preventing their occurrence 
+ 
+Stage the 
+damage occurs Nature of damage Reason Preventing 
+Damages at 
+production 
+facility 
+Damage due 
+to improper 
+concrete 
+Bleeding Unsuitable mix design and concreting 
+conditions 
+Using fine grain cement. Using cements of 
+high alkaline, or adding calcium chloride. 
+Reducing amount of water when mixing 
+the concrete. 
+Honey 
+combing 
+Excess slump of concrete, low amount of 
+cement in concrete, substantial 
+difference in characteristics of 
+aggregates, decreased amounts of fine 
+components, excessive usage of 
+lubricants, not using bubble creating 
+materials, unfit vibrator, wrong moulds, 
+non-acceptable concreting. 
+Mix design and concreting should be done 
+in a manner to recover the measures 
+mentioned in the column which describes 
+damages. 
+Crack Strains due to shrinkage , carbonation 
+and delayed eteringite formation 
+Mix design and curing circumstances must 
+be in a manner to produce the least amount 
+shrinkage strain. Curing temperature when 
+using steam shouldn’t exceed 75 c. 
+Damage due 
+to operator’s 
+errors 
+Crack 
+Inadequate cooling of segments when 
+demolding. Wrong placement of shims 
+in between segments in permanent 
+warehouse. 
+Leaving the segment indoor for at least a 
+day and also blanketing them especially in 
+cold seasons. Placing shims aligned, or at 
+least with minimum deviation from the 
+straight line 
+Improper 
+dowel nut 
+insertion 
+Operator’s error Promoting the Operator’s trainings 
+Chipping Operator’s error 
+Being cautious while transporting segments 
+from moulding area to temporary and then 
+permanent storages. Careful lubrication of 
+moulds. Using frictional lifters. 
+Imperfect 
+geometry of 
+steel cage 
+Fault in steel cage’s template. Excess 
+tolerance in moulds. Promoting the Operator’s trainings 
+Imperfect 
+finishing Operator’s error Promoting the Operator’s trainings 
+Missing of 
+hanging 
+socket 
+Operator’s error Promoting the Operator’s trainings 
+Damage at the 
+transportation 
+stage 
+Chipping and crack Operator’s error 
+Promoting the Operator’s training and 
+employing standard machineries to carry 
+concrete segments. 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+425 
+ 
+6. Conclusion  
+All concerns discussed and presented in this investigation are based on experiences with mechanized tunnel boring 
+projects in Iran and extensive study of the related reports. Outcomes of investigating damages in the concrete segments 
+in the production site and transportation stage could be addressed as below:  
+ Damages sustained by concrete segments at production site and at transferring to the tunnel would be due 
+to improper mix design and curing and also by errors from the operators’ side.  
+ In case of lack of a suitable quality control system, the damaged segments in t he construction or 
+transportation stages would be used as lining in the tunnel. Obviously vulnerability of this kind of 
+segments is higher than those which are intact because the forces applied to them in the time of installation 
+and utilization affects them more than they affect intact segments.  
+ Final effect of damaged concrete segments on all stages of founding a tunnel is weakening the lining 
+function of the segments, which itself arises through erosion and rusting of the steel bars and followed by 
+reduction of the strength of the concrete.  
+ Operator’s errors as well as unsuitable equipment are the most important reasons for segment’s chippings.  
+ Curing the concrete which is directly related to mix design is the main reason for crack.  
+ The main reasons for chipping in the factory are using improper lifters, improper warehousing in 
+permanent storage and wrong methods of carrying segments on lift trucks.  
+ Considering the fact that the bottom of the concrete segments gets more damages in comparison to upper 
+ones, in most cases repairing them is practically impossible. 
+ Crack mechanism of segments at production site is because of shrinkage strain and creeping of the 
+concrete of segments.  
+ Using precise quality control system, operator’s training, not replacing the operators of different sections 
+with one another, employing standard tools and equipment and also presenting accurate mix design and 
+curing along with adequate tests and trials at concreting stage are all parts of a guideline that by following 
+them there would be a good amount of damage reduction in the stages of production and transportation.  
+ The bottom line is that the cost of prevention of damages is always lower than the cost of repairing.  
+7. References 
+[1] V. Gugli elmetti, P. Grasso, A. Mahtab, S. Xu, Mechanized tunnelling in urban areas: design methodology and 
+construction control, CRC Press, 2008. 
+[2] AFTES, Association Française des Tunnels et de l'Espace Souterrain, France, 1997.  
+[3] S. Mitsutaka, Causes of shie ld segment damages during construction, International Symposium on Underground 
+Excavation and Tunnelling, (2006). 
+[4] C.B.M. Blom, "Design philosophy of concrete linings for tunnels in soft soils", (2002).  
+[5] S. Cavalaro, C. Blom, J. Walraven, A. Aguado, "Structural analysis of contact deficiencies in segmented lining", 
+Tunnelling and Underground Space Technology, 26 (2011) 734-749. 
+[6] J.-s. Chen, H.-h. Mo, "Study on effect of segments erection tolerance and wedge-shaped segment on segment ring 
+in shield tunnel", Journal of Zhejiang University-SCIENCE A, 7 (2006) 1864-1869. 
+[7] J. Chen, H. Mo, "Numerical study on crack problems in segments of shield tunnel using finite element method", 
+Tunnelling and underground space technology, 24 (2009) 91-102. 
+[8] H. Mo, J. Chen, "Study on inner force and dislocation of segments caused by shield machine attitude", Tunnelling 
+and underground space technology, 23 (2008) 281-291. 
+[9] J.H. Georg, K. Davorin, Selection of segmental lining system and repair classification, Pr oceedings of the CSSE 
+Symposium DAMOCS. Dubrovnik, (2004). 
+[10] F. Gruebl, Segmental rings (critical loads and damage prevention), International Symposium on Underground 
+Civil Engineering Journal          Vol. 3, No. 6, June, 2017 
+426 
+ 
+Excavation and Tunnelling, Bangkok, Thailand, (2006). 
+[11] W.G. No, I.T. Association, "Guidelines for the design of shield tunnel lining", Tunnelling and Underground 
+Space Technology, 15 (2000): 303-331. 
+[12] J. Hanson, Optimum steam curing procedure in precasting plants, Journal Proceedings, (1963).  
+[13] S. Mindess, J.F. Young, D. Darwin, Concrete, Prentice Hall, 2003. 
+[14] M.D. Crespo, C. Molins, A.R. Marí, "Effect of variations in thermal -curing cycle on the cracking risk of precast 
+segmental tunnel lining", Construction and Building Materials, 49 (2013) : 201-213. 
+[15] AASHTO, A.A.o.S.H.a.T. O., Washington DC, 2000. 
+[16] A.C. 517, Accelerated Curing of Concrete at Atmospheric Pressure: State of the Art, American Concrete Institute, 
+1992. 
+[17] PCI, Accelerated curing of concrete at atmospheric pressure –State of the art., (1980). 
+[18] A. Herrenknecht, K. Bäppler, Segmental concrete lining design and installation, Soft Ground and Hard Rock 
+Mechanical Tunneling Technology Seminar, (2003). 
+[19] D. Kolic, A. Mayerhofer, "Segmental lining tolerances and imperfections", Google Scholar, 8 (2011). 
+[20] C. Herrenkenect, Tehran Metro Project - line 3, (2006). 
+[21] C. Selli, Tehran Metro Project - line 7  North-South section, (2008). 
+[22] P.K. Mehta, Concrete. Structure, properties and materials, McGraw-Hill Publishing, 1986. 
+ 

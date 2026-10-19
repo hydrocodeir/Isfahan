@@ -1,0 +1,4 @@
+{
+  "part": "[Content_Types].xml",
+  "change": "default namespace serialization only; worksheet bytes unchanged"
+}

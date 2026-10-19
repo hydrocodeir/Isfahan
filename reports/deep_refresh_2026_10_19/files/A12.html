@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+    
+	<title>اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس</title>
+	<!-- user defined metatags -->
+	
+		<meta name="keywords" content="زاگرس,تونل‌سازی,تصمیم‌گیری چندمعیاره,روش سلسله‌مراتبی,روش شباهت به گزینه ایده‌ال  " />
+		<meta name="description" content="اولویت‌بندی روش بررسی زیرسطحی نقش مهمی در مدیریت اقتصادی و ایمنی پروژه‌های زیرزمینی دارد. در این پژوهش شیوه جدیدی برمبنای فرآیند تحلیل سلسله مراتبی (AHP) و شباهت به گزینۀ ایده­آل (TOPSIS) برای اولویت­بندی روش‌های بررسی مسیر تونل سبزکوه از میان طیف گسترده‌ای از روش‌های ژئوتکنیکی و ژئوفیزیکی پیشنهاد شده است. برای این کار ابتدا مهم‌ترین عامل مؤثر بر انتخاب بهترین روش بررسی زیرسطحی این پروژه بررسی شده و سپس با به‌کارگیری روش تحلیل سلسله مراتبی (AHP) عوامل بررسی شده به‌صورت زوجی مقایسه و وزن هر یک از عوامل محاسبه شده است. علاوه بر این، از روش شباهت به گزینۀ ایده‌آل برای انتحاب نزدیک‌ترین روش به حالت ایده­آل بررسی زیرسطحی مسیر تونل سبزکوه بهره گرفته شده است. در نهایت از بین 6 گزینۀ بررسی زیرسطحی پیشنهاد شده برای تونل، در هر دو روش AHP و TOPSIS پژوهش‌های لرزه­ای به‌عنوان بهترین گزینه، و بقیه گزینه­ها با توجه به وزن مورد نظر در اولویت­های بعدی قرار گرفتند." />
+		<meta name="title" content="اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" />
+		<meta name="googlebot" content="NOODP" />
+		<meta name="citation_title" content="اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" />
+		<meta name="citation_author" content="زارع نقدهی, مسعود" />
+		<meta name="citation_author_institution" content="دانشگاه صنعتی همدان" />
+		<meta name="citation_author" content="محمدی, سید داود" />
+		<meta name="citation_author_institution" content="دانشگاه بوعلی سینا همدان" />
+		<meta name="citation_author" content="کریمی, مصطفی" />
+		<meta name="citation_author_institution" content="دانشگاه بوعلی سینا همدان" />
+		<meta name="citation_abstract" content="اولویت‌بندی روش بررسی زیرسطحی نقش مهمی در مدیریت اقتصادی و ایمنی پروژه‌های زیرزمینی دارد. در این پژوهش شیوه جدیدی برمبنای فرآیند تحلیل سلسله مراتبی (AHP) و شباهت به گزینۀ ایده­آل (TOPSIS) برای اولویت­بندی روش‌های بررسی مسیر تونل سبزکوه از میان طیف گسترده‌ای از روش‌های ژئوتکنیکی و ژئوفیزیکی پیشنهاد شده است. برای این کار ابتدا مهم‌ترین عامل مؤثر بر انتخاب بهترین روش بررسی زیرسطحی این پروژه بررسی شده و سپس با به‌کارگیری روش تحلیل سلسله مراتبی (AHP) عوامل بررسی شده به‌صورت زوجی مقایسه و وزن هر یک از عوامل محاسبه شده است. علاوه بر این، از روش شباهت به گزینۀ ایده‌آل برای انتحاب نزدیک‌ترین روش به حالت ایده­آل بررسی زیرسطحی مسیر تونل سبزکوه بهره گرفته شده است. در نهایت از بین 6 گزینۀ بررسی زیرسطحی پیشنهاد شده برای تونل، در هر دو روش AHP و TOPSIS پژوهش‌های لرزه­ای به‌عنوان بهترین گزینه، و بقیه گزینه­ها با توجه به وزن مورد نظر در اولویت­های بعدی قرار گرفتند." />
+		<meta name="citation_id" content="10849" />
+		<meta name="citation_publication_date" content="2018/07/23" />
+		<meta name="citation_date" content="2018-07-23" />
+		<meta name="citation_journal_title" content="زمین شناسی مهندسی" />
+		<meta name="citation_issn" content="2228-6837" />
+		<meta name="citation_volume" content="12" />
+		<meta name="citation_issue" content="2" />
+		<meta name="citation_firstpage" content="293" />
+		<meta name="citation_lastpage" content="314" />
+		<meta name="citation_publisher" content="دانشگاه خوارزمی" />
+		<meta name="citation_doi" content="10.18869/acadpub.jeg.12.2.293" />
+		<meta name="DC.Identifier" content="10.18869/acadpub.jeg.12.2.293" />
+		<meta name="citation_abstract_html_url" content="https://jeg.khu.ac.ir/article_10849.html" />
+		<meta name="citation_fulltext_html_url" content="https://jeg.khu.ac.ir/article_10849.html" />
+		<meta name="citation_pdf_url" content="https://jeg.khu.ac.ir/article_10849_3c2e55b31641e3d4cfd7867dd501c5d9.pdf" />
+		<meta name="DC.Title" content="اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" />
+		<meta name="DC.Source" content="زمین شناسی مهندسی" />
+		<meta name="DC.Date" content="23/07/2018" />
+		<meta name="DC.Date.issued" content="2018-07-23" />
+		<meta name="DC.Format" content="application/pdf" />
+		<meta name="DC.Contributor" content="زارع نقدهی, مسعود" />
+		<meta name="DC.Contributor" content="محمدی, سید داود" />
+		<meta name="DC.Contributor" content="کریمی, مصطفی" />
+		<meta property="og:title" content="اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" />
+		<meta property="og:type" content="article" />
+		<meta property="og:description" content="اولویت‌بندی روش بررسی زیرسطحی نقش مهمی در مدیریت اقتصادی و ایمنی پروژه‌های زیرزمینی دارد. در این پژوهش شیوه جدیدی برمبنای فرآیند تحلیل سلسله مراتبی (AHP) و شباهت به گزینۀ ایده­آل (TOPSIS) برای اولویت­بندی روش‌های بررسی مسیر تونل سبزکوه از میان طیف گسترده‌ای از روش‌های ژئوتکنیکی و ژئوفیزیکی پیشنهاد شده است. برای این کار ابتدا مهم‌ترین عامل مؤثر بر انتخاب بهترین روش بررسی زیرسطحی این پروژه بررسی شده و سپس با به‌کارگیری روش تحلیل سلسله مراتبی (AHP) عوامل بررسی شده به‌صورت زوجی مقایسه و وزن هر یک از عوامل محاسبه شده است. علاوه بر این، از روش شباهت به گزینۀ ایده‌آل برای انتحاب نزدیک‌ترین روش به حالت ایده­آل بررسی زیرسطحی مسیر تونل سبزکوه بهره گرفته شده است. در نهایت از بین 6 گزینۀ بررسی زیرسطحی پیشنهاد شده برای تونل، در هر دو روش AHP و TOPSIS پژوهش‌های لرزه­ای به‌عنوان بهترین گزینه، و بقیه گزینه­ها با توجه به وزن مورد نظر در اولویت­های بعدی قرار گرفتند." />
+		<meta property="og:url" content="https://jeg.khu.ac.ir/article_10849.html" />    
+    <link href="./data/jeg/coversheet/favicon.ico" rel="icon">
+    <link href="./data/jeg/coversheet/favicon.ico" rel="apple-touch-icon">
+    	    <link href="./themes/base/assets/css/bootstrap.rtl.min.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+		<link href=" ./themes/base/front/assets/css/RTL-font-iransans.css" rel="stylesheet" type="text/css" id="rtl_font" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b" />
+        <link href="./themes/base/assets/css/font-awesome.min.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+    <link href="./themes/base/assets/css/select2.min.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+    <link href="./themes/base/assets/css/select2-bootstrap-theme.rtl.min.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+    <link rel="stylesheet" href="./inc/css/print.css" media="print" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+    <link href="./themes/old/front/assets/css/style.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+  	<script type="text/javascript" src="./themes/base/assets/js/app.js" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b"></script>
+    <script type="text/javascript" src="./inc/lang/fa/lang.js" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b"></script>
+
+            
+    <link href="./themes/old/front/assets/css/style_rtl.css" rel="stylesheet" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+    <meta name="google-site-verification" content="vlpK9pU0-QsNbqWQtn977NIT_9SuHML3PIdQ7s7xnvQ" /><link href="https://jeg.khu.ac.ir/article_10849.html" rel="canonical" />    
+<script type="application/ld+json" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس",
+  "description": "اولویت‌بندی روش بررسی زیرسطحی نقش مهمی در مدیریت اقتصادی و ایمنی پروژه‌های زیرزمینی دارد. در این پژوهش شیوه جدیدی برمبنای فرآیند تحلیل سلسله مراتبی (AHP) و شباهت به گزینۀ ایده­آل (TOPSIS) برای اولویت­بندی روش‌های بررسی مسیر تونل سبزکوه از میان طیف گسترده‌ای از روش‌های ژئوتکنیکی و ژئوفیزیکی پیشنهاد شده است. برای این کار ابتدا مهم‌ترین عامل مؤثر بر انتخاب بهترین روش بررسی زیرسطحی این پروژه بررسی شده و سپس با به‌کارگیری روش تحلیل سلسله مراتبی (AHP) عوامل بررسی شده به‌صورت زوجی مقایسه و وزن هر یک از عوامل محاسبه شده است. علاوه بر این، از روش شباهت به گزینۀ ایده‌آل برای انتحاب نزدیک‌ترین روش به حالت ایده­آل بررسی زیرسطحی مسیر تونل سبزکوه بهره گرفته شده است. در نهایت از بین 6 گزینۀ بررسی زیرسطحی پیشنهاد شده برای تونل، در هر دو روش AHP و TOPSIS پژوهش‌های لرزه­ای به‌عنوان بهترین گزینه، و بقیه گزینه­ها با توجه به وزن مورد نظر در اولویت­های بعدی قرار گرفتند.",
+  "author":[{"@type":"Person","name":"\u0645\u0633\u0639\u0648\u062f \u0632\u0627\u0631\u0639 \u0646\u0642\u062f\u0647\u06cc","url":"https:\/\/jeg.khu.ac.ir\/?_action=article&au=143946"},{"@type":"Person","name":"\u0633\u06cc\u062f \u062f\u0627\u0648\u062f \u0645\u062d\u0645\u062f\u06cc","url":"https:\/\/jeg.khu.ac.ir\/?_action=article&au=143947"},{"@type":"Person","name":"\u0645\u0635\u0637\u0641\u06cc \u06a9\u0631\u06cc\u0645\u06cc","url":"https:\/\/jeg.khu.ac.ir\/?_action=article&au=143948"}],
+"headline":"اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس",
+      "datePublished": "2018-07-23T00:00:00+00:00",
+      "dateModified": "2026-06-08T16:24:03+00:00",
+      "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jeg.khu.ac.ir/article_10849.html"
+  }
+}
+</script>    
+		<link href="./data/jeg/coversheet/stl_front.css?v=0.15" rel="stylesheet" type="text/css" nonce="7bd1bf9d1b2429d2f797db2ca05ca99cef4b2181e0b4f94b" />
+
+</head>
+<body class="rtl lfa">
+
+<div class="clearfix"></div>
+
+<!-- ======= Header ======= -->
+	<div class="container-fluid px-3 clearfix" id="ju_header">
+		<img alt="زمین شناسی مهندسی" src="./data/jeg/coversheet/head_fa.jpg" class="w-100">
+		<h1 class="d-none">زمین شناسی مهندسی</h1>
+	</div>
+	
+<div class="container-fluid px-3">
+<nav class="navbar navbar-expand-lg navbar-default py-0">
+  <div class="container-fluid ps-0">
+    <button class="navbar-toggler border-0 dropdown-item" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+	<i class="fa-solid fa-bars"></i>      
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+							<li class="nav-item me-2 py-2 open " id="li_menu_home"><a class="nav-link " href="././">صفحه اصلی</a>
+							</li>
+							<li class="nav-item me-2 py-2 open dropdown mmenu" id="li_menu_browse"><a class="nav-link dropdown-toggle " href="javascript:void(0)">مرور</a>
+									<ul class="dropdown-menu rounded-0 border-0">
+													<li class="dropdown-item" id="li_menu_current"><a href="./?_action=current">شماره جاری</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_issue"><a href="./browse?_action=issue">بر اساس شماره‌های نشریه</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_author"><a href="./browse?_action=author">بر اساس نویسندگان</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_subject"><a href="./browse?_action=subject">بر اساس موضوعات</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_au_indx"><a href="./author.index">نمایه نویسندگان</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_kw_indx"><a href="./keyword.index">نمایه کلیدواژه ها</a>
+											</ul>
+							</li>
+							<li class="nav-item me-2 py-2 open dropdown mmenu" id="li_menu_info"><a class="nav-link dropdown-toggle " href="javascript:void(0)">اطلاعات نشریه</a>
+									<ul class="dropdown-menu rounded-0 border-0">
+													<li class="dropdown-item" id="li_menu_about"><a href="./journal/about">درباره نشریه</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_aims"><a href="./journal/aim_scope">اهداف و چشم انداز</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_edb"><a href="./journal/editorial.board">اعضای هیات تحریریه</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_ethics"><a href="./journal/process?ethics">اصول اخلاقی انتشار مقاله</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_process"><a href="./journal/process">فرایند پذیرش مقالات</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_676"><a href="./page_41.html">تفاهم‎‌نامه با انجمن علمی زمین‌شناسی مهندسی ایران</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_indexing"><a href="./journal/indexing">بانک ها و نمایه نامه ها</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_links"><a href="./journal/links">پیوندهای مفید</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_faq"><a href="./journal/faq">پرسش‌های متداول</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_news"><a href="./news"> اخبار و اعلانات</a>
+											</ul>
+							</li>
+							<li class="nav-item me-2 py-2 open dropdown mmenu" id="li_menu_677"><a class="nav-link dropdown-toggle " href="javascript:void(0)">سیاست‌های نشریه</a>
+									<ul class="dropdown-menu rounded-0 border-0">
+													<li class="dropdown-item" id="li_menu_678"><a href="./page_42.html">سیاست دسترسی آزاد</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_679"><a href="./page_43.html">سیاست حق نشر</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_680"><a href="./page_44.html">سیاست محرمانگی</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_681"><a href="./page_45.html">سیاست مواجه با سرقت ادبی</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_682"><a href="./page_46.html">سیاست حفاظت دیجیتال مقالات</a>
+						<li><hr class="dropdown-divider my-1 border-secondary"></li>							<li class="dropdown-item" id="li_menu_683"><a href="./page_47.html">هزینه پردازش مقاله (APCs)</a>
+											</ul>
+							</li>
+							<li class="nav-item me-2 py-2 open " id="li_menu_aug"><a class="nav-link " href="./journal/authors.note">راهنمای نویسندگان</a>
+							</li>
+							<li class="nav-item me-2 py-2 open " id="li_menu_submit"><a class="nav-link " href="./author">ارسال مقاله</a>
+							</li>
+							<li class="nav-item me-2 py-2 open " id="li_menu_rev"><a class="nav-link " href="./reviewer?_action=info">داوران</a>
+							</li>
+							<li class="nav-item me-2 py-2 open " id="li_menu_cu"><a class="nav-link " href="./journal/contact.us">تماس با ما</a>
+							</li>
+			      </ul>
+      <div class="d-flex">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				                  <li class="nav-item py-2 open dropdown mmenu">
+                    <a href="./contacts" class="dropdown-toggle nav-link" data-toggle="dropdown">ورود به سامانه <b class="caret"></b></a>
+                    <ul class="dropdown-menu rounded-0 border-0">
+                      <li class="dropdown-item"><a href="./contacts">ورود به سامانه</a></li>
+                      <li><hr class="dropdown-divider my-1 border-secondary"></li>
+					  <li class="dropdown-item"><a href="./contacts?_action=signup">ثبت نام</a></li>
+                    </ul>
+				  </li>
+									<li class="dropdown-item ms-3 py-2"><a class="text-uppercase ltr_font nav-link js_click pointer_cursor" data-handler="change_lang" data-param_a="https://jeg.khu.ac.ir/article_10849.html?lang=en" >
+						<i class="fa-solid fa-globe d-none"></i> English</a>
+					</li>
+						
+		</ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+  <div id="dv_main_cnt" class="container-fluid px-3">
+	<div class="bg-white px-2 py-4">
+        <div class="row">
+            <!-- CENTER -->
+            <div class="col-lg-9 col-md-9 col-sm-8 pb-5" id="dv_artcl">
+                <!-- Current Issue -->
+                <div>
+                <h1 class="mb-2 text-break fs-5 text-justify " dir="rtl"><span class="article_title fw-bold"> اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس</span></h1>
+                    <div>
+                        
+                        
+                            <div class="mb-1">
+                                                            </div>
+
+                            
+                        
+                                                    <div class="py-1 fw-bold">نویسندگان</div>
+
+                            <div class="mb-2" dir="rtl">
+                                                                    <div class="me-3 d-inline">
+                                        <a href="./?_action=article&amp;au=143946&amp;_au=%D9%85%D8%B3%D8%B9%D9%88%D8%AF++%D8%B2%D8%A7%D8%B1%D8%B9+%D9%86%D9%82%D8%AF%D9%87%DB%8C">مسعود  زارع نقدهی</a>
+
+                                        
+                                                                                    <sup><a href="#aff1" >1</a></sup>                                                                            </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a href="./?_action=article&amp;au=143947&amp;_au=%D8%B3%DB%8C%D8%AF+%D8%AF%D8%A7%D9%88%D8%AF++%D9%85%D8%AD%D9%85%D8%AF%DB%8C">سید داود  محمدی</a>
+
+                                                                                    <sup><i class="fa-solid fa-star-of-life fa-sm"></i></sup>
+                                        
+                                                                                    <sup><a href="#aff2" >2</a></sup>                                                                            </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a href="./?_action=article&amp;au=143948&amp;_au=%D9%85%D8%B5%D8%B7%D9%81%DB%8C++%DA%A9%D8%B1%DB%8C%D9%85%DB%8C">مصطفی  کریمی</a>
+
+                                        
+                                                                                    <sup><a href="#aff2" >2</a></sup>                                                                            </div>
+                                                            </div>
+
+                                                            <div class="mb-1 " dir="rtl" id="aff1">
+                                                                            <sup>1</sup>
+                                                                        دانشگاه صنعتی همدان                                </div>
+                                                            <div class="mb-1 " dir="rtl" id="aff2">
+                                                                            <sup>2</sup>
+                                                                        دانشگاه بوعلی سینا همدان                                </div>
+                            
+                                                                            <div class="mb-1 " dir="rtl" id="ar_doi" title="شناسه دیجیتال (DOI)"><i class="ai ai-doi text-warning fa-lg me-1"></i> <span dir="ltr"><a href="https://doi.org/10.18869/acadpub.jeg.12.2.293">10.18869/acadpub.jeg.12.2.293</a></span></div>
+                        
+                        
+                            <div id="dv_ar_abs_lbl"><strong>چکیده</strong></div>
+                            <div id="dv_ar_abs" class="padding_abstract text-break text-justify border-start border-5 p-3 my-2 " dir="rtl"><span dir="RTL"><span><span>اولویت‌بندی</span></span></span> <span dir="RTL"><span><span>روش</span></span></span> <span dir="RTL"><span><span>بررسی</span></span></span> <span dir="RTL"><span><span>زیرسطحی</span></span></span> <span dir="RTL"><span><span>نقش مهمی</span></span></span> <span dir="RTL"><span><span>در مدیریت اقتصادی و</span></span></span> <span dir="RTL"><span><span>ایمنی پروژه‌های زیرزمینی دارد. در این پژوهش شیوه جدیدی برمبنای فرآیند تحلیل سلسله مراتبی (</span></span></span><span><span>AHP</span></span><span dir="RTL"><span><span>) و شباهت به گزینۀ ایده­آل (</span></span></span><span><span>TOPSIS</span></span><span dir="RTL"><span><span>) برای اولویت­بندی روش‌های بررسی مسیر تونل سبزکوه از میان طیف گسترده‌ای از روش‌های ژئوتکنیکی و ژئوفیزیکی پیشنهاد شده است. برای این کار ابتدا مهم‌ترین عامل مؤثر بر انتخاب بهترین روش بررسی زیرسطحی این پروژه بررسی شده و سپس با به‌کارگیری روش تحلیل سلسله مراتبی (</span></span></span><span><span>AHP</span></span><span dir="RTL"><span><span>) عوامل بررسی شده به‌صورت زوجی مقایسه و وزن هر یک از عوامل محاسبه شده است. علاوه بر این، از روش شباهت به گزینۀ ایده‌آل برای انتحاب نزدیک‌ترین روش به حالت ایده­آل بررسی زیرسطحی مسیر تونل سبزکوه بهره گرفته شده است. در نهایت از بین 6 گزینۀ بررسی زیرسطحی پیشنهاد شده برای تونل، در هر دو روش </span></span></span><span><span>AHP</span></span><span dir="RTL"><span><span> و </span></span></span><span><span>TOPSIS</span></span><span dir="RTL"><span><span> پژوهش‌های لرزه­ای به‌عنوان بهترین گزینه، و بقیه گزینه­ها با توجه به وزن مورد نظر در اولویت­های بعدی قرار گرفتند.</span></span></span></div>
+
+                        
+                        
+                        
+                                                    <div class="p-1"><strong>کلیدواژه‌ها</strong></div>
+
+                            <div class="mb-2 ps-2" dir="rtl">
+                                                                    <div class="me-3 d-inline">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=7226&amp;_kw=%D8%B2%D8%A7%DA%AF%D8%B1%D8%B3" >زاگرس</a>
+                                    </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=119921&amp;_kw=%D8%AA%D9%88%D9%86%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C" >تونل‌سازی</a>
+                                    </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=110747&amp;_kw=%D8%AA%D8%B5%D9%85%DB%8C%D9%85%E2%80%8C%DA%AF%DB%8C%D8%B1%DB%8C+%DA%86%D9%86%D8%AF%D9%85%D8%B9%DB%8C%D8%A7%D8%B1%D9%87" >تصمیم‌گیری چندمعیاره</a>
+                                    </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=119923&amp;_kw=%D8%B1%D9%88%D8%B4+%D8%B3%D9%84%D8%B3%D9%84%D9%87%E2%80%8C%D9%85%D8%B1%D8%A7%D8%AA%D8%A8%DB%8C" >روش سلسله‌مراتبی</a>
+                                    </div>
+                                                                    <div class="me-3 d-inline">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=119925&amp;_kw=%D8%B1%D9%88%D8%B4+%D8%B4%D8%A8%D8%A7%D9%87%D8%AA+%D8%A8%D9%87+%DA%AF%D8%B2%DB%8C%D9%86%D9%87+%D8%A7%DB%8C%D8%AF%D9%87%E2%80%8C%D8%A7%D9%84+%C2%A0" >روش شباهت به گزینه ایده‌ال  </a>
+                                    </div>
+                                                            </div>
+                            						<div class="mb-1 ltre" id="ar_dor"><img src="./images/dor.png" alt="dor" height="16"/> <span dir="ltr"><a href="https://dor.isc.ac/dor/20.1001.1.22286837.1397.12.2.7.3" title="DOR" target="_blank">20.1001.1.22286837.1397.12.2.7.3</a></span></div>
+                        
+                                            </div>
+
+                    <hr>
+
+                    
+                    
+                    
+                                                                                    
+
+                                        	<div class="page_break"></div>
+                    	<div>
+                        <button class="btn pe-3 fw-bold fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneRef" aria-expanded="false" aria-controls="collapseOneRef"><i class="fa-solid expand_ico fa-plus fw-bolder me-1"></i> مراجع</button>
+                        <div class="collapse mt-1" id="collapseOneRef">
+                          <div class="card card-body border-0 text-break text-justify px-0">
+                                                                <div dir="ltr" class="mb-2 ltr justify text-justify">1. Saaty T. L., "Fundamentals of decision making and priority theory", 2nd Ed., PA: RWS Pub., Pittsburgh (2000). 2. Omkarprasad V., Sushil K., "Analytic hierarchy process: An overview of applications", European Journal of Operational Research 169 (2004) 1-29. 3. Saaty T. L., "The Analytic Hierarchy Process. McGraw-Hill, New York (1980). 4. Chen C., Liu Y., "A methodology for evaluation and classification of rock mass quality on tunnel engineering", Tunnelling and Underground Space Technology 22 (4) (2007) 377-387. 5. Liu Y., Chen C., "A new approach for application of rock mass classification on rock slope stability assessment", Engineering Geology 89(1-2) (2007) 129-143. 6. Zare Naghadehi M., Mikaeil R., Ataei M., "The application of Fuzzy Analytic Hierarchy Process (FAHP) approach to selection of optimum underground mining method for Jajarm Bauxite Mine, Iran", Expert Systems with Application 36 (2009) 8218-8226. 7. Mikaeil R., Zare Naghadehi M., Sereshki F., "Multifactorial Fuzzy Approach to the Penetrability Classification of TBM in Hard Rock Conditions", Tunnelling and Underground Space Technology 24 (2009) 500-505. 8. Mikaeil R., Zare Naghadehi M., Ataei M., KhaloKakaie R., "A Decision Support System Using Fuzzy Analytical Hierarchy Process (AHP) and TOPSIS Approaches for Selection of the Optimum Underground Mining Method", Archives of Mining Sciences 54 (2) (2009) 341-368. 9. Azadeh A., Osanloo M., Ataei M., "A new approach to mining method selection based on modifying the Nicholas technique", Applied Soft Computing 10 (2010) 1040-1061. 10. Mikaeil R., Ataei M., Yousefi R., "Application of a fuzzy analytical hierarchy process to the prediction of vibrat ion during rock sawing", Mining Science and Technology (China) 21 (2011.) 611-619. 11. Azadeh A., Nazari-Shirkouhi S., Hatami-Shirkouhi L., Ansarinejad A., "A unique fuzzy multi-criteria decision making: computer simulation approach for productive operators’ assignment in cellular manufacturing systems with uncertainty and vagueness", The International Journal of Advanced Manufacturing Technology 56 (2011.) 329-343. 12. Badri A., Nadeau S., Gbodossou A., "A new practical approach to risk management for underground mining project in Quebec", J. Loss Prev. Process Ind. 26 (2013) 1145-1158. 13. Meng Y., Tang D., Xu H., Li C., Li L., Meng S., "Geological controls and coalbed methane production potential evaluation: A case study in Liulin area, eastern Ordos Basin, China", Journal of Natural Gas Science and Engineering 21 (2014) 95-111. 14. Kursunoglu N., Onder M., "Selection of an appropriate fan for an underground coal mine using the Analytic Hierarchy Process", Tunnelling and Underground Space Technology 48 (2015) 101-109. 15. Ebrahimi M., Abdolshah M., Abdolshah S., "Developing a computer vision method based on AHP and feature ranking for ores type detection", Applied Soft Computing 49 (2016) 179-188. 16. Wang Q., Wang H., Qi Z., "An application of nonlinear fuzzy analytic hierarchy process in safety evaluation of coal mine", Safety Science 86 (2016) 78-87. 17. Kant R., Sen P., Paul P. S., Kher A. A., "A Review of Approaches used for the Selection of Optimum Stoping Method in Hard Rock Underground Mine", International Journal of Applied Engineering Research 11 (11) (2016) 7483-7490. 18. Gligoric Z., Beljic C., Simeunovic V., "Shaft location selection at deep multiple orebody deposit by using fuzzy TOPSIS method and network optimization", Expert Systems with Applications 37 (2) (2010) 1408-1418. 19. Golestanifar M., Goshtasbi K., Jafarian M., Adnani S., "A multi-dimensional approach to the assessment of tunnel excavation methods", International Journal of Rock Mechanics and Mining Sciences 48 (7) (2011) 1077-1085. 20. Pazand K., Hezarkhani A., Ataei M., "Using TOPSIS approaches for predictive porphyry Cu potential mapping: A case study in Ahar-Arasbaran area (NW, Iran)", Computers & Geosciences 49 (2012) 62-71. 21. Yazdani-Chamzini A., Haji Yakhchali S., "Tunnel Boring Machine (TBM) selection using fuzzy multicriteria decision making methods", Tunnelling and Underground Space Technology 30 (2012) 194-204. 22. Mikaeil M., Ozcelik Y., Yousefi R., Ataei M., Hosseini S. M., "Ranking the sawability of ornamental stone using Fuzzy Delphi and multi-criteria decision-making techniques", International Journal of Rock Mechanics and Mining Sciences 58 (2013) 118-126. 23. Mahdevari S., Shahriar K., Esfahanipour A., "Human health and safety risks management in underground coal mines using fuzzy TOPSIS", Science of the Total Environment 488-489 (2014) 85-99. 24. Kusi-Sarpong S., Bai C., Sarkis J., Wang X., "Green supply chain practices evaluation in the mining industry using a joint rough sets and fuzzy TOPSIS methodology", Resources Policy 46(1) (2015) 86-100. 25. Abedi M., Norouzi G. H., "A general framework of TOPSIS method for integration of airborne geophysics, satellite imagery, geochemical and geological data", International Journal of Applied Earth Observation and Geoinformation. 46 (2016) 31-44. 26. شرکت مهندسین مشاور ایمن سازان، "گزارش مطالعات زمین‌شناسی عمومی پروژه سامانه انتقال آب سبزکوه به چغاخور" (1388).  27. Hashemi M., Moghaddas Sh., Ajalloeian R., "Application of Rock Mass Characterization for Determining the Mechanical Properties of Rock Mass: a Comparative Study", Rock Mechanics and Rock Engineering, 43 (2010) 305-320. 28. Stocklin J., "Structural history and tectonics of Iran: A review", AAPG Bulletin 52 (l968) 1229-1258. 29. Çimren E. B., Çatay E., Budak N., "Development of a machine tool selection system using AHP", International Journal of Advanced Manufacturing Technology 35 (2007) 363-376. </div>                                                                                          </div>
+                        </div>                	
+                    	</div>
+
+
+                    
+
+                    
+
+                    
+                </div>
+
+
+            </div>
+            <!-- /CENTER -->
+
+            <!-- LEFT -->
+            <div class="col-lg-3 col-md-3 col-sm-4">
+
+                        <div class="card my_panel-default mb-2">
+            <div class="card-body ar_info_pnl p-2" id="ar_info_pnl_cover">
+
+            <div id="pnl_cover">
+                <div class="row" >
+                    <div class="col-6">
+                		<a class="js_click pointer_cursor" data-handler="loadModal" data-param_a="زمین شناسی مهندسی" data-param_b="./data/jeg/coversheet/cover_fa.jpg">
+                			<img src="data/jeg/coversheet/cover_fa.jpg" alt="زمین شناسی مهندسی" class="img-fluid shadow-sm">
+                		</a>
+                    </div>
+                    <div class="col-6">
+                        <h6><a href="./issue_1731_1733.html">دوره 12، شماره 2 - شماره پیاپی 34</a><br/>تابستان 1397<div id="sp_ar_pages">صفحه <span dir="ltr">293-314</span></div></h6>
+                                            </div>
+                </div>
+                </div>
+
+             </div>
+            </div>
+                            <!-- Download Files -->
+            
+                <div class="accordion mb-2" id="">
+                	<div class="accordion-item">
+                		<h2 class="accordion-header my_panel-default" id="pFiles">
+                			<button class="accordion-button panel-heading ps-2 pt-2" type="button" data-bs-toggle="collapse" data-bs-target="#pFiles_" aria-expanded="true" aria-controls="pFiles_"><b><i class="fa-solid fa-file-lines me-2"></i>فایل ها</b></button>
+                		</h2>
+                		<div id="pFiles_" class="accordion-collapse collapse show" aria-labelledby="pFiles">
+                			<div class="accordion-body p-2">
+							                            	<div class="p-2" id="dv_ar_files">
+                        			                        				<div class="mb-2"><a href="./?_action=xml&amp;article=10849" target="_blank" class="tag_a pdf_link"><i class="fa fa-file-code-o text-orange fa-solid fa-code text-warning me-2" ></i> XML</a></div>
+                       				                         				<div class="mb-2"><a href="./article_10849_3c2e55b31641e3d4cfd7867dd501c5d9.pdf" target="_blank" class="tag_a pdf_link"><i class="fa fa-file-pdf-o text-red  fa-solid fa-file-pdf text-danger me-2" ></i> اصل مقاله <span dir="ltr" class="badge bg-light px-3 text-dark">940.73 K</span></a></div>
+                       				                                 <!-- Suplement Files -->
+                           		                    			</div>
+                			                			</div>
+                		</div>
+                	</div>
+                </div>
+                                                
+                                
+                <div class="accordion mb-2" id="">
+                	<div class="accordion-item">
+                		<h2 class="accordion-header my_panel-default" id="pDates">
+                			<button class="accordion-button panel-heading ps-2 pt-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pDates_" aria-expanded="true" aria-controls="pDates_"><b><i class="fa-solid fa-clock-rotate-left me-2"></i>سابقه مقاله</b></button>
+                		</h2>
+                		<div id="pDates_" class="accordion-collapse collapse" aria-labelledby="pDates">
+                			<div class="accordion-body p-1">
+                			
+                    		<ul class="list-group">
+                                                                    <li class="list-group-item border-0"><i class="fa-regular fa-calendar-check me-1"></i><strong>تاریخ دریافت</strong> <span class="badge transparent border text-dark px-3 ms-1 px-3 pb-1 pt-2 border-opacity-10">17 تیر 1397</span></li>
+                                                                    <li class="list-group-item border-0"><i class="fa-regular fa-calendar-check me-1"></i><strong>تاریخ انتشار</strong> <span class="badge transparent border text-dark px-3 ms-1 px-3 pb-1 pt-2 border-opacity-10">01 مرداد 1397</span></li>
+                                                			</ul>
+                			</div>
+                		</div>
+                	</div>
+                </div>  
+                              
+								           		   
+
+                <div class="accordion mb-2" id="">
+                	<div class="accordion-item">
+                		<h2 class="accordion-header my_panel-default" id="pShare">
+                			<button class="accordion-button panel-heading ps-2 pt-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pShare_" aria-expanded="true" aria-controls="pShare_"><b><i class="fa-solid fa-share-nodes me-2"></i>هم رسانی</b></button>
+                		</h2>
+                		<div id="pShare_" class="accordion-collapse collapse" aria-labelledby="pShare">
+                			<div class="accordion-body p-3">
+    			    	    				    	<div class="row">
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_xtwitter" href="https://x.com/share?url=https://jeg.khu.ac.ir/article_10849.html&amp;text=اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" target="_blank" data-bs-toggle="tooltip" title="X-Twitter">
+    							<i class="fa-brands fa-x-twitter fa-2x m-1"></i>
+    						</a>
+    						</div>
+    				    	<div class="col-3 text-center social_icon p-1">
+    						<a id="share_facebook" href="https://www.facebook.com/sharer.php?u=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Facebook">
+    							<i class="fa-brands fa-square-facebook fa-2x m-1 "></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_mendeley" href="https://www.mendeley.com/import/?url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Mendeley">
+    							<i class="fa-brands fa-mendeley fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Linkedin">
+								<i class="fa-brands fa-linkedin fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+							<a id="share_instagram" href="https://www.instagram.com/?url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Instagram">
+								<i class="fa-brands fa-instagram fa-2x m-1"></i>
+							</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_email" class="js_click pointer_cursor" data-handler="act" data-param_a="email" data-bs-toggle="tooltip" title="Email">
+    							<i class="fa-regular fa-envelope fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_print" class="js_click pointer_cursor" data-handler="printDiv" data-param_a="dv_artcl" data-bs-toggle="tooltip" title="Print">
+    							<i class="fa-solid fa-print fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+     						<a id="share_stumble" href="https://mix.com/mixit?su=submit&url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="StumbleUpon">
+    							<i class="fa-brands fa-stumbleupon-circle fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_acedemia" class="" href="https://www.academia.edu/" target="_blank" data-bs-toggle="tooltip" title="Academia">
+    							<i class="ai ai-academia fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_sems" href="https://www.semanticscholar.org/" target="_blank" data-bs-toggle="tooltip" title="Semantic scholar">
+    							<i class="ai ai-semantic-scholar fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1 d-none">
+    						<a id="share_reddit" href="https://www.reddit.com/submit?url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Reddit">
+    							<i class="fa-brands fa-square-reddit fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_rg" href="https://www.researchgate.net/" target="_blank" data-bs-toggle="tooltip" title="Research Gate">
+    							<i class="fa-brands fa-researchgate fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+     						<a id="share_blogger" href="https://www.blogger.com/blog-this.g?u=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Blogger">
+    							<i class="fa-brands fa-blogger fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_pinterest" href="https://pinterest.com/pin/create/bookmarklet/?media=&url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Pinterest">
+    							<i class="fa-brands fa-square-pinterest fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_digg" href="https://www.digg.com/submit?https://jeg.khu.ac.ir/article_10849.html&title=اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس" target="_blank" data-bs-toggle="tooltip" title="Digg">
+    							<i class="fa-brands fa-digg fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_delicious" href="https://del.icio.us/post?url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Delicious">
+    							<i class="fa-brands fa-delicious fa-2x m-1"></i>
+    						</a>
+    						</div>
+    						<div class="col-3 text-center social_icon p-1">
+    						<a id="share_skype" href="https://web.skype.com/share?url=https://jeg.khu.ac.ir/article_10849.html" target="_blank" data-bs-toggle="tooltip" title="Skype">
+    							<i class="fa-brands fa-skype fa-2x m-1"></i>
+    						</a>
+                			</div></div>
+                			</div>
+                		</div>
+                	</div>
+                </div>
+
+                <!-- Cite This Article -->
+                
+                <div class="accordion mb-2" id="">
+                	<div class="accordion-item">
+                		<h2 class="accordion-header my_panel-default" id="pHowCite" >
+                			<button class="accordion-button panel-heading ps-2 pt-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ppHowCite" aria-expanded="true" aria-controls="ppHowCite"><b><i class="fa-solid fa-arrow-up-right-from-square me-2"></i>ارجاع به این مقاله</b></button>
+                		</h2>
+                		<div id="ppHowCite" class="accordion-collapse collapse" aria-labelledby="pHowCite">
+                			<div class="accordion-body p-2">
+                                <ul class="list-group p-1" dir="ltr">
+                                    <li class="list-group-item border-0"><a class="tag_a"  href="./?_action=export&rf=ris&rc=10849">RIS</a></li>
+                                    <li class="list-group-item border-0 ltr"><a class="tag_a"  href="./?_action=export&rf=enw&rc=10849">EndNote</a></li>
+                                    <li class="list-group-item border-0 ltr"><a class="tag_a"  href="./?_action=export&rf=ris&rc=10849">Mendeley</a></li>
+                                    <li class="list-group-item border-0 ltr"><a class="tag_a"  href="./?_action=export&rf=bibtex&rc=10849">BibTeX</a></li>
+                                                                        	<li class="list-group-item border-0 ltr"><a  class="tag_a pointer_cursor" data-bs-toggle="modal" data-bs-target="#cite-apa">APA</a></li>
+                                                                        	<li class="list-group-item border-0 ltr"><a  class="tag_a pointer_cursor" data-bs-toggle="modal" data-bs-target="#cite-mla">MLA</a></li>
+                                                                        	<li class="list-group-item border-0 ltr"><a  class="tag_a pointer_cursor" data-bs-toggle="modal" data-bs-target="#cite-harvard">HARVARD</a></li>
+                                                                        	<li class="list-group-item border-0 ltr"><a  class="tag_a pointer_cursor" data-bs-toggle="modal" data-bs-target="#cite-chicago">CHICAGO</a></li>
+                                                                        	<li class="list-group-item border-0 ltr"><a  class="tag_a pointer_cursor" data-bs-toggle="modal" data-bs-target="#cite-vancouver">VANCOUVER</a></li>
+                                                                    </ul>
+                			</div>
+                		</div>
+                	</div>
+                </div>  
+                              
+
+                <!-- Article Statastic -->
+                                
+                <div class="accordion mb-2" id="">
+                	<div class="accordion-item">
+                		<h2 class="accordion-header my_panel-default" id="pStat">
+                			<button class="accordion-button panel-heading ps-2 pt-2 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#ppStat" aria-expanded="true" aria-controls="ppStat"><b><i class="fa-solid fa-chart-simple me-2"></i>آمار</b></button>
+                		</h2>
+                		<div id="ppStat" class="accordion-collapse collapse show" aria-labelledby="pStat">
+                			<div class="accordion-body p-2">
+                                <ul class="list-group " >
+                                                                            <li class="list-group-item border-0"><a class="tag_a">تعداد مشاهده مقاله <span class="badge bg-light text-dark px-3">126</span></a></li>
+                                                                            <li class="list-group-item border-0"><a class="tag_a">تعداد دریافت فایل اصل مقاله <span class="badge bg-light text-dark px-3">64</span></a></li>
+                                                                    </ul>
+                			</div>
+                		</div>
+                	</div>
+                </div>                
+
+                
+
+            </div>
+            <!-- /LEFT -->
+
+        </div>
+	</div>
+</div>
+
+<div id="cite-apa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="apa" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn btn-sm pe-1" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark fa-lg text-secondary"></i></button>
+				<h6 class="modal-title" id="apa">APA</h6>
+			</div>
+			<div class="modal-body">
+				<p> زارع نقدهی، مسعود، محمدی، سید داود و کریمی، مصطفی. (1397). اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس. <em>زمین شناسی مهندسی</em>، <em>12</em>(2)، 293–314. https://doi.org/10.18869/acadpub.jeg.12.2.293</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-mla" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mla" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn btn-sm pe-1" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark fa-lg text-secondary"></i></button>
+				<h6 class="modal-title" id="mla">MLA</h6>
+			</div>
+			<div class="modal-body">
+				<p> زارع نقدهی، مسعود، محمدی، سید داود،  و کریمی، مصطفی. "اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس"، <em>زمین شناسی مهندسی</em>، 12، 2، 1397، 293–314. doi: 10.18869/acadpub.jeg.12.2.293</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-harvard" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="harvard" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn btn-sm pe-1" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark fa-lg text-secondary"></i></button>
+				<h6 class="modal-title" id="harvard">HARVARD</h6>
+			</div>
+			<div class="modal-body">
+				<p> زارع نقدهی، مسعود، محمدی، سید داود،  و کریمی، مصطفی. (1397). 'اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس'، <em>زمین شناسی مهندسی</em>، 12(2), pp. 293–314. doi: 10.18869/acadpub.jeg.12.2.293</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-chicago" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="chicago" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn btn-sm pe-1" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark fa-lg text-secondary"></i></button>
+				<h6 class="modal-title" id="chicago">CHICAGO</h6>
+			</div>
+			<div class="modal-body">
+				<p> زارع نقدهی، مسعود، محمدی، سید داود و کریمی، مصطفی، "اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس." زمین شناسی مهندسی، 12 2 (1397): 293–314,  doi: 10.18869/acadpub.jeg.12.2.293</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-vancouver" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="vancouver" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn btn-sm pe-1" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark fa-lg text-secondary"></i></button>
+				<h6 class="modal-title" id="vancouver">VANCOUVER</h6>
+			</div>
+			<div class="modal-body">
+				<p>زارع نقدهی مسعود، محمدی سید داود، کریمی مصطفی. اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در ‌کوه‌های زاگرس. زمین شناسی مهندسی. 1397;12(2):293–314. doi: 10.18869/acadpub.jeg.12.2.293</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+        <!-- /MAIN CONTENT -->
+<div class="clearfix"></div>
+			<!-- FOOTER -->
+			<div class="container-fluid px-3">
+			<div></div>
+			<footer id="footer" class="p-3">
+			<div class="scrollup" id="scroll"><span></span></div>
+				
+
+					<div class="row">
+
+						<div class="col-md-2">
+
+							<!-- Links -->
+							<h5 class="">دسترسی سریع</h5>
+							<ul class="footer-links list-unstyled">
+                                <li id="fli_home"><a href="./">صفحه اصلی</a></li>
+                                <li id="fli_about"><a href="./journal/about">درباره نشریه</a></li>
+                                <li id="fli_Edb"><a href="./journal/editorial.board">اعضای هیات تحریریه</a></li>
+                                <li id="fli_submit"><a href="./author">ارسال مقاله</a></li>
+                                                                <li id="fli_contactus"><a href="./journal/contact.us">تماس با ما</a></li>
+                                <li id="fli_sitemap"><a href="./sitemap.xml?usr">نقشه سایت</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Latest News -->
+							<h5 class="">آخرین اخبار</h5>
+							<ul class="footer-posts list-unstyled">
+															</ul>
+							<!-- /Latest News -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Footer Note -->
+							<div><p style="line-height: 1;"><span style="font-size: 10pt;"><strong><span style="font-family: 'times new roman', times;"><img style="display: block; margin-left: auto; margin-right: auto;" src="data/jeg/news/footer_ar.png" alt="" width="100" height="35"></span></strong></span></p>
+<p style="text-align: center; line-height: 1;"><a href="https://creativecommons.org/licenses/by-nc/4.0/"><span style="font-family: 'times new roman', times; font-size: 10pt;">This work is licensed under a Creative Commons </span><span style="font-family: 'times new roman', times; font-size: 10pt;">Attribution-NonCommercial 4.0&nbsp;</span><span style="font-family: 'times new roman', times; font-size: 10pt;">International License (CC BY-NC 4.0)</span></a></p></div>
+							<!-- /Footer Note -->
+
+						</div>
+
+						<div class="col-md-3">
+							<!-- Newsletter Form -->
+							<h5 class="">اشتراک خبرنامه</h5>
+							<p>برای دریافت اخبار و اطلاعیه های مهم نشریه در خبرنامه نشریه مشترک شوید.</p>
+
+							<form class="validate" action="" method="post" data-success="پست الکترونیکی شما با موفقیت ثبت شد." data-toastr-position="bottom-right">
+																<input type="hidden" name="_token" value="5d3aca58eb81264760fe41f8ff50dfeb3b6a4d5e6366f222"/>
+                                <div class="input-group">
+                                 	<span class="input-group-text" id=""><i class="fa-regular fa-envelope"></i></span>
+                                    <input class="form-control mr-2" type="email" name="email" maxlength="40" aria-label="پست الکترونیکی را وارد کنید">
+                                    <button class="btn btn-primary" type="button" id="btn_sbscrb">اشتراک</button>
+                                </div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							<!-- Social Icons -->
+							<div class="mt-3">
+							    <ul class="list-inline">
+							
+																<li class="list-inline-item mx-0 social_icon"><a class="social_icon" href="https://www.mendeley.com/reference-manager/library/all-references/b61db9bd-c8ee-34b1-8790-0473a7f74a2b/" target="_blank" data-bs-toggle="tooltip"  data-bs-title="Mendeley" title="Mendeley">
+									<i class="fa-brands fa-mendeley fa-2x m-1"></i>									
+									</a></li>
+																		<li class="list-inline-item mx-0 social_icon"><a class="social_icon" href="https://thran.academia.edu/JournalofEngineeringGeologyJEG?__cf_chl_f_tk=_bXCxyiYK6ylCreWngrwn3bEVitwXcvZ3pTVDVDMtv8-1782891710-1.0.1.1-LEgcATQvlELVzso0Ld_7vrk8AdzLnKtHkdi9kPtyxAY" target="_blank" data-bs-toggle="tooltip"  data-bs-title="Academia" title="Academia">
+									<i class="ai ai-academia fa-2x m-1"></i>									
+									</a></li>
+																		<li class="list-inline-item mx-0 social_icon"><a class="social_icon" href="https://www.linkedin.com/in/journal-of-engineering-geology-a4a05a345/" target="_blank" data-bs-toggle="tooltip"  data-bs-title="Linkedin" title="Linkedin">
+									<i class="fa-brands fa-linkedin fa-2x m-1"></i>									
+									</a></li>
+																	<li class="list-inline-item mx-0 social_icon"><a class="" href="./ju.rss" data-bs-toggle="tooltip" data-bs-title="RSS" title="Rss"><i class="fa-solid fa-square-rss fa-2x m-1"></i></a></li>
+							</ul>
+							</div>
+						</div>
+
+					</div>
+
+				<div class="copyright" style="position: relative">
+					<ul class="nomargin list-inline mobile-block">
+						<li>سامانه مدیریت نشریات علمی. <span id='sp_crt'>طراحی و پیاده سازی از <a target='_blank' href='https://www.sinaweb.net/'>سیناوب</a></span></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+			<!-- /FOOTER -->
+		<!-- /wrapper -->
+
+		<!-- SCROLL TO TOP -->
+		<button class="btn btn-sm btn-primary position-fixed shadow-sm bottom-0 end-0 translate-middle d-none js_click pointer_cursor" data-handler="scrollToTop"  data-param_a="" id="back-to-up"><i class="fa-solid fa-chevron-up"></i></button>
+		<!-- user defined scripts-->
+		
+		<!-- Extra Script Scripts -->
+			<div id="cookie_elm" data-param_a="این وب سایت از کوکی ها برای اطمینان از ارائه بهترین خدمات استفاده می کند." data-param_b="متوجه شدم"></div>
+	</body>
+</html><div id="actn_modal" class="modal fade" tabindex="-1">
+	<div id="modal_dlg" class="modal-dialog modal_aw modal-lg">
+		<div class="modal-content">
+			<div class="modal-header py-2">
+				<button type="button" class="btn px-1 float-end" data-bs-dismiss="modal" title="بستن پنجره" aria-label="Close"><i class="fa-solid fa-xmark text-secondary"></i></button>
+				<span class="modal-title"></span>
+			</div>
+			<div class="modal-body"></div>
+		</div>
+	</div>
+</div>
+

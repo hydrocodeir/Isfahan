@@ -5,7 +5,7 @@ function studyProjectNames(study) {
   return registryProjects().filter(p => study.project_ids.includes(p.id)).map(p => p.name_fa);
 }
 function studyProvinces(study) {
-  return uniq(registryProjects().filter(p => study.project_ids.includes(p.id)).flatMap(p => [...(p.provinces || []), ...(p.downstream_or_shared || [])]));
+  return uniq([...(study.provinces || []), ...registryProjects().filter(p => study.project_ids.includes(p.id)).flatMap(p => [...(p.provinces || []), ...(p.downstream_or_shared || [])])]);
 }
 function studyMatches(study) {
   const q = norm($("#studySearch").value);

@@ -1,0 +1,805 @@
+ 
+Available online at 
+www.CivileJournal.org
+ 
+Civil Engineering Journal
+ 
+Vol. 
+2
+, No. 
+7
+, 
+July
+, 20
+16
+ 
+ 
+ 
+334
+ 
+ 
+ 
+A Numerical Investigation of Segmental Lining Joints 
+Interactions in Tunnels
+-
+Qomrud 
+W
+ater 
+C
+onveyance 
+T
+unnel
+ 
+Mohammad Hossein Ahmadi
+ 
+a
+, 
+Ali Mortazavi
+ 
+b
+, 
+Seyed Morteza Davarpanah
+ 
+c
+*
+, 
+Hamid Zarei
+ 
+d
+ 
+a
+ 
+Ph.D. Candidate of Rock Mechanics, Department of Mining Engineering, Amirkabir University of Technology, Tehran, Iran
+ 
+b
+ 
+Associate Professor, Department of Mining Engineering, Amirkabir University of Technology, Tehran, Iran
+ 
+c
+ 
+Msc of Rock Me
+chanics, Department of Mining Engineering, Sahand University of Technology, Tabriz, Iran
+ 
+d
+ 
+Ph.D. Candidate of Rock Mechanics, Department of Mining Engineering, Amirkabir University of Technology, Tehran, Iran
+ 
+Received 
+1
+6
+ 
+June
+ 
+201
+6
+; 
+A
+ccepted 
+2
+3
+ 
+Ju
+ly
+ 
+2016
+ 
+Abstract
+ 
+A comprehensive analysis of segmental lining joints can assist to guarantee a safe construction during tunnelling and 
+serviceably stages.  This paper has thoroughly investigated the interaction mechanism of precast concrete lining joints in 
+tunnel
+s. The Universal Distinct Element Code (UDEC), a two
+-
+dimensional numerical program based on the distinct 
+element method (DEM) for discontinuum modelling, was implemented to simulated a typical segmental lining model 
+consisting of six segment rings. In the 
+analyses, the typical segmental lining design parameters of Qomrud water 
+conveyance tunnel, aimed to transfer 100 million cu. m. water from the origins of Dez River to central Iranian desert, 
+were employed to fulfil the purpose of the research.  In the con
+ducted analyses, the worst
+-
+case scenario of the loading 
+faced during the boring of Qomrud tunnel was considered. This was highly associated with the existence of the crushed 
+zone dipping at 75 degree at the location of the key segment.  The worst scenario 
+based on the condition that concerns 
+the crushed zone intersect segmental lining at the location of key segment has been taken into consideration. In this 
+study, the load acting on the joints of the segments includes the gravity load from the tunnel overbu
+rden and the crushed 
+zone stratum force that intersects tunnel with 75 slopes at the location of the key segment, the gravity force of the 
+segments and the earth pressure. The numerical investigation has been used for the different coefficients of stress 
+c
+oncentration of 0.5, 1, 1.5, 2 and also different geological conditions of the saturated crushed zone under critical 
+scenario
+.
+ 
+K
+eywords
+:
+ 
+The Universal Distinct Element Code (UDEC)
+; 
+DEM 
+M
+ethod
+; 
+C
+ontact 
+P
+roblem
+; 
+L
+ongtidunal Joint
+;
+ 
+Interface
+; K
+ey Segment
+.
+ 
+ 
+1
+.
+ 
+Introduction
+ 
+One of the most challenging scenarios of mechanized tunneling is driving a tunnel boring machine (TBM) 
+consistently through the mixed
+-
+face ground. In many cases, underground space development has reached the critical 
+stage in which more favora
+ble grounds for the excavation of underground structures have already been occupied. 
+Tunnel layouts are often not determined according to the ground conditions, but the convenient available location and 
+leading TBM through mixed/changing ground is an inevi
+table issue (Akos, 2013). Nowadays, due to lack of 
+underground spaces for tunneling, many tunneling projects have been carried out in unfavorable ground conditions; 
+this attitude certainly affects the precast system lining assemble by TBM after the excavat
+ion phase of tunneling. In 
+the last decade, tunnels constructed with tunnel boring machine (TBM) have shown an increase of their diameter 
+(Haak, 2000), and also the already congested underground space has obligated the excavation of tunnel at greater 
+depth
+s with unfavorable conditions leading to higher load levels [1]. 
+ 
+                                        
+               
+ 
+*
+ 
+Corresponding author: 
+m_davarpanah@sut.ac.ir
+ 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+335 
+ 
+    The multi-segmental lining system has been widely adopted for the construction of underground tunnels in soft 
+ground for decades. However, its complex ground -structure behavior has not been well understood and consequently 
+has been overlooked. The popular choice of segmental lining in recent years has improved the speed of the 
+construction and reduced the costs of tunneling; As a result, the design of linings has been a source of attentio n 
+recently. The most challenging part concerns the factors that would induce stress in tunnel lining and causes a failure 
+in segmental tunnel lining because of the contact problems. One of the determining factors affecting the stress induced 
+in the lining is the effect of joints between segmental linings which has been often ignored. To comprehend this issue, 
+the contact problem must be noted thoroughly. In fact, primary theory of the problem involves determining the total 
+force and the moment acting at the  joint that produces a deformation in segments compatible with its initial contact 
+deficiency. Two types of joints exist in the segmental lining: longitudinal joints and circumferential joints; without 
+considering the tunnel media, the contact problems exi st in the segmental lining and needs to be solved prior to 
+assembling the lining in tunnel construction. After installing the lining in tunnel, a new contact is created between a 
+tunnel media and lining interface. It should be noted that most of the contact problem appears when uneven loading at 
+the location of joints occurs. Results of the experimental studies by some researches show that the most frequent type 
+of segment damage is caused by the condition of uneven segment matching due to contact deficiencies [1].  
+    Tunneling projects are often seemed as the most challenging and costly civil engineering projects. This has 
+motivated many authors to do researches to find out innovative ways to improve the constructability and stability of 
+tunnels and reduce the high  costs involved in tunneling projects. The design of a precast segmental lining is based 
+upon the proposed tunnel alignment and the expected geological condition at the specified tunnel level. The 
+geometrical arrangement of segment type might vary along a tunnel route and depends on the tunnel -boring machine 
+steering alignment. This phenomenon affects the orientation of joints within each segmental ring. Another vital factor 
+is the joint number that governs the possible mode of joint orientation. The combin ation of these two factors is likely 
+to influence the stress distributed to the tunnel lining and directly affects the cost and planning purposes. The 
+evolution and improvement of the modern tunnel boring machines (TBM) allows the construction of tunnels a t 
+increasing range of depths, dimensions and ground conditions. As the TBM advances, a segmental lining composed of 
+multiple adjacent concrete rings is continuously placed (Figure 1). This segmental lining provides both structural 
+capacity to resist the ground, water pressure and necessary reaction frame to push the TBM ahead. 
+Figure 1. Staggered concrete segment tunnel lining 
+Recently, some research programs have been promoted in order to analyze the segmental tunnel lining behavior 
+subjected to the longit udinal, circumferential uniform design loads and geological conditions.  Uneven longitudinal 
+ground settlements may lead to over-stress on a tunnel concrete segmental lining. The stress concentration is likely to 
+induce lining segment cracking, joint bolts  yielding, joint dislocation and joint tension crushing, which can result in 
+serious slurry and water leakage problems. These issues may bring great risk to metro operations and also cause 
+serious risks to the people travelling by subway. Therefore, the fa ilure mechanism of tunnel lining with uneven 
+longitudinal ground settlement should be determined, insuring normal operations of metro, especially in deep soft soil 
+(Zhan Wang, 2014). There are usually concentrated cracks distributed along the lining segment  at their dislocations, 
+created by uneven longitudinal ground settlement; so, it is necessary to consider the evolution of cracks to evaluate the 
+capability of tunnel concrete segmental lining. This leads to a nearly impossible task on the current desktop computer, 
+even when just considering the nonlinear contact system with possible diffusion cracks. This paper mainly emphasizes 
+the circumferential joint behavior. To achieve this aim, the tunnel lining consisting of segments and connected by 
+circumferential bolts, is deliberately simplified as a homogeneous ring in order to save computational resources, and 
+the effective rigidity ratio of the lining ring is assumed to be 0.7, according to the soft soil tunnel experience (Blom, 
+2002) [1]. The lining concrete is assumed to be elastic to improve numerical convergence, along with the help of stress 
+concentration to show possible cracking. Main conclusion pointes out the increase in lining instability caused by joints 
+opening and contact deficiencies, reducing th e experienced deformation and increasing the internal bending forces. 
+
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+336 
+ 
+Blom developed an analytical model to study the effect of different circumferential joint stiffness for a certain tunnel 
+case. He concluded that stiffer joints imply a significant increa se of the ring internal bending forces (from 1.3 to 1.8 
+times, the values obtained with the isolated ring), and a minor reduction on the movements, in comparison with those 
+obtained by the isolated ring model [1]. Oriol Arnau studied a phenomena associate d with the coupling effects and 
+determined the main parameters involved, and analyzed the influence of these parameters on a real lining structural 
+response employing a 3D numerical model. He concluded that when a segmental tunnel lining is subjected to a 
+longitudinally distributed load, the staggered configuration of its joints produces the activation of force interaction 
+mechanisms between adjacent rings, originating  the so -called coupling effects  [2]. Ashraf Mohamed Hefny 
+investigated the factors affecting the maximum bending moment induced in a jointed tunnel lining. His Observations 
+demonstrated that increasing joint number reduces the maximum bending moment induced to the lining. However, the 
+effects of joint number and orientation on the maximum bendi ng moment induced to the tunnel lining become 
+insignificant once the critical joint number has been exceeded [3]. One of the most important factors in designing a 
+segmental tunnel lining is the influence of segmental joints on its overall bending moment ca rrying characteristics. 
+This is mostly due to the difficulty in providing segmental joints to be as stiff as the main segment. Engineers usually 
+allow segmental joint to be less stiff and undergo more deformation than the main portion, which leads the join t to be 
+the most critical part of lining. Contact mechanics plays an important role in a multitude of physical and tri -biological 
+mechanisms. Researchers have intensively studied solid interfacial phenomena involving sliding friction and adhesion 
+[4]. 
+Several model tests have recently been carried out to examine the inﬂuence of joints on lining behavior. Lu (2008) 
+conducted an experimental study to investigate the load carrying capacity of a fully segmental reinforced concrete 
+lining with an outer diameter of 15.0 m. A great deal of useful information was obtained; unfortunately, however, the 
+inﬂuence of segmental rotational stiffness was not explored in detail. Teachavorasinskun and Chub -Uppakarn (2008) 
+performed a series of laboratory tests which were carried out on a scaled segmental tunnel (15 cm) made from PVC, in 
+order to estimate the applicability of the simple beam support in terms of the bending moment reduction factor. 
+However, the inﬂuence of the surrounding ground on the calculated results was not considered [5]. 
+Hefny and Chua (2006) numerically studied the inﬂuence of the joint number, joint orientation, lateral earth 
+pressure factor, and tunnel depth on the bending moment induced in a 6 m diameter segmental tunnel lining, using a 
+ﬁnite element analysis program. In their analyses, the stiffness of the segmental joint was not considered. Arnau and 
+Mo-lins (2011) carried out a real scale test on an experimental tunnel section of the new Line 9 of the Barcelona 
+underground metro system. The section wa s composed of 15 rings built using only steel ﬁbers as the reinforcement. 
+The contact between the longitudinal joints was modeled using unilateral interface elements located at one side of 
+plastic packer elements. The in situ measurements and the results of the numerical simulation were similar in terms of 
+displacements, joint closures and crack patterns [6]. 
+It is known that the contact deﬁciencies are the result of a complex sum of several tolerances on the shape and on 
+the placement of the segmental lini ng. In addition to that, the construction process of the tunnel magniﬁes the 
+imperfection expected of a single isolated ring. The overall consideration of this phenomenon yields an intricate 
+analysis that must take into account some important probabilistic  aspects. Only that would make possible the 
+assessment of the role played by the tolerances both on the formation of the contact deﬁciencies and on the damages 
+produced throughout the construction process. On a further step, this would also increase the kn owledge about the 
+behavior of the lining, thus contributing to the proper deﬁnition of the tolerance during the design of the structure [6]. 
+In previous studies, many longitudinal models have been proposed, among which the most typical ones include the 
+beam-spring model proposed by Koizumi (1988), and the longitudinal continuous model proposed by Shiba (1988). In 
+the beam-spring model, the segmental rings are simpliﬁed as short beams and the circumferential joints are modeled 
+by axial, shear, and rotational  spring elements. The weakness of the beam -spring model is its computational 
+complexity in solving the analytical problem. Meanwhile, the rigidities of springs in joints are always difﬁcult to 
+determine. In contrast, the longitudinal continuous model regards the tunnel as a homogenous beam in the longitudinal 
+direction, which makes the calculation simpler. This model has been widely adopted for analyzing the internal forces 
+and the deformation of a tunnel by combining the Euler–Bernoulli beam theory [7]. 
+ The objective of present work is to explain and predict contact deficiencies in segmental lining joints interactions 
+prior to segmental lining design. In fact, primary theory of the problem involves determining the total force and the 
+moment acting at the j oint that produces a deformation in the segments compatible with its initial contact deficiency. 
+A key point related to the segmental lining joints interactions is surpassing the contact problems and overcoming the 
+difficulties related to interfaces. 
+2. Two-Dimensional  Numerical Modeling of Tunnel Lining 
+The numerical procedures which are implemented in the prediction of tunnel behavior are mostly created for 
+designing purposes. This fact allows the assumption of certain hypotheses that simplify the solution by providing 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+337 
+ 
+safety results. On the other hand, the reproduction of the real response requires an adequate consideration of all 
+parameters involved in such behavior. As a result, it is crucial to clearly define them and develop numerical strategies 
+for their accurate simulation. It is of great importance to realize that similar precast concrete thickness is adopted for 
+jointed tunnel lining and no longitudinal devices exist between the segments of the ring. 
+In order to perform a study on a real basis, the typical section of six segments of Qomrud water conveyance tunnel 
+was simulated to reduce the computation time; the numerical model consists of six segments; information about 
+segment dimensions, detailed construction arrangement and numbering are depicted  in Figure 2. As it is shown, 
+segment external diameter is 6 m; internal diameter is 5.4 m, and thickness is 0.3 m. One segment ring consists of one 
+key segment (KP), two adjacent segments (BP and CP) and three standard segments (A1P -A3P). The key segment 
+deviates 18 degree from the vertical direction. 
+Figure 2. Segment arrangement and numbering 
+In addition to the joints behavior, the Crushed stratum –structure interaction has significant effect on the structural 
+response of lining. A ring of segmental lining is a multiple hinged structure and its stability against the applied loads 
+depends on the surrounding ground response. Moreover, the key segment plays an important role in segmental lining 
+stability. For this purpose, in this paper we have studied only geological section in which the crushing zone stratum 
+intersect tunnel lining at the location of the key segment joint.  
+In order to consider the real loading condition on the segment lining, the crushed zone stratum with 75 -degree 
+gradient and 2.5 m thickness that intersects segmental ring at the location of the key segment was defined as shown in 
+Figure 3. 
+Figure 3. Crushed zone and ring interaction 
+
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+338 
+ 
+In this study, the most critical circumstances were considered for the crushed zone. The worst scenario occurs when 
+the crushed zone is perpendicular to the tunnel crown and intersects tunnel lining at the location of key segment 
+simultaneously. In this situation, the entire load of the crushed zone acts on the lining system. Although the tunnel is 
+located at the depth of 500 m underground, in the numerical modeling only 20 m of the over burden was applied and 
+the remaining load was imported as an external equivalent load. Equivalent gravity loads of the crushed zone were  
+calculated according to the Terezaghi’s overburden load criteria. So, for decreasing time step in numerical simulation, 
+the equivalent loads acts on the crushed zone - segment interface according to Terezaghi’s overburden rock load in 
+Figure 4.a. The distributed equivalent load paradigm on the segment -stratum interface is depicted in Figure 4.b. The 
+weak stratum acts as an uneven loading on the circular tunnel lining; this uneven type of loading introduces high shear 
+and tensile stress which threatens the stability of the circular concrete structures [8].  
+Figure 4. a) The worst scenario of the crushed zone, b) Applying the equivalent load on the segment-stratum interface 
+3. Interfaces and Segmental Lining Modeling 
+3.1. Interface Theory 
+According to the Interface theory, when the physical parameters such as density and stiff ness change, the altered 
+boundaries behave as an interface (Figure 5). The examination of materials and structures illustrates that homogeneity 
+is an assumption to simplify the reality. Interfaces normally exist at different scales and influence the proper ties of 
+material and structural responses. An interface is represented between two adjacent planes by a normal stiffness and 
+shear stiffness (   and   ). In order to create a model an interface, the following properties of material are required: 
+   : Normal stiffness 
+   : Shear stiffness 
+  : Cohesion 
+  : Friction angle 
+   : Tensile strength 
+The interfaces used in this study allow slip and separation in defined numerical modeling. For this type of interface, 
+the strength properties such as friction angle  , cohesion c and tensile strength       are more important than the 
+stiffness properties (Itasca 2008) [9]. 
+ 
+Figure 5. Definition of interface between materials 
+a) 
+ b) 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+339 
+ 
+3.2. Essential Interfaces 
+In comparison to the dimensions of concrete blocks which are aro und (0.3 m × 1 m), segmental lining systems are 
+likely to have some joints; these joints are very thin (12 -18 mm in thickness). However, these joints serve an 
+indispensable function in the mechanical behavior of whole segmental lining system. In order to d evise a better 
+simulation of the real joint response, several sophisticated approaches have been proposed in the contact elements 
+modeling. Reviewing the available technical literature on this issue reveals four main categories of contact models for 
+assessing the effects of longitudinal joints on liner internal forces as follows: 
+Using hinges at liner contact points (HL model): In this method, segments are modeled using beam elements 
+considering perfect hinges in their contact locations. Assuming perfect jo ints in the liner causes a pure axial force in 
+the joint location without any bending moment. The joint behavior in this model cannot consider the ﬂexural behavior 
+of segment-to-segment contact area and leads to the transfer of bending moment to segments. This method usually 
+causes more bending moment in the liner than other contact models. Tang and Zhong have utilized this method for 
+structural analysis of segmental lining. 
+Reducing liner rigidity (RR model): Some researchers and societies such as Japan So ciety of Civil Engineers 
+(JSCE), Ranken, Einstein and Schwartz, Yuen, Ogawa, Liu and Hou, Lee and Ge, Blom, and El Naggar have 
+considered segmental tunnel lining as a continuous ring with discounted rigidity by applying a reduction factor to the 
+bending stiffness (EI) of liners. 
+Beam rotational spring model (BRS model): In this model, segments are modeled by beam elements and 
+longitudinal joints using rotational springs. Many researchers have proposed various values for rotational stiffness. For 
+instance, Mashimo and Ishimura suggested the range of 32–127 MN m/rad for this parameter. Lee proposed the range 
+of 4–30 MN m/rad for such stiffness, which was based on the ﬁeld measured values reported by Chen and Zhou in 
+Shanghai subway tunnel. Koyama proposed thre e diagrams for bending moment versus rotational angle (    ) 
+behavior of contact joints in segmental lining. In their study, approximate values of rotational spring stiffness  (  ) as 
+the slope of (   ) diagrams varied from 15 to 150 MN m/rad. Teachavorasinskun and Chub-uppakarn, according to 
+the experimental tests and FEM modeling, suggested the range of 1–3 MN m/rad for (  ). In another study, Arnau and 
+Molins presented the rotational stiffness of s egments as 50 and 100  MN m/rad with respect to two values of 
+compressive stress as 1.5 and 3 MPa in the contact location [8]. 
+By summarizing the above mentioned models, it could be stated that the ﬁrst method does not simulate properly the 
+actual construction conditions and considers joints as a hinge while ignoring partial moment transmitting capacity. On 
+the other hand, although effective bending rigidity must only affect contact points, in the second model, it affects the 
+entire lining by ratio of the bending rigidity. In the third model, it is assumed that all segments have the same length in 
+a ring, which is not correct in most of practical cases. In sum, it can be stated that all of the aforementioned methods 
+have ignored the relevance of normal and tang ential stiffness of contact points to the normal stress acting on contact 
+surfaces [10]. 
+Modeling a segmental tunnel lining involves several components including precast concrete segments, seal 
+materials in the joints and backfill grouts. To assemble the m odel, DEM (distinct element method) was applied to 
+create the numerical model for this case; however, mesh generation stage have some limitations in the numerical 
+modeling; therefore, solid elements with low thickness cannot be used to represent these mate rials. To solve this 
+problem, in this research, the interface elements with appropriate properties have been defined to represent these 
+components. An interface is defined by normal and shear stiffness (   and   ) between two planes which may contact 
+each other. Contact function is applied to simulate the interaction of each sliding material and the Squeezing action is 
+another important consideration induced by the crushed zone and the ground reaction is also of high importance 
+simulated by the contact function [11]. 
+The circular gap between rock mass and tunnel lining system usually contains a hydrating grout material; In order to 
+complete the simulation process, it is very important to ascertain the stiffness of the hydrating grout material. 
+Simultaneously, the thickness of hydrating grout material is relatively thin and unclear. Therefore, for simulating the 
+interaction between tunnel lining and around rock mass, the hydrating grout materials are usually not considered and 
+contact surfaces are set betw een the inner surface of rock mass and the segment exterior surface. When the tunnel 
+structure deforms under the earth pressure, the contact interaction between rock mass and segments can restrict the 
+tunnel deformation. That is, Contact forces include nor mal force and sliding - frictional force that prevent further 
+deformation. So, in some numerical simulations, radial ground reaction spring and tangential ground reaction spring in 
+traditional load-structure model can be replaced by rock mass with contact s urface. The spring stiffness of traditional 
+model is substituted by Young’s modulus of rock mass that changes with different crushed zone stratum. All of the 
+interfaces including segment-segment interfaces, segment-around rock mass interfaces, segment-crushed zone stratum 
+interfaces, and segment- crushed zone stratum interfaces which are shown in the below picture (Figure 6). 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+340 
+ 
+ 
+Figure 6. Different interfaces in numerical modeling 
+In order to determine the real parameters of interfaces, some laboratory tests  should be consider even though high 
+expenditures and test’s scale restrict laboratory test implementation. Additionally, the evaluation of ground response 
+against the ring deformation is the main limitation of these tests. Interfaces parameters are summar ized in Table 1. 
+Note that, the weakest values in the sides of interface are selected as the cohesion and friction angle parameters       
+[11, 12]. 
+Table 1. Interface parameters in numerical modelling 
+Interface Normal Stiffness 
+(GPa/m) 
+Shear Stiffness 
+(GPa/m) Cohesion (KPa) Friction angle 
+Segment-Rock mass 40 31 900 32 
+ 
+Rock mass-Stratum 
+ 
+2 
+ 
+1.4 
+Marl 900 32 
+shale 450 28 
+Sandstone 50 25 
+ 
+Segment-stratum 
+ 
+40 
+ 
+31 
+Marl 900 32 
+shale 450 28 
+sandstone 50 25 
+Segment-Segment 40 31 0 46 
+3.3. Materials Properties 
+The typical section of Qomrud water conveyance tunnel was used for modeling the circumference of the tunnel. 
+Various materials such as the different rock mass types and concrete blocks are involved in this procedure which was 
+modeled by using Mohr-Coulomb failure criteria. Table 2 shows the properties of surrounding rock masses. 
+In this paper, different situations for the crushed zone materials have been studied. Considering different climate 
+conditions and the effect of underground water, the properties of the crushed zone may alter. It’s also important to 
+realize that in some sp ecial cases squeezing effects might occur. To understand this, first, Marl properties was 
+assigned for the crushed zone stratum materials. Although Marl is a weak rock and compared to the other rock types at 
+Qomrud water conveyance tunnel easily weathers on exposure, Patchet (1970) mentioned that in most conditions marl 
+shows plastic behavior and probably has no tensile strength. For having a good evaluation, the properties of marl 
+stratum under changing geologic condition are associated with the properties  of Shale and Sandstone. Geotechnical 
+properties of these materials are given in Table 3. 
+Table 2. Properties of surrounding rock (Marl) 
+Density (Kg/m3) 2600 
+Saturated Density (KN/m 3) 2.75 
+USC (MPa) 30 
+Cohesion (KPa) 900 
+Frictional angle 32 
+Young’s modulus (GPa) 1 
+Poisson’s ratio 0.23 
+Geological strength index (GSI)  30 
+Porosity (e) 0.2 
+
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+341 
+ 
+Table 3. Geotechnical properties of crushed stratum  
+Material   (Kg/m3)      (KN/m3) e C (KPa) E (MPa)   Poisson’s ratio 
+shale 2200 2.5 0.4 450 500 28 0.29 
+Sandstone 2000 2.3 0.6 50 350 25 0.32 
+According to the aforementioned texts, in order to consider the worst scenario of loading, the equivalent load of the 
+saturated overburden rock was calculated by using Terzaghi’s  rock mass load theory at different levels where water 
+existence above the tunnel overburden (30m, 35m and 40m). The results are summarized in Table 4.  
+Table 4. Equivalent load of saturated overburden rock according to Terzaghi rock load theory 
+Material Embedded depth above the tunnel 
+H (m) 
+Equivalent saturated overburden rock load 
+(KN) 
+Marl 
+30 207.5 
+35 242 
+40 276.5 
+Shale 
+30 214 
+35 217.5 
+40 248.5 
+Sandstone 
+30 178 
+35 208 
+40 233.5 
+The Segment lining parameters used in the numerical simulation are presented in Table 5. The model parameters 
+used in the segmental lining were selected based on the national and international shield tunnelling experience. 
+Table 5. Segmental lining properties used in the analyses 
+Density 
+(Kg/m3) 
+Young’s modulus 
+(GPa) Poisson’s ratio Cohesion 
+(MPa) Frictional angle Tension strength 
+(MPa) 
+2700 24 0.2 5 46 4 
+4. Analysis of Numerical Modeling 
+The Universal Distinct Element Code (UDEC) is a two -dimensional numerical program based on the distinct 
+element method for dis-continuum modeling. UDEC simulates the response of discontinuous media (such as a jointed 
+rock mass) subjected to either static or dynamic loading. The discontinuous medium is represented as an assemblage 
+of discrete blocks. The discontinuities are  treated as boundary conditions between blocks; large displacements along 
+discontinuities and rotations of blocks are allowed. Individual blocks behave as either rigid or deformable material. 
+Deformable blocks are subdivided into a mesh of ﬁnite-difference elements, and each element responds according to a 
+prescribed linear or nonlinear stress-strain law. The relative motion of the discontinuities is also governed by linear or 
+nonlinear force-displacement relations for movement in both the normal and shear directions. UDEC is based on a 
+“Lagrangian” calculation scheme that is well -suited to model the large movements and deformations of a blocky 
+system (Itasca Consulting Group Inc, 2015). 
+The DEM approach is the well-recognized numerical tool to analyze geotechnical projects due to its ability to take 
+into account the heterogeneity of ground, the non -linear behavior of rock mass, the complex geometry of works and 
+the method of construction. Squeezing action induced by a stratum can be modeled as the contact in teraction between 
+the crushed zone and the segments. Thus, the contact interaction is capable of simulating squeezing action.  
+The loading process of tunnel lining has been divided into two steps:  
+First, the earth pressure around the tunnel was applied to simulate the initial state of the tunnel; moreover, the effect 
+of changes in the horizontal stress ratio of the loads on the segment was assessed. The boundary condition associated 
+with K (ratio of horizontal to vertical stress) values of 0.5, 1, 1.5 and 2 were applied to the model and also separate 
+analysis was conducted for each case. Second, the uneven load from the calculation of equivalent load of 500m caused 
+by tunnel overburden was imported in the crushed zone and the tunnel lining interface. 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+342 
+ 
+As an individual ring is loaded (Figure 7), it deforms according to its flexibility until the ground provides the 
+necessary reaction to equilibrate the loads. The parameters of interface between high strength concrete blocks in the 
+Segmental lining improve the f lexibility of lining system successfully, but decrease the strength of whole lining 
+system as weak “joints”. The ground deformations occur to achieve such reaction and depend on the circumferential 
+ground stiffness; therefore, it will play a decisive role on the radial displacements experienced by the ring (Figure 7). 
+While the concrete segments remain undamaged (with no cracks), the movements of ring are mainly caused by 
+concentrated deformation in longitudinal joints to obtain reasonable results based on the conservative assumption that 
+the lining segments are rigid. It means that all the lining distortion and rotation would take place only at the location of 
+joints [13]. 
+  
+Figure 7. Squeezing load effects on the segmental lining and formed deformation 
+Figure 8. Shows the Segmental lining deformation for stratum condition specified for Sandstone properties and 
+embedded depth 40m above the tunnel at various stress fields. It’s obvious that as the strength of stratum material 
+decreases and the coefficients  of stress concentration increases contemporaneously, the deformation of segmental 
+lining at the crushed zone -segment interface soars. Besides, for the coefficient of stress concentration of two (K=2), 
+the deformation around the key segment is symmetric. 
+ 
+Figure 8. Deformation of the segmental lining at different stress fields 
+    According to Figure 8, deformation of the segmental lining is the curved shape and its convergence is toward to 
+the inner side of the tunnel. It’s due to this fact that the trape zoidal shape of segments, the exterior radius of the 
+segments, is greater than the interior radius of them. Thus, the magnitudes of loads from peripheral rock mass must be 
+high enough to dominate the hatched area in Figure 9, which is in fact, impossible in real loading condition.  
+
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+343 
+ 
+ 
+Figure 9. Representation of the segment trapezoidal shape 
+The other important factor that needs to be addressed is the bending moment. In order to discover the impact of this 
+factor in the deformation of the segmental lining, the Induced bending moment at the location of the key segment that 
+interacts with the crushed zone was investigated. The results are show in Figure 10 for different following statuses: 
+ Stratum condition set according to Marl, shale and Sandstone properties 
+ Equivalent local load of the segment-stratum interface according to the embedded depths of 30m, 35m and 40m 
+overburden above the tunnel 
+ The dominant stress fields set for 0.5, 1, 1.5 and 2 
+ 
+Figure 10. Induced bending moment in longitudinal joint at the location of the key segment and the crushed zone interface 
+a) Marl b) Shale c) Sandstone 
+It can be inferred from the above results that the strengthening of circumferential shear stiffness with staggered 
+segment joints will result in the reduction of addition al deformation and bending moment at the cross section of the 
+tunnel. However, it should be noted that the increase in stress concentration coefficient simultaneously leads to the 
+increase in the bending moment of the cross section at longitudinal joint. 
+The calculated results also show that the bending moment at the longitudinal joint decreases as the circumferential 
+stiffness and embedded depth above the tunnel go up. Therefore, it is highly recommended that for an effective tunnel 
+lining design, the bend ing stiffness should be reduced and the shear stiffness should be increased to reduce the 
+additional forces and increase the longitudinal stability of the tunnel under the ground differential stiffness. It can also 
+be concluded that the additional moment i n the joint is closely related to the shear forces produced by longitudinal 
+ground displacement. 
+    Under the local loading at the Segment-Stratum, the interface opening of the longitudinal joint occurs. Increasing 
+the local load influences the longitudinal joint ability at the transition of structural loads. When opening of the joints 
+occurs, joint interaction remains just at the points that two segments have a contact with each other. Figure 11 shows 
+the joint opening at the location of the key segment and the crushed zone interface. 
+
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+344 
+ 
+ 
+Figure 11. Geometrical definition of the opening and opening length at longitudinal joint 
+The relationship between the coefficient of stress concentration and the opening length of joint is shown in Figure 
+12. The curves show the changes at the gradient caused by th e applied local load and resultant opening length in the 
+joint for the different coefficients of stress concentration. The increase in the embedded depth above tunnel intensifies 
+the squeezing load at the segment -stratum interface. However, Complex loading  condition for defined interface may 
+lead to irregular relation between the opening length of joint (r) and the coefficient of stress concentration (K). 
+    After tunnel excavation, tangential stress is induced immediately in lining. As time goes on, th e radial stress 
+induced in lining is affected by the earth pressure and other types of loading at the segment -rock mass interface, 
+especially at the location of longitudinal joint that increase in the radial stress causes opening in the joints. In addition  
+to imposing the relevant joint opening along the longitudinal joint, the suggested special study for specified geological 
+condition applies load to the rings at the location of joints. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 12. Relationship between the coefficient of stress concentration and opening length at the location of the key segment 
+and the crushed zone interface a) Marl b) shale c) sandstone 
+For further analysis, Investigations also were conducted to  study the interaction mechanism of segmental lining 
+joints. In order to fulfill this purpose, the interaction between the induced radial stress and the joint opening length at 
+the location of the key segment joint has been taken into consideration and the results are depicted in Figure 13. As it 
+0
+5
+10
+15
+20
+25
+0 0.5 1 1.5 2 2.5
+r (cm) 
+K 
+(c) 
+H=40 m H=35 m H=30 m
+0
+5
+10
+15
+20
+25
+0 0.5 1 1.5 2 2.5
+r (cm) 
+K 
+(b) 
+H=40 m H=35 m H=30 m
+0
+5
+10
+15
+20
+25
+0 0.5 1 1.5 2 2.5
+r (cm) 
+K 
+(a) 
+H=40 m H=35 m H=30 m
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+345 
+ 
+0
+1
+2
+3
+4
+5
+6
+0 0.05 0.1 0.15 0.2
+Radial Stress (Mpa) 
+r (m) 
+(a) 
+0
+1
+2
+3
+4
+5
+6
+0 0.05 0.1 0.15 0.2
+Radial Stress (Mpa) 
+r (m) 
+(b) 
+was mentioned earlier, each material assigned to stratum has the specific strength and geotechnical parameters; 
+comparing the results for different stratum materials (Marl, Shale and Sandstone) doesn’t seem a logica l way; 
+therefore, the results must be interpreted particularly for each case under different loading conditions . 
+    According to the results from Figure 13, induced radial stress increases as the local load at the segment -stratum 
+interface goes up. (Proportional to the increase in embedded loose depth above tunnel). Moreover, the strength of 
+stratum materials impacts the joint opening length and lining induced radial stress in the sides of joint. The Increase at 
+the crushed materials in stratum causes the increase in joint opening length (increase in active squeezing load to the  
+ring at the segment-Stratum interface). 
+  
+ 
+ 
+Figure 13. Induced radial stress vs. joint opening length for different material properties a) Marl b) Shale c) Sandstone 
+Similarly, the interaction between joint opening (∆) and joint opening length (r) was probed. The influence of 
+squeezing active load on the longitudinal joint opening at the segment -stratum interface is depicted in Figure 14. The 
+Accurate interpretation of  Figure 13 proves direct relationship between joint opening and local load from the 
+squeezing load proportional to the embedded loose zone above the tunnel. In other words, the decrease of the strength 
+of stratum materials (high crushed materials) leads to the increase in joint opening.  
+    It should be noted that the interaction problems occur in small scale while the geotechnical problems are large 
+scale (for instance, subsidence problems); therefore, for arbitration in the results, the unit of joint ope ning terms is 
+based on the radian. As it can be concluded from the results, regarding different conditions such as stratum materials 
+properties, the magnitude of squeezing loading acting on the segment -stratum interface, etc., the investigation should 
+be performed specifically. This means that defining a regular relation between the joint opening and the joint opening 
+length interaction is not conceivable. 
+ 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+0 0.05 0.1 0.15 0.2
+Radial Stress (Mpa) 
+r (m) 
+(c) 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+346 
+ 
+0.015
+0.0155
+0.016
+0.0165
+0.017
+0.0175
+0.018
+0.0185
+0.019
+0 0.05 0.1 0.15 0.2
+Alfa (rad) 
+r (m) (c) 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0 0.05 0.1 0.15 0.2
+Alfa (rad) 
+r (m) (a) 
+0
+0.005
+0.01
+0.015
+0.02
+0.025
+0 0.05 0.1 0.15 0.2
+Alfa (rad) 
+r (m) (b) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 14. Joint opening versus joint opening length for difference materials: a) Marl b) Shale c) Sandstone 
+Additionally, the Contacts between the segments which are defined by springs in normal and tangential directions 
+are affected by the local squeezing loading at the segment -rock mass interface. The number of contact elements in 
+longitudinal joint prior to and after loading at the key-segment-stratum interface is depicted in Figure 15. According to 
+this figure, contact elements are influenced by the squeezing loading.  
+Finally, under the complex situation of loading, the opening of joint occurs and it affects contacts’ ability related to 
+the transition of structural loads [14]. 
+ 
+Figure 15. Joint contact: a) Before loading b) After loading 
+5. Conclusion 
+In conclusion, according to the above mentioned analyses and numerical models investigating the interaction 
+mechanism of concrete lining joints, the following results have been fulfilled.  
+a) 
+ b) 
+Civil Engineering Journal         Vol. 2, No. 7, July, 2016 
+347 
+ 
+    Regarding the simulated local load equivalent to the load of the overburden of 30, 35, and 40 meter applied to the 
+interface between weak stratum and segment, along with the gravity load because of weak stratum, following results 
+can be obtained. For one thing, through applying the nonsymmetrical and local load to the interface between segments 
+and weak stratum for three different layers with different strengths, the instability at the location of connecting plan 
+happens for various amount of k; moreover, the amount of longitudinal joint opening at the location of con necting 
+plan results in the incomplete interaction, stress concentration and plastic deformations for different amount of  k; for 
+each layer with fixed strengths is variable and there isn’t specific paradigm between k and the amount of longitudinal 
+joint opening. Additionally, the maximum amount of bending moment and axial force at the location of connecting 
+plan occurs for the sandstone layer which has the minimum strength compared to the other layers.  The interaction 
+diagram for different loading conditi ons exposes that instability in segmental tunnel lining under different amount of 
+(k) such as 0.5, 1, 1.5 and 2 occurs; as (k) increases, the instability spreads promptly.  
+   As the amount of load increases, radial stress at the location of longitudinal j oint increases. This fact leads to 
+increase in the opening of longitudinal joint at the location of segments; besides, the strength of layers influences the 
+opening of the longitude joint. Finally, detailed observation of monitoring information shows that as the strength of 
+layer decreases and the local load at the interface between segments and weak stratum increases, deformations 
+increase. The reduction of thickness in the connecting plan at the location of longitudinal joint leads to an ineffective 
+interaction between segments and therefore each segment has to bear the applied load individually. If this occurs, the 
+interference of axial load and the bending moment from the location of longitudinal joints are incomplete and the 
+opening of joints is resulte d. The numerical results also demonstrate that maximum bending moments in longitudinal 
+joints occurred for crushed zone with weaken strengths (Sandstone).  
+6. Acknowledgements 
+   The authors gratefully acknowledge the support of this work by Tehran Regional W ater Organization, Mahab 
+Ghodss Consulting Engineering Company , Sabir International Company , Tehran Urban Railway Organization and 
+Tehran Municipality. 
+7. References  
+[1]  Blom, C.B.M., “Design Philosophy of Concrete Linings for Tunnels in Soft Soils, Technical university of Delft”. 2002. 
+[2] Ahmet, G, “Evaluation of Structural Analysis Methods Used for the Design of TBM Segmental Linings”, Middle East 
+Technical University, 2010. 
+[3] Hefny ,A.M., “An Investigation into the Behavior of Jointed Tunnel Lining”, Nanyang Technological university, 2006. 
+[4] Zhu.Zheng, R, “Three Dimensional Numerical Modelling of Shield Tunnelling”, Hohai University, 2008. 
+[5] Cavarlo, S.H.P, Blom, C.B.M, Walraven, J.C., "Formation and accumulation of contact deﬁciencies in a tunnel segmented 
+lining." Applied Mathematical Modeling, 36 (2012): 4422–4438. 
+[6] Do, Ngoc, Dias, Daniel, Oresto, Pier.," 2D numerical investigation of segmental tunnel lining behavior." Tunnelling and 
+Underground Space Technology, 37 (2013) 115–127. 
+[7] Na Wu, Huia, Shen, Shui, Liao, Shao, “Longitudinal structural modelling of shield tunnels considering shearing dislocation 
+between segmental rings.” Tunneling and Underground Space Technology, 50 (2015) 317–323. 
+[8] Chen, J, “Mechanical Behavior of Segment Rebar of Shield Tunnel in Construction Stage”, South China University of 
+Technology, 2008. 
+[9] Chan, R.P., “Face Stability Analysis of Shallow Shield Tunnels in Dry Sandy Ground Using the Discrete Element Method”, 
+Key Laboratory of Soft Soils and Geo -environmental Engineering of Ministry of Education, Department of Civil Engineering, 
+Zhejiang University, 2011. 
+[10] Salemi, A, Esmaeili, M, Sereshki, F, “Normal and shear resistance of longitudinal contact surfaces of segmental tunnel 
+linings.” International Journal of Rock Mechanics & Mining Sciences, 77 (2015) 328–338. 
+[11] Vervuurt, A.H.J.M., den Uijl .J.A., “Bezwijkveiligheid Boortunnels, Meetrapport en evaluatie Proevenserie”, 2006. 
+[12] Teachavorasinskun, S, “Influence of segmental Joints on Tunnel Lining”, Dep artment of Civil Engineering, Faculty of 
+Engineering, Chulalongkorn University, 2010. 
+[13] Güray, A, “Evaluation of Structural Analysis Methods Used for the Design of TBM Segmental Linings”, Middle East technical 
+university, 2010. 
+[14] Hitoshi,T, “Study on  Construction Loads During Shield Tunneling Using a Three -Dimensional FEM Model”, Me tropolitan 
+Expressway Co., 2004. 

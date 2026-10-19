@@ -1,0 +1,1864 @@
+{
+  "date": "2026-10-19",
+  "sources": [
+    {
+      "key": "C01",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش سد تنگ‌سرخ و سامانه انتقال",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+        "Province": "کهگیلویه و بویراحمد؛ فارس",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1397 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است. خبر کارگاه شرکت، حضور آبدان‌فراز به عنوان مشاور طرح و آب منطقه‌ای فارس را نیز ثبت می‌کند؛ رکورد سد و سامانه انتقال، اثبات وضعیت اجرایی کنونی خط انتقال به شیراز نیست.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/ve-of-tangesorkh-dam-and-transfer-systems.html",
+        "Canonical_URL": "https://kuriteng.com/project/ve-of-tangesorkh-dam-and-transfer-systems.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C01. سال 1397 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. خبر تکمیلی کارگاه: https://kuriteng.com/news/tang-e-sork-dam-value-engineering-study-and-transmission-system.html"
+      },
+      "project_ids": [
+        "WT-T14"
+      ],
+      "retrieval_key": "C01",
+      "closest": []
+    },
+    {
+      "key": "C02",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش آبرسانی به شهرها و روستاهای غرب اصفهان",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "شرکت آب منطقه‌ای اصفهان",
+        "Province": "اصفهان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای اصفهان و سال پروژه 1399 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/ve-esfahan-water.html",
+        "Canonical_URL": "https://kuriteng.com/project/ve-esfahan-water.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C02. سال 1399 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T19"
+      ],
+      "retrieval_key": "C02",
+      "closest": []
+    },
+    {
+      "key": "C03",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش بهره‌برداری کانال‌های انتقال سیلاب کارون به کانون‌های ریزگرد",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1399 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/ve-rizgard.html",
+        "Canonical_URL": "https://kuriteng.com/project/ve-rizgard.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C03. سال 1399 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T20"
+      ],
+      "retrieval_key": "C03",
+      "closest": [
+        {
+          "id": "S1027",
+          "title": "مهندسی ارزش انتقال سبزکوه به چغاخور",
+          "score": 0.556
+        }
+      ]
+    },
+    {
+      "key": "C04",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش آبرسانی شرب و صنعت باشت",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+        "Province": "کهگیلویه و بویراحمد",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1398 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/ve-of-supplying-domestic-water-for-basht-region.html",
+        "Canonical_URL": "https://kuriteng.com/project/ve-of-supplying-domestic-water-for-basht-region.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C04. سال 1398 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T21"
+      ],
+      "retrieval_key": "C04",
+      "closest": []
+    },
+    {
+      "key": "C05",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش تصفیه‌خانه طرح غدیر",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1394 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/value-engineering-ghadir.html",
+        "Canonical_URL": "https://kuriteng.com/project/value-engineering-ghadir.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C05. سال 1394 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T11"
+      ],
+      "retrieval_key": "C05",
+      "closest": []
+    },
+    {
+      "key": "C06",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش آبرسانی شهرهای شمال‌شرق خوزستان",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1394 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/value-engineering-north-east-khozestan.html",
+        "Canonical_URL": "https://kuriteng.com/project/value-engineering-north-east-khozestan.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C06. سال 1394 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T22"
+      ],
+      "retrieval_key": "C06",
+      "closest": []
+    },
+    {
+      "key": "C07",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش آبرسانی شهرهای جنوب‌شرق خوزستان",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1394 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/value-engineering-south-east-of-khozestan.html",
+        "Canonical_URL": "https://kuriteng.com/project/value-engineering-south-east-of-khozestan.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C07. سال 1394 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T23"
+      ],
+      "retrieval_key": "C07",
+      "closest": []
+    },
+    {
+      "key": "C10",
+      "record": {
+        "Source_ID": null,
+        "Title": "پیشنهاد تغییر به روش مهندسی ارزش تأمین و انتقال آب و شبکه آبیاری دهدشت غربی",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+        "Province": "کهگیلویه و بویراحمد",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1390 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/value-engineering-west-dehdasht.html",
+        "Canonical_URL": "https://kuriteng.com/project/value-engineering-west-dehdasht.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C10. سال 1390 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T24"
+      ],
+      "retrieval_key": "C10",
+      "closest": []
+    },
+    {
+      "key": "C11",
+      "record": {
+        "Source_ID": null,
+        "Title": "مهندسی ارزش تأمین و انتقال آب کشاورزی و شرب دشت ایذه",
+        "Title_EN": null,
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": null,
+        "Language": "فارسی",
+        "Source_Type": "معرفی رسمی مطالعه / خدمات مشاوره",
+        "Publisher": "مهندسان مشاور کریت‌کارا",
+        "Author": "مهندسان مشاور کریت‌کارا",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1390 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://kuriteng.com/project/value-engineering-izeh-plain.html",
+        "Canonical_URL": "https://kuriteng.com/project/value-engineering-izeh-plain.html",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد C11. سال 1390 سال انجام مطالعه است؛ تاریخ انتشار صفحه نامشخص. "
+      },
+      "project_ids": [
+        "WT-T25"
+      ],
+      "retrieval_key": "C11",
+      "closest": [
+        {
+          "id": "S1027",
+          "title": "مهندسی ارزش انتقال سبزکوه به چغاخور",
+          "score": 0.583
+        }
+      ]
+    },
+    {
+      "key": "A01",
+      "record": {
+        "Source_ID": null,
+        "Title": "Optimization of inter-basin water transfer projects: from macroeconomic impacts to technical hydraulic design",
+        "Title_EN": "Optimization of inter-basin water transfer projects: from macroeconomic impacts to technical hydraulic design",
+        "Date_Gregorian": "2026-04-25",
+        "Date_Persian": null,
+        "Year": 2026,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Scientific Reports",
+        "Author": "Hamed Hamzekhani؛ Seyed Jamshid Mousavi؛ Mohammad Vesal",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "دانشگاه صنعتی امیرکبیر؛ دانشگاه صنعتی شریف",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "مدل بهینه‌سازی اقتصادی–هیدرولیکی انتقال خرسان به کرمان با ترکیب تحلیل انرژی–داده‌ستانده و طراحی خط انتقال. مقاله از داده و پشتیبانی غیرمالی وزارت نیرو و شرکت مهندسی آب و فاضلاب کشور قدردانی کرده و نبود گرنت اختصاصی را تصریح می‌کند.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://www.nature.com/articles/s41598-026-49232-5",
+        "Canonical_URL": "https://www.nature.com/articles/s41598-026-49232-5",
+        "Archive_URL": null,
+        "DOI": "10.1038/s41598-026-49232-5",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "https://www.nature.com/articles/s41598-026-49232-5.pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/P01.pdf",
+        "SHA256": "5d13a1b62f32f6ee1b3e1ce6b9866f044448bdb387b001676eb60af1ad6c50ee",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A01. متن ناشر و PDF بازیابی شد. حمایت داده‌ای وزارت نیرو با تأمین مالی یا سفارش رسمی برابر نیست."
+      },
+      "project_ids": [
+        "WT-T07"
+      ],
+      "retrieval_key": "A01",
+      "closest": []
+    },
+    {
+      "key": "A10",
+      "record": {
+        "Source_ID": null,
+        "Title": "An overview of several techniques employed to overcome squeezing in mechanized tunnels; A case study",
+        "Title_EN": "An overview of several techniques employed to overcome squeezing in mechanized tunnels; A case study",
+        "Date_Gregorian": "2019",
+        "Date_Persian": null,
+        "Year": 2019,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Geomechanics and Engineering",
+        "Author": "Abbas Eftekhari؛ Ali Aalianvari",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": null,
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "بررسی روش‌های مقابله با فشردگی زمین در حفاری مکانیزه تونل گلاب؛ مطالعه موردی رفتار سنگ ضعیف و راهکارهای عملی حفاری.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://koreascience.or.kr/article/JAKO201917659637781.page",
+        "Canonical_URL": "https://koreascience.or.kr/article/JAKO201917659637781.page",
+        "Archive_URL": null,
+        "DOI": "10.12989/gae.2019.18.2.215",
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Partial",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A10. چکیده و متادیتای KoreaScience بررسی شد؛ PDF دریافت نشده است."
+      },
+      "project_ids": [
+        "WT-T08"
+      ],
+      "retrieval_key": "A10",
+      "closest": []
+    },
+    {
+      "key": "A11",
+      "record": {
+        "Source_ID": null,
+        "Title": "Classification of Precast Concrete Segments Damages during Production and Transportation in Mechanized Shield Tunnels of Iran",
+        "Title_EN": "Classification of Precast Concrete Segments Damages during Production and Transportation in Mechanized Shield Tunnels of Iran",
+        "Date_Gregorian": "2017-06-30",
+        "Date_Persian": null,
+        "Year": 2017,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Civil Engineering Journal",
+        "Author": "Mohsen Ali Shayanfar؛ Payman Mahyar؛ Ahmad Jafari؛ Mohammad Mohtadinia",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "دانشگاه علم و صنعت ایران؛ دانشگاه تهران",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "طبقه‌بندی آسیب سگمنت‌های بتنی در تولید و حمل؛ گلاب اصفهان یکی از تونل‌های مورد بررسی است. بخش آماری مقاله بر نمونه‌های متروی تهران متکی است و نتایج آن نباید اندازه‌گیری مختص گلاب معرفی شود.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://civilejournal.org/index.php/cej/article/view/352",
+        "Canonical_URL": "https://civilejournal.org/index.php/cej/article/view/352",
+        "Archive_URL": null,
+        "DOI": "10.28991/cej-2017-00000101",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "https://civilejournal.org/index.php/cej/article/download/352/pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/P11.pdf",
+        "SHA256": "1621431ef0b7d4b7fc2e0bff2149a0c568eac9c4e3c8a5efd06b09c4396482f9",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A11. "
+      },
+      "project_ids": [
+        "WT-T08"
+      ],
+      "retrieval_key": "A11",
+      "closest": []
+    },
+    {
+      "key": "A12",
+      "record": {
+        "Source_ID": null,
+        "Title": "اولویت‌بندی و انتخاب بهترین روش بررسی زیرسطحی تونل انتقال آب سبزکوه در کوه‌های زاگرس",
+        "Title_EN": "Prioritizing and Selecting the Best Subsurface Exploration Method in Sabzkooh Water Conveyance Tunnel (Zagros Mountains)",
+        "Date_Gregorian": "2018-07-23",
+        "Date_Persian": null,
+        "Year": 2018,
+        "Language": "فارسی",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "نشریه زمین‌شناسی مهندسی — دانشگاه خوارزمی",
+        "Author": "Masoud Zare Naghadehi؛ Seyed Davood mohammadi؛ Mostafa Karimi",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": null,
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "اولویت‌بندی روش‌های اکتشاف زیرسطحی برای تونل انتقال آب سبزکوه؛ هویت، نویسندگان، DOI و تاریخ با صفحه ناشر کنترل شد.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://jeg.khu.ac.ir/article_10849.html",
+        "Canonical_URL": "https://jeg.khu.ac.ir/article_10849.html",
+        "Archive_URL": null,
+        "DOI": "10.18869/acadpub.jeg.12.2.293",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "https://jeg.khu.ac.ir/article_10849_3c2e55b31641e3d4cfd7867dd501c5d9.pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/P12.pdf",
+        "SHA256": "9ddf9903da1fb5fc941704b5bf11d09c359ad18a332d9873e860b170028c6e62",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A12. تاریخ 2018-07-23 از متادیتای ناشر است؛ تاریخ OpenAlex متفاوت بود."
+      },
+      "project_ids": [
+        "WT-T10"
+      ],
+      "retrieval_key": "A12",
+      "closest": [
+        {
+          "id": "S986",
+          "title": "انتخاب مناسب‌ترین روش حفاری تونل انتقال آب بهشت‌آباد",
+          "score": 0.554
+        }
+      ]
+    },
+    {
+      "key": "A13",
+      "record": {
+        "Source_ID": null,
+        "Title": "Prediction of the number of consumed disc cutters of tunnel boring machine using intelligent methods",
+        "Title_EN": "Prediction of the number of consumed disc cutters of tunnel boring machine using intelligent methods",
+        "Date_Gregorian": "2021-12-24",
+        "Date_Persian": null,
+        "Year": 2021,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Mining of Mineral Deposits",
+        "Author": "Alireza Afradi؛ Arash Ebrahimabadi؛ Tahereh Hallajian",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "دانشگاه آزاد اسلامی، واحدهای قائم‌شهر و تهران مرکزی",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "پیش‌بینی تعداد دیسک‌کاتر مصرفی TBM در تونل انتقال سبزکوه با روش‌های رگرسیون، برنامه‌نویسی بیان ژن و ماشین بردار پشتیبان.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "http://mining.in.ua/2021vol15_4_8.html",
+        "Canonical_URL": "http://mining.in.ua/2021vol15_4_8.html",
+        "Archive_URL": null,
+        "DOI": "10.33271/mining15.04.068",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "http://mining.in.ua/articles/volume15_4/08.pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/P13.pdf",
+        "SHA256": "b274adb7961fa2d0fa09a20b86559959e3915c068565b67d86a92f2d21595f3d",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A13. تاریخ انتشار آنلاین 24 December 2021 روی PDF؛ تاریخ ماهانه پایگاه استنادی مبنا قرار نگرفت."
+      },
+      "project_ids": [
+        "WT-T10"
+      ],
+      "retrieval_key": "A13",
+      "closest": [
+        {
+          "id": "S996",
+          "title": "PREDICTION OF TBM PENETRATION RATE OF WATER CONVEYANCE TUNNELS IN IRAN USING MODERN METHODS",
+          "score": 0.561
+        }
+      ]
+    },
+    {
+      "key": "A14",
+      "record": {
+        "Source_ID": null,
+        "Title": "Investigation and Effective Indicators of Failure and Leakage in Water and Sewage Transmission Lines (Case study: Ghadir Water Transmission Lines in Khuzestan Province",
+        "Title_EN": "Investigation and Effective Indicators of Failure and Leakage in Water and Sewage Transmission Lines (Case study: Ghadir Water Transmission Lines in Khuzestan Province",
+        "Date_Gregorian": "2025-10-26",
+        "Date_Persian": null,
+        "Year": 2025,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Islamic Azad University Press — نشریه مهندسی آب",
+        "Author": "Roozbeh Aghamajidi",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": null,
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "بررسی خرابی، نشت، نگهداری و کارایی خطوط طرح غدیر خوزستان. هویت و تاریخ Available با ثبت رسمی DataCite و نسخه بارگذاری‌شده نویسنده تطبیق شد.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://sanad.iau.ir/Journal/jwe/Article/1207089",
+        "Canonical_URL": "https://sanad.iau.ir/Journal/jwe/Article/1207089",
+        "Archive_URL": null,
+        "DOI": "10.82476/jwe.2025.1207089",
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Partial",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A14. تاریخ 2025-09-18 تاریخ Submitted است؛ تاریخ Available برابر 2025-10-26. Crossref این DOI را ندارد، اما DataCite آن را ثبت کرده است. صفحه ناشر با مانع JavaScript مواجه شد؛ نسخه نویسنده در ResearchGate مشاهده شد."
+      },
+      "project_ids": [
+        "WT-T11"
+      ],
+      "retrieval_key": "A14",
+      "closest": []
+    },
+    {
+      "key": "A18",
+      "record": {
+        "Source_ID": null,
+        "Title": "A Numerical Investigation of Segmental Lining Joints Interactions in Tunnels-Qomrud Water Conveyance Tunnel",
+        "Title_EN": "A Numerical Investigation of Segmental Lining Joints Interactions in Tunnels-Qomrud Water Conveyance Tunnel",
+        "Date_Gregorian": "2016-07-30",
+        "Date_Persian": null,
+        "Year": 2016,
+        "Language": "English",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "Civil Engineering Journal",
+        "Author": "Mohammad Hossein Ahmadi؛ Ali Mortazavi؛ Seyed Morteza Davarpanah؛ H. Zarei",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "دانشگاه صنعتی امیرکبیر؛ دانشگاه صنعتی سهند",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "تحلیل عددی اندرکنش درزه‌های پوشش سگمنتی با مشخصات تونل انتقال قمرود، از سرشاخه دز به فلات مرکزی.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://civilejournal.org/index.php/cej/article/view/128",
+        "Canonical_URL": "https://civilejournal.org/index.php/cej/article/view/128",
+        "Archive_URL": null,
+        "DOI": "10.28991/cej-2016-00000038",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "https://civilejournal.org/index.php/cej/article/download/128/pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/P18.pdf",
+        "SHA256": "0a436ef82cdd4f3ca0690dd905123e696e46b96e85da07fa3fa7df4b07e7f456",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A18. "
+      },
+      "project_ids": [
+        "WT-T17"
+      ],
+      "retrieval_key": "A18",
+      "closest": []
+    },
+    {
+      "key": "A06",
+      "record": {
+        "Source_ID": null,
+        "Title": "Hydrological engineering alters habitat availability of cyprinid fish in semi-arid regulated river",
+        "Title_EN": "Hydrological engineering alters habitat availability of cyprinid fish in semi-arid regulated river",
+        "Date_Gregorian": null,
+        "Date_Persian": null,
+        "Year": 2026,
+        "Language": "English",
+        "Source_Type": "مقاله علمی / رکورد پیش‌انتشار",
+        "Publisher": "Journal of Hydro-environment Research",
+        "Author": "Jaber Aazami؛ Peter van der Sleen؛ Mohammad Nemati Varnosfaderany؛ Kaitlyn O'Mara؛ Mohammad Sadegh Alavi-Yeganeh؛ Jennifer Koch؛ Abbas Esmaeili-Sari",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": null,
+        "Province": "چهارمحال و بختیاری",
+        "Location": null,
+        "Project": "کوهرنگ (شماره تونل نامشخص)",
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "پژوهش زیستگاه ماهیان بومی رودخانه کوهرنگ در بالادست و پایین‌دست سازه انتقال بین‌حوضه‌ای. این مرور به چکیده و ثبت DOI دسترسی داشت؛ متن کامل ناشر بازیابی نشد.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://doi.org/10.1016/j.jher.2026.100739",
+        "Canonical_URL": "https://doi.org/10.1016/j.jher.2026.100739",
+        "Archive_URL": null,
+        "DOI": "10.1016/j.jher.2026.100739",
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Partial",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A06. ثبت DOI در 2026-10-13 موجود است؛ شماره چاپی دسامبر 2026 در آینده است و تاریخ انتشار آنلاین قطعی از ثبت جداست. تونل مشخص از میان کوهرنگ ۱،۲،۳ در چکیده تعیین نشده؛ انتساب به تونل مشخص انجام نشده است."
+      },
+      "project_ids": [],
+      "retrieval_key": "A06",
+      "closest": []
+    },
+    {
+      "key": "A20",
+      "record": {
+        "Source_ID": null,
+        "Title": "Seawater Transfer and Sustainability challenges: Insights from Central Iran",
+        "Title_EN": "Seawater Transfer and Sustainability challenges: Insights from Central Iran",
+        "Date_Gregorian": "2025-03-14",
+        "Date_Persian": null,
+        "Year": 2025,
+        "Language": "English",
+        "Source_Type": "چکیده کنفرانس علمی",
+        "Publisher": "EGU General Assembly 2025 — Copernicus",
+        "Author": "Alireza Gohari؛ Mahshid Ghanbarian؛ Ghazal Akhavan Saraf",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "University of Oulu؛ دانشگاه صنعتی اصفهان",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "چکیده کنفرانس EGU درباره ردپای آب، انرژی و کربن انتقال آب دریا به صنایع ایران مرکزی. نمونه‌های اصلی چکیده عمدتاً کرمان و یزد هستند؛ منبع زمینه‌ای برای ارزیابی انتقال آب دریا به اصفهان محسوب می‌شود.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://meetingorganizer.copernicus.org/EGU25/EGU25-1824.html",
+        "Canonical_URL": "https://meetingorganizer.copernicus.org/EGU25/EGU25-1824.html",
+        "Archive_URL": null,
+        "DOI": "10.5194/egusphere-egu25-1824",
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Partial",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A20. فقط چکیده عمومی؛ ارائه کنفرانس نیازمند ثبت‌نام است. وابستگی نویسنده به اصفهان با محل نمونه‌های مطالعه یکسان نیست. ارتباط زمینه‌ای."
+      },
+      "project_ids": [],
+      "retrieval_key": "A20",
+      "closest": []
+    },
+    {
+      "key": "J02",
+      "record": {
+        "Source_ID": null,
+        "Title": "Challenges of Hydrological Analysis for Water Resources Development in Semi-Arid Mountainous Regions: A Case Study in Iran",
+        "Title_EN": "Challenges of Hydrological Analysis for Water Resources Development in Semi-Arid Mountainous Regions: A Case Study in Iran",
+        "Date_Gregorian": "2013-09-04",
+        "Date_Persian": null,
+        "Year": 2013,
+        "Language": "English",
+        "Source_Type": "رساله دکتری",
+        "Publisher": "National Graduate Institute for Policy Studies (GRIPS)",
+        "Author": "Shiro Hishinuma",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": "GRIPS؛ ICHARM؛ Nippon Koei؛ شرکت توسعه منابع آب و نیروی ایران",
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "رساله دکتری GRIPS درباره چالش مدل‌سازی حوضه کارون برای توسعه منابع آب و سامانه‌های انتقال. متن از حمایت مالی Nippon Koei و ارائه داده هیدرولوژی و GIS از شرکت توسعه منابع آب و نیروی ایران قدردانی می‌کند.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://www.grips.ac.jp/cms/wp-content/uploads/2014/08/Thesis_shiro_submitted20130830.pdf",
+        "Canonical_URL": "https://www.grips.ac.jp/cms/wp-content/uploads/2014/08/Thesis_shiro_submitted20130830.pdf",
+        "Archive_URL": null,
+        "DOI": "10.24545/00000582",
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Direct Link Available",
+        "PDF_URL": "https://www.grips.ac.jp/cms/wp-content/uploads/2014/08/Thesis_shiro_submitted20130830.pdf",
+        "Local_PDF": "reports/deep_refresh_2026_10_19/files/J02.pdf",
+        "SHA256": "49cd4899be9fd2f4139eee891c33dab1bbedd4472c85710d436abba7eefaaa6e",
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد J02. تاریخ اعطای مدرک از صفحه دانشگاه: https://www.grips.ac.jp/en/dtds3/shiro_hishinuma/ . حمایت مالی رساله با قرارداد طراحی یک خط انتقال در ایران برابر نیست؛ پژوهش زمینه‌ای حوضه کارون."
+      },
+      "project_ids": [],
+      "retrieval_key": "J02",
+      "closest": []
+    },
+    {
+      "key": "A00P",
+      "record": {
+        "Source_ID": null,
+        "Title": "مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان مبدأ؛ آبخوان شلمزار",
+        "Title_EN": null,
+        "Date_Gregorian": "2021-03-21",
+        "Date_Persian": null,
+        "Year": 2021,
+        "Language": "فارسی",
+        "Source_Type": "مقاله علمی",
+        "Publisher": "جغرافیا و توسعه — دانشگاه سیستان و بلوچستان",
+        "Author": "شاهین سلیم‌پور ناغانی؛ سید آرمان هاشمی منفرد؛ مهدی اژدری مقدم",
+        "Interviewee": null,
+        "Person": null,
+        "Position": null,
+        "Organization": null,
+        "Province": null,
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "مدل WEAP اثرات سناریویی انتقال بهشت‌آباد بر سطح و حجم آبخوان شلمزار را بررسی می‌کند؛ نتیجه مدل پیش‌بینی شرطی است، نه افت اندازه‌گیری‌شده پس از اجرا.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://gdij.usb.ac.ir/article_6027.html",
+        "Canonical_URL": "https://gdij.usb.ac.ir/article_6027.html",
+        "Archive_URL": null,
+        "DOI": "10.22111/gdij.2021.6027",
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Partial",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد A00P. رکورد موجود S097 با عنوان کوتاه انگلیسی همین اثر است؛ DOI و منبع اولیه تکمیل می‌شوند."
+      },
+      "project_ids": [
+        "WT-T06"
+      ],
+      "retrieval_key": "A00P",
+      "reuse_source_id": "S097",
+      "closest": []
+    },
+    {
+      "key": "N01",
+      "record": {
+        "Source_ID": null,
+        "Title": "جانباز: انتقال آب دیگر مسئله حوضه زاینده‌رود را رفع نمی‌کند",
+        "Title_EN": null,
+        "Date_Gregorian": "2026-10-10",
+        "Date_Persian": "1405/07/18",
+        "Year": 2026,
+        "Language": "فارسی",
+        "Source_Type": "مصاحبه / موضع رسمی",
+        "Publisher": "خبرگزاری مهر",
+        "Author": null,
+        "Interviewee": "حمیدرضا جانباز",
+        "Person": "حمیدرضا جانباز",
+        "Position": "معاون آب و آبفای وزارت نیرو",
+        "Organization": "وزارت نیرو",
+        "Province": "اصفهان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "اظهارات معاون وزارت نیرو در نشست روز زاینده‌رود درباره حکمرانی و مدیریت مصرف و محدودیت اتکا به انتقال آب. خبر همچنین پیگیری طرح‌های شرب را نقل می‌کند؛ اظهارات سیاستی با مجوز یا نتیجه فنی قطعی یکسان نیست.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://www.mehrnews.com/news/6973681/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%B2%DB%8C%D8%B1-%D9%86%DB%8C%D8%B1%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%AF%DB%8C%DA%AF%D8%B1-%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%AD%D9%88%D8%B6%D9%87-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-%D8%B1%D8%A7-%D8%B1%D9%81%D8%B9",
+        "Canonical_URL": "https://www.mehrnews.com/news/6973681/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%B2%DB%8C%D8%B1-%D9%86%DB%8C%D8%B1%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%AF%DB%8C%DA%AF%D8%B1-%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%AD%D9%88%D8%B6%D9%87-%D8%B2%D8%A7%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D8%AF-%D8%B1%D8%A7-%D8%B1%D9%81%D8%B9",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N01. "
+      },
+      "project_ids": [],
+      "retrieval_key": "N01",
+      "closest": [
+        {
+          "id": "S107",
+          "title": "ارزیابی طرح انتقال آب به حوضه زاینده‌رود از طریق بهشت‌آباد",
+          "score": 0.574
+        },
+        {
+          "id": "S209",
+          "title": "سامانه انتقال آب ماندگان بهار ۱۴۰۴ به زاینده‌رود می‌رسد",
+          "score": 0.565
+        }
+      ]
+    },
+    {
+      "key": "N02",
+      "record": {
+        "Source_ID": null,
+        "Title": "جوکار: چرا انتقال آب خرسان به یزد هنوز به سرانجام نرسیده است؟",
+        "Title_EN": null,
+        "Date_Gregorian": "2026-09-06",
+        "Date_Persian": "1405/06/15",
+        "Year": 2026,
+        "Language": "فارسی",
+        "Source_Type": "مصاحبه / موضع رسمی",
+        "Publisher": "آفتاب اقتصاد؛ نقل خبر از تسنیم",
+        "Author": null,
+        "Interviewee": "محمدصالح جوکار",
+        "Person": "محمدصالح جوکار",
+        "Position": "نماینده یزد، اشکذر، زارچ و ندوشن",
+        "Organization": "مجلس شورای اسلامی",
+        "Province": "کهگیلویه و بویراحمد؛ چهارمحال و بختیاری؛ یزد",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "اظهارات نماینده درباره مسیرهای پیشنهادی انتقال خرسان و درخواست مطالعات تکمیلی دانشگاه تهران. اصل نامه یا قرارداد مطالعات تکمیلی مشاهده نشده است و ادعای تأیید مجوزها به گوینده منتسب می‌ماند.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://aftabeghtesad.com/%D8%AC%D9%88%DA%A9%D8%A7%D8%B1-%DA%86%D8%B1%D8%A7-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%AE%D9%90%D8%B1%D8%B3%D8%A7%D9%86-%D8%A8%D9%87-%DB%8C%D8%B2%D8%AF-%D9%87%D9%86%D9%88%D8%B2/",
+        "Canonical_URL": "https://aftabeghtesad.com/%D8%AC%D9%88%DA%A9%D8%A7%D8%B1-%DA%86%D8%B1%D8%A7-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%A2%D8%A8-%D8%AE%D9%90%D8%B1%D8%B3%D8%A7%D9%86-%D8%A8%D9%87-%DB%8C%D8%B2%D8%AF-%D9%87%D9%86%D9%88%D8%B2/",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Secondary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N02. "
+      },
+      "project_ids": [
+        "WT-T07"
+      ],
+      "retrieval_key": "N02",
+      "closest": []
+    },
+    {
+      "key": "N03",
+      "record": {
+        "Source_ID": null,
+        "Title": "در شرایط فقر حفظ محیط زیست دشوارتر می‌شود",
+        "Title_EN": null,
+        "Date_Gregorian": "2026-06-07",
+        "Date_Persian": "1405/03/17",
+        "Year": 2026,
+        "Language": "فارسی",
+        "Source_Type": "مصاحبه / موضع رسمی",
+        "Publisher": "روزنامه اعتماد؛ آرشیو مگیران",
+        "Author": null,
+        "Interviewee": "شینا انصاری",
+        "Person": "شینا انصاری",
+        "Position": "رئیس سازمان حفاظت محیط زیست",
+        "Organization": "سازمان حفاظت محیط زیست",
+        "Province": "اصفهان؛ کهگیلویه و بویراحمد؛ خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "گفت‌وگو با رئیس سازمان حفاظت محیط زیست؛ بخش ماندگان، تأیید نشدن گزارش ارائه‌شده به دلایل فنی، محیط‌زیستی و اجتماعی و کاستی بررسی آثار تجمعی را بیان می‌کند. این اظهارنظرِ تاریخ‌دار جای متن مجوز و وضعیت اجرایی امروز را نمی‌گیرد.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://www.magiran.com/article/4685527",
+        "Canonical_URL": "https://www.magiran.com/article/4685527",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "B",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N03. "
+      },
+      "project_ids": [
+        "WT-T18"
+      ],
+      "retrieval_key": "N03",
+      "closest": []
+    },
+    {
+      "key": "N04",
+      "record": {
+        "Source_ID": null,
+        "Title": "بازدید مدیرعامل سازمان آب و برق و استاندار خوزستان از پروژه‌های انتقال و تصفیه آب در شادگان",
+        "Title_EN": null,
+        "Date_Gregorian": "2025-05-05",
+        "Date_Persian": "1404/02/15",
+        "Year": 2025,
+        "Language": "فارسی",
+        "Source_Type": "خبر رسمی سازمان",
+        "Publisher": "سازمان آب و برق خوزستان",
+        "Author": null,
+        "Interviewee": "عباس صدریان‌فر",
+        "Person": "عباس صدریان‌فر",
+        "Position": "مدیرعامل سازمان آب و برق خوزستان",
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "خبر رسمی سازمان، طرح کارون به جراحی را در این تاریخ «مطالعاتی» معرفی و بازدید از آن و تصفیه‌خانه دارخوین را گزارش می‌کند؛ شواهد متأخرتر نسبت به خبر مرحله دوم ۱۴۰۱.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/9475-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A2%D8%A8-%D8%A8%D8%B1%D9%82-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D8%B5%D9%81%DB%8C%D9%87-%D8%A2%D8%A8-%D8%AF%D8%B1-%D8%B4%D8%A7%D8%AF%DA%AF%D8%A7%D9%86",
+        "Canonical_URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/9475-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A2%D8%A8-%D8%A8%D8%B1%D9%82-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D8%B5%D9%81%DB%8C%D9%87-%D8%A2%D8%A8-%D8%AF%D8%B1-%D8%B4%D8%A7%D8%AF%DA%AF%D8%A7%D9%86",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N04. "
+      },
+      "project_ids": [
+        "WT-T12"
+      ],
+      "retrieval_key": "N04",
+      "closest": []
+    },
+    {
+      "key": "N05",
+      "record": {
+        "Source_ID": null,
+        "Title": "ایذه و باغملک در مسیر توسعه پایدار با محوریت کشاورزی",
+        "Title_EN": null,
+        "Date_Gregorian": "2017-01-17",
+        "Date_Persian": null,
+        "Year": 2017,
+        "Language": "فارسی",
+        "Source_Type": "خبر رسمی سازمان",
+        "Publisher": "سازمان آب و برق خوزستان",
+        "Author": null,
+        "Interviewee": "خدابخشی",
+        "Person": "خدابخشی",
+        "Position": "مقام سازمان آب و برق خوزستان",
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "خبر رسمی از انجام مطالعات سامانه مشترک تأمین و انتقال آب شرب و کشاورزی از سد کارون ۳ به محدوده ایذه و باغملک؛ همراه ملاحظات اجتماعی، اقتصادی و محیط‌زیستی. خبر تاریخی است.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/2858-%D8%A7%DB%8C%D8%B0%D9%87-%D8%A8%D8%A7%D8%BA%D9%85%D9%84%DA%A9-%D8%AF%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A8%D8%A7-%D9%85%D8%AD%D9%88%D8%B1%DB%8C%D8%AA-%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C",
+        "Canonical_URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/2858-%D8%A7%DB%8C%D8%B0%D9%87-%D8%A8%D8%A7%D8%BA%D9%85%D9%84%DA%A9-%D8%AF%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A8%D8%A7-%D9%85%D8%AD%D9%88%D8%B1%DB%8C%D8%AA-%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N05. "
+      },
+      "project_ids": [
+        "WT-T25"
+      ],
+      "retrieval_key": "N05",
+      "closest": []
+    },
+    {
+      "key": "N06",
+      "record": {
+        "Source_ID": null,
+        "Title": "بهره‌گیری از سیلاب برای مهار کانون‌های ریزگرد و احیای تالاب‌های خوزستان",
+        "Title_EN": null,
+        "Date_Gregorian": "2019-02-13",
+        "Date_Persian": null,
+        "Year": 2019,
+        "Language": "فارسی",
+        "Source_Type": "خبر رسمی سازمان",
+        "Publisher": "سازمان آب و برق خوزستان",
+        "Author": null,
+        "Interviewee": null,
+        "Person": null,
+        "Position": "معاون حفاظت و بهره‌برداری منابع آب سازمان",
+        "Organization": "سازمان آب و برق خوزستان",
+        "Province": "خوزستان",
+        "Location": null,
+        "Project": null,
+        "Basin_Source": null,
+        "Basin_Destination": null,
+        "Topic": "مطالعات و تحقیقات انتقال آب",
+        "Position_Stance": "تحلیلی / خنثی",
+        "Summary": "گزارش رسمی تاریخی از استفاده از ایستگاه‌های پمپاژ کارون برای انتقال آب به شادگان و بررسی هدایت آب به کانون‌های ریزگرد؛ اهداف و مسیرهای مطالعه از بهره‌برداری دائمی جدا خوانده شوند.",
+        "Key_Claim": null,
+        "Quote": null,
+        "URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/4256-%D8%A8%D9%87%D8%B1%D9%87-%DA%AF%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%B3%DB%8C%D9%84%D8%A7%D8%A8-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%87%D8%A7%D8%B1-%DA%A9%D8%A7%D9%86%D9%88%D9%86-%D9%87%D8%A7%DB%8C-%D8%B1%DB%8C%D8%B2%DA%AF%D8%B1%D8%AF-%D8%A7%D8%AD%DB%8C%D8%A7%DB%8C-%D8%AA%D8%A7%D9%84%D8%A7%D8%A8-%D9%87%D8%A7%DB%8C-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86",
+        "Canonical_URL": "https://news.kwpa.ir/%D8%A8%D8%AE%D8%B4-%D8%A2%D8%A8-3/4256-%D8%A8%D9%87%D8%B1%D9%87-%DA%AF%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%B3%DB%8C%D9%84%D8%A7%D8%A8-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%87%D8%A7%D8%B1-%DA%A9%D8%A7%D9%86%D9%88%D9%86-%D9%87%D8%A7%DB%8C-%D8%B1%DB%8C%D8%B2%DA%AF%D8%B1%D8%AF-%D8%A7%D8%AD%DB%8C%D8%A7%DB%8C-%D8%AA%D8%A7%D9%84%D8%A7%D8%A8-%D9%87%D8%A7%DB%8C-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86",
+        "Archive_URL": null,
+        "DOI": null,
+        "Document_ID": null,
+        "Reliability": "A",
+        "Primary_or_Secondary": "Primary",
+        "Full_Text": "Yes",
+        "PDF_Status": "Landing Page Only",
+        "PDF_URL": null,
+        "Local_PDF": null,
+        "SHA256": null,
+        "Notes": "مرور عمیق 2026-10-19؛ شاهد N06. "
+      },
+      "project_ids": [
+        "WT-T20",
+        "WT-T12"
+      ],
+      "retrieval_key": "N06",
+      "closest": []
+    }
+  ],
+  "new_studies": [
+    {
+      "title_fa": "مهندسی ارزش سد تنگ‌سرخ و سامانه انتقال",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T14"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+      "period": "1397",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1397 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است. خبر کارگاه شرکت، حضور آبدان‌فراز به عنوان مشاور طرح و آب منطقه‌ای فارس را نیز ثبت می‌کند؛ رکورد سد و سامانه انتقال، اثبات وضعیت اجرایی کنونی خط انتقال به شیراز نیست.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C01"
+      ]
+    },
+    {
+      "title_fa": "مهندسی ارزش آبرسانی به شهرها و روستاهای غرب اصفهان",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T19"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "شرکت آب منطقه‌ای اصفهان",
+      "period": "1399",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای اصفهان و سال پروژه 1399 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C02"
+      ]
+    },
+    {
+      "title_fa": "مهندسی ارزش بهره‌برداری کانال‌های انتقال سیلاب کارون به کانون‌های ریزگرد",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T20"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "سازمان آب و برق خوزستان",
+      "period": "1399",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1399 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C03"
+      ]
+    },
+    {
+      "title_fa": "مهندسی ارزش آبرسانی شرب و صنعت باشت",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T21"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+      "period": "1398",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1398 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C04"
+      ]
+    },
+    {
+      "title_fa": "مهندسی ارزش تصفیه‌خانه طرح غدیر",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T11"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "سازمان آب و برق خوزستان",
+      "period": "1394",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1394 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C05"
+      ]
+    },
+    {
+      "title_fa": "پیشنهاد تغییر به روش مهندسی ارزش تأمین و انتقال آب و شبکه آبیاری دهدشت غربی",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T24"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "شرکت آب منطقه‌ای کهگیلویه و بویراحمد",
+      "period": "1390",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای شرکت آب منطقه‌ای کهگیلویه و بویراحمد و سال پروژه 1390 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C10"
+      ]
+    },
+    {
+      "title_fa": "مهندسی ارزش تأمین و انتقال آب کشاورزی و شرب دشت ایذه",
+      "subcategory": "مهندسی ارزش",
+      "project_ids": [
+        "WT-T25"
+      ],
+      "performer": "مهندسان مشاور کریت‌کارا",
+      "commissioner_or_funder": "سازمان آب و برق خوزستان",
+      "period": "1390",
+      "scope": "وبگاه رسمی کریت‌کارا این مطالعه را با کارفرمای سازمان آب و برق خوزستان و سال پروژه 1390 ثبت کرده است. اصل قرارداد، مبلغ و گزارش نهایی در این صفحه ارائه نشده است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه مستقل پروژه در وبگاه مشاور؛ خدمات و کارفرما مستند، قرارداد کامل مشاهده نشده",
+      "source_keys": [
+        "C11"
+      ]
+    },
+    {
+      "title_fa": "طراحی اقتصادی و هیدرولیکی انتقال خرسان به کرمان",
+      "subcategory": "امکان‌سنجی",
+      "project_ids": [
+        "WT-T07"
+      ],
+      "performer": "حامد حمزه‌خانی؛ س. جمشید موسوی؛ محمد وصال — دانشگاه صنعتی امیرکبیر و صنعتی شریف",
+      "commissioner_or_funder": "وزارت نیرو و شرکت مهندسی آب و فاضلاب کشور: داده و پشتیبانی غیرمالی؛ گرنت اختصاصی ندارد",
+      "period": "2026",
+      "scope": "بهینه‌سازی ظرفیت و تخصیص اقتصادی خط انتقال خرسان–کرمان؛ پژوهش دانشگاهی، نه قرارداد مصوب اجرای خط.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "مقاله و بخش قدردانی و Funding ناشر؛ PDF محلی",
+      "source_keys": [
+        "A01"
+      ]
+    },
+    {
+      "title_fa": "راهکارهای مقابله با فشردگی زمین در تونل مکانیزه گلاب",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T08"
+      ],
+      "performer": "عباس افتخاری؛ علی عالیانواری",
+      "commissioner_or_funder": "کارفرما یا حامی اختصاصی احراز نشد",
+      "period": "2019",
+      "scope": "تحلیل عددی و تحلیلی فشردگی و شرح راهکارهای حفاری تونل گلاب؛ از قرارداد مشاوره تفکیک شود.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "متادیتا و چکیده در KoreaScience؛ DOI ناشر",
+      "source_keys": [
+        "A10"
+      ]
+    },
+    {
+      "title_fa": "آسیب سگمنت‌های پیش‌ساخته؛ گلاب در میان نمونه‌های تونل ایران",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T08"
+      ],
+      "performer": "محسن علی شایانفر؛ پیمان مهیار؛ احمد جعفری؛ محمد مهتدی‌نیا — دانشگاه علم و صنعت و دانشگاه تهران",
+      "commissioner_or_funder": "حامی اختصاصی احراز نشد",
+      "period": "2017",
+      "scope": "پژوهش چندموردی شامل گلاب؛ آمار تفصیلی ارائه‌شده مربوط به نمونه‌های متروی تهران است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "متن کامل ناشر و PDF",
+      "source_keys": [
+        "A11"
+      ]
+    },
+    {
+      "title_fa": "انتخاب روش بررسی زیرسطحی تونل انتقال آب سبزکوه",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T10"
+      ],
+      "performer": "مسعود زارع نقدهی؛ سید داود محمدی؛ مصطفی کریمی — دانشگاه صنعتی همدان و بوعلی سینا",
+      "commissioner_or_funder": "کارفرما یا حامی اختصاصی احراز نشد",
+      "period": "2018",
+      "scope": "ارزیابی و اولویت‌بندی شیوه‌های بررسی زیرسطحی تونل؛ از قرارداد اجرا جداست.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه و PDF ناشر؛ DOI 10.18869/acadpub.jeg.12.2.293",
+      "source_keys": [
+        "A12"
+      ]
+    },
+    {
+      "title_fa": "پیش‌بینی مصرف دیسک‌کاتر TBM در تونل سبزکوه",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T10"
+      ],
+      "performer": "علیرضا افرادی؛ آرش ابراهیم‌آبادی؛ طاهره حلاجیان — دانشگاه آزاد قائم‌شهر و تهران مرکزی",
+      "commissioner_or_funder": "حامی اختصاصی احراز نشد",
+      "period": "2021",
+      "scope": "مدل‌های پیش‌بینی مصرف ابزار حفاری بر پایه شرایط ماشین و زمین؛ داده‌های موردی سبزکوه.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "مقاله و PDF در وبگاه نشریه Mining of Mineral Deposits",
+      "source_keys": [
+        "A13"
+      ]
+    },
+    {
+      "title_fa": "خرابی و نشت خطوط انتقال آب غدیر خوزستان",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T11"
+      ],
+      "performer": "روزبه آقامجیدی — دانشگاه آزاد اسلامی واحد سپیدان",
+      "commissioner_or_funder": "کارفرما یا حامی اختصاصی احراز نشد",
+      "period": "2025",
+      "scope": "مرور خرابی و نشت و راهکارهای بهره‌برداری خطوط غدیر؛ قرارداد مطالعات سامانه را اثبات نمی‌کند.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "ثبت رسمی DataCite و متن نسخه بارگذاری‌شده نویسنده؛ صفحه اصلی ناشر با مانع دسترسی",
+      "source_keys": [
+        "A14"
+      ]
+    },
+    {
+      "title_fa": "اندرکنش درزه‌های پوشش سگمنتی تونل قمرود",
+      "subcategory": "مهندسی و طراحی",
+      "project_ids": [
+        "WT-T17"
+      ],
+      "performer": "محمدحسین احمدی؛ علی مرتضوی؛ سید مرتضی داورپناه؛ حمید زارعی — امیرکبیر و سهند",
+      "commissioner_or_funder": "حامی اختصاصی احراز نشد",
+      "period": "2016",
+      "scope": "تحلیل UDEC پوشش تونل با پارامترهای قمرود؛ طرح مرتبط در حوضه دز است.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه ناشر و PDF",
+      "source_keys": [
+        "A18"
+      ]
+    },
+    {
+      "title_fa": "تغییر زیستگاه ماهیان کوهرنگ بر اثر سازه انتقال بین‌حوضه‌ای",
+      "subcategory": "ریسک و محیط‌زیست",
+      "project_ids": [],
+      "performer": "Jaber Aazami و همکاران؛ هویت نویسندگان در Crossref",
+      "commissioner_or_funder": "حامی و وابستگی سازمانی از رکورد DOI احراز نشد",
+      "period": "ثبت DOI: 2026-10-13؛ شماره چاپی: 2026-12",
+      "scope": "مطالعه رودخانه کوهرنگ؛ چکیده شماره تونل را مشخص نمی‌کند، بنابراین به یک تونل خاص منتسب نشده است. متن کامل ناشر بازیابی نشد.",
+      "cooperation": "وابستگی‌های سازمانی در ثبت DOI درج نشده؛ همکاری خارجی احراز نشد",
+      "cooperation_type": "unconfirmed",
+      "evidence": "ثبت رسمی Crossref و چکیده نمایه‌شده؛ دسترسی محدود",
+      "source_keys": [
+        "A06"
+      ]
+    },
+    {
+      "title_fa": "پایداری انتقال آب دریا به صنایع ایران مرکزی؛ چکیده EGU",
+      "subcategory": "همکاری بین‌المللی",
+      "project_ids": [],
+      "performer": "علیرضا گوهری؛ مهشید قنبریان؛ غزل اخوان صراف — دانشگاه اولو و صنعتی اصفهان",
+      "commissioner_or_funder": "حامی اختصاصی احراز نشد",
+      "period": "2025",
+      "scope": "چکیده مقایسه آب، انرژی و کربن در نمونه‌های ایران مرکزی؛ زمینه‌ای و فاقد نتیجه اندازه‌گیری مختص اصفهان.",
+      "cooperation": "ایران–فنلاند؛ همکاری دانشگاهی",
+      "cooperation_type": "international",
+      "evidence": "چکیده رسمی کنفرانس و وابستگی‌های درج‌شده",
+      "source_keys": [
+        "A20"
+      ]
+    },
+    {
+      "title_fa": "تحلیل هیدرولوژیک کارون برای توسعه منابع آب؛ رساله GRIPS",
+      "subcategory": "همکاری بین‌المللی",
+      "project_ids": [],
+      "performer": "Shiro Hishinuma؛ GRIPS و ICHARM ژاپن",
+      "commissioner_or_funder": "Nippon Koei: حمایت مالی؛ شرکت توسعه منابع آب و نیروی ایران: داده و پشتیبانی کارشناسی",
+      "period": "2013",
+      "scope": "پژوهش زمینه‌ای هیدرولوژی کارون و محدودیت داده و اقلیم برای طرح‌های توسعه و انتقال؛ قرارداد طراحی انتقال خاص نیست.",
+      "cooperation": "ژاپن؛ حمایت داده‌ای و کارشناسی ایران",
+      "cooperation_type": "international",
+      "evidence": "جلد، چکیده، قدردانی رساله و صفحه رسمی اعطای مدرک",
+      "source_keys": [
+        "J02"
+      ]
+    },
+    {
+      "title_fa": "اثر سناریوی انتقال بهشت‌آباد بر آبخوان شلمزار",
+      "subcategory": "هیدرولوژی و آبخوان",
+      "project_ids": [
+        "WT-T06"
+      ],
+      "performer": "شاهین سلیم‌پور ناغانی؛ سید آرمان هاشمی منفرد؛ مهدی اژدری مقدم",
+      "commissioner_or_funder": "حامی یا کارفرمای اختصاصی احراز نشد",
+      "period": "2021",
+      "scope": "مدل‌سازی ۳۰ ساله WEAP با سناریوهای انتقال و توسعه حوضه؛ شرط‌های مدل در تفسیر نتیجه حفظ شود.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "صفحه ناشر و تطبیق عنوان فارسی با رکورد موجود S097",
+      "source_keys": [
+        "A00P"
+      ]
+    },
+    {
+      "title_fa": "مطالعات سامانه مشترک انتقال آب شرب و کشاورزی ایذه و باغملک",
+      "subcategory": "امکان‌سنجی",
+      "project_ids": [
+        "WT-T25"
+      ],
+      "performer": "واحد مطالعات سازمان آب و برق خوزستان؛ مشاور مشخص در متن نام برده نشده",
+      "commissioner_or_funder": "سازمان آب و برق خوزستان",
+      "period": "اعلام انجام مطالعات: 2017-01-17",
+      "scope": "مطالعات انتقال از سد کارون ۳ به محدوده ایذه و باغملک؛ ممکن است با مطالعات مهندسی ارزش هم‌پوشان باشد، شمار قرارداد مستقل محسوب نمی‌شود.",
+      "cooperation": "داخلی",
+      "cooperation_type": "domestic",
+      "evidence": "خبر رسمی سازمان؛ اصل گزارش مطالعه و قرارداد مشاهده نشده",
+      "source_keys": [
+        "N05"
+      ]
+    }
+  ],
+  "study_updates": [
+    {
+      "id": "WT-R11",
+      "patch": {
+        "commissioner_or_funder": "سازمان آب و برق خوزستان",
+        "period": "1394",
+        "project_ids": [
+          "WT-T22"
+        ],
+        "evidence": "صفحه مستقل رسمی مشاور با سال و کارفرما؛ متن قرارداد در دسترس نیست"
+      },
+      "source_keys": [
+        "C06"
+      ]
+    },
+    {
+      "id": "WT-R10",
+      "patch": {
+        "commissioner_or_funder": "سازمان آب و برق خوزستان",
+        "period": "1394",
+        "project_ids": [
+          "WT-T23"
+        ],
+        "evidence": "صفحه مستقل رسمی مشاور با سال و کارفرما؛ متن قرارداد در دسترس نیست"
+      },
+      "source_keys": [
+        "C07"
+      ]
+    }
+  ],
+  "new_projects": [
+    {
+      "id": "WT-T18",
+      "research_id": "T18",
+      "name_fa": "ماندگان",
+      "name_en": null,
+      "project_tag": "ماندگان",
+      "origin": "رودخانه ماربر؛ سرشاخه کارون در محدوده سمیرم / دنا",
+      "destination": "شرب اصفهان؛ مسیر مصوب نهایی این مرور احراز نشده",
+      "provinces": [
+        "اصفهان"
+      ],
+      "downstream_or_shared": [
+        "کهگیلویه و بویراحمد",
+        "خوزستان"
+      ],
+      "transfer_type": "انتقال بین‌حوضه‌ای",
+      "status_evidence": "رئیس سازمان محیط زیست در مصاحبه ۱۴۰۵ از تأیید نشدن گزارش ارائه‌شده خبر داده؛ اصل تصمیم اداری و وضعیت اجرای کنونی جداگانه احراز نشده.",
+      "status_as_of": "2026-06-07",
+      "source_keys": [
+        "N03"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T19",
+      "research_id": "T19",
+      "name_fa": "آبرسانی غرب اصفهان",
+      "name_en": null,
+      "project_tag": "آبرسانی غرب اصفهان",
+      "origin": "منبع و مسیر در صفحه مطالعه مشخص نشده",
+      "destination": "شهرها و روستاهای غرب اصفهان",
+      "provinces": [
+        "اصفهان"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "سامانه آبرسانی؛ بین‌حوضه‌ای بودن احراز نشده",
+      "status_evidence": "صفحه رسمی، انجام مطالعه مهندسی ارزش در ۱۳۹۹ را ثبت می‌کند؛ شاهد بهره‌برداری کنونی نیست.",
+      "status_as_of": "1399",
+      "source_keys": [
+        "C02"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T20",
+      "research_id": "T20",
+      "name_fa": "انتقال سیلاب کارون به کانون‌های ریزگرد",
+      "name_en": null,
+      "project_tag": "انتقال سیلاب کارون به کانون‌های ریزگرد",
+      "origin": "کارون؛ مسیرهای پمپاژ و کانال‌های خوزستان",
+      "destination": "کانون‌های ریزگرد و تالاب‌های خوزستان",
+      "provinces": [
+        "خوزستان"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "انتقال / هدایت سیلاب درون استان",
+      "status_evidence": "مطالعه مهندسی ارزش ۱۳۹۹ و گزارش تاریخی انتقال و بررسی گزینه‌ها موجود است؛ اجزای مختلف یک وضعیت اجرایی واحد ندارند.",
+      "status_as_of": "1399",
+      "source_keys": [
+        "C03",
+        "N06"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T21",
+      "research_id": "T21",
+      "name_fa": "آبرسانی شرب و صنعت باشت",
+      "name_en": null,
+      "project_tag": "آبرسانی شرب و صنعت باشت",
+      "origin": "در صفحه مطالعه معرفی نشده",
+      "destination": "باشت",
+      "provinces": [
+        "کهگیلویه و بویراحمد"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "آبرسانی؛ مبدأ و نوع بین‌حوضه‌ای احراز نشده",
+      "status_evidence": "صفحه مشاور اتمام مطالعه مهندسی ارزش سال ۱۳۹۸ را ثبت می‌کند؛ مشخصات اجرا و منبع آب در این شاهد نیست.",
+      "status_as_of": "1398",
+      "source_keys": [
+        "C04"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T22",
+      "research_id": "T22",
+      "name_fa": "آبرسانی شمال‌شرق خوزستان",
+      "name_en": null,
+      "project_tag": "آبرسانی شمال‌شرق خوزستان",
+      "origin": "منبع دقیق در صفحه مطالعه درج نشده",
+      "destination": "شهرهای شمال‌شرق خوزستان",
+      "provinces": [
+        "خوزستان"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "سامانه منطقه‌ای آبرسانی",
+      "status_evidence": "مطالعه مهندسی ارزش با کارفرمای سازمان آب و برق خوزستان در ۱۳۹۴ مستند است.",
+      "status_as_of": "1394",
+      "source_keys": [
+        "C06"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T23",
+      "research_id": "T23",
+      "name_fa": "آبرسانی جنوب‌شرق خوزستان",
+      "name_en": null,
+      "project_tag": "آبرسانی جنوب‌شرق خوزستان",
+      "origin": "منبع دقیق در صفحه مطالعه درج نشده",
+      "destination": "شهرهای جنوب‌شرق خوزستان",
+      "provinces": [
+        "خوزستان"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "سامانه منطقه‌ای آبرسانی",
+      "status_evidence": "مطالعه مهندسی ارزش با کارفرمای سازمان آب و برق خوزستان در ۱۳۹۴ مستند است.",
+      "status_as_of": "1394",
+      "source_keys": [
+        "C07"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T24",
+      "research_id": "T24",
+      "name_fa": "تأمین و انتقال آب دهدشت غربی",
+      "name_en": null,
+      "project_tag": "تأمین و انتقال آب دهدشت غربی",
+      "origin": "در صفحه مستقل مطالعه معرفی نشده",
+      "destination": "اراضی و شبکه آبیاری دهدشت غربی",
+      "provinces": [
+        "کهگیلویه و بویراحمد"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "انتقال و آبیاری؛ مبدأ نیازمند سند تکمیلی",
+      "status_evidence": "پیشنهاد تغییر به روش مهندسی ارزش سال ۱۳۹۰ ثبت شده است؛ اجرای امروز از آن نتیجه نمی‌شود.",
+      "status_as_of": "1390",
+      "source_keys": [
+        "C10"
+      ],
+      "annual_volume_mcm": null
+    },
+    {
+      "id": "WT-T25",
+      "research_id": "T25",
+      "name_fa": "انتقال آب به ایذه و باغملک",
+      "name_en": null,
+      "project_tag": "انتقال آب به ایذه و باغملک",
+      "origin": "سد کارون ۳؛ طبق گزارش سازمان آب و برق",
+      "destination": "ایذه و باغملک؛ شرب و کشاورزی",
+      "provinces": [
+        "خوزستان"
+      ],
+      "downstream_or_shared": [],
+      "transfer_type": "انتقال منطقه‌ای درون استان",
+      "status_evidence": "مهندسی ارزش ۱۳۹۰ و اعلام مطالعات مشترک در ۲۰۱۷ مستند است؛ تأیید نهایی مجوز و بهره‌برداری امروز جداگانه لازم است.",
+      "status_as_of": "2017-01-17",
+      "source_keys": [
+        "C11",
+        "N05"
+      ],
+      "annual_volume_mcm": null
+    }
+  ],
+  "decisions": [
+    {
+      "key": "A02",
+      "decision": "pending",
+      "reason": "رکورد پایان‌نامه احمدشهر؛ منبع اولیه تایم‌اوت و اطلاعات کافی برای ورود احراز نشد"
+    },
+    {
+      "key": "A03",
+      "decision": "pending",
+      "reason": "رتبه‌بندی فازی انتقال‌های کارون؛ صفحه ناشر 403، متن اولیه کافی بازیابی نشد"
+    },
+    {
+      "key": "A04",
+      "decision": "duplicate",
+      "source_id": "S099",
+      "reason": "همان مقاله ریسک بیزی؛ عنوان کامل در برابر عنوان کوتاه"
+    },
+    {
+      "key": "A05",
+      "decision": "duplicate",
+      "source_id": "S106",
+      "reason": "اختلاف جزئی عنوان و پیوند ResearchGate؛ همان مقاله کوهرنگ ۳"
+    },
+    {
+      "key": "A07",
+      "decision": "excluded",
+      "reason": "نیترات و کیفیت آب زاینده‌رود؛ ارزیابی مستقیم انتقال آب ندارد"
+    },
+    {
+      "key": "A08",
+      "decision": "excluded",
+      "reason": "پایش عمومی مسیر کارون؛ ارتباط مستقیم کافی با انتقال احراز نشد"
+    },
+    {
+      "key": "A09",
+      "decision": "excluded",
+      "reason": "Erratum مقاله موجود S994؛ پژوهش مستقل جدید نیست"
+    },
+    {
+      "key": "A15",
+      "decision": "excluded",
+      "reason": "مدل عمومی مدول سنگ؛ ارتباط مستقیم و مشخص کافی با سامانه هدف احراز نشد"
+    },
+    {
+      "key": "A16",
+      "decision": "excluded",
+      "reason": "پیش‌بینی کیفیت مارون؛ موضوع مستقیم انتقال نیست"
+    },
+    {
+      "key": "A17",
+      "decision": "excluded",
+      "reason": "دامپزشکی؛ واژه transfer ربطی به انتقال آب ندارد"
+    },
+    {
+      "key": "D01",
+      "decision": "duplicate",
+      "source_id": "S216",
+      "reason": "نامه ۱۷ پرسش ماندگان در بانک موجود است"
+    },
+    {
+      "key": "A19",
+      "decision": "alternate",
+      "replacement_key": "J02",
+      "reason": "مخزن قدیمی تایم‌اوت؛ همان رساله از PDF رسمی GRIPS دریافت شد"
+    },
+    {
+      "key": "C08",
+      "decision": "discovery_only",
+      "reason": "فهرست مادر مشاور؛ صفحات مستقل هر مطالعه به جای شمارش دوباره فهرست استفاده شدند"
+    },
+    {
+      "key": "C09",
+      "decision": "supporting_only",
+      "reason": "خبر کارگاه، مکمل همان مطالعه C01 است و مطالعه/منبع مستقل تازه شمرده نشد"
+    },
+    {
+      "key": "J04",
+      "decision": "pending",
+      "reason": "مقاله مشتق از رساله ژاپن؛ ناشر 403 و مطالعه مستقل از رساله احراز نشد"
+    },
+    {
+      "key": "X01",
+      "decision": "unavailable",
+      "reason": "Google پاسخ 200 با صفحه هدایت و بدون نتایج قابل خواندن داد؛ مرور مستقیم نتایج ادعا نمی‌شود"
+    }
+  ],
+  "limitations": [
+    "فهرست بر اساس منابع عمومی و قابل بازیابی است؛ قراردادهای غیرعمومی پوشش داده نمی‌شوند.",
+    "Google بدون نتیجه قابل خواندن بود؛ ابزار جست‌وجوی وب، OpenAlex و ثبت DOI استفاده شد.",
+    "Crossref در جست‌وجوی گسترده محدودیت 429 داشت؛ برای DOI منتخب به‌صورت مستقیم بررسی انجام شد.",
+    "شماره چاپی آینده با تاریخ ایجاد DOI یا دسترسی آنلاین یکسان نیست."
+  ]
+}

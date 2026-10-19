@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="fa">
+	<head>
+		<meta charset="utf-8" />
+		<title>مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)</title>
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/ico" href="./data/gdij/coversheet/favicon.ico" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- user defined metatags -->
+					<meta name="keywords" content="انتقـال بین‌حوضه‌ای آب,آب زیرزمینـی,حوضۀ بهشت‌آباد,آبخوان شلمزار,WEAP" />
+					<meta name="description" content="انتقال بین حوضه‌ای آب، انتقال آب از حوضه ای به حوضه ای دیگر است. حوضه ای که به آن آب منتقل می شود حوضه مقصد و حوضه ای که آب از آن منتقل می شود، حوضه مبدأ نامیده می شود. انتقال بین حوضه‌ای آب با وجود تأمین آب در حوضه مقصد، احتمالاً می‌تواند عامل تغییراتی در حوضه‌های مبدأ و مقصد باشد که باید مورد ارزیابی قرار گیرد. هدف از انجام این تحقیق پیش بینی اثرات احتمالی انتقال آب رودخانه بهشت آباد به فلات مرکزی ایران بر سطح و حجم یکی از آبخوان های منطقه مبدأ انتقال به نام شلمزار و نیز ارائه راهبردهای مختلف در طول مدت 30 سال پس از اجرای طرح می باشد. برای این منظور از نرم‌افزار WEAP استفاده شد. براساس نتایج حاصل از این تحقیق انتقال آب بین حوضه ای می تواند بر سطح و حجم آبخوان در منطقه مبدأ انتقال تأثیر منفی داشته و موجب افت سطح آب زیر زمینی گردد. در اثر انتقال آب و با در نظر گرفتن طرح های توسعه منابع آب در حوضه مبدأ، پس از گذشت 30 سال حجم آبخوان از 7/160 میلیون مترمکعب به حدود 30 میلیون مترمکعب کاهش می یابد. جهت جلوگیری از کاهش حجم آبخوان، حداکثر آب قابل انتقال از رودخانه به حوضه مقصد در شرایط آبی نرمال و خشکسالی به ترتیب 450 و 160 میلیون مترمکعب در سال برآورد شد. همچنین میزان حداکثر آب قابل انتقال با توجه به نیاز زیست محیطی رودخانه و در شرایط آبی نرمال، حدود 350 میلیون مترمکعب در سال برآورد گردید. نتایج مدل حاکی از آن است که میزان کاهش حجم آبخوان مطالعاتی در شرایط انتقال آب از حوضه و درصورت اجرای طرح های توسعه منابع آب در طول مدت 30 سال حدود 5 برابر خواهد بود." />
+					<meta name="title" content="مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" />
+					<meta name="googlebot" content="NOODP" />
+					<meta name="citation_title" content="مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" />
+					<meta name="citation_author" content="سلیم‌پور ناغانی, شاهین" />
+					<meta name="citation_author_institution" content="دانشجوی دکتری منابع آب، گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان" />
+					<meta name="citation_author" content="هاشمی منفرد, سید آرمان" />
+					<meta name="citation_author_institution" content="دانشیار گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان" />
+					<meta name="citation_author" content="اژدری مقدم, مهدی" />
+					<meta name="citation_author_institution" content="استاد گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان" />
+					<meta name="citation_abstract" content="انتقال بین حوضه‌ای آب، انتقال آب از حوضه ای به حوضه ای دیگر است. حوضه ای که به آن آب منتقل می شود حوضه مقصد و حوضه ای که آب از آن منتقل می شود، حوضه مبدأ نامیده می شود. انتقال بین حوضه‌ای آب با وجود تأمین آب در حوضه مقصد، احتمالاً می‌تواند عامل تغییراتی در حوضه‌های مبدأ و مقصد باشد که باید مورد ارزیابی قرار گیرد. هدف از انجام این تحقیق پیش بینی اثرات احتمالی انتقال آب رودخانه بهشت آباد به فلات مرکزی ایران بر سطح و حجم یکی از آبخوان های منطقه مبدأ انتقال به نام شلمزار و نیز ارائه راهبردهای مختلف در طول مدت 30 سال پس از اجرای طرح می باشد. برای این منظور از نرم‌افزار WEAP استفاده شد. براساس نتایج حاصل از این تحقیق انتقال آب بین حوضه ای می تواند بر سطح و حجم آبخوان در منطقه مبدأ انتقال تأثیر منفی داشته و موجب افت سطح آب زیر زمینی گردد. در اثر انتقال آب و با در نظر گرفتن طرح های توسعه منابع آب در حوضه مبدأ، پس از گذشت 30 سال حجم آبخوان از 7/160 میلیون مترمکعب به حدود 30 میلیون مترمکعب کاهش می یابد. جهت جلوگیری از کاهش حجم آبخوان، حداکثر آب قابل انتقال از رودخانه به حوضه مقصد در شرایط آبی نرمال و خشکسالی به ترتیب 450 و 160 میلیون مترمکعب در سال برآورد شد. همچنین میزان حداکثر آب قابل انتقال با توجه به نیاز زیست محیطی رودخانه و در شرایط آبی نرمال، حدود 350 میلیون مترمکعب در سال برآورد گردید. نتایج مدل حاکی از آن است که میزان کاهش حجم آبخوان مطالعاتی در شرایط انتقال آب از حوضه و درصورت اجرای طرح های توسعه منابع آب در طول مدت 30 سال حدود 5 برابر خواهد بود." />
+					<meta name="citation_id" content="6027" />
+					<meta name="citation_publication_date" content="2021/03/21" />
+					<meta name="citation_date" content="2021-03-21" />
+					<meta name="citation_journal_title" content="مجله جغرافیا و توسعه" />
+					<meta name="citation_issn" content="1735-0735" />
+					<meta name="citation_volume" content="19" />
+					<meta name="citation_issue" content="62" />
+					<meta name="citation_firstpage" content="183" />
+					<meta name="citation_lastpage" content="208" />
+					<meta name="citation_publisher" content="دانشگاه سیستان و بلوچستان" />
+					<meta name="citation_doi" content="10.22111/gdij.2021.6027" />
+					<meta name="DC.Identifier" content="10.22111/gdij.2021.6027" />
+					<meta name="citation_abstract_html_url" content="https://gdij.usb.ac.ir/article_6027.html" />
+					<meta name="citation_pdf_url" content="https://gdij.usb.ac.ir/article_6027_bfeb4b5df4f118f4e6c44d5b03aa7a47.pdf" />
+					<meta name="DC.Title" content="مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" />
+					<meta name="DC.Source" content="مجله جغرافیا و توسعه" />
+					<meta name="DC.Date" content="21/03/2021" />
+					<meta name="DC.Date.issued" content="2021-03-21" />
+					<meta name="DC.Format" content="application/pdf" />
+					<meta name="DC.Contributor" content="سلیم‌پور ناغانی, شاهین" />
+					<meta name="DC.Contributor" content="هاشمی منفرد, سید آرمان" />
+					<meta name="DC.Contributor" content="اژدری مقدم, مهدی" />
+					<meta name="og:title" content="مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" />
+					<meta name="og:description" content="انتقال بین حوضه‌ای آب، انتقال آب از حوضه ای به حوضه ای دیگر است. حوضه ای که به آن آب منتقل می شود حوضه مقصد و حوضه ای که آب از آن منتقل می شود، حوضه مبدأ نامیده می شود. انتقال بین حوضه‌ای آب با وجود تأمین آب در حوضه مقصد، احتمالاً می‌تواند عامل تغییراتی در حوضه‌های مبدأ و مقصد باشد که باید مورد ارزیابی قرار گیرد. هدف از انجام این تحقیق پیش بینی اثرات احتمالی انتقال آب رودخانه بهشت آباد به فلات مرکزی ایران بر سطح و حجم یکی از آبخوان های منطقه مبدأ انتقال به نام شلمزار و نیز ارائه راهبردهای مختلف در طول مدت 30 سال پس از اجرای طرح می باشد. برای این منظور از نرم‌افزار WEAP استفاده شد. براساس نتایج حاصل از این تحقیق انتقال آب بین حوضه ای می تواند بر سطح و حجم آبخوان در منطقه مبدأ انتقال تأثیر منفی داشته و موجب افت سطح آب زیر زمینی گردد. در اثر انتقال آب و با در نظر گرفتن طرح های توسعه منابع آب در حوضه مبدأ، پس از گذشت 30 سال حجم آبخوان از 7/160 میلیون مترمکعب به حدود 30 میلیون مترمکعب کاهش می یابد. جهت جلوگیری از کاهش حجم آبخوان، حداکثر آب قابل انتقال از رودخانه به حوضه مقصد در شرایط آبی نرمال و خشکسالی به ترتیب 450 و 160 میلیون مترمکعب در سال برآورد شد. همچنین میزان حداکثر آب قابل انتقال با توجه به نیاز زیست محیطی رودخانه و در شرایط آبی نرمال، حدود 350 میلیون مترمکعب در سال برآورد گردید. نتایج مدل حاکی از آن است که میزان کاهش حجم آبخوان مطالعاتی در شرایط انتقال آب از حوضه و درصورت اجرای طرح های توسعه منابع آب در طول مدت 30 سال حدود 5 برابر خواهد بود." />
+					<meta name="og:url" content="https://gdij.usb.ac.ir/article_6027.html" />
+		
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<!-- CORE CSS -->
+		<link href="./themes/base/front/assets/plugins/bootstrap/css/bootstrap.min.css?v=0.02" rel="stylesheet" type="text/css" />
+		<link href="./inc/css/ju_css.css" rel="stylesheet" type="text/css" />
+		<link href="./themes/old/front/assets/css/header.css?v=0.015" rel="stylesheet" type="text/css" />
+		<!-- RTL CSS -->
+		
+				<link href=" ./themes/old/front/assets/css/layout-RTL.css??v=0.005" rel="stylesheet" type="text/css" id="rtl_ltr" />
+		<link href=" ./themes/base/front/assets/css/RTL-font-Yekan.css" rel="stylesheet" type="text/css" id="rtl_font" />
+		
+
+		<!-- user defined metatags-->
+				<link href="./data/gdij/coversheet/stl_front.css?v=0.12" rel="stylesheet" type="text/css" />
+		
+		<!-- Feed-->
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="./ju.rss" />
+		<script type="text/javascript" src="./inc/js/app.js?v=0.1"></script>
+		
+
+		<!-- Extra Style Scripts -->
+		
+		<!-- Extra Script Scripts -->
+			</head>
+	<body class="rtl lfa">
+		<div class="container" id="header">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+								<img src="./data/gdij/coversheet/head_fa.jpg" class="img-responsive text-center" style="display:-webkit-inline-box; width: 100%;" >
+								</div>
+			</div>
+		</div>
+
+		<div class="container">
+		<div class="row">
+
+			<div class="col-xs-12 col-lg-12  col-md-12 text-center">
+			<nav class="navbar navbar-default noborder nomargin noradius" role="navigation">
+            <div class="container-fluid nopadding" >
+              <div class="navbar-header" style="background: #FFFFFF;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#">Brand</a> -->
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse nopadding" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+								<li><a href="././"> صفحه اصلی</a></li>
+							<li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">مرور <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+											<li><a href="./?_action=current">شماره جاری</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./browse?_action=issue">بر اساس شماره‌های نشریه</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./browse?_action=author">بر اساس نویسندگان</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./browse?_action=subject">بر اساس موضوعات</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./author.index">نمایه نویسندگان</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./keyword.index">نمایه کلیدواژه ها</a></li>
+					                    </ul>
+				</li>
+							<li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">اطلاعات نشریه <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+											<li><a href="./journal/about">درباره نشریه</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/aim_scope">اهداف و چشم انداز</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/editorial.board">اعضای هیات تحریریه</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/process">فرایند پذیرش مقالات</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/process?ethics">اصول اخلاقی انتشار مقاله</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/indexing">بانک ها و نمایه نامه ها</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./journal/links">پیوندهای مفید</a></li>
+					                    </ul>
+				</li>
+							<li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">ارسال مقاله <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+											<li><a href="./journal/authors.note">راهنمای نویسندگان</a></li>
+					<li class="divider margin-bottom-6 margin-top-6"></li>						<li><a href="./page_48.html">فرم های ضروری</a></li>
+					                    </ul>
+				</li>
+							<li><a href="./reviewer?_action=info"> داوران</a></li>
+							<li><a href="./journal/metrics"> اطلاعات آماری نشریه</a></li>
+							<li><a href="./journal/contact.us"> تماس با ما</a></li>
+						</ul>
+			<ul class="nav navbar-nav navbar-right nomargin">
+				                  <li class="dropdown">
+                    <a href="./contacts" class="dropdown-toggle" data-toggle="dropdown">ورود به سامانه <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="./contacts">ورود به سامانه</a></li>
+                      <li class="divider"></li>
+					  <li><a href="./contacts?_action=signup">ثبت نام</a></li>
+                    </ul>
+				  </li>
+									<li><a class="uppercase" onclick="location.assign('https://gdij.usb.ac.ir/article_6027.html?lang=en')" style="cursor: pointer;" >
+						English</a>
+					</li>
+								</ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </nav>
+			</div>
+		</div>
+	</div>
+	<!--  MAIN SECTION -->
+
+	<div class="container" >
+	<div id="dv_main_cnt">
+
+
+
+<section class="no-cover-box">
+
+        <div class="row">
+
+            <!-- CENTER -->
+            <div class="col-lg-9 col-md-9 col-sm-8" id="dv_artcl">
+
+                <!-- Current Issue -->
+                <div>
+                <h1 class="margin-bottom-20 size-18 rtl"><span class="article_title bold"> <a href="./article_6027_bfeb4b5df4f118f4e6c44d5b03aa7a47.pdf" target="_blank">مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)</a></span></h1>
+                    <div>
+                        
+                        
+                            <div class="margin-bottom-3">
+                                                            </div>
+
+                                                            <p class="margin-bottom-3">نوع مقاله : مقاله پژوهشی</p>
+                            
+                        
+                                                    <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>نویسندگان</strong></p>
+
+                            <ul class="list-inline list-inline-seprator margin-bottom-6 rtl">
+                                                                    <li class="padding-3">
+                                        <a href="./?_action=article&amp;au=108111&amp;_au=%D8%B4%D8%A7%D9%87%DB%8C%D9%86++%D8%B3%D9%84%DB%8C%D9%85%E2%80%8C%D9%BE%D9%88%D8%B1+%D9%86%D8%A7%D8%BA%D8%A7%D9%86%DB%8C">شاهین  سلیم‌پور ناغانی</a>
+
+                                        
+                                                                                    <sup><a href="#aff1" >1</a></sup>                                                                            </li>
+                                                                    <li class="padding-3">
+                                        <a href="./?_action=article&amp;au=31417&amp;_au=%D8%B3%DB%8C%D8%AF+%D8%A2%D8%B1%D9%85%D8%A7%D9%86++%D9%87%D8%A7%D8%B4%D9%85%DB%8C+%D9%85%D9%86%D9%81%D8%B1%D8%AF">سید آرمان  هاشمی منفرد</a>
+
+                                                                                    <sup><a href="mailto:hashemi@eng.usb.ac.ir" data-toggle="tooltip" data-placement="bottom" title="ارسال ایمیل به نویسنده اصلی"><i class="fa fa-envelope-o" ></i></a></sup>
+                                        
+                                                                                    <sup><a href="#aff2" >2</a></sup>                                                                            </li>
+                                                                    <li class="padding-3">
+                                        <a href="./?_action=article&amp;au=87326&amp;_au=%D9%85%D9%87%D8%AF%DB%8C++%D8%A7%DA%98%D8%AF%D8%B1%DB%8C+%D9%85%D9%82%D8%AF%D9%85">مهدی  اژدری مقدم</a>
+
+                                        
+                                                                                    <sup><a href="#aff3" >3</a></sup>                                                                            </li>
+                                                            </ul>
+
+                                                            <p class="margin-bottom-3 rtl" id="aff1">
+                                                                            <sup>1</sup>
+                                                                        دانشجوی دکتری منابع آب، گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان                                </p>
+                                                            <p class="margin-bottom-3 rtl" id="aff2">
+                                                                            <sup>2</sup>
+                                                                        دانشیار گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان                                </p>
+                                                            <p class="margin-bottom-3 rtl" id="aff3">
+                                                                            <sup>3</sup>
+                                                                        استاد گروه مهندسی عمران، دانشکدۀ مهندسی شهید نیکبخت، دانشگاه سیستان و بلوچستان                                </p>
+                            
+                                                                            <div class="margin-bottom-3 rtl" id="ar_doi" title="شناسه دیجیتال (DOI)"><i class="ai ai-doi size-25 text-orange"></i> <span dir="ltr"><a href="https://doi.org/10.22111/gdij.2021.6027">10.22111/gdij.2021.6027</a></span></div>
+                        
+                        
+                            <p  style="margin:12px -2px 0 -2px"><strong>چکیده</strong></p>
+                            <div class="padding_abstract justify rtl">انتقال بین حوضه‌ای آب، انتقال آب از حوضه ای به حوضه ای دیگر است. حوضه ای که به آن آب منتقل می شود حوضه مقصد و حوضه ای که آب از آن منتقل می شود، حوضه مبدأ نامیده می شود. انتقال بین حوضه‌ای آب با وجود تأمین آب در حوضه مقصد، احتمالاً می‌تواند عامل تغییراتی در حوضه‌های مبدأ و مقصد باشد که باید مورد ارزیابی قرار گیرد. هدف از انجام این تحقیق پیش بینی اثرات احتمالی انتقال آب رودخانه بهشت آباد به فلات مرکزی ایران بر سطح و حجم یکی از آبخوان های منطقه مبدأ انتقال به نام شلمزار و نیز ارائه راهبردهای مختلف در طول مدت 30 سال پس از اجرای طرح می باشد. برای این منظور از نرم‌افزار WEAP استفاده شد. براساس نتایج حاصل از این تحقیق انتقال آب بین حوضه ای می تواند بر سطح و حجم آبخوان در منطقه مبدأ انتقال تأثیر منفی داشته و موجب افت سطح آب زیر زمینی گردد. در اثر انتقال آب و با در نظر گرفتن طرح های توسعه منابع آب در حوضه مبدأ، پس از گذشت 30 سال حجم آبخوان از 7/160 میلیون مترمکعب به حدود 30 میلیون مترمکعب کاهش می یابد. جهت جلوگیری از کاهش حجم آبخوان، حداکثر آب قابل انتقال از رودخانه به حوضه مقصد در شرایط آبی نرمال و خشکسالی به ترتیب 450 و 160 میلیون مترمکعب در سال برآورد شد. همچنین میزان حداکثر آب قابل انتقال با توجه به نیاز زیست محیطی رودخانه و در شرایط آبی نرمال، حدود 350 میلیون مترمکعب در سال برآورد گردید. نتایج مدل حاکی از آن است که میزان کاهش حجم آبخوان مطالعاتی در شرایط انتقال آب از حوضه و درصورت اجرای طرح های توسعه منابع آب در طول مدت 30 سال حدود 5 برابر خواهد بود.</div>
+
+                        
+                        
+                        
+                                                    <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>کلیدواژه‌ها</strong></p>
+
+                            <ul class="block list-inline list-inline-seprator margin-bottom-6 rtl">
+                                                                    <li class="padding-3">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=24374&amp;_kw=%D8%A7%D9%86%D8%AA%D9%82%D9%80%D8%A7%D9%84+%D8%A8%DB%8C%D9%86%E2%80%8C%D8%AD%D9%88%D8%B6%D9%87%E2%80%8C%D8%A7%DB%8C+%D8%A2%D8%A8" >انتقـال بین‌حوضه‌ای آب</a>
+                                    </li>
+                                                                    <li class="padding-3">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=24375&amp;_kw=%D8%A2%D8%A8+%D8%B2%DB%8C%D8%B1%D8%B2%D9%85%DB%8C%D9%86%D9%80%DB%8C" >آب زیرزمینـی</a>
+                                    </li>
+                                                                    <li class="padding-3">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=24376&amp;_kw=%D8%AD%D9%88%D8%B6%DB%80+%D8%A8%D9%87%D8%B4%D8%AA%E2%80%8C%D8%A2%D8%A8%D8%A7%D8%AF" >حوضۀ بهشت‌آباد</a>
+                                    </li>
+                                                                    <li class="padding-3">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=24377&amp;_kw=%D8%A2%D8%A8%D8%AE%D9%88%D8%A7%D9%86+%D8%B4%D9%84%D9%85%D8%B2%D8%A7%D8%B1" >آبخوان شلمزار</a>
+                                    </li>
+                                                                    <li class="padding-3">
+                                        <a class="tag_a" href="./?_action=article&amp;kw=24378&amp;_kw=WEAP" >WEAP</a>
+                                    </li>
+                                                            </ul>
+                        
+                                            </div>
+
+                    <hr>
+
+                    	                    <div class="page_break"></div>
+                        <div>
+                                                            <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>عنوان مقاله</strong> [English]</p>
+                                <h3 class="ltr"> <span class="article_title size-16">Modeling the effects of inter-basin water transfer on the surface and volume of the aquifer of the origin catchment by using WEAP software (Case Study: Effect of Water transfer of Behesht Abad River on Surface and Volume of Shalamar Aquifer)</span> </h3>
+
+                            
+                                                            <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>نویسندگان</strong> [English]</p>
+
+                                <ul class="list-inline list-inline-seprator margin-bottom-6 ltr">
+                                                                            <li class="padding-3">
+                                            shahin salimpour
+                                                                                                                                                <sup>1</sup>
+                                                                                                                                    </li>
+                                                                            <li class="padding-3">
+                                            Seyed Arman Hashemi Monfared
+                                                                                                                                                <sup>2</sup>
+                                                                                                                                    </li>
+                                                                            <li class="padding-3">
+                                            Mehdi Azhdary Moghaddam
+                                                                                                                                                <sup>3</sup>
+                                                                                                                                    </li>
+                                                                    </ul>
+
+                                                                    <div class="ltr" class="margin-bottom-3" >
+                                                                                    <sup>1</sup>
+                                                                                                                     </div>
+                                                                    <div class="ltr" class="margin-bottom-3" >
+                                                                                    <sup>2</sup>
+                                                                                University of Sistan and Baluchestan                                    </div>
+                                                                    <div class="ltr" class="margin-bottom-3" >
+                                                                                    <sup>3</sup>
+                                                                                University of Sistan and Baluchestan                                    </div>
+                                                            
+
+                            
+                                <span class="article_title"><strong>چکیده</strong> [English]</span>
+                                <div class="abs_2 justify">
+                                <p style="direction:ltr">inter-basin water transfer is the transfer of water from one basin to another. The basin which water is transferred to that is called the destination basin and the basin which water is transferred from that is called the origin basin. Inter-basin water transfer despite the supply of water in the destination basin, could possibly be the cause of changes in the origin and destination basins that need to be evaluated. The purpose of this study is to predict the possible effects of Beheshtabad River water transfer to the central plateau of Iran on the surface and volume of one of the aquifers in the origin basin called Shalamzar and also to provide different strategies during 30 years. For this purpose, WEAP software was used. According to the results, inter-basin water transfer can have a negative impact on the surface and volume of aquifers in the origin basin and cause a decrease in groundwater level. in order to prevent the reduction of the volume of aquifer, the maximum water transfer in normal water conditions and drought was estimated at 450 and 160 MCM per year, respectively. Also, the maximum amount of transferable water according to the environmental needs in normal water conditions, was estimated about 350 MCM per year. The results of the model indicate that the rate of decrease in the volume of study aquifer in the conditions of water transfer and in case of implementation of water resources development projects during 30 years will be about 5 times.</p>
+                            </div>
+                            
+                                                            <p class="padding-0" style="margin:12px -2px 0 -2px"><strong>کلیدواژه‌ها</strong> [English]</p>
+
+                                <ul class="block list-inline list-inline-seprator margin-bottom-6 ltr">
+                                                                            <li class="padding-3">
+                                            Inter-basin water transfer                                        </li>
+                                                                            <li class="padding-3">
+                                            groundwater                                        </li>
+                                                                            <li class="padding-3">
+                                            Behesht Abad Basin                                        </li>
+                                                                            <li class="padding-3">
+                                            Shalamzar Aquifer                                        </li>
+                                                                            <li class="padding-3">
+                                            WEAP                                        </li>
+                                                                    </ul>
+                                                    </div>
+                    
+                    
+                    
+                                                                                    
+
+                                        	<div class="page_break"></div>
+            			<div class="panel">
+                            <div class="panel-heading card-header">
+                                <h4 class="panel-title ">
+                                    <a  data-toggle="collapse" data-parent="#accordions" href="#collapsesRef"><i class="fa fa-plus"></i> مراجع</a>
+                                </h4>
+                            </div>
+                            <div id="collapsesRef" class="panel-collapse collapse">
+                                <div class="panel-body justify">
+                                                                        <div class="padding-3 margin-top-3 ltr justify"><strong>&nbsp;</strong>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Abrishamchi, A., &amp; Tajrishi, M. (2005). Interbasin water transfer in Iran. Paper presented at the Water conservation, reuse, and recycling: proceeding of an Iranian American workshop.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=Erohqf3RuzkC&amp;oi=fnd&amp;pg=PA252&amp;ots=SLDLMEScaS&amp;sig=E_xti5XP-TVj-STtcsMRQ9zPgvA%23v=onepage&amp;q&amp;f=false">https://books.google.com/books?hl=en&amp;lr=&amp;id=Erohqf3RuzkC&amp;oi=fnd&amp;pg=PA252&amp;ots=SLDLMEScaS&amp;sig=E_xti5XP-TVj-STtcsMRQ9zPgvA#v=onepage&amp;q&amp;f=false</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Allen, R. G., Pereira, L. S., Raes, D., &amp; Smith, M. (1998). Crop evapotranspiration-Guidelines for computing crop water requirements-FAO Irrigation and drainage paper 56. Fao, Rome, 300(9), D05109.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="http://www.fao.org/3/X0490E/X0490E00.htm%20%20">http://www.fao.org/3/X0490E/X0490E00.htm </a>&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ballestero, E. (2004). Inter-Basin Water Transfer Public Agreements: A Decision Approach to Quantity &amp;Price. Water resources management, 18(1),75-88.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1023/B:WARM.0000015390.39862.b9">https://doi.org/10.1023/B:WARM.0000015390.39862.b9</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bonacci, O., &amp; Andrić, I. (2010). Impact of an inter‐basin water transfer and reservoir operation on a karst open streamflow hydrological regime: an example from the Dinaric karst (Croatia). Hydrological processes, 24(26), 3852-3863.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://onlinelibrary.wiley.com/doi/10.1002/hyp.7817">https://onlinelibrary.wiley.com/doi/10.1002/hyp.7817</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Davies, B. R., Thoms, M., &amp; Meador, M. (1992). An assessment of the ecological impacts of inter-basin water transfers, and their threats to river basin integrity and conservation. Aquatic Conservation: Marine and Freshwater Ecosystems, 2(4), 325-349.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/aqc.3270020404">https://onlinelibrary.wiley.com/doi/abs/10.1002/aqc.3270020404</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; De Carvalho, R. C., &amp; Magrini, A. (2006). Conflicts over water resource management in Brazil: a case study of inter-basin transfers. Water resources management, 20(2), 193-213. <a href="https://doi.org/10.1007/s11269-006-7377-3%20">https://doi.org/10.1007/s11269-006-7377-3</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feng, S., Li, L. X., Duan, Z. G., &amp; Zhang, J. L. (2007). Assessing the impacts of South-to-North Water Transfer Project with decision support systems. Decision Support Systems, 42(4), 1989-2003. <a href="doi:https://doi.org/10.1016/j.dss.2004.11.004">doi:https://doi.org/10.1016/j.dss.2004.11.004</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gupta, J., &amp; van der Zaag, P. (2008). Interbasin water transfers and integrated water resources management: Where engineering, science and politics interlock. Physics and Chemistry of the Earth, Parts A/B/C, 33(1-2), 28-40.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="http://www.sciencedirect.com/science/article/pii/S1474706507000666">http://www.sciencedirect.com/science/article/pii/S1474706507000666</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Karamouz, M., Mojahedi, S. A., &amp; Ahmadi, A. (2010). Interbasin Water Transfer: Economic Water Quality-Based Model. Journal of Irrigation&amp;Drainage Engineering, 136(2), 90-98.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0000140">https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0000140</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Madani, K. (2014). Water management in Iran: what is causing the looming crisis? Journal of Environmental Studies&amp;Sciences, 4(4), 315-328.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1007/s13412-014-0182-z">https://doi.org/10.1007/s13412-014-0182-z</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mehta, V. K., Aslam, O., Dale, L., Miller, N., &amp; Purkey, D. R. (2013). Scenario-based water resources planning for utilities in the Lake Victoria region. Physics and Chemistry of the Earth, Parts A/B/C, 61, 22-31.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1016/j.pce.2013.02.007">https://doi.org/10.1016/j.pce.2013.02.007</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rogers, S., Chen, D., Jiang, H., Rutherfurd, I., Wang, M., Webber, M., . . . Zhang, W. (2020). An integrated assessment of China's South&mdash;North Water Transfer Project. Geographical Research, 58(1), 49-63.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-5871.12361">https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-5871.12361</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shao, X., Wang, H., &amp; Wang, Z. (2003). Interbasin transfer projects and their implications: A China case study. International Journal of River Basin Management, 1(1), 5-14. <a href="https://doi.org/10.1080/15715124.2003.9635187">https://doi.org/10.1080/15715124.2003.9635187</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sieber, J., &amp; Purkey, D. (2007). Water evaluation and planning system user guide for weap21. Stockholm Environment Institute, US Center.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="http://www.weap21.org/">http://www.weap21.org/</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wei, S., Yang, H., Abbaspour, K., Mousavi, J., &amp; Gnauck, A. (2010). Game theory based models to analyze water conflicts in the Middle Route of the South-to-North Water Transfer Project in China. Water Research, 44(8), 2499-2516. doi:<a href="https://doi.org/10.1016/j.watres.2010.01.021">https://doi.org/10.1016/j.watres.2010.01.021</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Xu, W., &amp; Chen, C. (2020). Optimization of Operation Strategies for an Interbasin Water Diversion System Using an Aggregation Model and Improved NSGA-II Algorithm. Journal of Irrigation and Drainage Engineering, 146(5), 04020006.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0001462">https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0001462</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yang, H., &amp; Zehnder, A. J. B. (2005). The South-North Water Transfer Project in China. Water International, 30(3), 339-349.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1080/02508060508691874">https://doi.org/10.1080/02508060508691874</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yates, D., Sieber, J., Purkey, D., &amp; Huber-Lee, A. (2005). WEAP21&mdash;A Demand-, Priority-, and Preference-Driven Water Planning Model. Water International, 30(4), 487-500.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1080/02508060508691893">https://doi.org/10.1080/02508060508691893</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yevjevich, V. (2001). Water Diversions and Interbasin Transfers. Water International, 26(3), 342-348.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://doi.org/10.1080/02508060108686926">https://doi.org/10.1080/02508060108686926</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;شرکت مدیریت منابع آب ایران، مطالعات بهمگام‌سازی تلفیق مطالعات منابع آب حوضۀ آبریز کارون بزرگ (1390). بیلان آب محدودۀ مطالعاتی شلمزار، جلد 3.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; مرکز تحقیقات منابع آب استان چهارمحال و بختیاری وابسته به دانشگاه شهرکرد، 1390.
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify"><a href="https://sku.ac.ir/Page/54/">https://sku.ac.ir/Page/54/</a>
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; وزارت نیرو، مطالعات مرحلۀ اول طرح انتقال آب به فلات مرکزی ایران (1387). جلد 36 (گزارش‌‌های تونل انتقال آب).
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;
+</div>                                                                                                                <div class="padding-3 margin-top-3 ltr justify">&nbsp;</div>                                                                                        				</div>
+                			</div>
+                		</div>                        
+
+                    
+
+                    
+
+                    
+                </div>
+
+
+            </div>
+            <!-- /CENTER -->
+
+            <!-- LEFT -->
+            <div class="col-lg-3 col-md-3 col-sm-4">
+
+                        <div class="panel panel-default my_panel-default  margin-bottom-10">
+            <div class="panel-body ar_info_pnl" id="ar_info_pnl_cover">
+
+            <div id="pnl_cover">
+                <div class="row" >
+                    <div class="col-xs-6 col-md-6 nomargin-bottom">
+                		<a href="javascript:loadModal('مجله جغرافیا و توسعه', './data/gdij/coversheet/821614068972.jpg')">
+                			<img src="data/gdij/coversheet/821614068972.jpg" alt="مجله جغرافیا و توسعه" style="width: 100%;">
+                		</a>
+                    </div>
+                    <div class="col-xs-6 col-md-6 nomargin-bottom">
+                        <h6><a href="./issue_795_796.html">دوره 19، شماره 62 - شماره پیاپی 62</a><br/>فروردین 1400<div id="sp_ar_pages">صفحه <span dir="ltr">183-208</span></div></h6>
+                    </div>
+                                    </div>
+                </div>
+
+             </div>
+            </div>
+                            <!-- Download Files -->
+            
+                <div class="panel panel-default my_panel-default  margin-bottom-10 panel-lists">
+                    <div class="panel-heading">
+                    	<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ar_info_pnl_fl"><i class="fa fa-files-o"></i> فایل ها</a></h3>
+                    </div>
+                    <div id="ar_info_pnl_fl" class="panel-collapse collapse in">
+	                <div class="panel-body ar_info_pnl padding-6">
+                		<ul class="list-group list-group-bordered list-group-noicon nomargin">
+                			                				<li class="list-group-item"><a href="./?_action=xml&amp;article=6027" target="_blank" class="tag_a pdf_link"><i class="fa fa-file-code-o text-orange" ></i> XML</a></li>
+               				                 				<li class="list-group-item"><a href="./article_6027_bfeb4b5df4f118f4e6c44d5b03aa7a47.pdf" target="_blank" class="tag_a pdf_link"><i class="fa fa-file-pdf-o text-red" ></i> اصل مقاله <span dir="ltr" class="badge badge-light">1.49 M</span></a></li>
+               				 
+                    <!-- Suplement Files -->
+               		            			</ul>
+    				</div>
+				</div>
+				</div>
+                                                
+                                <div class="panel panel-default my_panel-default  margin-bottom-10 panel-lists">
+                    <div class="panel-heading">
+                    	<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ar_info_pnl_dt"><i class="fa fa-history" aria-hidden="true"></i> سابقه مقاله</a></h3>
+                    </div>
+                    <div id="ar_info_pnl_dt" class="panel-collapse collapse">
+    	                <div class="panel-body ar_info_pnl padding-6">
+                    		<ul class="list-group list-group-bordered list-group-noicon nomargin">
+                                                                    <li class="list-group-item"><i class="fa fa-calendar-check-o" aria-hidden="true"></i><strong>تاریخ دریافت:</strong> 12 اسفند 1399</li>
+                                                                    <li class="list-group-item"><i class="fa fa-calendar-check-o" aria-hidden="true"></i><strong>تاریخ پذیرش:</strong> 12 اسفند 1399</li>
+                                                			</ul>
+        				</div>
+					</div>
+				</div>  
+								           		   
+                <div class="panel panel-default my_panel-default  margin-bottom-10">
+                    <div class="panel-heading">
+                    	<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ar_info_pnl_share"><i class="fa fa-share-square-o" aria-hidden="true"></i> هم رسانی</a></h3>
+                    </div>
+                    <div id="ar_info_pnl_share" class="panel-collapse collapse">
+    	                <div class="panel-body ar_info_pnl padding-10 text-center">
+    			    	    						<a id="share_facebook" href="https://www.facebook.com/sharer.php?u=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+    							<i class="icon-facebook"></i>
+    							<i class="icon-facebook"></i>
+    						</a>
+    						<a id="share_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+    							<i class="icon-linkedin"></i>
+    							<i class="icon-linkedin"></i>
+    						</a>
+    						<a id="share_mendeley" href="https://www.mendeley.com/import/?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-youtube" data-toggle="tooltip" data-placement="top" title="Mendeley">
+    							<i class="icon-mendeley"></i>
+    							<i class="icon-mendeley"></i>
+    						</a>
+    						<a id="share_refworks" href="https://www.refworks.com/express/ExpressImport.asp?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-disqus" data-toggle="tooltip" data-placement="top" title="Refworks">
+    							<i class="icon-refworks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i>
+    							<i class="icon-refworks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i>
+    						</a>
+							<a id="share_instagram" href="https://www.instagram.com/?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-instagram" data-toggle="tooltip" data-placement="top" title="Instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+    						<a id="share_twitter" href="https://twitter.com/share?url=https://gdij.usb.ac.ir/article_6027.html&amp;text=مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" target="_blank" class="social-icon social-icon-sm  social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+    							<i class="icon-twitter"></i>
+    							<i class="icon-twitter"></i>
+    						</a>
+    						<a id="share_email" href="javascript:act('email')" class="social-icon social-icon-sm  social-email3 " data-toggle="tooltip" data-placement="top" title="Email">
+    							<i class="icon-email3"></i>
+    							<i class="icon-email3"></i>
+    						</a>
+    						<a id="share_print" href="javascript:printDiv('dv_artcl')" class="social-icon social-icon-sm  social-print" data-toggle="tooltip" data-placement="top" title="Print">
+    							<i class="icon-print"></i>
+    							<i class="icon-print"></i>
+    						</a>
+     						<a id="share_stumble" href="https://mix.com/mixit?su=submit&url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-stumbleupon" data-toggle="tooltip" data-placement="top" title="StumbleUpon">
+    							<i class="icon-stumbleupon"></i>
+    							<i class="icon-stumbleupon"></i>
+    						</a>
+    						<a id="share_acedemia" href="https://www.academia.edu/" target="_blank" class="social-icon social-icon-sm  social-academia" data-toggle="tooltip" data-placement="top" title="Academia">
+    							<i class="ai ai-academia"></i>
+    							<i class="ai ai-academia"></i>
+    						</a>
+    						<a id="share_sems" href="https://www.semanticscholar.org/" target="_blank" class="social-icon social-icon-sm  social-forrst" data-toggle="tooltip" data-placement="top" title="Semantic scholar">
+    							<i class="ai ai-semantic-scholar"></i>
+    							<i class="ai ai-semantic-scholar"></i>
+    						</a>
+    						<a id="share_reddit" href="https://www.reddit.com/submit?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-dwolla" data-toggle="tooltip" data-placement="top" title="Reddit">
+    							<i class="icon-reddit"></i>
+    							<i class="icon-reddit"></i>
+    						</a>
+    						<a id="share_rg" href="https://www.researchgate.net/" target="_blank" class="social-icon social-icon-sm  social-researchgate" data-toggle="tooltip" data-placement="top" title="Research Gate">
+    							<i class="ai ai-researchgate"></i>
+    							<i class="ai ai-researchgate"></i>
+    						</a>
+     						<a id="share_blogger" href="https://www.blogger.com/blog-this.g?u=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-blogger" data-toggle="tooltip" data-placement="top" title="Blogger">
+    							<i class="icon-blogger"></i>
+    							<i class="icon-blogger"></i>
+    						</a>
+    						<a id="share_pinterest" href="https://pinterest.com/pin/create/bookmarklet/?media=&url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest">
+    							<i class="icon-pinterest"></i>
+    							<i class="icon-pinterest"></i>
+    						</a>
+    						<a id="share_digg" href="https://www.digg.com/submit?https://gdij.usb.ac.ir/article_6027.html&title=مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)" target="_blank" class="social-icon social-icon-sm  social-digg" data-toggle="tooltip" data-placement="top" title="Digg">
+    							<i class="icon-digg"></i>
+    							<i class="icon-digg"></i>
+    						</a>
+    						<a id="share_delicious" href="https://del.icio.us/post?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-delicious" data-toggle="tooltip" data-placement="top" title="Delicious">
+    							<i class="icon-delicious"></i>
+    							<i class="icon-delicious"></i>
+    						</a>
+    						<a id="share_skype" href="https://web.skype.com/share?url=https://gdij.usb.ac.ir/article_6027.html" target="_blank" class="social-icon social-icon-sm  social-skype" data-toggle="tooltip" data-placement="top" title="Skype">
+    							<i class="icon-skype"></i>
+    							<i class="icon-skype"></i>
+    						</a>
+    	                
+    					</div>
+					</div>
+				</div>	
+                <!-- Cite This Article -->
+                <div class="panel panel-default my_panel-default  margin-bottom-10 panel-lists">
+                    <div class="panel-heading">
+                    	<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ar_info_pnl_cite"><i class=" fa fa-external-link"></i> ارجاع به این مقاله</a></h3>
+                    </div>
+                    <div id="ar_info_pnl_cite" class="panel-collapse collapse ">
+	                <div class="panel-body ar_info_pnl">
+                        <ul class="list-group list-group-bordered list-group-noicon" style="display:block !important;max-height:9999px">
+                        <li class="list-group-item ltr"><a class="tag_a"  href="./?_action=export&rf=ris&rc=6027">RIS</a></li>
+                        <li class="list-group-item ltr"><a class="tag_a"  href="./?_action=export&rf=enw&rc=6027">EndNote</a></li>
+                        <li class="list-group-item ltr"><a class="tag_a"  href="./?_action=export&rf=ris&rc=6027">Mendeley</a></li>
+                        <li class="list-group-item ltr"><a class="tag_a"  href="./?_action=export&rf=bibtex&rc=6027">BibTeX</a></li>
+                                                	<li class="list-group-item ltr"><a  class="tag_a" href="javascript:void(0)" data-toggle="modal" data-target="#cite-apa">APA</a></li>
+                                                	<li class="list-group-item ltr"><a  class="tag_a" href="javascript:void(0)" data-toggle="modal" data-target="#cite-mla">MLA</a></li>
+                                                	<li class="list-group-item ltr"><a  class="tag_a" href="javascript:void(0)" data-toggle="modal" data-target="#cite-harvard">HARVARD</a></li>
+                                                	<li class="list-group-item ltr"><a  class="tag_a" href="javascript:void(0)" data-toggle="modal" data-target="#cite-chicago">CHICAGO</a></li>
+                                                	<li class="list-group-item ltr"><a  class="tag_a" href="javascript:void(0)" data-toggle="modal" data-target="#cite-vancouver">VANCOUVER</a></li>
+                                                </ul>
+					</div>
+					</div>
+                </div>
+
+                <!-- Article Statastic -->
+                                <div class="panel panel-default my_panel-default  panel-lists">
+                    <div class="panel-heading">
+                    	<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#ar_info_pnl_st"><i class="fa fa-bar-chart" aria-hidden="true"></i> آمار</a></h3>
+                    </div>
+                    <div id="ar_info_pnl_st" class="panel-collapse collapse in">
+    	                <div class="panel-body ar_info_pnl">
+                        <ul class="list-group list-group-bordered list-group-noicon" style="display:block !important;max-height:9999px">
+                                                            <li class="list-group-item"><a class="tag_a">تعداد مشاهده مقاله: <i>1,366</i></a></li>
+                                                            <li class="list-group-item"><a class="tag_a">تعداد دریافت فایل اصل مقاله: <i>1,089</i></a></li>
+                                                    </ul>
+                    </div>
+                </div>    
+                </div>
+
+                
+
+            </div>
+            <!-- /LEFT -->
+
+        </div>
+
+</section>
+
+<div id="cite-apa" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">APA</h4>
+			</div>
+
+			<!-- Modal Body -->
+			<div class="modal-body">
+				<p> سلیم‌پور ناغانی, شاهین  , هاشمی منفرد, سید آرمان   و اژدری مقدم, مهدی . (1400). مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار). <em>مجله جغرافیا و توسعه</em>, <em>19</em>(62), 183-208. doi: 10.22111/gdij.2021.6027</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-mla" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">MLA</h4>
+			</div>
+
+			<!-- Modal Body -->
+			<div class="modal-body">
+				<p> سلیم‌پور ناغانی, شاهین , , هاشمی منفرد, سید آرمان ,  و اژدری مقدم, مهدی . "مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)", <em>مجله جغرافیا و توسعه</em>, 19, 62, 1400, 183-208. doi: 10.22111/gdij.2021.6027</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-harvard" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">HARVARD</h4>
+			</div>
+
+			<!-- Modal Body -->
+			<div class="modal-body">
+				<p>سلیم‌پور ناغانی, شاهین, هاشمی منفرد, سید آرمان, اژدری مقدم, مهدی. (1400). 'مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)', <em>مجله جغرافیا و توسعه</em>, 19(62), pp. 183-208. doi: 10.22111/gdij.2021.6027</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-chicago" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">CHICAGO</h4>
+			</div>
+
+			<!-- Modal Body -->
+			<div class="modal-body">
+				<p> شاهین سلیم‌پور ناغانی , سید آرمان هاشمی منفرد  و مهدی اژدری مقدم, "مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار)," مجله جغرافیا و توسعه, 19 62 (1400): 183-208,  doi: 10.22111/gdij.2021.6027</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="cite-vancouver" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">VANCOUVER</h4>
+			</div>
+
+			<!-- Modal Body -->
+			<div class="modal-body">
+				<p>سلیم‌پور ناغانی, شاهین, هاشمی منفرد, سید آرمان, اژدری مقدم, مهدی. مدل‌سازی اثرات انتقال آب بین‌حوضه‌ای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرم‌افزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشت‌آباد بر سطح و حجم آبخوان شلمزار). <em>مجله جغرافیا و توسعه</em>, 1400; 19(62): 183-208. doi: 10.22111/gdij.2021.6027</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</div>
+		</div>
+        <!-- /MAIN CONTENT -->
+
+			<!-- Subscribe -->
+			<section class="alternate padding-xxs">
+
+			</section>
+			<!-- /Subscribe -->
+
+
+
+			<!-- FOOTER -->
+			<div class="container">
+			<footer id="footer">
+			<div class="scrollup" id="scroll" href="#"><span></span></div>
+				
+
+					<div class="row">
+
+						<div class="col-md-2">
+
+							<!-- Links -->
+							<h4 class="">دسترسی سریع</h4>
+							<ul class="footer-links list-unstyled">
+                                <li id="fli_home"><a href="./">صفحه اصلی</a></li>
+                                <li id="fli_about"><a href="./journal/about">درباره نشریه</a></li>
+                                <li id="fli_Edb"><a href="./journal/editorial.board">اعضای هیات تحریریه</a></li>
+                                <li id="fli_submit"><a href="./author">ارسال مقاله</a></li>
+                                                                <li id="fli_contactus"><a href="./journal/contact.us">تماس با ما</a></li>
+                                <li id="fli_sitemap"><a href="./sitemap.xml?usr">نقشه سایت</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Latest News -->
+							<h4 class="">آخرین اخبار</h4>
+							<ul class="footer-posts list-unstyled">
+																	<li>
+									<a href="./news?newsCode=27">راهنمای تهیه چکیده گسترده</a>
+									<small class="ltr">1397-04-09</small>
+								</li>
+																	<li>
+									<a href="./news?newsCode=7">پذیرش مقاله جدید</a>
+									<small class="ltr">1394-01-01</small>
+								</li>
+															</ul>
+							<!-- /Latest News -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Footer Note -->
+							<div><div>
+<div><span style="font-family: 'b zar', zar;">&nbsp;<a href="https://creativecommons.org/licenses/by-nc/4.0/"><img style="display: block; margin-left: auto; margin-right: auto;" src="data/gdij/news/cc-by-nc.png" alt="" width="157" height="55" /></a></span></div>
+<div style="text-align: center;"><span style="font-family: 'b zar', zar;">نشریه تابع قوانین کرییتیو کامنز بوده و حق&zwnj;مؤلف مقالات از آن نویسندگان است.</span></div>
+</div></div>
+							<!-- /Footer Note -->
+
+						</div>
+
+
+
+
+
+						<div class="col-md-4">
+
+							<!-- Newsletter Form -->
+							<h4 class="">اشتراک خبرنامه</h4>
+							<p>برای دریافت اخبار و اطلاعیه های مهم نشریه در خبرنامه نشریه مشترک شوید.</p>
+
+							<form class="validate" action="" method="post" data-success="پست الکترونیکی شما با موفقیت ثبت شد." data-toastr-position="bottom-right">
+																<input type="hidden" name="_token" value="e29d5ed0b52b62dc12e7869c157397311d22063c309ce8e5"/>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" required="required" class="form-control required sbs_email" placeholder="پست الکترونیکی را وارد کنید" oninvalid="this.setCustomValidity('پست الکترونیکی را به درستی وارد کنید.')" oninput="this.setCustomValidity('')">
+									<span class="input-group-btn">
+										<button class="btn btn-primary mybtn" type="submit">اشتراک</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							<!-- Social Icons -->
+							<div class="margin-top-20">
+																<a class="noborder" href="" target="_blank" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Facebook">
+									<i class="fa fa-facebook-square" aria-hidden="true"></i>									
+									</a>
+																		<a class="noborder" href="" target="_blank" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="fa fa-twitter-square" aria-hidden="true"></i>									
+									</a>
+																		<a class="noborder" href="" target="_blank" class="social-icon social-icon-border social-facebook pull-left block"  data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>									
+									</a>
+																	<a class="noborder" href="./ju.rss" class="social-icon social-icon-border social-rss pull-left block" data-toggle="tooltip" data-placement="top" title="Rss"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+							</div>
+						</div>
+
+					</div>
+
+				<div class="copyright" style="position: relative">
+
+						<ul class="nomargin list-inline mobile-block">
+							<li>&copy; سامانه مدیریت نشریات علمی. <span id='sp_crt'>طراحی و پیاده سازی از <a target='_blank' href='https://www.sinaweb.net/'>سیناوب</a></span></li>
+						</ul>
+
+				</div>
+			</footer>
+							</div>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop_old"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<!-- user defined scripts-->
+		
+		<!-- Extra Script Scripts -->
+		
+<script type="text/javascript">
+    $('ul.nav li.dropdown').hover(function() {
+    	if (window.matchMedia('(max-width: 767px)').matches) return;
+    	$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function() {
+    	if (window.matchMedia('(max-width: 767px)').matches) return;
+    	$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+    
+    var btn = $('#toTop_old');
+    
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+    
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+    
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#222"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+    	    "message": "این وب سایت از کوکی ها برای اطمینان از ارائه بهترین خدمات استفاده می کند.",
+    	    "dismiss": "متوجه شدم",
+    	    "link": ""
+    	  }	
+    });
+</script>
+
+
+	</body>
+</html><div id="actn_modal" class="modal fade" tabindex="-1">
+	<div id="" class="modal-dialog modal-dialog madal-aw">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true" href="#lost">&times;</button>
+				<h5 class="modal-title"></h5>
+			</div>
+			<div class="modal-body"></div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+</div>
+

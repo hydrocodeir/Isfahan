@@ -1,0 +1,796 @@
+DNIPRO UNIVERSITY
+of TECHNOLOGY
+1899
+ 
+ 
+MMD
+JOURNAL / MINING.IN.UA
+ 
+Mining of Mineral Deposits 
+Volume 15 (2021), Issue 4, 68-74 
+ 
+ 
+   
+________________________________ 
+Received: 9 June 2021. Accepted: 21 October 2021. Available online: 24 December 2021 
+© 2021. A. Afradi, A. Ebrahimabadi, T. Hallajian 
+Published by the Dnipro University of Technology on behalf of Mining of Mineral Deposits. ISSN 2415-3443 (Online) | ISSN 2415-3435 (Print) 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), 
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. 
+68 
+UDC 622.232.83                 https://doi.org/10.33271/mining15.04.068 
+Prediction of the number of consumed disc cutters of tunnel boring machine  
+using intelligent methods  
+Alireza Afradi1
+  
+, Arash Ebrahimabadi2*
+  
+, Tahereh Hallajian1
+  
+ 
+1Department of Mining and Geology, Qaemshahr Branch, Islamic Azad University, Qaemshahr, 4765161964, Iran 
+2Department of Petroleum, Mining and Material Engineering, Central Tehran Branch, Islamic Azad University, Tehran, 13117773591, Iran 
+*Corresponding author: e-mail A.Ebrahimabadi@iauctb.ac.ir, tel. +982144600200 
+Abstract 
+Purpose. Disc cutters are the main cutting tools  for the Tunnel Boring Machines (TBMs). Prediction of the number of con-
+sumed disc cutters of TBMs is one of the most significant factors in the tunneling projects. Choosing the right mo del for 
+predicting the number of  consumed disc cutters in mechanized tu nneling projects has been the most important mechanized 
+tunneling topics in recent years. 
+Methods. In this research, the p rediction of the number of consumed disc cutters considering ma chine and ground condi-
+tions such as Power (KW), Revolutions per minute (RPM) (Cycle/Min), Thrust per Cutter (KN), Geological Strength Index 
+(GSI) in the Sabzkooh water conveyance tunnel has bee n conducted by multiple linear regression analysis and multiple  
+nonlinear regression, Gene Expression Programming (GEP) method and Support Vector Machine (SVM) approaches. 
+Findings. Results showed that the number of consumed disc cutters for linear regression method is R2 = 0.95 and 
+RMSE = 0.83, nonlinear regression method is – R2 = 0.95 and RMSE = 0.84, Gene Expression Programming (GEP) method 
+is – R2 = 0.94 and RMSE = 0.95, Support Vector Machine (SVM) method is – R2 = 0.98 and RMSE = 0.45. 
+Originality. During the analyses, in order to evaluate the accuracy an d efficiency of predictive m odels, the coefficient of 
+determination (R2) and root mean square error (RMSE) have been used. 
+Practical implications. Results demonstrated that all four methods are effective and have high accuracy but the method of 
+support vector machine has a special superiority over other methods. 
+Keywords: regression, gene expression programming, support vector machine, Sabzkooh water conveyance tunnel 
+ 
+1. Introduction 
+Over the past few decades, the technology of rock TBMs 
+developed greatly. These machines have now reached a stage 
+that they can excavate nearly any kind of rock or ground, but 
+excavating with machine is  highly risky, because it's always 
+possible to encounter a ground that the machine cannot exca-
+vate or the ground is such hard  and abrasive that cutting tool 
+consumption rate reach higher leading to impos e more costs 
+to the project . Predicting the number of consumed disc cut-
+ters is an important factor in improving the performance of 
+TBMs. It should be noted that the lower the num ber of discs 
+consumed, the TBM costs will also be reduced . Disc cutters 
+are the most important cutting tool used in TBM. At present, 
+single disc cutters are the most common and effective cutting 
+tool for rock excavation. 
+The design of the discs for optimal operation requires un-
+derstanding of the interaction between disc, rock and th e 
+forces on the disc when cutting the rock. Researchers have 
+been studied the forces involved in the disc and their depend-
+ence on rock properties, diameter, disc geometry and dep th 
+of penetration in the rock for many years.  Disc consumption 
+rate of TBM in soft and hard rocks that are in contact with 
+excavated materials is one of the effective factors in the 
+mechanized tunneling process. One of the most critical exca-
+vating conditions using the TBM is the impact with abrasive 
+soils and rocks, followed by exce ssive wear of the disc cut-
+ters, which has been recorded and reported in many tunneling 
+projects around the world. Therefore, a general assessment of 
+the consumption of TBM disc c utters before excavating and 
+its refinement during tunnel excavating operations is neces-
+sary due to its direct impact on excavating efficiency. 
+Accurate estimation of the number of disc cutters required 
+for excavating a certain area of the tunnel is a very  difficult 
+and complex task due to numerous and effective parameters 
+such as lithological and geological conditions, TBM specifica-
+tions and various performance parameters.  Akiyama [1]  pre-
+sented a theory of the rock-breaking function of the disc cutter. 
+Evans [2]  estimated relative efficiency of picks and discs for 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+69 
+cutting rock. Snowdon et al. [3] studied the cutting mechanism 
+on discs in selected rocks. Sanio [4] proposed a model to pre-
+dict the performance of disc cutters in anisotropic rocks. Ros-
+tami [5] developed a force estimation model for rock fragmen-
+tation with disc cutters. F renzel et al.  [6] studied at factors 
+influencing disc cutter wear. Roby et al. [7] proposed a new 
+model for disc cutter design . Numerous researchers  [8]-[14] 
+have attempted to develop predictive models for disc cutters. 
+In the present study, the number of consu med disc cutters in 
+the Sabzkooh water conveyance tunnel will be predicted using 
+linear and nonlinear regression methods, support vector ma-
+chine and gene expression programming algorithm. 
+2. Methods and materials 
+2.1. Describing the case study 
+Sabzkooh water conveyance tunnel is located in the south-
+south east of Chaharmahal and Bakhtiari province, southwest 
+of Borujen city, and east-south east of Ardal and Nagan cities 
+in Iran. T he nort hern portal of the tunnel is located in the 
+southern part of the Chagha khor Dam Lake and the north of 
+the Klar Mountains. Access to it is through the Boroujen -
+Boldaji cities to the village of Saki Abad and the Petrochemi-
+cal town, as well as the Shahrekord-Nagan road to the villages 
+of Galugerd and Saki Abad. The southern crater of the tunnel 
+is located in the central part of Sabzkooh and southern Klar 
+Mountains. This section is accessible through the route of 
+Shahrekord-Nagan to the villages of Joghdan-Chahartagh and 
+Chehraz. At present, this route is paved to the Hyderabad 
+village and the rest of the route is towards the southern crater 
+of the tunnel  [15]. Position and region of Sabzkooh water 
+conveyance tunnel, As can be seen in Figure 1. 
+ 
+ 
+Figure 1. Position and region of Sabzkooh water conveyance tunnel 
+2.2. Linear regression 
+It is one of the methods of regression analysis. In linear 
+regression, the dependent variable is a linear combination of 
+input or independent variables [16]. Of course, the dependent 
+variable does  not need to be linear in relation to the inde-
+pendent variables. The purpose of the regression analysis is to 
+identify the linear model of this relationship. In the following, 
+we use the dependent variable instead of the variable of the 
+response and the independent variable instead of the descrip-
+tive variable. Since independent variables may be involved 
+and unknown factors also play a role in determining the value 
+of the dependent variable, the regression model with the most 
+suitable number considered an independent variable and con-
+sidered the error rate as representative of other random factors 
+that could not be identified, which is expected to be less de-
+pendent on the dependent variable variations [17], [18]. 
+2.3. Nonlinear regression 
+Nonlinear regression can examine and measure model re-
+lationships among independent and independent variables. .In 
+nonlinear regression, at least  one der ivative of the function 
+relative to the parameters depends on at least  one of the pa-
+rameters.This kind of regress ion (nonlinear regression) is a 
+method for finding a nonlinear model to find the relation 
+between a dependent variable and a set of ind ependent varia-
+bles [19], [20]. Unlike the old way of linear regression that 
+limits the calculation of linear model;  nonlinear regression 
+can examine and measure the model relationships arbitrarily 
+and voluntarily between independent and independent varia-
+bles [21], [22]. The use of this is based on the estimation 
+algorithm. It is worth noting that this method is not done for 
+multi-formula (complex) models, which can be calculated by 
+the old way of linear regression [23]. 
+2.4. Gene Expression Programming (GEP) 
+The GEP algorithm actually gathers the prevailing view 
+of two pre -inherit algorithms to cover the weaknesses of th e 
+two. In this method, the chromosome genotype is similar to 
+the genetic algorithm of a linear structure, and the phenotype 
+of the chromosomes is a tree structure of variable length and 
+size similar to genetic programming algorithm. Hence, the 
+GEP algorith m, by ov ercoming the dual role of chromo-
+somes in its predecessor algorithms, allows the application of 
+multiple genetic operators with a permanent health guarantee 
+for child's chromosomes, and at a rate faster than GP due to 
+structural variation above GA, the space of possible respons-
+es to find a fuller picture. In fact, GEP has suc ceeded in 
+passing through the first and second thresholds in natural 
+evolution processes (Replicator Threshold and Phenotype 
+Threshold) from this perspective. Gene Expression Pro-
+gramming (GEP) method is based on the Darwin's Theory of 
+Evolution. This method is the combining and developing two 
+methods of genetic algorithm and genetic programming, 
+which was invented by Ferreira  [24]. In this method, linea r 
+and simple chromosomes with constant length, similar to the 
+genetic algorith m and branch structures with varying sizes 
+and shapes, which include the set of terminals (problem 
+variables), and the set of functions (the principal mathemati-
+cal operators), ar e combined similar to decomposition t rees 
+in genetic programming [25], [26]. The first phase in GEP is 
+the formation of a primary population of solutions [27]. Then 
+the chromosomes are represented by expression tree. In the 
+next step, the degree of c ompatibility of each member of the 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+70 
+chromosome population is determined by the fit function and 
+finally provides a suitable solution  [28]. The values o f the 
+parameters used by GEP to predict the number of consumed 
+disc cutters in the Sabz kooh water conveyance tunnel are 
+presented in Table 1. 
+Table 1. GEP parameters 
+Parameter description Parameter value 
+Head Size 10 
+Chromosomes 30 
+Number of genes 4 
+Mutation Rate 0.00138 
+Inversion Rat ) 0.1 
+One Point Recombination Rate 0.00277 
+Two Point Recombination Rat ) 0.00277 
+Gene Recombination Rate 0.00277 
+IS Transposition Rate 0.00546 
+RIS Transposition Rat ) 0.00546 
+Gene Transposition Rat ) 0.00546 
+Fitness Function RMSE 
+Linking Function (+) 
+ 
+2.5. Support vector machine 
+SVM is a type of learning system that is used to classify 
+the input data and to estimat e the fitting function of the data, 
+so that the least error occurs in sorting the data and fitting 
+function. Data are divided into three categories: training data, 
+validation and test ing so that training data will train support 
+vector machine, verify accur acy of the machine parameters, 
+and finally use this machine for classification or estimation 
+of test data. this method is based on constrained optimization 
+theory which uses the princ iple of minimizing the structural 
+error and leads to a general optimal response. Support Vector 
+Machine can also be used as a regression technique. 
+The basis of SVM classifier is a data linear classification, 
+and in linear division of data, we try to select a line that has a 
+more reliable margin[29], [30]. Before linear division for the 
+machine can classify data with high complexity, we take data 
+by phi function into a much  larger space [31], [32]. To solve 
+a very high -dimension problem using these methods, we use 
+the Lagrange duality theorem for converting the desired 
+minimization problem to its dual form, which, instead of the 
+complex phi functi on, which takes us to a high-dimension 
+space, a simpler function with the name of the kernel func-
+tion appears  that is phi function  vector product  [33], [34]. 
+Various kernel functions, such as Linear, Gaussian, RBF, 
+Polynomial, and Sigmoidal cores can be used  [35]. The set-
+tings used in SVM to predict the number of consumed disc 
+cutters in the Sabzkooh water conveyance tunnel are as de-
+scribed in Table 2. 
+Table 2. SVM parameters 
+Model Kernel Degree ε C σ 
+ε – SVR Radial Basis 
+Function (RBF) 2 0.1 1000 0.5 
+ 
+2.6. Database 
+Input and output variables of the predictive models of the 
+number of consumed disc cutters in the Sabzkooh water 
+conveyance tunnel are shown in Table 3 and the descriptive 
+statistics of data shown in Table 4. 
+Table 3. Input and output variables of the predictive models 
+Input 
+Power (KW), Revolutions per minute 
+(RPM)(Cycle/Min), Thrust per Cutter (KN), 
+Geological Strength Index (GSI) 
+Output Number of consumed disc cutter 
+Table 4. Descriptive statistic of database 
+Model Power 
+(KW) 
+Revolutions 
+per minute 
+(RPM)(cycle/min) 
+Thrust per 
+cutter (KN) 
+Geological 
+Strength 
+Index (GSI) 
+Number of 
+consumed 
+disc cutter 
+Mean 557 6.1379 252.8117 49.8093 15.40 
+N 99 99 99 99 99 
+Std. Deviation 126.960 1.75778 30.04549 13.47463 3.964 
+Minimum 440 2.97 160.96 27 9 
+Maximum 1100 10.00 310.86 83 22 
+Variance 16119.050 3.090 902.731 181.566 15.713 
+Harmonic Mean 534 5.6483 248.8623 46.0056 14.36 
+Geometric Mean 545 5.8902 250.9114 47.9256 14.88 
+Std. Error of Mean 12.760 0.17666 3.01969 1.35425 0.398 
+ 
+2.7. Evaluation criteria 
+The definition of determination coefficient ( R2) is rela-
+tively simple: “determination coefficient ( R2) indicates that 
+the percentage of variations of a variable i s dependent on the 
+instrument of the independent variable ” or, in other words, 
+the determination coefficient indicates that “how much of the 
+variation of the dependent variable is affected by the inde-
+pendent variable and the rest of the dependent variable 
+changes are related to other factors”. The root mean squared 
+error (RMSE) is considered as a measure of absolute error 
+between precipitation and observation. In this study, in order 
+to evaluate the accuracy and performance of the models, the 
+coefficients of determination (R2) and root mean square error 
+(RMSE) is used [36]. 
+ 
+3. The results of modelling 
+3.1. Predicting by linear regression 
+Linear regression analysis is applied to the database to ob-
+tain a prediction model for the number of consumed disc cutter. 
+With this respect, the determination coefficient of the multivari-
+ate linear regression model is presented in Table 5. The regres-
+sion coefficients related to the predictive model of consumed 
+disc cutter in this tunnel are presented in Table 6, as well as the 
+linear relationship achieved from these coefficients between the 
+independent variables and number of consumed disc cutter used, 
+as described by Equation 1. Also, the distribution diagram and 
+the matching diagram between the measured values of number 
+of consumed disc cutter or target and the predicted number of 
+consumed disc cutter are shown in Figures 2 and 3, respectively. 
+ 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+71 
+Table 5. Coefficient of determination of linear regression 
+Model R R Square Adjusted 
+R Square 
+Std. Error 
+of the 
+Estimate 
+1 0.978a 0.956 0.955 0.8447 
+*a. Predictors: (constant), Power (KW), RPM ( cycle/min), Thrust 
+per Cutter (KN), GSI 
+Table 6. Regression coefficients of linear regression 
+Model 
+Unstandardized 
+coefficients 
+Standardized 
+coefficients t Sig. 
+B Std. Error Beta 
+Constant 0.381 0.348  1.097 0.275 
+Power (KW) 0.011 0.001 0.389 8.899 0.000 
+RPM 
+(cycle/min) 0.268 0.086 0.124 3.128 0.002 
+Thrust per 
+Cutter (KN) 0.019 0.003 0.234 5.464 0.000 
+GSI 0.089 0.016 0.302 5.476 0.000 
+*a. Dependent Variable: Number of consumed disc cutter 
+0.381 0.011
+0.268 0.019 0.089 .
+Number of  consumed  disc cutter POWER
+Thrust per CuRPM GSI tter
+= + +
++ + +
+    (1) 
+R  = 0.95642
+2
+RMSE = 0.83173
+Data
+Fit
+Y = T
+Target
+Output ~= 0.966  Target + 0.68×
+ 
+Figure 2. Distribution diagram by linear regression 
+ 
+Figure 3. Diagram of matching by linear regression 
+3.2. Predicting by Nonlinear Regression 
+As part of study, the database was analyz ed through non-
+linear regression modeling. The determination coefficient of 
+the multivariate nonlinear regression model to predict the 
+number of TBMs consumed disc cutter is shown in Table 7. 
+The regression coefficients related to the predictive model of 
+the number of consumed d isc cutter in this tunnel is listed in 
+Table 8, as well as the nonlinear relationship created by these 
+coefficients between the independent variables and the num-
+ber of consumed disc cutter, are described in Equation 2. 
+Moreover, the d istribution diagram an d the matc hing  dia-
+gram of the measured values and the predicted values of the 
+number of consumed disc cutter by predictive model are 
+shown in Figures 4 and 5, respectively. 
+Table 7. Coefficient of determination of nonlinear regression 
+Model R R Square Adjusted 
+R Square 
+Std. Error 
+of the 
+Estimate 
+1 0.977a 0.955 0.953 0.8599 
+*a. Predictors: (constant), Power (KW), RPM ( cycle/min), Thrust 
+per Cutter (KN), GSI 
+Table 8. Regression coefficients of nonlinear regression 
+Model 
+Unstandardized 
+coefficients 
+Standardized 
+coefficients t Sig. 
+B Std. Error Beta 
+Constant 1.515 0.573  2.645 0.010 
+Power (KW) -0.073 0.009 -0.336 -8.457 0.000 
+RPM 
+(cycle/min) 0.149 0.049 0.127 3.072 0.003 
+Thrust per 
+Cutter (KN) 0.266 0.048 0.241 5.529 0.000 
+GSI 0.374 0.058 0.350 6.400 0.000 
+*a. Dependent Variable: Number of consumed disc cutter 
+2
+0.880.896
+0.42
+0.0028 0.56 0.02
+0.179 .0.037
+RP
+Number of  consumed  disc cutter
+POWER
+Thrust per C
+M RPM
+GStter Iu
+=+
++ + −
++
++
++
+          (2) 
+R  = 0.95486
+2
+RMSE = 0.84653
+Data
+Fit
+Y = T
+Target
+Output ~= 0.9   Target + 0.5 7×
+ 
+Figure 4. Distribution diagram by nonlinear regression 
+ 
+Figure 5. Diagram of matching by nonlinear regression 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+72 
+3.3. Predicting by the Gene 
+Expression Programming Model 
+The coefficient of determination ( R2) and the root mean 
+square error ( RMSE) and distribution diagram of the Gene 
+Expression Programming Model (GEP) for predicting the 
+number of consumed disc cutters in the Sabzkooh water con-
+veyance tunnel are shown in Figure 6. The matching diagram 
+of the measured values of the number of consumed disc cutters 
+or target and the predicted values of the number of consumed 
+disc cutters by the GEP predictive model is shown in Figure 7. 
+ 
+R  = 0.94286
+2
+RMSE = 0.9524
+Data
+Fit
+Y = T
+Target
+Output ~= 0.9   Target + 0.6 69×
+ 
+Figure 6. Distribution diagram by GEP 
+ 
+Figure 7. Diagram of matching by GEP 
+Tree expression of predictive relation of cutters in this tunnel, 
+created by the GEP model, is shown in Figure 8 between input 
+variables and the number of consumed disc cutters. The mathe-
+matical expression of this equation is described in Equation (3): 
+31;
+2;
+13.
+2.17 2.17
+Thrust per Cutter POWER
+RPM
+ET e POWER
+ET GSI RPM
+ET
+RPM e
++=−
+=
+=
++  
+          (3) 
+3.4. Predicting the number of consumed disc 
+cutters in the Sabzkooh water conveyance tunnel 
+by the Support Vector Machine Model 
+The coefficient of determination (R2) and the root mean 
+square error (RMSE) and distribution diagram of the Support 
+Vector Machine Model (SVM) for predicting the number of 
+consumed disc cutters in the Sabzkooh water conveyance 
+tunnel are shown in Figure 9. 
+Sqrt
+Sqrt
+-
+Sqrt
++
+d2 d0
+Sqrt
+Exp
+3Rt d0
+*
+d1Sqrt
+d3
+Sqrt
+Sqrt
+*
+*
+Inv
+Sqrt
+*
+d1 *
+Sqrt c3
+d1
+Sub-ET 1
+Sub-ET 1
+Sub-ET 3
+ 
+Sqrt
+Sqrt
+-
+Sqrt
++
+d2 d0
+Sqrt
+Exp
+3Rt d0
+*
+d1Sqrt
+d3
+Sqrt
+Sqrt
+*
+*
+Inv
+Sqrt
+*
+d1 *
+Sqrt c3
+d1
+Sub-ET 1
+Sub-ET 1
+Sub-ET 3
+ 
+Sqrt
+Sqrt
+-
+Sqrt
++
+d2 d0
+Sqrt
+Exp
+3Rt d0
+*
+d1Sqrt
+d3
+Sqrt
+Sqrt
+*
+*
+Inv
+Sqrt
+*
+d1 *
+Sqrt c3
+d1
+Sub-ET 1
+Sub-ET 1
+Sub-ET 3
+ 
+Figure 8. Expression tree of pr edictive relation betwee n the num-
+ber of consumed disc cutters by GEP model in Sabzkooh 
+water conveyance tunnel 
+The matching diagram of the measured values of the 
+number of consumed disc cutters or target and the predicted 
+values of the number of consumed disc cutters by the SVM 
+predictive model is shown in Figure 10. 
+ 
+R  = 0.98673
+2
+RMSE = 0.45892
+Data
+Fit
+Y = T
+Target
+Output ~= 0.  Target + 8 3×
+ 
+Figure 9. Distribution diagram by SVM 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+73 
+ 
+Figure 10. Diagram of matching by SVM 
+4. Conclusions 
+By the rapid development of tunnel and technology of 
+underground spaces, in creasingly tunnel bori ng machine 
+(TBM) play an important role in hard rock tunnel excavating. 
+The mechanized excavating technique in the construction of 
+the tunnel has attracted much attention due to many ad-
+vantages over other common methods. Tunnel boring  ma-
+chine is often used  to excavate long tunnel s under various 
+geological conditions. With the rapid growth of tunnel boring 
+machines in rock tunnel projects around the world, especially 
+over the past two decades, it is required to be predicted the 
+number of consumed disc cutters. Predicting the number of 
+consumed disc cutters is an important factor in improving the 
+performance of tunnel boring machines. TBM rock cutting is 
+accomplished by the cutterhead. 
+The cutting tools on the cutterhead are the parts which in-
+teract directly with rocks. Number of consumed disc cutter is 
+a crucial problem that influences the working efficiency of 
+tunnel boring machines (TBMs).  In this study, linear and 
+nonlinear multivariate regression analysis, GEP and SVM 
+were used to pre dict the number of consumed disc cutters in 
+the Sabzkooh water conveyance tunnel  and to predict the 
+number of consumed disc cutters , four parameters of Power 
+(KW), Revolutions per minute (RPM)(cycle/min), Thrust per 
+Cutter (KN), Geological Strength Index  (GSI) as independ-
+ent va riables and the number o f consumed disc cutters are 
+considered as a dependent variable. In this study, in order to 
+evaluate the accuracy and efficiency of predictive models of 
+TBM disc cutters, the index of coefficient of determinatio n 
+(R2) and root mean square error (RMSE) is used. 
+Results showed that number of consumed disc cutter for 
+linear regression method is R2 = 0.95 and  RMSE = 0.83, 
+nonlinear regression method is R2 = 0.95 and RMSE = 0.84, 
+Gene Expression Programming (GEP)metho d is R2 = 0.94 
+and RMSE = 0.95, Support Vector  Machine (SVM) method 
+is R2 = 0.98 and  RMSE = 0.45. According to the results all 
+four methods have high accuracy, with the difference that 
+the support  vector machine has a special superiority over 
+other methods. 
+Acknowledgements 
+The authors would like to thank the anonymous reviewers 
+and editor for their valuable comments. 
+References 
+[1] Akiyama, T. (1970). A theory of the rock -breaking function of the disc 
+cutter. Komatsu Technology, 16(3), 56-61. 
+[2] Evans, I. (1974). Relative efficiency of picks and discs for cu tting rock. 
+Proceedings of 3rd Congress on Advances in Rock Mechanics, 1399-1406. 
+[3] Snowdon, R., Ryley, M. , & Temporal, J. (1982) . A study of disc cut-
+ting in selected British rocks. International Journal of Rock Mechanics 
+and Mining  Sciences &  Geomechanics A bstracts, 19(3), 107 -121. 
+https://doi.org/10.1016/0148-9062(82)91151-2 
+[4] Sanio, H. (19 85). Prediction of the  performance of disc cut ters in 
+anisotropic rock. International Journal of Rock Mechanics and Mining 
+Sciences &  Geomechanics Abstracts , 22(3), 153 -161. 
+https://doi.org/10.1016/0148-9062(85)93229-2 
+[5] Rostami, J. (1997 ). Development of a force estimation model for rock 
+fragmentation with disc cutters through theoretical modeling and phys-
+ical measurement of the crushed zone pressure. Doctorate Dissertation. 
+Golden, United States: Colorado School of Mines. 
+[6] Frenzel, C., Sling, H.K., & Thuro, K. (2008) . Factors influencing disc 
+cutter wear. Geomechanics and Tunnelling , 1(1), 55 -60. 
+https://doi.org/10.1002/geot.200800006 
+[7] Roby, J., Sandell, T., Kocab, J. , & Lindbergh, L. (2008) . The current 
+state of disc cutter design and development directions . Proceedings of 
+2008 North American Tunneling Conference. 
+[8] Lin, Q., Cao, P., Li, K., Cao, R., Zhou, K., & Deng, H. (2018). Experi-
+mental study on acoustic emission characteristics of jointed rock mass by 
+double disc cutter. Journal of Central South University, 25(2), 357-367. 
+https://doi.org/10.1007/s11771-018-3742-7 
+[9] Ren, D.-J., Shen, S.-L., Arulrajah, A., & Cheng, W. -C. (2018). Predic-
+tion model of tbm disc cutter wear during tunnelling in heterogeneous 
+ground. Rock Mechanics and Rock Engineering , 51(11), 3599 -3611. 
+https://doi.org/10.1007/s00603-018-1549-3 
+[10] Peng, X., Liu, Q., Pan, Y., Lei, G., Wei, L., & Luo, C. (2017). Study on 
+the influence of different control modes on TBM disc cutter perfor-
+mance by rotary cutting tes ts. Rock Mechanics and  Rock Engineering, 
+51(3), 961-967. https://doi.org/10.1007/s00603-017-1368-y 
+[11] Pan, Y., Liu, Q., Liu, J., Peng, X., & Kong, X. (2018). Full -scale linear 
+cutting tests in chongqing sandstone to study the influence of confining 
+stress on rock cutting forces  by TBM disc cutter. Rock Mechanics and 
+Rock Engineering , 51(6), 1697 -1713. https://doi.org/10.1007/s00603-
+018-1412-6 
+[12] Tan, Q., Yi, L., & Xia, Y.M. (2018). Performance prediction of TBM 
+disc cutting on marble rock under different load cases. KSCE Journal of 
+Civil Engineering , 22(4), 1466 -1472. https://doi.org/10.1007/s12205-
+017-1048-1 
+[13] Zhang, X., Xia, Y., Tan, Q., & Wu, D. (2018). Comparison study on 
+the rock cuttin g characteristics of disc cutter under free -face-assisted 
+and conventional cutting methods. KSCE Journal of Civil Engineering , 
+22(10), 4155-4162. https://doi.org/10.1007/s12205-018-0577-6 
+[14] Xia, Y., Lin, L., Wu, D., Jia, L., Chen, Z., & Bian, Z. (2018). Geologi-
+cal adaptability matching design of disc cutter using multicriteria deci-
+sion making approaches. Journal of Central Sout h University , 25(4), 
+843-854. https://doi.org/10.1007/s11771-018-3788-6 
+[15] Talary, G.A., Rahimi, E., & Abbasi, M. (2016) . Seismotectonics and 
+earthquake risk analysis in the area of Sabzkooh-Choqakhor water 
+conveyance tunnel. Thirty-Fourth Gathering and Second International 
+Congress of Geosciences. 
+[16] Yoon, G.L., K im, B.T., & Jeon, S.S. (2004). Empirical correlations of 
+compression index for marine clay from regression analysis. Canadian 
+Geotechnical Journal, 41(6), 1213-1221. https://doi.org/10.1139/t04-057 
+[17] Wang, S., Zheng, L., & Dai, J. (2014). Empirical likelihood diagnosis of 
+modal linear regression models . Journal of Applied Mathemat ics and 
+Physics, 2(10), 948-952. https://doi.org/10.4236/jamp.2014.210107 
+[18] Quirós, E., Felicísimo, A.M., & Cuartero, A. (2009). Testing multivari-
+ate adaptive regression splines (MARS) as a method of land cover clas-
+sification of TERRA-ASTER satellite images. Sensors (Basel, Switzer-
+land), 9(11), 9011-9028. https://doi.org/10.3390/s91109011 
+[19] Bates, D.M., & Watts, D.G. (1988). Nonlinear regression analysis and 
+its applications . New York , United States : John Wiley & Sons.  
+https://doi.org/10.1002/9780470316757 
+[20] Huang, C., & Townshend, J.R.G. (2003). A stepwise regression tree for 
+nonlinear approximation: applications to estimating subpixel land cover. 
+International Journal of Remote Sensing , 24(1), 75-90. 
+https://doi.org/10.1080/01431160305001 
+[21] Brimacombe, M.  (2016). Local curvature and centering effects in 
+nonlinear regression models. Open Journal of Statistics , 6(1), 76 -84. 
+https://doi.org/10.4236/ojs.2016.61010 
+[22] Fiore, A., Quaranta, G., Marano, G., & Monti, G. (2 016). Evolutionary 
+polynomial regression -based statistical determination of the shear ca-
+pacity equation for reinforced concrete beams without stirrups . Journal 
+of Computing in Civil Engineering, 30 (1), 04014111.  
+https://doi.org/10.1061/(ASCE)CP.1943-5487.0000450 
+A. Afradi, A. Ebrahimabadi, T. Hallajian. (2021). Mining of Mineral Deposits, 15(4), 68-74 
+ 
+74 
+[23] Giustolisi, O., & Savic, D.A. (2006). A symbolic data-driven technique 
+based on evolutionary p olynomial regression. Journal of Hydroinfor-
+matics, 8(3), 207-222. https://doi.org/10.2166/hydro.2006.020b 
+[24] Ferreira, C. (2 001). Gene expression pr ogramming: A new adaptive 
+algorithm for solving problems. Complex Systems, 13(2), 87-129. 
+[25] Tsai, H. C. (2011 ). Using weighted genetic programming to program 
+squat wall strengths and tune associated formulas. Engineering Appli-
+cations of Artifici al Intelligence, 24(3), 526 -533. 
+https://doi.org/10.1016/j.engappai.2010.08.010 
+[26] Azamathulla, H. M. (2013 ). Gene-expression programming to predict 
+friction factor for Southern Italian Rivers. Neural Computing and Appli-
+cations, 23(5), 1421-1426. https://doi.org/10.1007/s00521-012-1091-2 
+[27] Roushangar, K., Mouaze, D., & Shiri, J. (2014 ). Evaluation of genetic 
+programming-based models for simulat ing friction factor in  alluvial 
+channels. Journal of Hydrology , (517), 1154 -1161. 
+https://doi.org/10.1016/j.jhydrol.2014.06.047 
+[28] Gandomi, A.H., & Roke, D.A. (2015).  Assessment of artificial neural net-
+work and genetic programming as predictive tools. Advances in Engineering 
+Software, (88), 63-72, https://doi.org/10.1016/j.advengsoft.2015.05.007 
+[29] Azamathulla, H.M., Ghani, A. A., Chang, C .K., Hasan, Z. A., & Zakar-
+ia, N.A. (2010). Machine learning approach to predict sediment load -a 
+case study. CLEAN Soil Air Water , 38(10), 969 -976, 
+https://doi.org/10.1002/clen.201000068 
+[30] Shirzad, A., Tabesh, M., & Farmani, R. (2014). A comparison between 
+performance of support vector regression and artificial neural network 
+in prediction of pipe burst rate in water distribution networks. KSCE 
+Journal of Civil Engineering , 18(4), 941 -948. 
+https://doi.org/10.1007/s12205-014-0537-8 
+[31] Wang, W. C., Xu, D. M., Chau, K. W., & Chen, S. (2013 ). Improved 
+annual rainfall -runoff forecasting using PSO -SVM model based on 
+EEMD. Journal o f Hydroinformatics , 15(4), 1377-1390. 
+https://doi.org/10.2166/hydro.2013.134 
+[32] Chiang, J., & Tsai, Y. (2011). Suspended sediment load estimate using 
+support vector machines in Kaoping River Basin. In Consumer Elec-
+tronics, Communications and Networks (CECNet ), International Con-
+ference, 1750-1753. https://doi.org/10.1109/CECNET.2011.5769267 
+[33] Jajarmizadeh, M., Kakaei Lafdani, E., Harun, S., & Ahmadi, A. (2014). 
+Application of SVM a nd SWAT models for m onthly streamflow pre-
+diction, a case study in South of Iran. KSCE Journal of Civil Engineer-
+ing, 19(1), 345-357. https://doi.org/10.1007/s12205-014-0060-y 
+[34] Kakaei Lafdani, E., Mogh addam Nia, A., & Ahmadi, A. (2013). Daily 
+suspended sediment load prediction using artificial neural networks 
+and support vector machines. Journal of Hydrology , (478), 50 -62. 
+https://doi.org/10.1016/j.jhydrol.2012.11.048 
+[35] Roushangar, K., & Koosheh, A. (2015). Evaluation of GA-SVR method 
+for modeling bed load transport in gravel-bed rivers. Journal of  Hydrolo-
+gy, (527), 1142-1152. https://doi.org/10.1016/j.jhydrol.2015.06.006 
+[36] Afradi, A., Ebrahimabadi, A., & Hallajian, T. (2020). Prediction of 
+tunnel boring machine penetration rate using ant colony optimization, 
+bee colony optimization and the particle s warm optimization, case 
+study: Sabzkooh water conveyance tunnel. Mining of Mineral Deposits, 
+14(2), 75-84. https://doi.org/10.33271/mining14.02.075 
+Прогнозування кількості витрачених дискових фрез тунелепрохідницького 
+комбайна із використанням інтелектуальних методів 
+А. Афраді, А. Ебрагімабаді, Т. Халладжян 
+Мета. Вибір правильної моделі для прогнозування кількості витрачених дискових фрез у проектах механізованої проходки тунелів. 
+Методика. У цьому дослідженні кількість витрачених дискових фрез була розрахована з урахуванням характеристик комбайна 
+та ґрунту, таких як потужність (кВт), кількість обертів за хвилину (об/хв) (цикл/хв), зусилля на фрезу (кН), індекс геологічної мі ц-
+ності (GSI ) для умов водопрові дного тунелю Сабзкох. Прогнозува ння було проведе но за допомогою множинного лінійного та 
+нелінійного регресійного аналізу, методу програмування експресії генів (GEP) та методу опорних векторів (SVM). В ході аналізу 
+для оцінки точності та ефективності прогно зних моделей використовувалися к оефіцієнт детермінації (R2) та середньоквадратична 
+помилка (RMSE). 
+Результати. Результати показали, що при прогнозуванні кількості витрачених дискових фрез методом лінійної регресії 
+R2 = 0.95 та RMSE = 0 .83, методом нелінійної регресії – R2 = 0.95 та RMSE = 0.84, методом програмування експресії генів (GEP) – 
+R2 = 0.94 та RMSE = 0.95, і методом опорних векторів (SVM) – R2 = 0.98 та RMSE = 0.45. Результати показали, що всі чотири мето-
+ди ефективні та мають високу точність, але метод опорних векторів має перевагу перед іншими методами. 
+Наукова новизна. Встановлено характер розподілу та відповідності між вимі ряними значеннями кількості витрачених диско-
+вих фрез та прогнозованою кількістю витрачених дискових фрез за допомогою різних методів математичного моделювання. 
+Практична значимість. Визначено оптимальний метод прогнозування витрати дискових фрез, що дозволяє підвищити ефек-
+тивність проходження тунелів. 
+Ключові слова: прохідницький комбайн, регресійний аналіз, програмування експре сії генів, метод опорних векторі в, водопро-
+відний тунель 
+Прогнозирование количества израсходованных дисковых фрез тоннелепроходческого 
+комбайна с использованием интеллектуальных методов 
+А. Афради, А. Эбрагимабади, Т. Халладжян 
+Цель. Выбор правильной модели для прогнозирования количества израсходованных дисковых фрез в проектах механизирован-
+ной проходки туннелей. 
+Методика. В данном исследовании количество израсходованных дисковых фрез было рассчитано с учетом характеристик ком-
+байна и грунта, таких как мощность (кВт), число оборотов в минуту (об /мин) (цикл/мин), усилие на фрезу (кН), индекс геологиче-
+ской прочности (GSI) для условий водопроводного тоннеля Сабзкох. Прогнозирование было проведено с помощью множественно-
+го линейного и нелинейного регрессионного анализа, метода программирования экспрессии генов (G EP) и метода опорных векто-
+ров (SVM). В ходе анализа для оценки точности и эффективности прогнозных моделей использовались коэффициент детерминации 
+(R2) и среднеквадратичная ошибка (RMSE). 
+Результаты. Результаты показали, что при прогнозировании количества израсходованных дисковых фрез методом линейной 
+регрессии R2 = 0.95 и RM SE = 0.83, методом нелинейной регрессии – R2 = 0.95 и RMSE  = 0.84, методом программирования экс-
+прессии генов (GEP) – R2 = 0.94 и RMSE = 0.95, и методом опорных векторов (SVM) – R2 = 0.98 и RMSE = 0.45. Результаты показа-
+ли, что все четыре метода эффективны и обладают высокой точностью, но метод опорных векторов имеет преимущество перед 
+другими методами. 
+Научная новизна. Установлен характер распределения и соответствия между измеренными зн ачениями количества израсходо-
+ванных дисковых фрез и прогнозируемым коли чеством израсходованных ди сковых фрез при помощи различных методов матема-
+тического моделирования. 
+Практическая значимость. Определен оптимальный метод прогнозирования расхода дисковых ф рез, что позволяет повысить 
+эффективность проходки туннелей. 
+Ключевые слова: проходческий комбайн, регрессионный анализ, программирование экспрессии генов, метод опорных векторов, 
+водопроводный тоннель 

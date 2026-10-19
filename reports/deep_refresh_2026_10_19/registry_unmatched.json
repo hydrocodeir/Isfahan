@@ -1,0 +1,496 @@
+[
+  {
+    "title": "مدلسازی اثرات انتقال آب بینحوضهای بر سطح و حجم آبخوان حوضۀ مبدأ انتقال با استفاده از نرمافزار WEAP (مطالعۀ موردی: اثر انتقال آب رودخانۀ بهشتآباد بر سطح و حجم آبخوان شلمزار)",
+    "doi": "10.22111/gdij.2021.6027",
+    "date": "2021-03-21",
+    "abstract": "inter-basin water transfer is the transfer of water from one basin to another. The basin which water is transferred to that is called the destination basin and the basin which water is transferred from that is called the origin basin. Inter-basin water transfer despite the supply of water in the destination basin, could possibly be the cause of changes in the origin and destination basins that need to be evaluated. The purpose of this study is to predict the possible effects of Beheshtabad River water transfer to the central plateau of Iran on the surface and volume of one of the aquifers in the origin basin called Shalamzar and also to provide different strategies during 30 years. For this purpose, WEAP software was used. According to the results, inter-basin water transfer can have a negative impact on the surface and volume of aquifers in the origin basin and cause a decrease in groundwater level. in order to prevent the reduction of the volume of aquifer, the maximum water transfer in normal water conditions and drought was estimated at 450 and 160 MCM per year, respectively. Also, the maximum amount of transferable water according to the environmental needs in normal water conditions, was estimated about 350 MCM per year. The results of the model indicate that the rate of decrease in the volume of study aquifer in the conditions of water transfer and in case of implementation of water resources development projects during 30 years will be about 5 times.",
+    "url": "https://doaj.org/article/d34d9f5174e24a48bed56b3cd5a030a2",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "شاهین سلیمپور ناغانی",
+      "سید آرمان هاشمی منفرد",
+      "مهدی اژدری مقدم"
+    ],
+    "publisher": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "queries": [
+      "Beheshtabad water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S506",
+        "score": 0.535,
+        "title": "ارزیابی گزینه های مختلف سیستم انتقال آب بین حوضه ای با استفاده از روش تصمیم گیری چند معیاره (مطالعه موردی: طرح انتقال آب بهشت آباد)",
+        "url": "https://civilica.com/doc/1611863/"
+      }
+    ]
+  },
+  {
+    "title": "Optimization of inter-basin water transfer projects: from macroeconomic impacts to technical hydraulic design",
+    "doi": "10.1038/s41598-026-49232-5",
+    "date": "2026-04-25",
+    "abstract": "Water scarcity and supply insecurity are the primary barriers to economic growth in arid and semi-arid regions. Inter-basin water transfer projects are high-cost solutions that could create socio-environmental side effects. This study presents a novel approach to optimally design such projects from an investor’s perspective. We employed an energy input–output analysis-based linear programming (LP) model to determine the water demands of various economic sectors within an optimal development scenario. The results from this LP model, combined with a survey on the sectors’ willingness to pay, are then integrated into a mixed-integer non-linear programming (MINLP) model formulated to optimally design the long-distance Khersan Dam-to-Kerman Province water conveyance project. The project is a 650-km long water transfer line with a cumulative pumping height of around 1500 m whose cost is sensitive to its capacity to be optimized. The model optimizes the project’s capacity based on the level of investment economically justified by the sectors demanding a sustainable water supply. Our findings indicate that approximately 85 percent of the increase in the water demand of Kerman’s economic activities (except agriculture, water provision, and service sectors) over the project’s lifetime could be met using only 5.2% of its total capacity. Furthermore, the financial participation of these economic activities could enhance the project’s net benefit by up to 6.3%.",
+    "url": "https://doi.org/10.1038/s41598-026-49232-5",
+    "pdf": "https://www.nature.com/articles/s41598-026-49232-5_reference.pdf",
+    "type": "article",
+    "authors": [
+      "Hamed Hamzekhani",
+      "Seyed Jamshid Mousavi",
+      "Mohammad Vesal"
+    ],
+    "publisher": "Scientific Reports",
+    "queries": [
+      "Karun interbasin water transfer",
+      "Khersan water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S315",
+        "score": 0.541,
+        "title": "Interbasin Water Transfer: Economic Water Quality-Based Model",
+        "url": "https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0000140"
+      },
+      {
+        "id": "S1003",
+        "score": 0.539,
+        "title": "Economic Sustainability Evaluation of an Inter-Basin Water Transfer Project Using GWP Statement",
+        "url": "https://ascelibrary.org/doi/10.1061/41036%28342%29385"
+      },
+      {
+        "id": "S096",
+        "score": 0.513,
+        "title": "بررسی چالش‌های طرح‌های انتقال آب بین‌حوضه‌ای (مورد مطالعاتی: طرح انتقال آب بهشت‌آباد)",
+        "url": "https://doi.org/10.22067/jwsd.v11i3.2410-1375"
+      }
+    ]
+  },
+  {
+    "title": "Study on Socio-Politics impacts of the Karun water transfer (Case study: Ahwaz city)",
+    "doi": "",
+    "date": "2012-06-01",
+    "abstract": "",
+    "url": "https://parseh.modares.ac.ir/thesis.php?id=1115671&sid=1&slc_lang=en",
+    "pdf": null,
+    "type": "dissertation",
+    "authors": [
+      "بهمئی، داریوش",
+      "Dariush Bahmaei"
+    ],
+    "publisher": null,
+    "queries": [
+      "Karun interbasin water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S093",
+        "score": 0.585,
+        "title": "Study on the impacts of inter-basin water transfer: Northern Karun",
+        "url": "https://www.researchgate.net/publication/307721550_Study_on_the_impacts_of_inter-basin_water_transfer_Northern_Karun"
+      },
+      {
+        "id": "S095",
+        "score": 0.51,
+        "title": "Stability Analysis of Stakeholders’ Cooperation in Inter-Basin Water Transfer Projects: a Case Study",
+        "url": "https://ideas.repec.org/a/spr/waterr/v33y2019i1d10.1007_s11269-018-2065-7.html"
+      }
+    ]
+  },
+  {
+    "title": "Ranking water transfer projects using fuzzy methods",
+    "doi": "10.1680/wama.2010.163.4.189",
+    "date": "2010-03-09",
+    "abstract": "Water scarcity is an important problem in water resources. There is not enough financial capability to execute all water resources projects at one time; therefore it is important to rank execution projects. One of the vital issues in water resource management is project ranking. The objective of this paper is to employ different fuzzy multiple attribute group decision-making methods for ranking some of the inter-basin water transfer projects of the Karun river. The methods were: maximising and minimising sets method; the Bonissone's method for group decision making; fuzzy Topsis for group decision making; and fuzzy decision-making software. A set of ten inter-basin water transfer projects with eight criteria were considered. The weights of criteria were determined by five water resources experts, then based on the selected criteria, the rating preference for each alternative was obtained by the experts. Finally, the results of different methods were compared. The final ranking results were comparable with each other. The Spearman rank correlation coefficient was employed to assess the correlation coefficient between the ranking results obtained by the above multiple attribute decision-making methods. Also, sensitivity analysis on different selected criteria weights was conducted.",
+    "url": "https://doi.org/10.1680/wama.2010.163.4.189",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "S. L. Razavi Toosi",
+      "Jamal Mohammad Vali Samani",
+      "Amin Dezfuli"
+    ],
+    "publisher": "Proceedings of the Institution of Civil Engineers - Water Management",
+    "queries": [
+      "Karun interbasin water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S147",
+        "score": 0.512,
+        "title": "Study of inter-basin water transfer projects by using WEAP model: Case study Behesht-Abad Tunnel",
+        "url": "https://iwrj.sku.ac.ir/article_10786_en.html"
+      }
+    ]
+  },
+  {
+    "title": "Risk assessment of inter-basin water transfer plans through integration of Fault Tree Analysis and Bayesian Network modelling approaches",
+    "doi": "10.1016/j.jenvman.2024.120703",
+    "date": "2024-03-26",
+    "abstract": "Inter-basin water transfer projects are a common method used to balance water resources and meet regional demand, particularly in the drinking water supply sector. The potential failure risk associated with inter-basin water transfer projects was examined using Fault Tree Analysis (FTA) and Fuzzy Fault Tree Analysis (FFTA) methodologies in this study. Additionally, the conversion of Fault Tree models into Bayesian Network (BN) and Fuzzy Bayesian Network (FBN) models was explored. Ten basic events were identified as factors that could affect the success of inter-basin water transfer plans, including socio-political, environmental, water resource, economic, and technical criteria. Fault Tree and Fuzzy Fault Tree models were utilized to conduct a risk analysis, which was then converted into crisp and fuzzy FTA-BN through an integrated approach. This approach was applied to evaluate inter-basin water transfer scenarios from the Great Karun basin to the Central Iran Plateau. The superior scenario among eight water transfer scenarios was found to be water transfer from the Behesht-Abad Basin to Isfahan province and from the Khersan Basin to Kerman and Yazd provinces, with a failure risk of 0.649 and 0.601 respectively, based on the crisp and fuzzy integrated models. Basic events were ranked based on their contribution to the occurrence of the top event using two FIM and BI indices in the Fault Tree model and two indices of MI and SI in the Bayesian Network. Furthermore, after considering the correlation between basic events and risk factors, the risk obtained by crisp and fuzzy integrated models was found to increase to 0.811 and 0.789 respectively. The results of this study demonstrate that an integrated approach can assist decision-makers and stakeholders in evaluating inter-basin water transfer projects.",
+    "url": "https://doi.org/10.1016/j.jenvman.2024.120703",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Abbas Roozbahani",
+      "Tahereh Ghanian"
+    ],
+    "publisher": "Journal of Environmental Management",
+    "queries": [
+      "Karun interbasin water transfer",
+      "Khersan water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S099",
+        "score": 0.543,
+        "title": "Risk assessment of inter-basin water transfer plans",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0301479724006893"
+      }
+    ]
+  },
+  {
+    "title": "Assessing the impact of Koohrang III tunnel on the hydrogeological settings using stable isotopes and hydrochemical methods",
+    "doi": "10.1007/s10064-023-03261-w",
+    "date": "2023-05-22",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/s10064-023-03261-w",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Atiyeh Mojiri-Khozani",
+      "Hamid Reza Nassery",
+      "Yaser Nikpeyman",
+      "Hossein Abedian"
+    ],
+    "publisher": "Bulletin of Engineering Geology and the Environment",
+    "queries": [
+      "Koohrang water tunnel"
+    ],
+    "closest": [
+      {
+        "id": "S106",
+        "score": 0.986,
+        "title": "Assessing the impact of Koohrang III tunnel on hydrogeological settings using stable isotopes and hydrochemical methods",
+        "url": "https://www.researchgate.net/publication/370959912_Assessing_the_impact_of_Koohrang_III_tunnel_on_the_hydrogeological_settings_using_stable_isotopes_and_hydrochemical_methods"
+      }
+    ]
+  },
+  {
+    "title": "Hydrological engineering alters habitat availability of cyprinid fish in semi-arid regulated river",
+    "doi": "10.1016/j.jher.2026.100739",
+    "date": "2026-10-13",
+    "abstract": "Although Inter-Basin Water Transfer (IBWT) schemes have been implemented worldwide, their ecological impacts, especially on fish habitats, have received limited attention. This study evaluated the impact of flow regulation from an IBWT infrastructure on habitat suitability for two native cyprinid fish species ( Capoeta coadi and Chondrostoma regium ) in the Koohrang River in Iran. Field surveys were conducted across three seasons, covering 215 mesohabitats in two segments: an upstream control segment and a downstream impacted segment. Statistical comparisons showed that IBWT-induced flow regulation significantly altered hydrological conditions, reducing flow velocity, substrate size, depth, and canopy cover in the downstream segment. These changes resulted in a marked loss of habitat heterogeneity and simplification of mesohabitat structure downstream of the diversion dam and transfer tunnel. Mesohabitat composition was also different in the downstream segment, with a higher share of run habitats (45.3%) and fewer backwaters (6.2%) than in the upstream segment (31.5% runs and 15.4% backwaters). Fish habitat preferences differed across life stage for both species, with C. regium fingerlings preferring shallow, slower-flowing waters (<0.4 m/s) while C. coadi adults prefer deeper and faster-flowing habitats (0.5–2 m/s). For both species, the population composition differed significantly between river segments and was closely linked to the availability of key habitat characteristics, which also varied significantly between the segments (PERMANOVA: F = 7.41, p < 0.001) and among mesohabitat types (F = 8.75, p < 0.001). These findings indicated that large-scale water diversion has led to changes in habitat conditions that affected the populations of two native fish species.",
+    "url": "https://doi.org/10.1016/j.jher.2026.100739",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Jaber Aazami",
+      "Peter van der Sleen",
+      "Mohammad Nemati Varnosfaderany",
+      "Kaitlyn O'Mara",
+      "Mohammad Sadegh Alavi-Yeganeh",
+      "Jennifer Koch",
+      "Abbas Esmaeili-Sari"
+    ],
+    "publisher": "Journal of Hydro-environment Research",
+    "queries": [
+      "Koohrang water tunnel"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Integrating QUAL2KW nitrate modeling with ambient grey-water dilution pressure and wheat-pathway exposure screening in a semi-arid basin",
+    "doi": "10.1038/s41598-026-70501-w",
+    "date": "2026-09-07",
+    "abstract": "Nitrate pollution in semi-arid rivers creates coupled ecological stress and downstream human exposure, particularly where surface water is reused for irrigation. This study integrated QUAL2KW hydrodynamic–water quality modeling with wheat-pathway exposure screening, ecological screening using Risk Quotients (RQ), and ambient grey-water dilution-pressure analysis in the Zayandeh-Roud River, Iran. Campaign observations showed substantial nitrate variability (CV: 14.9–91.3%) without a uniform longitudinal field pattern, while downstream irrigation-reuse sites exhibited dissolved oxygen depletion and elevated chemical oxygen demand. Under representative quasi-steady modeled conditions, nitrate exceeded the ecological screening threshold (RQ > 1) throughout the modeled corridor, including downstream irrigation-withdrawal nodes, while net algal production remained low. The coefficient-based calculation yielded a wheat-grain NO₃–N concentration of 0.249 mg kg⁻¹ at both downstream irrigation-reuse stations, indicating potential transfer into edible biomass under the adopted assumptions. The corresponding adult Chronic Daily Intake was 1.07 × 10⁻³ mg kg⁻¹ day⁻¹, producing a Hazard Quotient of 6.67 × 10⁻⁴ and suggesting low non-carcinogenic concern under the adopted wheat-only screening scenario. The ambient grey-water dilution-pressure indicator was 1.29 × 10⁶ m³ day⁻¹ at the primary downstream reuse node, exceeding representative daily river flow (relative pressure ratio = 1.25). These findings demonstrate persistent modeled nutrient pressure and downstream irrigation-reuse exposure despite campaign-scale variability, supporting integrated nutrient management in semi-arid basins.",
+    "url": "https://doi.org/10.1038/s41598-026-70501-w",
+    "pdf": "https://www.nature.com/articles/s41598-026-70501-w_reference.pdf",
+    "type": "article",
+    "authors": [
+      "Navideh Najafpour",
+      "Mehrtash Eskandaripour",
+      "Shahrokh Soltaninia"
+    ],
+    "publisher": "Scientific Reports",
+    "queries": [
+      "Koohrang water tunnel"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Following Karon River During Period 2000-2025 Using GIS",
+    "doi": "10.1088/1755-1315/1644/1/012112",
+    "date": "2026-06-01",
+    "abstract": "Abstract The research provides a comparative and analytical assessment, employing the use of Geographic Information Systems (GIS), to determine the hydrological impacts of Iranian projects on the hydrological resources of the Karun River and their contribution to the deterioration of the Shatt al-Arab waterway. The processes for diverting the water flow outside of the Shatt al-Arab since 2000, through the development of water transfer tunnels between river basins and branch canals directed towards the Bahmanshir River were clarified. These processes reached their peak in the complete blockage of the natural discharge of the Shatt al-Arab due to the development of earthen dams and pumping stations. The findings indicated that the volume of water flowing into the Shatt al-Arab since 2000 has decreased by 90% compared to pre-2000 levels. This reduction causes additional morphological changes within the study area, as well as increases in salinity to levels exceeding 25 dS/m 3 . Furthermore, this decline in water flow entering to the Shatt al-Arab has resulted in the death of the vegetation and orchards in the Abu al-Khasib and Faw areas of Iraq. It is recommended to implement the existing agreements and international laws governing the use of transboundary rivers. Technical negotiations should be conducted to establish an equitable and environmentally sustainable agreement for the allocation of water resources, and to mitigate additional salinity intrusion and ecological damage to the region.",
+    "url": "https://doi.org/10.1088/1755-1315/1644/1/012112",
+    "pdf": "https://iopscience.iop.org/article/10.1088/1755-1315/1644/1/012112/pdf",
+    "type": "conference-paper",
+    "authors": [
+      "Nawar O.A. Al-Musawi",
+      "Noor S. Sadeq",
+      "Roaa A. Kadhim",
+      "Amna A. Farouq"
+    ],
+    "publisher": "IOP Conference Series Earth and Environmental Science",
+    "queries": [
+      "Koohrang water tunnel",
+      "Zayandeh Rud seawater transfer"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Erratum to: Squeezing rock conditions at phyllite-slate zone in Golab water conveyance tunnel, Iran: A case study",
+    "doi": "10.1007/s11771-017-3686-3",
+    "date": "2017-11-01",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/s11771-017-3686-3",
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s11771-017-3686-3.pdf",
+    "type": "erratum",
+    "authors": [
+      "Asghar Rahmati",
+      "Lohrasb Faramarzi",
+      "Mohammad Darbor"
+    ],
+    "publisher": "Journal of Central South University",
+    "queries": [
+      "Golab water conveyance tunnel"
+    ],
+    "closest": [
+      {
+        "id": "S994",
+        "score": 0.949,
+        "title": "Squeezing rock conditions at phyllite-slate zone in Golab water conveyance tunnel, Iran: A case study",
+        "url": "https://link.springer.com/article/10.1007/s11771-017-3659-6"
+      }
+    ]
+  },
+  {
+    "title": "An overview of several techniques employed to overcome squeezing in mechanized tunnels; A case study",
+    "doi": "10.12989/gae.2019.18.2.215",
+    "date": "2019-01-01",
+    "abstract": "Excavation of long tunnels by shielded TBMs is a safe, fast, and efficient method of tunneling that mitigates many risks related to ground conditions. However, long-distance tunneling in great depth through adverse geological conditions brings about limitations in the application of TBMs. Among various harsh geological conditions, squeezing ground as a consequence of tunnel wall and face convergence could lead to cluttered blocking, shield jamming and in some cases failure in the support system. These issues or a combination of them could seriously hinder the performance of TBMs. The technique of excavation has a strong influence on the tunnel response when it is excavated under squeezing conditions. The Golab water conveyance tunnel was excavated by a double-shield TBM. This tunnel passes mainly through metamorphic weak rocks with up to 650 m overburden. These metamorphic rocks (Shales, Slates, Phyllites and Schists) together with some fault zones are incapable of sustaining high tangential stresses. Prediction of the convergence, estimation of the creeping effects and presenting strategies to overcome the squeezing ground are regarded as challenging tasks for the tunneling engineer. In this paper, the squeezing potential of the rock mass is investigated in specific regions by dint of numerical and analytical methods. Subsequently, several operational solutions which were conducted to counteract the challenges are explained in detail.",
+    "url": "http://koreascience.or.kr/article/JAKO201917659637781.page",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Abbas Eftekhari",
+      "Ali Aalianvari"
+    ],
+    "publisher": "Geomechanics and Engineering",
+    "queries": [
+      "Golab water conveyance tunnel"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Classification of Precast Concrete Segments Damages during Production and Transportation in Mechanized Shield Tunnels of Iran",
+    "doi": "10.28991/cej-2017-00000101",
+    "date": "2017-06-30",
+    "abstract": "Precast concrete segments used in shield tunnel linings are prone to damage in many situations. These damages can occur at different stages such as fabrication in segment factory, transportation to tunneling site, during tunneling process, and at serviceability stage. The aim of the present article is to study the damages inflicted on concrete segments during production and transportation, and to present a new classification of these damages throughout the two stages. The developed classification is based on field observations and examinations of major subway and water conveyance mechanized shield tunnels of Iran, located in Tehran, Tabriz, Mashhad, Kermanshah (Nosood) and Isfahan (Golab). The quality of tunnel lining suffers from what, as a direct consequence of any damage to concrete segments, during production and transportation, which will be also discussed in this article. For further investigation, more than 250 concrete segments from Tehran subway line 3 and 350 segments of concrete segments from Tehran subway line 7 were selected and studied for a statistical analysis of chipping and crack, consecutively. Absence of preventive measures to limit segment damages in precast segment factories is one of the main reasons for increased number of damaged concrete segments, and as a result, increased costs of tunnel construction at later stages. In this paper, production phase damages and factors contributing to these damages are studied. According to the findings of the study, the human (operator) error was the most important cause for chipping, and, time-dependent behavior of concrete was the essential reason in crack of precast segments. Eventually, final section of the article presents practical solutions for reduction of damages during fabrication and transportation of concrete segments.",
+    "url": "https://doi.org/10.28991/cej-2017-00000101",
+    "pdf": "https://civilejournal.org/index.php/cej/article/download/352/pdf",
+    "type": "article",
+    "authors": [
+      "Mohsen Ali Shayanfar",
+      "Payman Mahyar",
+      "Ahmad Jafari",
+      "Mohammad Mohtadinia"
+    ],
+    "publisher": "Civil Engineering Journal",
+    "queries": [
+      "Golab water conveyance tunnel"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Prioritizing and Selecting the Best Subsurface Exploration Method in Sabzkooh Water Conveyance Tunnel (Zagros Mountains)",
+    "doi": "",
+    "date": "2018-10-10",
+    "abstract": "",
+    "url": "https://jeg.khu.ac.ir/article-1-2796-en.html",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Masoud Zare Naghadehi",
+      "Seyed Davood mohammadi",
+      "Mostafa Karimi"
+    ],
+    "publisher": null,
+    "queries": [
+      "Sabzkooh water tunnel"
+    ],
+    "closest": [
+      {
+        "id": "S986",
+        "score": 0.601,
+        "title": "انتخاب مناسب‌ترین روش حفاری تونل انتقال آب بهشت‌آباد",
+        "url": "https://www.jiraeg.ir/article_68312.html?lang=en"
+      },
+      {
+        "id": "S996",
+        "score": 0.516,
+        "title": "PREDICTION OF TBM PENETRATION RATE OF WATER CONVEYANCE TUNNELS IN IRAN USING MODERN METHODS",
+        "url": "https://ojs.cvut.cz/ojs/index.php/cej/article/view/8730"
+      }
+    ]
+  },
+  {
+    "title": "Prediction of the number of consumed disc cutters of tunnel boring machine using intelligent methods",
+    "doi": "10.33271/mining15.04.068",
+    "date": "2021-12-01",
+    "abstract": "Purpose. Disc cutters are the main cutting tools for the Tunnel Boring Machines (TBMs). Prediction of the number of consumed disc cutters of TBMs is one of the most significant factors in the tunneling projects. Choosing the right model for predicting the number of consumed disc cutters in mechanized tunneling projects has been the most important mechanized tunneling topics in recent years. Methods. In this research, the prediction of the number of consumed disc cutters considering machine and ground conditions such as Power (KW), Revolutions per minute (RPM) (Cycle/Min), Thrust per Cutter (KN), Geological Strength Index (GSI) in the Sabzkooh water conveyance tunnel has been conducted by multiple linear regression analysis and multiple nonlinear regression, Gene Expression Programming (GEP) method and Support Vector Machine (SVM) approaches. Findings. Results showed that the number of consumed disc cutters for linear regression method is R2 = 0.95 and RMSE = 0.83, nonlinear regression method is – R2 = 0.95 and RMSE = 0.84, Gene Expression Programming (GEP) method is – R2 = 0.94 and RMSE = 0.95, Support Vector Machine (SVM) method is – R2 = 0.98 and RMSE = 0.45. Originality. During the analyses, in order to evaluate the accuracy and efficiency of predictive models, the coefficient of determination (R2) and root mean square error (RMSE) have been used. Practical implications. Results demonstrated that all four methods are effective and have high accuracy but the method of support vector machine has a special superiority over other methods.",
+    "url": "https://doi.org/10.33271/mining15.04.068",
+    "pdf": "http://mining.in.ua/articles/volume15_4/08.pdf",
+    "type": "article",
+    "authors": [
+      "Alireza Afradi",
+      "Arash Ebrahimabadi",
+      "Tahereh Hallajian"
+    ],
+    "publisher": "Mining of Mineral Deposits",
+    "queries": [
+      "Sabzkooh water tunnel"
+    ],
+    "closest": [
+      {
+        "id": "S996",
+        "score": 0.561,
+        "title": "PREDICTION OF TBM PENETRATION RATE OF WATER CONVEYANCE TUNNELS IN IRAN USING MODERN METHODS",
+        "url": "https://ojs.cvut.cz/ojs/index.php/cej/article/view/8730"
+      },
+      {
+        "id": "S819",
+        "score": 0.543,
+        "title": "Prediction of the Penetration Rate and Number of Consumed Disc Cutters of Tunnel Boring Machines (TBMs) Using Artificial Neural Network (ANN) and Support Vector Machine (SVM)—Case Study: Beheshtabad Water Conveyance Tunnel in Iran",
+        "url": "https://doi.org/10.3233/ajw190006"
+      }
+    ]
+  },
+  {
+    "title": "• Investigation and Effective Indicators of Failure and Leakage in Water and Sewage Transmission Lines (Case study: Ghadir Water Transmission Lines in Khuzestan Province",
+    "doi": "10.82476/jwe.2025.1207089",
+    "date": "2025-09-18",
+    "abstract": "The conservation, conveyance, and protection of water resources have become increasingly critical due to the rapid growth in global population. This surge in population has significantly heightened the demand for water—not only for basic needs such as drinking and sanitation but also for broader socio-cultural and economic development. To meet these demands, various methods are employed to transport water from its source to areas of use. Among these, pressurized water transmission through closed conduits like pipelines is widely utilized due to its efficiency, reliability, and ability to maintain water quality during transit. However, despite its many benefits—such as reduced evaporation loss, minimized contamination risk, and controlled flow—this method is not without challenges. Common issues include pipeline leakages, structural malfunctions, physical displacements, water wastage, and potential contamination due to breaches in the system. These problems can lead to significant losses of precious water resources, increased operational costs, and compromised service delivery, especially in urban and semi-urban areas where demand is high.This research focuses on a comprehensive review of an ongoing water supply scheme that incorporates multiple transmission lines, some of which are already operational",
+    "url": "https://doi.org/10.82476/jwe.2025.1207089",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Roozbeh Aghamajidi"
+    ],
+    "publisher": "فصلنامه علمی تخصصی مهندسی آب",
+    "queries": [
+      "Ghadir water transmission Khuzestan"
+    ],
+    "closest": [
+      {
+        "id": "S096",
+        "score": 0.502,
+        "title": "بررسی چالش‌های طرح‌های انتقال آب بین‌حوضه‌ای (مورد مطالعاتی: طرح انتقال آب بهشت‌آباد)",
+        "url": "https://doi.org/10.22067/jwsd.v11i3.2410-1375"
+      }
+    ]
+  },
+  {
+    "title": "Effective Machine-Learning Models for Rock Mass Deformation Modulus Estimation Based on Rock Mass Classification Systems",
+    "doi": "10.30919/es1120",
+    "date": "2024-01-01",
+    "abstract": "The rock mass deformation modulus (RMDM) plays a crucial role in dam and tunnel design.This study introduces advanced machine-learning (ML) models to predict RMDM using rock mass rating (RMR) and the Q-system at the Khersan-2 dam site in southwestern Iran.Through the analysis of exploratory boreholes, the engineering geological properties of the samples, Q, RMR, RMDM, geological strength index (GSI), Hoek-Brown, and shear strength constants of the rock mass were determined.Subsequently, seven effective ML models, namely random forest, multilayer perceptron backpropagation artificial neural network, Gaussian process regression, Knearest neighbor, simple regression, and multiple linear and non-linear regression approaches, were utilized to estimate RMDM.Based on classification systems, the site was rated as having good RMR and Q categories.A new empirical relationship with high accuracy was established between Q and RMR89.Furthermore, RMDM demonstrated a strong correlation with Q and RMR, as supported by statistical analysis.The results showed the relative superiority of non-linear regression models compared to linear ones.The employed ML techniques displayed remarkable accuracy in estimating RMDM, achieving a coefficient of determination (R 2 ) greater than 97%.Notably, Gaussian process regression with a squared exponential kernel function stood out as the most effective approach, yielding outstanding performance in predicting RMDM with an impressive R 2 =0.99 and RMSE=0.01 compared to all other investigated methods.",
+    "url": "https://doi.org/10.30919/es1120",
+    "pdf": "https://www.espublisher.com/uploads/article_pdf/es1120_JustAccepted.pdf",
+    "type": "article",
+    "authors": [
+      "Mohammad Khajehzadeh",
+      "Suraparb Keawsawasvong",
+      "Mohammad Reza Motahari",
+      "Pitthaya Jamsawang"
+    ],
+    "publisher": "Engineered Science",
+    "queries": [
+      "Khersan water transfer"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Comparative evaluation of classical and SARIMA-BL time series hybrid models in predicting monthly qualitative parameters of Maroon river",
+    "doi": "10.1007/s13201-023-01876-8",
+    "date": "2023-02-03",
+    "abstract": "Abstract In the present study, seasonal autoregressive integrated moving average (SARIMA) time series models, nonlinear BL model, multi-layer perceptron artificial neural network and SARIMA-bilinear hybrid models were employed to predict the quality parameters of total dissolved solids (TDS), sodium adsorption ratio (SAR), electrical conductivity (EC) in the Maroon basin in Khuzestan Province. For fitting the mentioned models, the monthly data were used for the calibration (1970–2000), confirmation (2001–2011) and prediction of the model (2012–2018). The appropriate models of SARIMA, the bilinear BL and SARIMA-BL hybrid models of the rationalized parameters of the above-mentioned quality parameters were selected based on the adequacy tests, such as the Akaike criterion and the independence test of the model residuals (Ljung–Box). To determine the effective input parameters of the network, the partial mutual information (PMI) algorithm was used to model the three monthly EC, TDS, and SAR parameters. Also, for input and output layers linear transfer function and for hidden layer various active functions with the back-propagation learning algorithm were used for modeling and predicting this water quality parameters. Comparison of the models showed the tangible superiority of SARIMA-bilinear hybrid models than the artificial neural network with effective input parameters based on PMI algorithm, SARIMA and bl models in performed prediction of the all three monthly qualitative parameters in all three stages, training-validation-test in Maroon basin.",
+    "url": "https://doi.org/10.1007/s13201-023-01876-8",
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s13201-023-01876-8.pdf",
+    "type": "article",
+    "authors": [
+      "Abbas Ahmadpour",
+      "Seyed Hassan Mirhashemi",
+      "Mehdi Panahi"
+    ],
+    "publisher": "Applied Water Science",
+    "queries": [
+      "Kohgiluyeh Boyer Ahmad water transfer"
+    ],
+    "closest": [
+      {
+        "id": "S513",
+        "score": 0.514,
+        "title": "Comparative analysis of machine learning models for predicting river water quality: a case study of the Zayandeh Rood River",
+        "url": "https://doi.org/10.1016/j.rineng.2025.106665"
+      }
+    ]
+  },
+  {
+    "title": "Molecular epidemiology and phylogenetic analysis of Anaplasma ovis and Anaplasma marginale in Ixodidae infesting livestock in northwestern Iran",
+    "doi": "10.1186/s12917-026-05518-4",
+    "date": "2026-06-02",
+    "abstract": "BACKGROUND: Anaplasma marginale and Anaplasma ovis are tick-borne obligate intracellular bacteria causing anaplasmosis in cattle and small ruminants, respectively, with considerable economic losses worldwide. Given the favorable ecological conditions for tick survival and the limitation of data on Anaplasma spp. in local tick populations in northwestern Iran, this study aimed to molecular and phylogenetic analysis of A. ovis and A. marginale in Ixodidae infesting livestock in northwestern Iran. METHODS: In this cross-sectional study, a total of 780 ixodid ticks were collected from livestock across 198 herds in 11 counties of Ardabil Province during 2025. Ticks were morphologically identified and grouped into pools based on species and host type. Genomic DNA was extracted using a commercial kit and molecular detection of A. ovis and A. marginale was performed using PCR assays targeting the 16 S rRNA and groEL genes. Positive samples were submitted for Sanger sequencing to confirm the identity of Anaplasma spp., phylogenetic analysis was conducted using reference sequences from GenBank (NCBI) using MEGA software (version 12). Statistical analyses were conducted using SPSS (version 25), and associations between categorical variables were assessed using Fisher's exact test (p < 0.05). RESULTS: Eight tick species belonging to three genera were identified. Among the hosts, sheep exhibited the highest infestation rate (49.3%). Hyalomma anatolicum anatolicum was the most prevalent species (25.3%) and was present in all sampled counties. Tick distribution varied significantly among host species (p = 0.003) and geographic locations (p = 0.002). PCR analysis detected A. ovis DNA in 16.6% (4/24) and A. marginale DNA in 8.3% (2/24) of tick pools. Positive pools were primarily associated with Rhipicephalus spp. and Dermacentor marginatus. According to the results of the statistical analysis a significant association was found between tick species and host type (χ² = 13.87, p = 0.0031), with Hyalomma anatolicum anatolicum more prevalent in sheep (p = 0.001). Tick abundance varied across counties (χ² = 16.42, p = 0.002), with highest densities in Nir, Khalkhal, and Kowsar (χ² = 14.21, p = 0.0028). No significant association was observed between Anaplasma positivity and tick species (p = 0.21) or host type (p = 0.09). CONCLUSIONS: The detection of A. ovis and A. marginale DNA in ixodid tick pools indicates their circulation in Ardabil Province. However, due to pooled sampling and the limited number of positive samples, the infection rate at the individual tick level could not be determined. These findings also highlight the importance of a One Health approach, considering the interconnected roles of animal health, tick vectors, and the environment in the transmission and control of tick-borne diseases.",
+    "url": "https://doi.org/10.1186/s12917-026-05518-4",
+    "pdf": null,
+    "type": "article",
+    "authors": [
+      "Faraz Malek Bagali",
+      "Mahdi Rezaverdinejad",
+      "Farzad Khademi",
+      "Ali Esmaeili Moghaddam",
+      "Zahra Heidari"
+    ],
+    "publisher": "BMC Veterinary Research",
+    "queries": [
+      "Kohgiluyeh Boyer Ahmad water transfer"
+    ],
+    "closest": []
+  },
+  {
+    "title": "A Numerical Investigation of Segmental Lining Joints Interactions in Tunnels-Qomrud Water Conveyance Tunnel",
+    "doi": "10.28991/cej-2016-00000038",
+    "date": "2016-07-30",
+    "abstract": "A comprehensive analysis of segmental lining joints can assist to guarantee a safe construction during tunnelling and serviceably stages. This paper has thoroughly investigated the interaction mechanism of precast concrete lining joints in tunnels. The Universal Distinct Element Code (UDEC), a two-dimensional numerical program based on the distinct element method (DEM) for discontinuum modelling, was implemented to simulated a typical segmental lining model consisting of six segment rings. In the analyses, the typical segmental lining design parameters of Qomrud water conveyance tunnel, aimed to transfer 100 million cu. m. water from the origins of Dez River to central Iranian desert, were employed to fulfil the purpose of the research. In the conducted analyses, the worst-case scenario of the loading faced during the boring of Qomrud tunnel was considered. This was highly associated with the existence of the crushed zone dipping at 75 degree at the location of the key segment. The worst scenario based on the condition that concerns the crushed zone intersect segmental lining at the location of key segment has been taken into consideration. In this study, the load acting on the joints of the segments includes the gravity load from the tunnel overburden and the crushed zone stratum force that intersects tunnel with 75 slopes at the location of the key segment, the gravity force of the segments and the earth pressure. The numerical investigation has been used for the different coefficients of stress concentration of 0.5, 1, 1.5, 2 and also different geological conditions of the saturated crushed zone under critical scenario.",
+    "url": "https://doi.org/10.28991/cej-2016-00000038",
+    "pdf": "https://civilejournal.org/index.php/cej/article/download/128/pdf",
+    "type": "article",
+    "authors": [
+      "Mohammad Hossein Ahmadi",
+      "Ali Mortazavi",
+      "Seyed Morteza Davarpanah",
+      "H. Zarei"
+    ],
+    "publisher": "Civil Engineering Journal",
+    "queries": [
+      "Dez Qomrud water transfer"
+    ],
+    "closest": []
+  },
+  {
+    "title": "Challenges of Hydrological Analysis for Water Resources Development in Semi-Arid Mountainous Regions: A Case Study in Iran",
+    "doi": "10.24545/00000582",
+    "date": null,
+    "abstract": "This study assessed the current state of challenges that water resources engineers and managers face in hydrological analysis for water resources development in semi-arid mountainous regions.These challenges consist of: (1) hydrological model applicability; (2) data availability for efficient hydrological model use; and (3) climate change impact assessment.The Karun River basin that is located in the southwestern semi-arid mountainous area of the Islamic Republic of Iran was selected as a case study.The basin has huge water potential due to the relatively abundant precipitation in the Zagros mountain ranges and suitable topography to storage water by dam construction.Many water resources development projects are planned, including dam construction, irrigation networks and water transfer systems.However, neither water resources development planning from an integrated point of view nor climate change adaptation have been considered in the basin.",
+    "url": "https://grips.repo.nii.ac.jp/records/582",
+    "pdf": "https://grips.repo.nii.ac.jp/record/582/files/k92_fulltext.pdf",
+    "type": "dissertation",
+    "authors": [
+      "Shiro Hishinuma"
+    ],
+    "publisher": "Institutional Repositories DataBase (IRDB)",
+    "queries": [
+      "Khuzestan water transfer environmental justice"
+    ],
+    "closest": []
+  }
+]

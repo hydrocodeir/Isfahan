@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-10-19",
+  "before_sources": 1042,
+  "after_sources": 1067,
+  "added_sources": 25,
+  "enriched_source_ids": [
+    "S097"
+  ],
+  "new_study_records": 19,
+  "updated_study_records": 2,
+  "total_study_records": 49,
+  "new_project_profiles": 8,
+  "total_project_profiles": 25,
+  "primary_pdfs_added": 6,
+  "existing_excel_cells_checked": 125093,
+  "existing_style_changes": 0,
+  "json_offline_equal": true,
+  "new_excel_json_rows_equal": true,
+  "legacy_excel_json_differences_preserved": {
+    "Year": 392,
+    "PDF_URL": 46,
+    "Province": 3,
+    "Project": 3
+  },
+  "doi_date_conflicts_documented": true
+}
